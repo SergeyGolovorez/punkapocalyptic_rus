@@ -21,14 +21,14 @@
           <description>Los  desgarradores  sólo  piensan  en  ir  a  rajar  a  sus  enemigos.  Avanzarán  hacia  el  enemigo al que lleguen más rápidamente (independientemente de la Línea de visión). Normalmente esto es el más cercano, pero habrá casos donde puede tener un enemigo cerca encima de un edificio, o tras terreno Pila chungo, y sin embargo puede cubrir más terreno avanzando hacia otro enemigo.</description>
         </rule>
         <rule id="3480-d1ba-74c9-a2b8" name="Mal viaje Desgarrador" hidden="false">
-          <description>En  caso  de  tener  en  Дистанция  de  Asalto  a  alguna  miniatura,  el  desgarrador  la  Asaltará  independientemente de que sea amiga o enemiga.</description>
+          <description>En  caso  de  tener  en  Дистанция  de  AПрыжок  a  alguna  miniatura,  el  desgarrador  la  Asaltará  independientemente de que sea amiga o enemiga.</description>
         </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="fe64-91b0-368d-3d9d" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5cf6-f99c-eef3-dee4" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5cf6-f99c-eef3-dee4" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bf4b-84e5-b41c-ed3e" type="min"/>
           </constraints>
@@ -43,7 +43,7 @@
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="98e5-ffea-0936-6e8c" name="Hoz" hidden="false" collective="false" import="true" targetId="f7a6-e7c0-7209-757f" type="selectionEntry">
+            <entryLink id="98e5-ffea-0936-6e8c" name="Серп" hidden="false" collective="false" import="true" targetId="f7a6-e7c0-7209-757f" type="selectionEntry">
               <costs>
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -55,7 +55,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7cae-5965-4688-42a1" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7cae-5965-4688-42a1" name="Оборудование" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="78d1-5a79-57b1-fcb6" type="max"/>
           </constraints>
@@ -105,7 +105,7 @@
           <description>El Cosechador tiene la mente demasiado dispersa y no podrá cosechar.</description>
         </rule>
         <rule id="2620-ff40-0a8c-87fa" name="Cosecha" hidden="false">
-          <description>un cosechador puede gastar 1 Acción en cosechar a un enemigo Abatido (ningún Abatido puede ser cosechado más de una vez), extrayendo el líquido de su hipotálamo. La cantidad de Ambrosía cosechada dependerá del grado de terror de la víctima. Deberás tirar en la siguiente tabla para comprobar cuantas dosis de Ambrosía ha cosechado para la banda, que podrá utilizar de manera habitual:
+          <description>un cosechador puede Газtar 1 Acción en cosechar a un enemigo Abatido (ningún Abatido puede ser cosechado más de una vez), extrayendo el líquido de su hipotálamo. La cantidad de Ambrosía cosechada dependerá del grado de terror de la víctima. Deberás tirar en la siguiente tabla para comprobar cuantas dosis de Ambrosía ha cosechado para la banda, que podrá utilizar de manera habitual:
 
 1: Ninguna
 2-5: 1
@@ -118,7 +118,7 @@
         <categoryLink id="0c53-9f7c-1422-fc21" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e4de-6201-b8fb-6d15" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e4de-6201-b8fb-6d15" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="162b-896c-020f-a131" type="min"/>
           </constraints>
@@ -138,7 +138,7 @@
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="1240-3941-bb1e-c4c6" name="Hoz" hidden="false" collective="false" import="true" targetId="f7a6-e7c0-7209-757f" type="selectionEntry">
+            <entryLink id="1240-3941-bb1e-c4c6" name="Серп" hidden="false" collective="false" import="true" targetId="f7a6-e7c0-7209-757f" type="selectionEntry">
               <costs>
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -150,7 +150,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="cab1-d92a-b8c3-263b" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="cab1-d92a-b8c3-263b" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="f4da-af08-d9cd-5c73" name="Плотная одежда" hidden="false" collective="false" import="true" targetId="86ad-a9ee-d23d-f726" type="selectionEntry">
               <constraints>
@@ -192,7 +192,7 @@
       </profiles>
       <rules>
         <rule id="2bd2-a30b-cbad-c713" name="Devoradores" hidden="false">
-          <description>Los glotones pueden devorar partes de los los cuerpos de los abatАмок para conseguir volverse  más  poderosos.  Un  glotón  puede  gastar  una  Acción  en  devorar  a  una  miniatura  abatida  (amiga  o  enemiga)  en  contacto  para  conseguir  un  bonificador  de  +1  al  Ближний бой,  Сила  y  Стойкость.  Máximo  una  Acción de devorar por miniatura abatida, tras lo que está quedará destrozada (no podrá ser saqueada, cosechada, curada por un Sanitario, etc...). </description>
+          <description>Los glotones pueden devorar partes de los los cuerpos de los abatАмок para conseguir volverse  más  poderosos.  Un  glotón  puede  Газtar  una  Acción  en  devorar  a  una  miniatura  abatida  (amiga  o  enemiga)  en  contacto  para  conseguir  un  bonificador  de  +1  al  Ближний бой,  Сила  y  Стойкость.  Máximo  una  Acción de devorar por miniatura abatida, tras lo que está quedará destrozada (no podrá ser saqueada, cosechada, curada por un Sanitario, etc...). </description>
         </rule>
         <rule id="c4ff-2455-9e2a-6d78" name="Mal viaje Glotón" hidden="false">
           <description>El glotón se deja llevar por su glotonería y avanzará hacia la miniatura abatida, y no devorada ya, más cercana (en caso de haber alguna), devorándola si llega a ella. Si estaba ya en contacto con una miniatura devorada, no se moverá de ella degustando hasta el último pedazo.</description>
@@ -202,7 +202,7 @@
         <categoryLink id="bb5e-1ddf-d493-af70" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f0d3-7710-18da-f557" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f0d3-7710-18da-f557" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="59c3-c8da-e894-d886" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52ad-114f-846f-ef86" type="min"/>
@@ -220,7 +220,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8066-f834-0df1-607b" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8066-f834-0df1-607b" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="35df-6f66-3734-8334" name="Плотная одежда" hidden="false" collective="false" import="true" targetId="86ad-a9ee-d23d-f726" type="selectionEntry">
               <constraints>
@@ -237,7 +237,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4fe0-d549-ff37-2247" name="Arma incrustada" hidden="false" collective="false" import="true" targetId="6a3d-e4bc-059d-d9df" type="selectionEntry">
+        <entryLink id="4fe0-d549-ff37-2247" name="Прикрепленное оружие" hidden="false" collective="false" import="true" targetId="6a3d-e4bc-059d-d9df" type="selectionEntry">
           <costs>
             <cost name="Очки" typeId="6ba6-290e-2003-241d" value="10.0"/>
           </costs>
@@ -269,7 +269,7 @@
       </profiles>
       <rules>
         <rule id="7f92-0d5a-0090-52d6" name="Locura" hidden="false">
-          <description>Mirar a la cara de las aberraciones es mirar a una locura más allá de la humanidad, que difícilmente no te puede afectar. Las miniaturas que las Asalten perderán todos sus bonificadores por el Asalto.</description>
+          <description>Mirar a la cara de las aberraciones es mirar a una locura más allá de la humanidad, que difícilmente no te puede afectar. Las miniaturas que las Asalten perderán todos sus bonificadores por el AПрыжок.</description>
         </rule>
         <rule id="9e35-8748-6d32-7db5" name="Sobredosis" hidden="false">
           <description>Las aberraciones tienen más problemas para tolerar la Ambrosía y parten con un -2 en la tirada para ver si la droga hace efecto.</description>
@@ -280,13 +280,13 @@
       </rules>
       <infoLinks>
         <infoLink id="4cf7-1e2b-3993-0992" name="Монг" hidden="false" targetId="d8a8-7586-0a64-2537" type="rule"/>
-        <infoLink id="6c33-1667-3457-856a" name="Raudo" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
+        <infoLink id="6c33-1667-3457-856a" name="Быстрый" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="52f0-c24e-6d47-60c6" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fd68-cf04-a32c-701e" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fd68-cf04-a32c-701e" name="Вооружение" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="0853-f592-de19-9f8f" name="Когти и зубы" hidden="false" collective="false" import="true" targetId="60c8-413b-fbde-6088" type="selectionEntry">
               <constraints>
@@ -296,7 +296,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="53c8-4356-7941-6021" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="53c8-4356-7941-6021" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="7256-7a02-c6c8-f3ab" name="Защита от заражения" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
               <costs>
@@ -327,14 +327,14 @@
       </profiles>
       <rules>
         <rule id="a235-c1d4-f6e2-e5f1" name="Escoria" hidden="false">
-          <description>Los despojos no pueden utilizar dosis de Ambrosía ni utilizar armas incrustadas. Además, no puede haber mayor número de despojos que la suma del resto de integrantes de la banda.</description>
+          <description>Los despojos no pueden utilizar dosis de Ambrosía ni utilizar Вооружение incrustadas. Además, no puede haber mayor número de despojos que la suma del resto de integrantes de la banda.</description>
         </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="c4c4-9058-0b39-7976" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7911-8c25-3cb2-7fe0" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7911-8c25-3cb2-7fe0" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="797c-5d37-ca8b-2556" type="min"/>
           </constraints>
@@ -354,14 +354,14 @@
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="4.0"/>
               </costs>
             </entryLink>
-            <entryLink id="900b-45f4-276e-c5f5" name="Hoz" hidden="false" collective="false" import="true" targetId="f7a6-e7c0-7209-757f" type="selectionEntry">
+            <entryLink id="900b-45f4-276e-c5f5" name="Серп" hidden="false" collective="false" import="true" targetId="f7a6-e7c0-7209-757f" type="selectionEntry">
               <costs>
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2906-dd5f-6700-460f" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2906-dd5f-6700-460f" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="607e-e192-5511-22b8" name="Плотная одежда" hidden="false" collective="false" import="true" targetId="86ad-a9ee-d23d-f726" type="selectionEntry">
               <costs>
@@ -414,7 +414,7 @@
       </profiles>
       <rules>
         <rule id="445d-eb01-6237-9357" name="Presencia perturbadora" hidden="false">
-          <description>Es difícil explicar la sensación de ver a Madre. Es como contemplar a una diosa oscura caminando entre nosotros. Cualquier miniatura (excepto aquellas con la regla Bestia o Монг) que comience una Acción teniendo Línea de visión sobre Madre deberá superar una tirada de Стойкость o perderá totalmente esa Acción.</description>
+          <description>Es difícil explicar la sensación de ver a Madre. Es como contemplar a una diosa oscura caminando entre nosotros. Cualquier miniatura (excepto aquellas con la regla Зверь o Монг) que comience una Acción teniendo Línea de visión sobre Madre deberá superar una tirada de Стойкость o perderá totalmente esa Acción.</description>
         </rule>
         <rule id="9f86-1946-64af-a3ce" name="Lucidez" hidden="false">
           <description>Cualquier Ido de su banda que consuma Ambrosía a 20 cm o menos de Madre no deberá tirar en la tabla de efecto, consiguiendo siempre que funcione perfectamente. Sin embargo la propia Madre no podrá utilizar nunca la Ambrosía.</description>
@@ -478,7 +478,7 @@
       </profiles>
       <rules>
         <rule id="4209-e698-372c-15bb" name="Torbellino" hidden="false">
-          <description>Tío tiene dos enormes Булаваs incrustadas en lugar de sus brazos, sujetas por unas cadenas (su bonificador por incrustada se contrarresta al de usar Тяжёлая булава). A la hora de atacar, puede hacerlo normalmente, o gastar un Turno de Acción completo (usar sus 2 Действия) en hacer un ataque Torbellino. Puede realizarlo incluso estando trabado en Cuerpo a Cuerpo. Si hace esto, toda miniatura en un radio de 5 cm de Дистанция (amiga o enemiga) deberá superar una tirada de Ловкость o resultará impactada automáticamente (como si lo hubiera sido en Ближний бой).</description>
+          <description>Tío tiene dos enormes Булаваs incrustadas en lugar de sus brazos, sujetas por unas cadenas (su bonificador por incrustada se contrarresta al de usar Тяжёлая булава). A la hora de atacar, puede hacerlo normalmente, o Газtar un Turno de Acción completo (usar sus 2 Действия) en hacer un ataque Torbellino. Puede realizarlo incluso estando trabado en Cuerpo a Cuerpo. Si hace esto, toda miniatura en un radio de 5 cm de Дистанция (amiga o enemiga) deberá superar una tirada de Ловкость o resultará impactada automáticamente (como si lo hubiera sido en Ближний бой).</description>
         </rule>
         <rule id="5a53-6668-a61f-8eba" name="Mal viaje Tío" hidden="false">
           <description>Tío pierde el impulso para utilizar Torbellino y no podrá utilizarlo durante este Turno de Acción.</description>
@@ -542,19 +542,19 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="6b13-0ba6-4d2f-6877" name="Capitán Hammerica" hidden="false" collective="false" import="true" targetId="bd3e-2900-c778-8569" type="selectionEntry"/>
-    <entryLink id="6633-fd44-131e-58bb" name="Viejo Sajarratas" hidden="false" collective="false" import="true" targetId="dc04-86d5-a9a1-2115" type="selectionEntry"/>
-    <entryLink id="8083-d6ee-8e88-b1cd" name="Crazy Mel" hidden="false" collective="false" import="true" targetId="0a14-7ef7-d9b3-4f7e" type="selectionEntry"/>
-    <entryLink id="3ae5-b88e-76b8-845a" name="Imperatrix Rabiosa" hidden="false" collective="false" import="true" targetId="5489-a5be-4e7b-0a5a" type="selectionEntry"/>
-    <entryLink id="2dba-4602-35f5-89d7" name="Lizzy Deville" hidden="false" collective="false" import="true" targetId="bb1b-9915-08d9-463c" type="selectionEntry"/>
-    <entryLink id="a8c1-d134-b796-4939" name="Magnus" hidden="false" collective="false" import="true" targetId="f7d2-1bd6-01c0-adf8" type="selectionEntry"/>
-    <entryLink id="0dfe-e88c-f759-cd3a" name="Ochodedos" hidden="false" collective="false" import="true" targetId="f5f7-4a7b-a541-cf36" type="selectionEntry"/>
-    <entryLink id="39ee-f852-b386-fcc9" name="Irina (beta)" hidden="false" collective="false" import="true" targetId="d9fd-c7e0-6beb-0596" type="selectionEntry">
+    <entryLink id="6b13-0ba6-4d2f-6877" name="Капитан Хаммерика" hidden="false" collective="false" import="true" targetId="bd3e-2900-c778-8569" type="selectionEntry"/>
+    <entryLink id="6633-fd44-131e-58bb" name="Старый крысолов" hidden="false" collective="false" import="true" targetId="dc04-86d5-a9a1-2115" type="selectionEntry"/>
+    <entryLink id="8083-d6ee-8e88-b1cd" name="Безумный Мел" hidden="false" collective="false" import="true" targetId="0a14-7ef7-d9b3-4f7e" type="selectionEntry"/>
+    <entryLink id="3ae5-b88e-76b8-845a" name="Императрица Рабиоса" hidden="false" collective="false" import="true" targetId="5489-a5be-4e7b-0a5a" type="selectionEntry"/>
+    <entryLink id="2dba-4602-35f5-89d7" name="Лиззи Де`Вилль" hidden="false" collective="false" import="true" targetId="bb1b-9915-08d9-463c" type="selectionEntry"/>
+    <entryLink id="a8c1-d134-b796-4939" name="Магнус" hidden="false" collective="false" import="true" targetId="f7d2-1bd6-01c0-adf8" type="selectionEntry"/>
+    <entryLink id="0dfe-e88c-f759-cd3a" name="Восьмипалый" hidden="false" collective="false" import="true" targetId="f5f7-4a7b-a541-cf36" type="selectionEntry"/>
+    <entryLink id="39ee-f852-b386-fcc9" name="Ирина (beta)" hidden="false" collective="false" import="true" targetId="d9fd-c7e0-6beb-0596" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="aa86-c693-2c3b-b1fa" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5fc3-3026-9301-5b55" name="Mongodrilo Dundee" hidden="false" collective="false" import="true" targetId="b364-8b90-b999-0049" type="selectionEntry">
+    <entryLink id="5fc3-3026-9301-5b55" name="Монгодрило Данди" hidden="false" collective="false" import="true" targetId="b364-8b90-b999-0049" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="99c1-4779-3278-774a" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>

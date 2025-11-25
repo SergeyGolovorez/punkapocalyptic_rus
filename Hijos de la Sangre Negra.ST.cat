@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="0b4d-07e4-2e55-ecf7" name="Дети Чёрной крови" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="8be9-4540-8142-22ab" name="Ceniza" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8be9-4540-8142-22ab" name="Пепел" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="220c-dc6e-0caa-db22" name="Ceniza" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="220c-dc6e-0caa-db22" name="Пепел" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
@@ -20,7 +20,7 @@
         <categoryLink id="ca52-6d3f-0493-80b9" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="7472-46f4-c17d-8051" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="7472-46f4-c17d-8051" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="58ae-6140-3c4a-8030" name="Защита от заражения" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
               <constraints>
@@ -56,7 +56,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="55c4-2d96-6ae9-1e16" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="55c4-2d96-6ae9-1e16" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5d27-7ff8-dba0-09c6" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2e71-d23a-87e9-b660" type="min"/>
@@ -119,10 +119,10 @@
           <description>Siempre que estén a 5 cm o menos de una miniatura aliada, un Quemado puede usar su cuerpo para salvarlo cuando haya sido impactado. Se colocará en contacto la miniatura aliada impactada justo antes de que este tuviera que realizar la tirada enfrentada de Сила contra Стойкость. Será el Quemado quien usé su Стойкость para esta tirada, y obviamente, será la miniatura que es retirada como baja si resulta abatida.</description>
         </rule>
         <rule id="8ae8-5934-4db1-0923" name="¡Por la Sangre Negra!" hidden="false">
-          <description>Por +15 Очки un Quemado puede equiparse con un bidón gigante de gasofa con el que realizar un ataque a lo bonzo contra sus enemigos. Si un Quemado, por cualquier motivo, queda en contacto peana con peana con un enemigo se prenderá fuego inmediatamente, resultando abatido al inmolarse y causando un impacto de Сила 5 y Пробитие 5. Si hubiera quedado en contacto con varias figuras, o un Ближний бой múltiple, todas las miniaturas implicadas sufrirán ese impacto.</description>
+          <description>Por +15 Очки un Quemado puede equiparse con un bidón gigante de Газofa con el que realizar un ataque a lo bonzo contra sus enemigos. Si un Quemado, por cualquier motivo, queda en contacto peana con peana con un enemigo se prenderá Огонь inmediatamente, resultando abatido al inmolarse y causando un impacto de Сила 5 y Пробитие 5. Si hubiera quedado en contacto con varias figuras, o un Ближний бой múltiple, todas las miniaturas implicadas sufrirán ese impacto.</description>
         </rule>
         <rule id="9bb2-17cd-2dfb-ec1c" name="Bajo la mirada llameante: Quemado" hidden="false">
-          <description>Siempre que un Quemado esté en la línea de visión de un Guardián de la Llama, la miniatura contará con la regla especial Todoterreno.</description>
+          <description>Siempre que un Quemado esté en la línea de visión de un Guardián de la Llama, la miniatura contará con la regla especial Внедорожник.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -132,9 +132,9 @@
         <categoryLink id="d1d7-741b-5b59-4049" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b70e-affa-f7f8-db48" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b70e-affa-f7f8-db48" name="Оборудование" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="6e60-ca75-e34b-084a" name="Bidón gigante de gasofa" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6e60-ca75-e34b-084a" name="Bidón gigante de Газofa" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="15.0"/>
               </costs>
@@ -159,7 +159,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0c02-e4dd-c53e-81f8" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0c02-e4dd-c53e-81f8" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="377f-1c81-06e0-233b" type="max"/>
           </constraints>
@@ -210,7 +210,7 @@
         <categoryLink id="a48e-dd19-f55f-7433" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4a38-4e8b-d4b2-f1f7" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4a38-4e8b-d4b2-f1f7" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="71a1-2d06-044b-10d8" name="Защита от заражения" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
               <constraints>
@@ -260,7 +260,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="fe31-1b97-a8e9-e85c" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fe31-1b97-a8e9-e85c" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f0e2-1ed6-da0e-80fd" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49b4-fb29-0be7-0ac7" type="min"/>
@@ -311,12 +311,12 @@
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="6.0"/>
               </costs>
             </entryLink>
-            <entryLink id="260e-6ebc-be6e-bd5d" name="Motosierra" hidden="false" collective="false" import="true" targetId="5654-b4ca-b0f4-09a8" type="selectionEntry">
+            <entryLink id="260e-6ebc-be6e-bd5d" name="Бензопила" hidden="false" collective="false" import="true" targetId="5654-b4ca-b0f4-09a8" type="selectionEntry">
               <costs>
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="12.0"/>
               </costs>
             </entryLink>
-            <entryLink id="858f-16ac-cd71-2dda" name="Lanzallamas" hidden="false" collective="false" import="true" targetId="a0c2-5530-e994-f264" type="selectionEntry">
+            <entryLink id="858f-16ac-cd71-2dda" name="Огнемет" hidden="false" collective="false" import="true" targetId="a0c2-5530-e994-f264" type="selectionEntry">
               <costs>
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="20.0"/>
               </costs>
@@ -325,7 +325,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="788a-60c4-4c19-ddb1" name="Bomba Incendiaria" hidden="false" collective="false" import="true" targetId="e215-f416-9c82-4310" type="selectionEntry">
+        <entryLink id="788a-60c4-4c19-ddb1" name="Зажигательная бомба" hidden="false" collective="false" import="true" targetId="e215-f416-9c82-4310" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="495a-0c7c-018a-4ed5" type="max"/>
           </constraints>
@@ -362,7 +362,7 @@
         <categoryLink id="71ab-ed6c-b5ea-e786" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="07c0-375c-93db-9067" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="07c0-375c-93db-9067" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="f9e4-bef2-a779-8eaa" name="Защита от заражения" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
               <constraints>
@@ -402,7 +402,7 @@
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
             </entryLink>
-            <entryLink id="2fc1-7869-23c7-eef3" name="Motocicleta" hidden="false" collective="false" import="true" targetId="ca19-705c-88e4-1c04" type="selectionEntry">
+            <entryLink id="2fc1-7869-23c7-eef3" name="Мотоцикл" hidden="false" collective="false" import="true" targetId="ca19-705c-88e4-1c04" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fb8-45a3-2466-ea24" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d22-1509-3d3b-d38d" type="min"/>
@@ -410,7 +410,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6d1f-9f58-093b-2df7" name="Armas" page="" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6d1f-9f58-093b-2df7" name="Вооружение" page="" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8821-2a95-5d9e-2133" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1823-f48a-7053-2763" type="max"/>
@@ -485,7 +485,7 @@
         <categoryLink id="bd1e-8da6-bdf7-551f" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="350d-536b-bd91-0b47" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="350d-536b-bd91-0b47" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="7087-693e-bb44-5f67" name="Защита от заражения" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
               <constraints>
@@ -535,7 +535,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3881-49b6-5826-b49f" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3881-49b6-5826-b49f" name="Вооружение" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="9183-57bf-8dfe-0cb5" name="Булава (Vara o bastón de mando)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -583,7 +583,7 @@
         <categoryLink id="da9d-8cfa-ea45-1e91" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e927-3535-345f-e1fb" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e927-3535-345f-e1fb" name="Вооружение" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="eee2-71c5-f1bf-a4c2" name="Lechazo" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -592,7 +592,7 @@
               </constraints>
               <rules>
                 <rule id="b911-2485-58c5-822a" name="Lechazo" hidden="false">
-                  <description>Es  un  pistolón  de  gran  calibre  capaz  de  disparar  Боеприпасы  incendiaria.  Sus  disparos  se  resuelven de la forma habitual, pero además cada vez que impacten seguirán la regla especial Incendiaria (centrando la plantilla en la miniatura impactada, tanto si ha sido abatida como si no).</description>
+                  <description>Es  un  pistolón  de  gran  calibre  capaz  de  disparar  Боеприпасы  Зажигательное.  Sus  disparos  se  resuelven de la forma habitual, pero además cada vez que impacten seguirán la regla especial Зажигательное (centrando la Шаблон en la miniatura impactada, tanto si ha sido abatida como si no).</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -611,7 +611,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33d0-6a34-b496-d481" type="min"/>
               </constraints>
               <profiles>
-                <profile id="fa72-c08e-5641-9191" name="Motosierra" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
+                <profile id="fa72-c08e-5641-9191" name="Бензопила" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
                   <characteristics>
                     <characteristic name="Ближний бой" typeId="3bcb-590f-e624-084f">+0</characteristic>
                     <characteristic name="Сила" typeId="959a-27b3-5665-eaae">+2</characteristic>
@@ -622,11 +622,11 @@
               </profiles>
               <rules>
                 <rule id="1f95-ce2b-f05e-1ab0" name="Chorrazo" hidden="false">
-                  <description>Se trata de una sierra mecánica de tamaño reducido acoplada a su antebrazo. Posee Пробитие 5, Сила +2 y la Regla especial Combustible (5 - 1). Si decide usarla sin utilizar el combustible (o se ha quedado sin él) el arma pasará a considerarse un Малый клинок.</description>
+                  <description>Se trata de una sierra mecánica de tamaño reducido acoplada a su antebrazo. Posee Пробитие 5, Сила +2 y la Regla especial Топливо (5 - 1). Si decide usarla sin utilizar el Топливо (o se ha quedado sin él) el arma pasará a considerarse un Малый клинок.</description>
                 </rule>
-                <rule id="0200-e285-d6ef-890b" name="Combustible (5-1)" hidden="false">
-                  <description>Las armas con esta regla necesitan de cargas de combustible para funcionar. Un arma comienza con5 cargas, pero cada vez que se haga un disparo o ataque, gastará 1 cargas.
-Pero llevar ese combustible encima es peligroso, así que si una miniatura con un arma con esta regla es impactada puede llegar a explosionar. Si después de ser impactada, en la tirada enfrentada de Сила contra Стойкость el atacante saca una tirada de 1, el arma explotará. La miniatura que porte el arma, y cualquier otra miniatura en contacto con ella, sufrirá un impacto de tanta Сила como cargas le queden al arma y Пробитие 3.</description>
+                <rule id="0200-e285-d6ef-890b" name="Топливо (5-1)" hidden="false">
+                  <description>Las Вооружение con esta regla necesitan de carГаз de Топливо para funcionar. Un arma comienza con5 carГаз, pero cada vez que se haga un disparo o ataque, Газtará 1 carГаз.
+Pero llevar ese Топливо encima es peligroso, así que si una miniatura con un arma con esta regla es impactada puede llegar a explosionar. Si después de ser impactada, en la tirada enfrentada de Сила contra Стойкость el atacante saca una tirada de 1, el arma explotará. La miniatura que porte el arma, y cualquier otra miniatura en contacto con ella, sufrirá un impacto de tanta Сила como carГаз le queden al arma y Пробитие 3.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -638,7 +638,7 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6951-ad74-4975-a7c5" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6951-ad74-4975-a7c5" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="285b-144a-f4fa-8b16" name="Металлическая пластина" hidden="false" collective="false" import="true" targetId="b38b-81a2-535b-73b1" type="selectionEntry">
               <constraints>
@@ -673,10 +673,10 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
       </profiles>
       <rules>
         <rule id="1163-7b8f-4baa-222a" name="Nutritora" hidden="false">
-          <description>Si está en contacto con una miniatura amiga con un arma de combustible o una motocicleta, Momma puede gastar una Acción en rellenar todos los Очки de combustible en el caso de las armas, o los Darle caña en el caso de las motocicletas.</description>
+          <description>Si está en contacto con una miniatura amiga con un arma de Топливо o una Мотоцикл, Momma puede Газtar una Acción en rellenar todos los Очки de Топливо en el caso de las Вооружение, o los Darle caña en el caso de las Мотоциклs.</description>
         </rule>
         <rule id="4966-26bc-66df-ad0c" name="Bomba andante" hidden="false">
-          <description>Momma  va  cargando  con  una  enorme  cantidad  de  combustible.  Si  después  de  ser impactada, en la tirada enfrentada de Сила contra Стойкость el atacante saca una tirada de 1, Momma explotará. No sólo resultará abatida automáticamente, si no que deberá colocarse la plantilla de Bomba incendiaria sobre ella y toda miniatura que quede cubierta aunque sea parcialmente sufrirá un impacto de Pen 6 y Fue 6. El lugar quedará ardiendo, por lo que la plantilla permanecerá en el lugar de manera permanente, siguiendo la regla especial Incendiaria.</description>
+          <description>Momma  va  cargando  con  una  enorme  cantidad  de  Топливо.  Si  después  de  ser impactada, en la tirada enfrentada de Сила contra Стойкость el atacante saca una tirada de 1, Momma explotará. No sólo resultará abatida automáticamente, si no que deberá colocarse la Шаблон de Зажигательная бомба sobre ella y toda miniatura que quede cubierta aunque sea parcialmente sufrirá un impacto de Pen 6 y Fue 6. El lugar quedará ardiendo, por lo que la Шаблон permanecerá en el lugar de manera permanente, siguiendo la regla especial Зажигательное.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -720,47 +720,47 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="a822-270b-54ba-1cdb" name="Irina (beta)" hidden="false" collective="false" import="true" targetId="d9fd-c7e0-6beb-0596" type="selectionEntry">
+    <entryLink id="a822-270b-54ba-1cdb" name="Ирина (beta)" hidden="false" collective="false" import="true" targetId="d9fd-c7e0-6beb-0596" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3538-22dc-f73b-c46d" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b675-2b3d-6123-c7ee" name="Capitán Hammerica" hidden="false" collective="false" import="true" targetId="bd3e-2900-c778-8569" type="selectionEntry">
+    <entryLink id="b675-2b3d-6123-c7ee" name="Капитан Хаммерика" hidden="false" collective="false" import="true" targetId="bd3e-2900-c778-8569" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="20be-39a0-2272-a444" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b869-5f9c-7df5-73bf" name="Viejo Sajarratas" hidden="false" collective="false" import="true" targetId="dc04-86d5-a9a1-2115" type="selectionEntry">
+    <entryLink id="b869-5f9c-7df5-73bf" name="Старый крысолов" hidden="false" collective="false" import="true" targetId="dc04-86d5-a9a1-2115" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="012c-63d0-5bd0-d9bb" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="41c8-61f3-ce2c-c097" name="Crazy Mel" hidden="false" collective="false" import="true" targetId="0a14-7ef7-d9b3-4f7e" type="selectionEntry">
+    <entryLink id="41c8-61f3-ce2c-c097" name="Безумный Мел" hidden="false" collective="false" import="true" targetId="0a14-7ef7-d9b3-4f7e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="91f9-f651-03eb-8d13" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3361-6135-6343-96f9" name="Imperatrix Rabiosa" hidden="false" collective="false" import="true" targetId="5489-a5be-4e7b-0a5a" type="selectionEntry">
+    <entryLink id="3361-6135-6343-96f9" name="Императрица Рабиоса" hidden="false" collective="false" import="true" targetId="5489-a5be-4e7b-0a5a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1e0f-79d9-1201-0041" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b73d-4603-4d15-8235" name="Lizzy Deville" hidden="false" collective="false" import="true" targetId="bb1b-9915-08d9-463c" type="selectionEntry">
+    <entryLink id="b73d-4603-4d15-8235" name="Лиззи Де`Вилль" hidden="false" collective="false" import="true" targetId="bb1b-9915-08d9-463c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="49cd-14c6-8220-95c6" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9f23-aa10-ab6b-251f" name="Magnus" hidden="false" collective="false" import="true" targetId="f7d2-1bd6-01c0-adf8" type="selectionEntry">
+    <entryLink id="9f23-aa10-ab6b-251f" name="Магнус" hidden="false" collective="false" import="true" targetId="f7d2-1bd6-01c0-adf8" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="faeb-86ec-96c0-aa68" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="20ec-4b40-dd88-a990" name="Ochodedos" hidden="false" collective="false" import="true" targetId="f5f7-4a7b-a541-cf36" type="selectionEntry">
+    <entryLink id="20ec-4b40-dd88-a990" name="Восьмипалый" hidden="false" collective="false" import="true" targetId="f5f7-4a7b-a541-cf36" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="308e-9441-4094-b23f" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d4dc-56eb-40d2-fe2a" name="Mongodrilo Dundee" hidden="false" collective="false" import="true" targetId="b364-8b90-b999-0049" type="selectionEntry">
+    <entryLink id="d4dc-56eb-40d2-fe2a" name="Монгодрило Данди" hidden="false" collective="false" import="true" targetId="b364-8b90-b999-0049" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3524-43c7-29b4-fa48" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>

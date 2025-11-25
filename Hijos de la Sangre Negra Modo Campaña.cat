@@ -24,11 +24,11 @@
           <description>siempre que estén a 5 cm o menos de una miniatura aliada, un Quemado puede usar su cuerpo para salvarlo cuando haya sido impactado. Se colocará en contacto la miniatura aliada impactada justo antes de que este tuviera que realizar la tirada enfrentada de Сила contra Стойкость. Será el Quemado quien usé su Стойкость para esta tirada, y obviamente, será la miniatura que es retirada como baja si resulta abatida.</description>
         </rule>
         <rule id="d0a9-0d1d-1966-64cd" name="Bajo la mirada llameante (Quemado)" hidden="false">
-          <description>Siempre que un Quemado esté en la línea de visión de un Guardián de la Llama, la miniatura contará con la regla especial Todoterreno.</description>
+          <description>Siempre que un Quemado esté en la línea de visión de un Guardián de la Llama, la miniatura contará con la regla especial Внедорожник.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="64d2-78a2-79d8-5480" name="Mónguer" hidden="false" targetId="72ec-7c35-9625-8459" type="rule"/>
+        <infoLink id="64d2-78a2-79d8-5480" name="Монг" hidden="false" targetId="72ec-7c35-9625-8459" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="677c-06eb-08d5-99d8" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
@@ -37,7 +37,7 @@
         <selectionEntry id="b3d5-f078-15bf-67ef" name="¡Por la Sangre Negra!" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="1d99-10ae-de4c-873a" name="¡Por la Sangre Negra!" hidden="false">
-              <description>Por +15 chapas un Quemado puede equiparse con un bidón gigante de gasofa con el que realizar un ataque a lo bonzo contra sus enemigos. Si un Quemado, por cualquier motivo, queda en contacto peana con peana con un enemigo se prenderá fuego inmediatamente, resultando abatido al inmolarse y causando un impacto de Сила 5 y Пробитие 5. Si hubiera quedado en contacto con varias figuras, o un Ближний бой múltiple, todas las miniaturas implicadas sufrirán ese impacto.</description>
+              <description>Por +15 chapas un Quemado puede equiparse con un bidón gigante de Газofa con el que realizar un ataque a lo bonzo contra sus enemigos. Si un Quemado, por cualquier motivo, queda en contacto peana con peana con un enemigo se prenderá Огонь inmediatamente, resultando abatido al inmolarse y causando un impacto de Сила 5 y Пробитие 5. Si hubiera quedado en contacto con varias figuras, o un Ближний бой múltiple, todas las miniaturas implicadas sufrirán ese impacto.</description>
             </rule>
           </rules>
           <costs>
@@ -91,13 +91,13 @@
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5e3b-973a-b283-b6c8" name="Gasolinero" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5e3b-973a-b283-b6c8" name="Газolinero" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2020-2266-d039-6bd8" type="max"/>
               </constraints>
               <rules>
-                <rule id="e0e4-182c-9b7f-803d" name="Gasolinero" hidden="false">
-                  <description>Esta unidad contará con 5 cargas de combustible extras.</description>
+                <rule id="e0e4-182c-9b7f-803d" name="Газolinero" hidden="false">
+                  <description>Esta unidad contará con 5 carГаз de Топливо extras.</description>
                 </rule>
               </rules>
               <costs>
@@ -187,13 +187,13 @@
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="60ac-0e73-fa78-0017" name="Gasolinero" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="60ac-0e73-fa78-0017" name="Газolinero" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3a73-be11-ee15-7910" type="max"/>
               </constraints>
               <rules>
-                <rule id="b3ec-d99d-66a1-e2c7" name="Gasolinero" hidden="false">
-                  <description>Esta unidad contará con 5 cargas de combustible extras.</description>
+                <rule id="b3ec-d99d-66a1-e2c7" name="Газolinero" hidden="false">
+                  <description>Esta unidad contará con 5 carГаз de Топливо extras.</description>
                 </rule>
               </rules>
               <costs>
@@ -243,7 +243,7 @@
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b146-c465-9f24-2eb3" name="Bomba incendiaria" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b146-c465-9f24-2eb3" name="Зажигательная бомба" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c27b-0f69-f97e-0abd" type="max"/>
       </constraints>
@@ -255,12 +255,12 @@
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dd7b-cecd-3972-085d" name="Motosierra" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dd7b-cecd-3972-085d" name="Бензопила" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="70c7-24b0-ec36-7deb" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2125-38aa-32c4-de51" name="Motosierra" hidden="false" typeId="050a-68de-8234-0b50" typeName="Оружие ближнего боя">
+        <profile id="2125-38aa-32c4-de51" name="Бензопила" hidden="false" typeId="050a-68de-8234-0b50" typeName="Оружие ближнего боя">
           <characteristics>
             <characteristic name="Ближний бой" typeId="9164-d66a-0674-403b">-1</characteristic>
             <characteristic name="Сила" typeId="fc3a-f531-4588-9421">+4</characteristic>
@@ -270,11 +270,11 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="e7d3-022d-c8c5-114c" name="Combustible (5-1)" hidden="false">
-          <description>las armas con esta regla necesitan de cargas de combustible para funcionar. Un arma comienza con X cargas, pero cada vez que se haga un disparo o ataque, gastará Y cargas.
-Pero llevar ese combustible encima es peligroso, así que si una miniatura con un arma con esta regla es impactada puede llegar a explosionar. Si después de ser impactada, en la tirada enfrentada de Сила contra Стойкость el atacante saca una tirada de 1, el arma explotará. La miniatura que porte el arma, y cualquier otra miniatura en contacto con ella, sufrirá un impacto de tanta Сила como cargas le queden al arma y Пробитие 3.</description>
+        <rule id="e7d3-022d-c8c5-114c" name="Топливо (5-1)" hidden="false">
+          <description>las Вооружение con esta regla necesitan de carГаз de Топливо para funcionar. Un arma comienza con X carГаз, pero cada vez que se haga un disparo o ataque, Газtará Y carГаз.
+Pero llevar ese Топливо encima es peligroso, así que si una miniatura con un arma con esta regla es impactada puede llegar a explosionar. Si después de ser impactada, en la tirada enfrentada de Сила contra Стойкость el atacante saca una tirada de 1, el arma explotará. La miniatura que porte el arma, y cualquier otra miniatura en contacto con ella, sufrirá un impacto de tanta Сила como carГаз le queden al arma y Пробитие 3.</description>
         </rule>
-        <rule id="8168-39e6-37f0-fe12" name="Motosierra" hidden="false">
+        <rule id="8168-39e6-37f0-fe12" name="Бензопила" hidden="false">
           <description>Se trata de una máquina formada por conjunto de dientes de sierra unАмок a una cadena accionada por un motor que la hace girar a alta velocidad.</description>
         </rule>
       </rules>
@@ -421,7 +421,7 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="4.0"/>
       </costs>
     </entryLink>
-    <entryLink id="d87b-2e0a-93fd-4cd3" name="Lanzallamas" hidden="false" collective="false" import="true" targetId="a6f6-7a47-b5ec-cf89" type="selectionEntry">
+    <entryLink id="d87b-2e0a-93fd-4cd3" name="Огнемет" hidden="false" collective="false" import="true" targetId="a6f6-7a47-b5ec-cf89" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6679-87f4-1c42-9af0" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
         <categoryLink id="d689-cb73-dc94-d8be" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="false"/>
@@ -454,7 +454,7 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="18.0"/>
       </costs>
     </entryLink>
-    <entryLink id="490c-a669-2c9b-4b2c" name="Motocicleta" hidden="false" collective="false" import="true" targetId="5b4a-de10-de14-ea4f" type="selectionEntry">
+    <entryLink id="490c-a669-2c9b-4b2c" name="Мотоцикл" hidden="false" collective="false" import="true" targetId="5b4a-de10-de14-ea4f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8cc3-af21-4161-257f" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
       </categoryLinks>

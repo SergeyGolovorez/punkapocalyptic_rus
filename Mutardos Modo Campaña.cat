@@ -35,9 +35,9 @@
             <entryLink id="9fd8-dda8-7d3e-62e6" name="Miembros extra" hidden="false" collective="false" import="true" targetId="c0c0-ff9f-ab6f-917f" type="selectionEntry"/>
             <entryLink id="09ba-71c0-3777-d6d3" name="Mimetismo" hidden="false" collective="false" import="true" targetId="b4b3-ed5e-9512-f646" type="selectionEntry"/>
             <entryLink id="add0-a5d2-6741-091c" name="Pegajoso" hidden="false" collective="false" import="true" targetId="33c1-4370-55cb-4b67" type="selectionEntry"/>
-            <entryLink id="fbe1-a32a-74ed-324d" name="Piel dura 1" hidden="false" collective="false" import="true" targetId="9159-4fa1-526f-3464" type="selectionEntry"/>
-            <entryLink id="b834-66de-77a7-177c" name="Piel dura 3" hidden="false" collective="false" import="true" targetId="9ba4-12b6-052f-3a9d" type="selectionEntry"/>
-            <entryLink id="3b6f-7fad-eeca-5f8c" name="Piel dura 5" hidden="false" collective="false" import="true" targetId="7a6b-5a7a-81ee-994f" type="selectionEntry"/>
+            <entryLink id="fbe1-a32a-74ed-324d" name="Задержка 1" hidden="false" collective="false" import="true" targetId="9159-4fa1-526f-3464" type="selectionEntry"/>
+            <entryLink id="b834-66de-77a7-177c" name="Задержка 3" hidden="false" collective="false" import="true" targetId="9ba4-12b6-052f-3a9d" type="selectionEntry"/>
+            <entryLink id="3b6f-7fad-eeca-5f8c" name="Задержка 5" hidden="false" collective="false" import="true" targetId="7a6b-5a7a-81ee-994f" type="selectionEntry"/>
             <entryLink id="1042-e078-805e-2e30" name="Piernas seguras" hidden="false" collective="false" import="true" targetId="8edc-6ca6-6517-2ffd" type="selectionEntry"/>
             <entryLink id="da8d-04ac-666a-9f0f" name="Proyectil orgánico" hidden="false" collective="false" import="true" targetId="55a1-ccf6-4e4c-3e5f" type="selectionEntry"/>
             <entryLink id="34ea-0c55-393f-ab1c" name="Rana" hidden="false" collective="false" import="true" targetId="db5f-c80b-1139-0be6" type="selectionEntry"/>
@@ -49,7 +49,7 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="2367-6bc2-8453-e105" name="Poderes" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="f7cc-c47c-fd04-23e3" name="Barrera psíquica" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f7cc-c47c-fd04-23e3" name="Психический барьер" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cc71-a4bb-fd31-407d" type="max"/>
               </constraints>
@@ -58,7 +58,7 @@
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ba49-7e7f-181e-676f" name="Choque mental" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ba49-7e7f-181e-676f" name="Ментальная атака" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5d09-0039-f7b1-be68" type="max"/>
               </constraints>
@@ -67,7 +67,7 @@
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ad62-c274-0a69-8b9c" name="Desarme" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ad62-c274-0a69-8b9c" name="Разоружить" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4373-140f-9a40-34eb" type="max"/>
               </constraints>
@@ -76,7 +76,7 @@
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d180-fe15-25cc-1ea2" name="Potenciación" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d180-fe15-25cc-1ea2" name="Улучшение" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="61c8-8c83-b743-6297" type="max"/>
               </constraints>
@@ -85,7 +85,7 @@
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e7c6-03dc-5bec-a0d8" name="Titiritero" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e7c6-03dc-5bec-a0d8" name="Кукловод" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="97c4-2e56-758f-6ddd" type="max"/>
               </constraints>
@@ -219,11 +219,11 @@ muerta.</characteristic>
               </profiles>
               <rules>
                 <rule id="39ba-0281-e28c-b872" name="Guapetón" hidden="false">
-                  <description>Esta miniatura no tiene sus Мутации a la vista y puede hacerse pasar por una persona normal. Puede adquirir equipo de la lista de los Гангеры, pero sólo él podrá equiparse con este.</description>
+                  <description>Esta miniatura no tiene sus Мутации a la vista y puede hacerse pasar por una persona normal. Puede adquirir Оборудование de la lista de los Гангеры, pero sólo él podrá equiparse con este.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
-                <selectionEntryGroup id="900d-c731-e702-d372" name="Equipo de Гангеры" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="900d-c731-e702-d372" name="Оборудование de Гангеры" hidden="false" collective="false" import="true">
                   <entryLinks>
                     <entryLink id="0c55-9ae2-b466-1dbf" name="Лук" hidden="false" collective="false" import="true" targetId="6d9f-ee1a-09d0-2cb9" type="selectionEntry"/>
                     <entryLink id="d93f-1151-7e9d-0cd4" name="Металлическая броня" hidden="false" collective="false" import="true" targetId="fc6e-ddda-8911-bd66" type="selectionEntry"/>
@@ -341,11 +341,11 @@ muerta.</characteristic>
               </profiles>
               <rules>
                 <rule id="bad8-ba6d-220c-48ed" name="Guapetón" hidden="false">
-                  <description>Esta miniatura no tiene sus Мутации a la vista y puede hacerse pasar por una persona normal. Puede adquirir equipo de la lista de los Гангеры, pero sólo él podrá equiparse con este.</description>
+                  <description>Esta miniatura no tiene sus Мутации a la vista y puede hacerse pasar por una persona normal. Puede adquirir Оборудование de la lista de los Гангеры, pero sólo él podrá equiparse con este.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
-                <selectionEntryGroup id="8f48-35cc-aaa9-4340" name="Equipo de Гангеры" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="8f48-35cc-aaa9-4340" name="Оборудование de Гангеры" hidden="false" collective="false" import="true">
                   <entryLinks>
                     <entryLink id="794d-c253-1b01-ff73" name="Лук" hidden="false" collective="false" import="true" targetId="6d9f-ee1a-09d0-2cb9" type="selectionEntry"/>
                     <entryLink id="22c7-3fd3-6f05-7913" name="Металлическая броня" hidden="false" collective="false" import="true" targetId="fc6e-ddda-8911-bd66" type="selectionEntry"/>
@@ -421,9 +421,9 @@ muerta.</characteristic>
             <entryLink id="00ba-b0b9-ad45-0049" name="Miembros extra" hidden="false" collective="false" import="true" targetId="c0c0-ff9f-ab6f-917f" type="selectionEntry"/>
             <entryLink id="1441-6aac-5b00-30a3" name="Mimetismo" hidden="false" collective="false" import="true" targetId="b4b3-ed5e-9512-f646" type="selectionEntry"/>
             <entryLink id="d3d9-96ed-3283-33d7" name="Pegajoso" hidden="false" collective="false" import="true" targetId="33c1-4370-55cb-4b67" type="selectionEntry"/>
-            <entryLink id="0ac1-6e17-946a-c6b6" name="Piel dura 1" hidden="false" collective="false" import="true" targetId="9159-4fa1-526f-3464" type="selectionEntry"/>
-            <entryLink id="1c0d-62a6-932f-6b74" name="Piel dura 3" hidden="false" collective="false" import="true" targetId="9ba4-12b6-052f-3a9d" type="selectionEntry"/>
-            <entryLink id="8842-11a9-948b-6d11" name="Piel dura 5" hidden="false" collective="false" import="true" targetId="7a6b-5a7a-81ee-994f" type="selectionEntry"/>
+            <entryLink id="0ac1-6e17-946a-c6b6" name="Задержка 1" hidden="false" collective="false" import="true" targetId="9159-4fa1-526f-3464" type="selectionEntry"/>
+            <entryLink id="1c0d-62a6-932f-6b74" name="Задержка 3" hidden="false" collective="false" import="true" targetId="9ba4-12b6-052f-3a9d" type="selectionEntry"/>
+            <entryLink id="8842-11a9-948b-6d11" name="Задержка 5" hidden="false" collective="false" import="true" targetId="7a6b-5a7a-81ee-994f" type="selectionEntry"/>
             <entryLink id="a531-7953-69e9-33ac" name="Piernas seguras" hidden="false" collective="false" import="true" targetId="8edc-6ca6-6517-2ffd" type="selectionEntry"/>
             <entryLink id="b817-89f4-41f7-56f9" name="Proyectil orgánico" hidden="false" collective="false" import="true" targetId="55a1-ccf6-4e4c-3e5f" type="selectionEntry"/>
             <entryLink id="bc2a-d735-f004-2d8c" name="Rana" hidden="false" collective="false" import="true" targetId="db5f-c80b-1139-0be6" type="selectionEntry"/>
@@ -543,9 +543,9 @@ muerta.</characteristic>
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f552-7cdf-d867-cba6" name="Bestia del pozo" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f552-7cdf-d867-cba6" name="Зверь del pozo" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="6008-3e4e-12bc-1ca8" name="Bestia del pozo" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
+        <profile id="6008-3e4e-12bc-1ca8" name="Зверь del pozo" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
           <characteristics>
             <characteristic name="Действия" typeId="f14c-8c62-3924-24b5">2</characteristic>
             <characteristic name="Ближний бой" typeId="3b03-18c1-aead-aafc">4</characteristic>
@@ -559,7 +559,7 @@ muerta.</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1eb5-c87b-17a1-766c" name="Mónguer" hidden="false" targetId="72ec-7c35-9625-8459" type="rule"/>
+        <infoLink id="1eb5-c87b-17a1-766c" name="Монг" hidden="false" targetId="72ec-7c35-9625-8459" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="76db-18e5-5527-e34e" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
@@ -594,9 +594,9 @@ muerta.</characteristic>
             <entryLink id="2aa5-ab9e-0bb4-d124" name="Miembros extra" hidden="false" collective="false" import="true" targetId="c0c0-ff9f-ab6f-917f" type="selectionEntry"/>
             <entryLink id="5ed0-cad6-ac33-f52d" name="Mimetismo" hidden="false" collective="false" import="true" targetId="b4b3-ed5e-9512-f646" type="selectionEntry"/>
             <entryLink id="4010-7f55-d30b-9dc2" name="Pegajoso" hidden="false" collective="false" import="true" targetId="33c1-4370-55cb-4b67" type="selectionEntry"/>
-            <entryLink id="e930-e2c8-d29e-7ac7" name="Piel dura 1" hidden="false" collective="false" import="true" targetId="9159-4fa1-526f-3464" type="selectionEntry"/>
-            <entryLink id="81be-e5f8-693c-030a" name="Piel dura 3" hidden="false" collective="false" import="true" targetId="9ba4-12b6-052f-3a9d" type="selectionEntry"/>
-            <entryLink id="90eb-b660-c581-6df8" name="Piel dura 5" hidden="false" collective="false" import="true" targetId="7a6b-5a7a-81ee-994f" type="selectionEntry"/>
+            <entryLink id="e930-e2c8-d29e-7ac7" name="Задержка 1" hidden="false" collective="false" import="true" targetId="9159-4fa1-526f-3464" type="selectionEntry"/>
+            <entryLink id="81be-e5f8-693c-030a" name="Задержка 3" hidden="false" collective="false" import="true" targetId="9ba4-12b6-052f-3a9d" type="selectionEntry"/>
+            <entryLink id="90eb-b660-c581-6df8" name="Задержка 5" hidden="false" collective="false" import="true" targetId="7a6b-5a7a-81ee-994f" type="selectionEntry"/>
             <entryLink id="aec0-aba8-9e96-4480" name="Piernas seguras" hidden="false" collective="false" import="true" targetId="8edc-6ca6-6517-2ffd" type="selectionEntry"/>
             <entryLink id="2ea0-4ca7-f6e1-3ea6" name="Proyectil orgánico" hidden="false" collective="false" import="true" targetId="55a1-ccf6-4e4c-3e5f" type="selectionEntry"/>
             <entryLink id="efe4-5cfa-5b7c-e6d4" name="Rana" hidden="false" collective="false" import="true" targetId="db5f-c80b-1139-0be6" type="selectionEntry"/>
@@ -729,11 +729,11 @@ muerta.</characteristic>
               </profiles>
               <rules>
                 <rule id="bcb4-4891-71d0-6418" name="Guapetón" hidden="false">
-                  <description>Esta miniatura no tiene sus Мутации a la vista y puede hacerse pasar por una persona normal. Puede adquirir equipo de la lista de los Гангеры, pero sólo él podrá equiparse con este.</description>
+                  <description>Esta miniatura no tiene sus Мутации a la vista y puede hacerse pasar por una persona normal. Puede adquirir Оборудование de la lista de los Гангеры, pero sólo él podrá equiparse con este.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
-                <selectionEntryGroup id="75a7-5b4d-2d1d-d6e4" name="Equipo de Гангеры" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="75a7-5b4d-2d1d-d6e4" name="Оборудование de Гангеры" hidden="false" collective="false" import="true">
                   <entryLinks>
                     <entryLink id="fcfc-3820-4e15-c2e6" name="Лук" hidden="false" collective="false" import="true" targetId="6d9f-ee1a-09d0-2cb9" type="selectionEntry"/>
                     <entryLink id="1487-ce02-dda7-3f28" name="Металлическая броня" hidden="false" collective="false" import="true" targetId="fc6e-ddda-8911-bd66" type="selectionEntry"/>
@@ -831,8 +831,8 @@ muerta.</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="31fb-51f0-afe8-37c6" name="Grupal" hidden="false" targetId="6c7d-2db1-b667-6410" type="rule"/>
-        <infoLink id="3fa9-5c7c-e0c6-6e0f" name="Mónguer" hidden="false" targetId="72ec-7c35-9625-8459" type="rule"/>
+        <infoLink id="31fb-51f0-afe8-37c6" name="Стая" hidden="false" targetId="6c7d-2db1-b667-6410" type="rule"/>
+        <infoLink id="3fa9-5c7c-e0c6-6e0f" name="Монг" hidden="false" targetId="72ec-7c35-9625-8459" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="324b-6304-c71c-bfab" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
@@ -965,18 +965,18 @@ muerta.</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="be0c-a2fd-8519-394f" name="Bestia" hidden="false" targetId="0762-d2fb-8c9a-e6db" type="rule"/>
+        <infoLink id="be0c-a2fd-8519-394f" name="Зверь" hidden="false" targetId="0762-d2fb-8c9a-e6db" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7c79-75a0-7bbc-b9a8" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c953-f395-0b80-611b" name="Raudo" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c953-f395-0b80-611b" name="Быстрый" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a0a2-d3e6-3a8f-d502" type="max"/>
           </constraints>
           <rules>
-            <rule id="c4ee-8200-b8fd-8614" name="Raudo" hidden="false"/>
+            <rule id="c4ee-8200-b8fd-8614" name="Быстрый" hidden="false"/>
           </rules>
           <costs>
             <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
@@ -1000,9 +1000,9 @@ muerta.</characteristic>
             <entryLink id="f820-493f-3c10-b7ed" name="Miembros extra" hidden="false" collective="false" import="true" targetId="c0c0-ff9f-ab6f-917f" type="selectionEntry"/>
             <entryLink id="1b1a-c639-37e0-6e1a" name="Mimetismo" hidden="false" collective="false" import="true" targetId="b4b3-ed5e-9512-f646" type="selectionEntry"/>
             <entryLink id="1816-b9d9-c930-05d0" name="Pegajoso" hidden="false" collective="false" import="true" targetId="33c1-4370-55cb-4b67" type="selectionEntry"/>
-            <entryLink id="97b9-edba-dad5-afc4" name="Piel dura 1" hidden="false" collective="false" import="true" targetId="9159-4fa1-526f-3464" type="selectionEntry"/>
-            <entryLink id="f585-dc89-9e23-221c" name="Piel dura 3" hidden="false" collective="false" import="true" targetId="9ba4-12b6-052f-3a9d" type="selectionEntry"/>
-            <entryLink id="8e65-71ea-8e58-f463" name="Piel dura 5" hidden="false" collective="false" import="true" targetId="7a6b-5a7a-81ee-994f" type="selectionEntry"/>
+            <entryLink id="97b9-edba-dad5-afc4" name="Задержка 1" hidden="false" collective="false" import="true" targetId="9159-4fa1-526f-3464" type="selectionEntry"/>
+            <entryLink id="f585-dc89-9e23-221c" name="Задержка 3" hidden="false" collective="false" import="true" targetId="9ba4-12b6-052f-3a9d" type="selectionEntry"/>
+            <entryLink id="8e65-71ea-8e58-f463" name="Задержка 5" hidden="false" collective="false" import="true" targetId="7a6b-5a7a-81ee-994f" type="selectionEntry"/>
             <entryLink id="b70e-4143-2e39-cc75" name="Piernas seguras" hidden="false" collective="false" import="true" targetId="8edc-6ca6-6517-2ffd" type="selectionEntry"/>
             <entryLink id="25af-0286-ec4b-61f7" name="Proyectil orgánico" hidden="false" collective="false" import="true" targetId="55a1-ccf6-4e4c-3e5f" type="selectionEntry"/>
             <entryLink id="0c65-4e53-9d2d-4561" name="Rana" hidden="false" collective="false" import="true" targetId="db5f-c80b-1139-0be6" type="selectionEntry"/>
@@ -1217,7 +1217,7 @@ muerta.</characteristic>
     </entryLink>
     <entryLink id="005c-ca15-f2f4-4bf7" name="Метательные ножи" hidden="false" collective="false" import="true" targetId="cc6a-3919-94d6-8d2c" type="selectionEntry">
       <infoLinks>
-        <infoLink id="61db-453f-6127-445c" name="Herrumbre" hidden="false" targetId="7725-6849-25a0-2dad" type="rule"/>
+        <infoLink id="61db-453f-6127-445c" name="Ржавчина" hidden="false" targetId="7725-6849-25a0-2dad" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="00e5-95bc-1b21-7ad2" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
@@ -1228,7 +1228,7 @@ muerta.</characteristic>
     </entryLink>
     <entryLink id="82df-9a65-dcc0-cf34" name="Средний клинок " hidden="false" collective="false" import="true" targetId="b311-f0a5-457b-46be" type="selectionEntry">
       <infoLinks>
-        <infoLink id="8cb5-8a3c-4f8f-fdf4" name="Herrumbre" hidden="false" targetId="7725-6849-25a0-2dad" type="rule"/>
+        <infoLink id="8cb5-8a3c-4f8f-fdf4" name="Ржавчина" hidden="false" targetId="7725-6849-25a0-2dad" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9af7-72f5-289f-f7f7" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
@@ -1239,7 +1239,7 @@ muerta.</characteristic>
     </entryLink>
     <entryLink id="773d-3ab1-41f7-23ff" name="Малый клинок" hidden="false" collective="false" import="true" targetId="5acd-32cd-c603-103b" type="selectionEntry">
       <infoLinks>
-        <infoLink id="0ee8-571e-f25c-ed96" name="Herrumbre" hidden="false" targetId="7725-6849-25a0-2dad" type="rule"/>
+        <infoLink id="0ee8-571e-f25c-ed96" name="Ржавчина" hidden="false" targetId="7725-6849-25a0-2dad" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b0df-6bac-39b2-fe1c" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
@@ -1250,7 +1250,7 @@ muerta.</characteristic>
     </entryLink>
     <entryLink id="64af-08f4-f968-30e5" name="Тяжелый клинок" hidden="false" collective="false" import="true" targetId="b4f3-52ac-5acc-4467" type="selectionEntry">
       <infoLinks>
-        <infoLink id="42b3-9513-6504-98b1" name="Herrumbre" hidden="false" targetId="7725-6849-25a0-2dad" type="rule"/>
+        <infoLink id="42b3-9513-6504-98b1" name="Ржавчина" hidden="false" targetId="7725-6849-25a0-2dad" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e328-c68f-7e58-8e0b" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
@@ -1291,7 +1291,7 @@ muerta.</characteristic>
       </constraints>
       <rules>
         <rule id="d692-2e30-3866-d245" name="Carga brutal" hidden="false">
-          <description>El mutardo es capaz de embestir de manera salvaje a la hora de asaltar. Obtiene un bonificador de +1 a la Пробитие y Сила por cada acción de movimiento en el asalto.</description>
+          <description>El mutardo es capaz de embestir de manera salvaje a la hora de asaltar. Obtiene un bonificador de +1 a la Пробитие y Сила por cada acción de movimiento en el aПрыжок.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1342,7 +1342,7 @@ muerta.</characteristic>
       </constraints>
       <rules>
         <rule id="c277-dc64-38cf-5e27" name="Cola afilada" hidden="false">
-          <description>El mutardo posee una cola prensil con la que es capaz de fustigar a su enemigo.Si lo desea, el mutardo puede lanzar UN dado adicional por Turno de Acción en una acción de Ближний бой, que será considerado un ataque con las estadísticas de un Малый клинок (sin que esto cuente como un arma para los límites de equipo), con un penalizador de -1 al Atributo de Ближний бой en el ataque realizado con la cola. Deberá elegir el resultado que más le convenga para su tirada enfrentada de Ближний бой.Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, una miniatura que realice un ataque con bonificadores por carga o Potenciación, podrá beneficiarse de estos en su ataque normal y el realizado con la cola.</description>
+          <description>El mutardo posee una cola prensil con la que es capaz de fustigar a su enemigo.Si lo desea, el mutardo puede lanzar UN dado adicional por Turno de Acción en una acción de Ближний бой, que será considerado un ataque con las estadísticas de un Малый клинок (sin que esto cuente como un arma para los límites de Оборудование), con un penalizador de -1 al Atributo de Ближний бой en el ataque realizado con la cola. Deberá elegir el resultado que más le convenga para su tirada enfrentada de Ближний бой.Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, una miniatura que realice un ataque con bonificadores por carga o Улучшение, podrá beneficiarse de estos en su ataque normal y el realizado con la cola.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1359,7 +1359,7 @@ muerta.</characteristic>
       </constraints>
       <rules>
         <rule id="c68f-20e2-115d-6a02" name="Corredor" hidden="false">
-          <description>El mutardo tiene unas piernas que le permiten alcanzar gran velocidad. Obtiene la regla especial Raudo.</description>
+          <description>El mutardo tiene unas piernas que le permiten alcanzar gran velocidad. Obtiene la regla especial Быстрый.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1393,7 +1393,7 @@ muerta.</characteristic>
       </constraints>
       <rules>
         <rule id="c56c-81b8-8523-87e4" name="Esputo ácido" hidden="false">
-          <description>El mutardo es capaz de escupir una saliva altamente corrosiva. Al asaltar o ser asaltada, una miniatura con esta mutación que no se encuentre ya trabada en Ближний бой cuerpo a cuerpo, puede realizar una acción de disparo gratuita con el siguiente Профиль: Пробитие 3 y Сила 1. Este disparo carece de modificadores por Дистанция y/o por cobertura, excepto si esta se debe a algún tipo de equipo del rival (como los Щитs, por ejemplo) y se resolverá antes de efectuar ningún ataque cuerpo a cuerpo.</description>
+          <description>El mutardo es capaz de escupir una saliva altamente corrosiva. Al asaltar o ser asaltada, una miniatura con esta mutación que no se encuentre ya trabada en Ближний бой cuerpo a cuerpo, puede realizar una acción de disparo gratuita con el siguiente Профиль: Пробитие 3 y Сила 1. Este disparo carece de modificadores por Дистанция y/o por cobertura, excepto si esta se debe a algún tipo de Оборудование del rival (como los Щитs, por ejemplo) y se resolverá antes de efectuar ningún ataque cuerpo a cuerpo.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1444,7 +1444,7 @@ muerta.</characteristic>
       </constraints>
       <rules>
         <rule id="1471-b9e1-7a99-39b4" name="Garras envenenadas" hidden="false">
-          <description>El mutardo posee un veneno altamente nocivo. Es igual a la mutación Garras, sólo que los ataques que realice con estas tienen además la regla especial Veneno (2)</description>
+          <description>El mutardo posee un Яд altamente nocivo. Es igual a la mutación Garras, sólo que los ataques que realice con estas tienen además la regla especial Яд (2)</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1478,7 +1478,7 @@ muerta.</characteristic>
       </constraints>
       <rules>
         <rule id="27b0-e0b1-b7df-6bd1" name="Mimetismo" hidden="false">
-          <description>El mutardo puede camuflarse de manera asombrosa, quizás porque cambie de color como un camaleón, u otro efecto similar. Obtiene la regla especial Camuflaje.</description>
+          <description>El mutardo puede camuflarse de manera asombrosa, quizás porque cambie de color como un camaleón, u otro efecto similar. Obtiene la regla especial Камуфляж.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1495,7 +1495,7 @@ muerta.</characteristic>
       </constraints>
       <rules>
         <rule id="3adb-0a93-b471-b84d" name="Pegajoso" hidden="false">
-          <description>Este  mutardo  segrega  una  sustancia  adhesiva  por  todo  su  cuerpo.  Esta  miniatura  tiene  la  regla  especial  Trepador y todo rival en contacto peana con peana con ella que trate de Abandonar el Ближний бой sufrirá un penalizador de -3 a su tirada de Ловкость.</description>
+          <description>Este  mutardo  segrega  una  sustancia  adhesiva  por  todo  su  cuerpo.  Esta  miniatura  tiene  la  regla  especial  Альпинист y todo rival en contacto peana con peana con ella que trate de Abandonar el Ближний бой sufrirá un penalizador de -3 a su tirada de Ловкость.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1506,12 +1506,12 @@ muerta.</characteristic>
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9159-4fa1-526f-3464" name="Piel dura 1" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9159-4fa1-526f-3464" name="Задержка 1" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="278d-6e3b-4e22-4c64" type="max"/>
       </constraints>
       <rules>
-        <rule id="5bdb-05e6-16f5-be4e" name="Piel dura 1" hidden="false">
+        <rule id="5bdb-05e6-16f5-be4e" name="Задержка 1" hidden="false">
           <description>El mutardo tiene una piel correosa que le proporciona Броня 1. </description>
         </rule>
       </rules>
@@ -1565,8 +1565,8 @@ muerta.</characteristic>
         <rule id="43da-4b12-7f43-67b3" name="Resonancia psíquica" hidden="false">
           <description>Este poder mental conlleva una menor merma en el físico de estos Мутарды, aunque su principal utilidad es la de ser utilizados como repetidores psiónicos por las psiques superiores de los cabezones.
 
-Un  cabezón  podrá  lanzar  cualquiera  de  sus  poderes  psíquicos  (salvo  Barrera  Psíquica)  sobre  un  mutardo  con  Resonancia  psíquica.  El  poder  podrá  ser  redirigido  inmediatamente,  y  sin  ningún  gasto  adicional  de  Действия hacia otro objetivo, siempre que este esté dentro de las limitaciones de alcance y línea de visión del poder desde el mutardo con Resonancia Psíquica.
-De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Resonancia Psíquica siempre que este esté dentro del alcance de 30cm, inmediatamente, el jugador mutardo podrá redirigir el poder hacia cualquier miniatura propia a 30cm del mutardo con Resonancia Psíquica. De la misma manera, un cabezón podrá lanzar Choque Mental sobre un mutardo con Resonancia Psíquica a 15cm y en su línea de visión, y redirigirlo inmediatamente hacia cualquier miniatura rival a 15cm y en línea de visión respecto al mutardo con Resonancia Psíquica.</description>
+Un  cabezón  podrá  lanzar  cualquiera  de  sus  poderes  psíquicos  (salvo  Barrera  Psíquica)  sobre  un  mutardo  con  Resonancia  psíquica.  El  poder  podrá  ser  redirigido  inmediatamente,  y  sin  ningún  Газto  adicional  de  Действия hacia otro objetivo, siempre que este esté dentro de las limitaciones de alcance y línea de visión del poder desde el mutardo con Resonancia Psíquica.
+De esta manera, un cabezón podrá usar Улучшение sobre un mutardo con Resonancia Psíquica siempre que este esté dentro del alcance de 30cm, inmediatamente, el jugador mutardo podrá redirigir el poder hacia cualquier miniatura propia a 30cm del mutardo con Resonancia Psíquica. De la misma manera, un cabezón podrá lanzar Ментальная атака sobre un mutardo con Resonancia Psíquica a 15cm y en su línea de visión, y redirigirlo inmediatamente hacia cualquier miniatura rival a 15cm y en línea de visión respecto al mutardo con Resonancia Psíquica.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1600,7 +1600,7 @@ De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Reson
       </constraints>
       <rules>
         <rule id="34a4-6a8e-dda2-09c7" name="Rana" hidden="false">
-          <description>El mutardo posee unas piernas especialmente potentes que le permiten dar unos saltos enormes. Obtiene la regla especial Salto.</description>
+          <description>El mutardo posee unas piernas especialmente potentes que le permiten dar unos Прыжокs enormes. Obtiene la regla especial Прыжок.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1619,7 +1619,7 @@ De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Reson
         <rule id="b277-0bb1-15b9-8e3d" name="Proyectil orgánico" hidden="false">
           <description>El mutado es capaz de proyectar algo muy dañino por sus fauces (o cualquier otro orificio) a una Дистанция considerable. El único problema es que la anatomía del mutardo no suele tener “Боеприпасы” para Ближний бойs prolongados.
 
-Se considera que el mutado posee un Arma a Дистанция sin rango de Дистанция larga (sólo tiene Corta y Media) con Alcance 10/20/-, Пробитие 4 y Сила 3, y las Специальные правила Дробь y ¡¡¡CATAPUM!!!</description>
+Se considera que el mutado posee un Arma a Дистанция sin rango de Дистанция larga (sólo tiene Corta y Media) con Alcance 10/20/-, Пробитие 4 y Сила 3, y las Специальные правила Дробь y КАБУМ!!</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1636,7 +1636,7 @@ Se considera que el mutado posee un Arma a Дистанция sin rango de Ди�
       </constraints>
       <rules>
         <rule id="7fc7-ded7-935c-2471" name="Piernas seguras" hidden="false">
-          <description>El  mutardo  tiene  alguna  pierna  extra,  o  son  anormalmente  anchas,  o  tienen  garras  para  fijarse  al  suelo...  Obtiene la regla especial Todoterreno.</description>
+          <description>El  mutardo  tiene  alguna  pierna  extra,  o  son  anormalmente  anchas,  o  tienen  garras  para  fijarse  al  suelo...  Obtiene la regla especial Внедорожник.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1647,12 +1647,12 @@ Se considera que el mutado posee un Arma a Дистанция sin rango de Ди�
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7a6b-5a7a-81ee-994f" name="Piel dura 5" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7a6b-5a7a-81ee-994f" name="Задержка 5" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1dfd-0606-4efe-6622" type="max"/>
       </constraints>
       <rules>
-        <rule id="4f9e-190c-6038-e3d8" name="Piel dura 5" hidden="false">
+        <rule id="4f9e-190c-6038-e3d8" name="Задержка 5" hidden="false">
           <description>El mutardo tiene una piel correosa que le proporciona Броня 5.</description>
         </rule>
       </rules>
@@ -1664,12 +1664,12 @@ Se considera que el mutado posee un Arma a Дистанция sin rango de Ди�
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9ba4-12b6-052f-3a9d" name="Piel dura 3" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9ba4-12b6-052f-3a9d" name="Задержка 3" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2c4c-3995-4a6e-db0a" type="max"/>
       </constraints>
       <rules>
-        <rule id="8932-36cd-0d4c-542b" name="Piel dura 3" hidden="false">
+        <rule id="8932-36cd-0d4c-542b" name="Задержка 3" hidden="false">
           <description>El mutardo tiene una piel correosa que le proporciona Броня 3.</description>
         </rule>
       </rules>

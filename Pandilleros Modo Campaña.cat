@@ -29,7 +29,7 @@
               <profiles>
                 <profile id="189b-5c73-b38a-0c69" name="Armario" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Este pandillero es insultantemente fuerte. Ignora la regla especial Громоздкое del equipo que lleve.</characteristic>
+                    <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Este pandillero es insultantemente fuerte. Ignora la regla especial Громоздкое del Оборудование que lleve.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

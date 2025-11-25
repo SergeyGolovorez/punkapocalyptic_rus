@@ -28,7 +28,7 @@
         <categoryLink id="873c-0f79-bdac-72c0" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="870b-3e96-1e76-e009" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="870b-3e96-1e76-e009" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="291c-939c-4619-1615" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47ba-6ca5-0451-7fc9" type="max"/>
@@ -86,7 +86,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="fb82-eeb4-05f0-717d" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fb82-eeb4-05f0-717d" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="dddb-76a0-895e-4f01" name="Защита от заражения" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
               <constraints>
@@ -136,7 +136,7 @@
         <categoryLink id="7f0a-e876-eeb1-7dd9" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d5f8-c878-fd4b-949b" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d5f8-c878-fd4b-949b" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8530-492e-79c2-e190" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52f5-866e-9628-b31f" type="max"/>
@@ -236,7 +236,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="140b-3087-e47c-a996" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="140b-3087-e47c-a996" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="a5c3-f20d-8c96-64fa" name="Защита от заражения" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
               <constraints>
@@ -297,7 +297,7 @@
         <categoryLink id="0b8f-787f-d85f-475d" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="bc8f-19cf-84bb-70d4" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="bc8f-19cf-84bb-70d4" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b42d-db9c-d396-ee73" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b56-1173-d157-4af5" type="min"/>
@@ -401,7 +401,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1322-3616-2b29-75ef" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1322-3616-2b29-75ef" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="ada1-ceb4-0eef-c2a0" name="Защита от заражения" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
               <constraints>
@@ -473,7 +473,7 @@
         <categoryLink id="ce84-f3ab-06a1-7597" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="41b4-ecb7-3b37-7495" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="41b4-ecb7-3b37-7495" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2617-f86d-0aff-e390" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="650c-01d5-59de-1a6e" type="min"/>
@@ -523,7 +523,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="40bd-54ad-8ffd-701a" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="40bd-54ad-8ffd-701a" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="3b87-ba45-e1d1-5ffa" name="Защита от заражения" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
               <constraints>
@@ -606,7 +606,7 @@
         <categoryLink id="7e8f-2a9a-bd1a-caa8" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ef1e-b828-37ab-c708" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ef1e-b828-37ab-c708" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c7f-8890-f24c-dad8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7167-02a0-6105-d653" type="min"/>
@@ -710,7 +710,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4582-8008-1e79-7d21" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4582-8008-1e79-7d21" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="b758-6a63-fdf5-0b02" name="Защита от заражения" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
               <constraints>
@@ -783,20 +783,20 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="8277-46ed-e781-d662" name="Capitán Hammerica" hidden="false" collective="false" import="true" targetId="bd3e-2900-c778-8569" type="selectionEntry"/>
-    <entryLink id="5bbc-bd3e-ccb3-b2b3" name="Lord Homoeroticus" hidden="false" collective="false" import="true" targetId="8f96-02d5-6d76-eba6" type="selectionEntry"/>
-    <entryLink id="6fab-d00f-72a8-e3c9" name="Viejo Sajarratas" hidden="false" collective="false" import="true" targetId="dc04-86d5-a9a1-2115" type="selectionEntry"/>
-    <entryLink id="3620-284a-b186-4759" name="Crazy Mel" hidden="false" collective="false" import="true" targetId="0a14-7ef7-d9b3-4f7e" type="selectionEntry"/>
-    <entryLink id="86d2-11bf-2949-5bf4" name="Imperatrix Rabiosa" hidden="false" collective="false" import="true" targetId="5489-a5be-4e7b-0a5a" type="selectionEntry"/>
-    <entryLink id="d3e3-a906-2305-1018" name="Lizzy Deville" hidden="false" collective="false" import="true" targetId="bb1b-9915-08d9-463c" type="selectionEntry"/>
-    <entryLink id="abe2-3406-5fdb-ebeb" name="Magnus" hidden="false" collective="false" import="true" targetId="f7d2-1bd6-01c0-adf8" type="selectionEntry"/>
-    <entryLink id="c89e-eb29-438f-1d65" name="Ochodedos" hidden="false" collective="false" import="true" targetId="f5f7-4a7b-a541-cf36" type="selectionEntry"/>
-    <entryLink id="abe1-fc44-9f44-79a2" name="Irina (beta)" hidden="false" collective="false" import="true" targetId="d9fd-c7e0-6beb-0596" type="selectionEntry">
+    <entryLink id="8277-46ed-e781-d662" name="Капитан Хаммерика" hidden="false" collective="false" import="true" targetId="bd3e-2900-c778-8569" type="selectionEntry"/>
+    <entryLink id="5bbc-bd3e-ccb3-b2b3" name="Лорд Гомоэротикус" hidden="false" collective="false" import="true" targetId="8f96-02d5-6d76-eba6" type="selectionEntry"/>
+    <entryLink id="6fab-d00f-72a8-e3c9" name="Старый крысолов" hidden="false" collective="false" import="true" targetId="dc04-86d5-a9a1-2115" type="selectionEntry"/>
+    <entryLink id="3620-284a-b186-4759" name="Безумный Мел" hidden="false" collective="false" import="true" targetId="0a14-7ef7-d9b3-4f7e" type="selectionEntry"/>
+    <entryLink id="86d2-11bf-2949-5bf4" name="Императрица Рабиоса" hidden="false" collective="false" import="true" targetId="5489-a5be-4e7b-0a5a" type="selectionEntry"/>
+    <entryLink id="d3e3-a906-2305-1018" name="Лиззи Де`Вилль" hidden="false" collective="false" import="true" targetId="bb1b-9915-08d9-463c" type="selectionEntry"/>
+    <entryLink id="abe2-3406-5fdb-ebeb" name="Магнус" hidden="false" collective="false" import="true" targetId="f7d2-1bd6-01c0-adf8" type="selectionEntry"/>
+    <entryLink id="c89e-eb29-438f-1d65" name="Восьмипалый" hidden="false" collective="false" import="true" targetId="f5f7-4a7b-a541-cf36" type="selectionEntry"/>
+    <entryLink id="abe1-fc44-9f44-79a2" name="Ирина (beta)" hidden="false" collective="false" import="true" targetId="d9fd-c7e0-6beb-0596" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="41c1-0579-3f4e-2f69" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0b9a-030d-c63f-97cc" name="Mongodrilo Dundee" hidden="false" collective="false" import="true" targetId="b364-8b90-b999-0049" type="selectionEntry">
+    <entryLink id="0b9a-030d-c63f-97cc" name="Монгодрило Данди" hidden="false" collective="false" import="true" targetId="b364-8b90-b999-0049" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6fd7-04a1-b156-8756" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>

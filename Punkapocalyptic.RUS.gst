@@ -423,7 +423,7 @@
       <profiles>
         <profile id="bbad-380d-5c19-cad1" name="Собственные пули" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Правила" typeId="f042-739d-9839-c439">los Мусорщики pueden fabricar sus Пули con diversos materiales. Estas Собственные пули cuestan 10 Очки, pero pueden fallar y tienen la regla especial ¡¡¡CATAPUM!!!</characteristic>
+            <characteristic name="Правила" typeId="f042-739d-9839-c439">los Мусорщики pueden fabricar sus Пули con diversos materiales. Estas Собственные пули cuestan 10 Очки, pero pueden fallar y tienen la regla especial КАБУМ!!</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -431,12 +431,12 @@
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc04-86d5-a9a1-2115" name="Viejo Sajarratas" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dc04-86d5-a9a1-2115" name="Старый крысолов" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4de8-d492-c49b-21b6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2b33-9ce7-c88b-4000" name="Viejo Sajarratas" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="2b33-9ce7-c88b-4000" name="Старый крысолов" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">3(1)</characteristic>
@@ -445,19 +445,19 @@
             <characteristic name="Сила" typeId="26a4-4364-5085-5f30">2</characteristic>
             <characteristic name="Стойкость" typeId="ee78-dafb-2dc2-a52a">2</characteristic>
             <characteristic name="Техника" typeId="8422-cbe6-6791-4a35">5</characteristic>
-            <characteristic name="Специальные правила" typeId="16f0-630c-2894-4e0b">Единственный и неповторимый, Монг, Chorimangui, 5 duros pa&apos;l bus, Cansino</characteristic>
+            <characteristic name="Специальные правила" typeId="16f0-630c-2894-4e0b">Единственный и неповторимый, Монг, Карманник, Есть лишняя монета?, Раздражение</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="50b4-f9d2-a96e-914c" name="5 duros pa&apos;l bus" hidden="false">
-          <description>Sajarratas es un auténtico plasta cuando se pone a pedir pelas. Te soba, te llora, te amenaza, tesuplica... Quitárselo de encima es imposible sin emplear la violencia. Si durante sus Действия Sajarratas entra en contacto con una miniatura enemiga se quedará ahí pegada sin que haya Ближний бой, simplemente siendo plasta. La única Acción que podrá usar una vez en contacto es Chorimangui. Si una miniatura enemiga está en contacto con Sajarratas durante sus Действия deberá Combatir contra él para abatirlo y quitárselo de encima. Si Sajarratas gana el Ближний бой simplemente seguirá ahí pegado dando la vara.</description>
+        <rule id="50b4-f9d2-a96e-914c" name="Есть лишняя монета?" hidden="false">
+          <description>Если во время любого из своих действий Крысолов вступит в контакт с вражеской миниатюрой, он перестанет драться, а просто будет досаждать. Единственное действие, которое он сможет сделать – карманную кражу. Если вражеская модель во время своих действий вошла в бтб с Крысоловом, она должна сражаться с ней, чтобы вырубить крысолова и избавиться от него. Если Крысолов победит в Ближнем бою, он просто останется там, продолжая разглагольствовать.</description>
         </rule>
-        <rule id="f4e0-21c8-d392-f2b3" name="Chorimangui" hidden="false">
-          <description>Sajarratas huele las Пули a leguas, y a veces pedir sólo es una distracción para mangar. Mientras está en contacto con una mini enemiga, puede realizar una tirada de Техника, y robarle 1 bala si esta poseía alguna.</description>
+        <rule id="f4e0-21c8-d392-f2b3" name="Карманник" hidden="false">
+          <description>Жульё чует запах пуль за много миль, и иногда разговоры — это просто способ отвлечь внимание от воровства. Находясь в бтб с вражеской миниатюрой, он может сделать бросок на технику и украсть у нее 1 пулю, если таковая имеется.</description>
         </rule>
-        <rule id="8e3c-52a7-e83e-6c52" name="Cansino" hidden="false">
-          <description>Nadie sabe como puede ser que Sajarratas aún siga vivo. Es una piltrafa humana a la que le ha pasado de todo, pero aún así, cuando parecía que la había diñado va y vuelve a andar por ahí. Si Sajarratas es Abatido, gastará sus siguientes 2 Действия en recuperarse, para luego volver a estar ahí listo para incordiar al enemigo.</description>
+        <rule id="8e3c-52a7-e83e-6c52" name="Раздражение" hidden="false">
+          <description>Если Крысолов поражён, она потратит следующие 2 действия на восстановление, а затем вернется, готовый докучать врагу</description>
         </rule>
       </rules>
       <infoLinks>
@@ -512,17 +512,16 @@
         <categoryLink id="13e5-9112-3ea7-22ec" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="fd31-7b33-d21d-990f" name="Carcasa" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fd31-7b33-d21d-990f" name="Панцирь" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ccf-d56e-42cd-94a3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="472e-31c4-b078-f073" type="min"/>
           </constraints>
           <profiles>
-            <profile id="c35c-22fa-dcc6-22b2" name="Carcasa" hidden="false" typeId="4d97-0106-77f5-4351" typeName="Броня">
+            <profile id="c35c-22fa-dcc6-22b2" name="Панцирь" hidden="false" typeId="4d97-0106-77f5-4351" typeName="Броня">
               <characteristics>
                 <characteristic name="Броня" typeId="843e-5ab3-2b30-b8a2">3</characteristic>
-                <characteristic name="Специальные правила" typeId="6999-0e81-3c21-6d97">A Каронте le gusta quemar, pero no es tan tonto como para no preocuparse de abrasarse él mismo en el intento. Каронте lleva una protección con un cuero recubierto de un compuesto que él mismo ha preparado (no dice a nadie como hacerlo, y algunos ya se piensan que es alguna
-cosa vergonzosa como semen de mongolongo tratado). A esta “armadura” la llama Carcasa, y además de Броня 3 y la Regla especial Ignífugo, le permite ganar automáticamente las tiradas enfrentadas de Separarse del Ближний бой (no sólo es muy viscoso, es que además huele fatal).</characteristic>
+                <characteristic name="Специальные правила" typeId="6999-0e81-3c21-6d97">Каронте носит броню, покрытой составом, который он сам приготовил (состав вещества секретный, но некоторые думают, что ингридиенты включают безумные вещи, такие, как вытяжка из спермы монголонго). Эта «броня» называется Панцирь, и в дополнение к Броне 3, у нее есть особые правила Огнеупорный и Скользкий, что позволяет автоматически выигрывать все противоположные броски на выход из боя (она не только очень скользкая, но и ужасно пахнет).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -530,17 +529,18 @@ cosa vergonzosa como semen de mongolongo tratado). A esta “armadura” la llam
             <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="af5c-111e-f046-7a17" name="Bola de Dragón" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="af5c-111e-f046-7a17" name="Дыхание дракона" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c81f-39fa-7b14-650f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c23-4e10-ac2b-a501" type="min"/>
           </constraints>
           <profiles>
-            <profile id="bc46-f2e9-077a-46cb" name="Bola de Dragón" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+            <profile id="bc46-f2e9-077a-46cb" name="Дыхание дракона" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
               <characteristics>
-                <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">La genialidad de Каронте tomó forma el día que terminó su prototipo de vaporeta lanzabombas, a la que bautizó como Bola de Dragón por las leyendas del Mundo de Antaño de un reino fantástico llamado “Televisión”. Se trata de una vaporeta, pero que además de lanzar vapor también le permite poder utilizarla para impulsar sus bombas incendiarias a presión (debe decidir su función antes de disparar).
-De este modo, Каронте puede decidir gastar 1 Acción en aumentar la presión del lanzabombas, colocando hasta 3 marcadores (a elección del jugador). Cada marcador aumenta +5 cm la Дистанция a la que se pueden lanzar las bombas, pero aumentando también +2,5 cm la desviación del Непрямое оружие. Cada marcador también aumenta +5 cm la Дистанция del chorro de la vaporeta, pero sufriendo un penalizador de -1 la Техника. En sucesivas Действия puede aumentar la presión de nuevo y añadir más marcadores. Estos marcadores permanecerán activos hasta que Каронте utilice Bola de Dragón (ya sea para lanzar vapor
-o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si Каронте es abatido y aún le quedan bombas, estas detonarán siguiendo las Правила habituales de Incendiaria, pero añadiendo un bonificador de +1 a la Сила por cada marcador de presión que tuviera Каронте.</characteristic>
+                <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Это паровая пушка, которая позволяет ему выструлить струёй пара, а также запускать зажигательные бомбы (перед выстрелом необходимо определить, чем он будет стрелять).
+                    Каронте может решить потратить 1 Действие, чтобы увеличить давление в баллоне гранатомета – получив до 3 маркеров давления. Каждый маркер увеличивает дальность броска бомб на +2 дюйма, но также увеличивает отклонение разброса на +1 дюйм. Каждый маркер увеличивает дальность струи пара на +2 дюйма, но при этом накладывается штраф -1 к Технике. В последующих действиях вы можете снова увеличить давление и добавить больше маркеров. Эти маркеры останутся активными до тех пор, пока Каронте не использует Дыхание дракона чтобы выпустить пар или бросить бомбу, или не потратит 1 Действие, чтобы сбросить давление из оружия.
+                    Кроме того, если Каронте поражен и у него еще остались бомбы, они взорвутся в соответствии с обычными правилами зажигательных бомб, но с добавлением бонуса +1 к Силе за каждый маркер давления, который имело Дыхание Дракона
+                </characteristic>
                 <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">20</characteristic>
                 <characteristic name="Сила" typeId="c02a-4690-9a12-55e4"/>
                 <characteristic name="Пробитие" typeId="9563-bb3e-ec5c-02a1"/>
@@ -551,25 +551,25 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
             <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3186-c749-29e0-eec5" name="Cacharras de oficio" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3186-c749-29e0-eec5" name="Ремонтный набор" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d722-5c9d-89ef-bf30" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a4-2b8a-18c8-7a5a" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="d12e-85a0-3216-0318" name="Cacharras de oficio" hidden="false" targetId="6fd1-9ca5-0a55-5db9" type="profile"/>
+            <infoLink id="d12e-85a0-3216-0318" name="Ремонтный набор" hidden="false" targetId="6fd1-9ca5-0a55-5db9" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="dbdb-b184-9d0d-0674" name="Bombas Incendiarias" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="dbdb-b184-9d0d-0674" name="Зажигательные бомбы" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="785d-25bb-c68c-8ea4" type="max"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cac-f94e-be09-aa34" type="min"/>
           </constraints>
           <infoLinks>
-            <infoLink id="23aa-0445-71f9-6c0b" name="Bomba Incendiaria" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
+            <infoLink id="23aa-0445-71f9-6c0b" name="Зажигательная бомба" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
@@ -587,169 +587,169 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e215-f416-9c82-4310" name="Bomba Incendiaria" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e215-f416-9c82-4310" name="Зажигательная бомба" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="52dd-1ce0-3915-336e" type="max"/>
       </constraints>
       <rules>
-        <rule id="343a-5278-1122-c6a2" name="Fuego" hidden="false">
-          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las Специальные правила comunes a todos los tipos de bombas, las de fuego tienen la regla Incendiaria.</description>
+        <rule id="343a-5278-1122-c6a2" name="Огонь" hidden="false">
+          <description>Типичный коктейль Молотова, или банка с более сложной смесью химических компонентов, которая воспламеняется при контакте с кислородом. Помимо особых правил, общих для всех типов бомб, эти бомбы обладают зажигательным свойством.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="20aa-dd21-da5b-7181" name="Bomba Incendiaria" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
-        <infoLink id="e416-f375-c08c-3a2d" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
-        <infoLink id="6b75-751b-30cd-b93d" name="Incendiaria" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
+        <infoLink id="20aa-dd21-da5b-7181" name="Зажигательная бомба" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
+        <infoLink id="e416-f375-c08c-3a2d" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="6b75-751b-30cd-b93d" name="Зажигательное" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
         <infoLink id="2306-8970-4d96-d422" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="5d33-925e-a6e2-92c7" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
-        <infoLink id="5ae2-b286-6a16-7038" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="5ae2-b286-6a16-7038" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="493d-3b1b-2007-72b3" name="Bomba de Gas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="493d-3b1b-2007-72b3" name="Газовая бомба" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ffd5-1664-7687-b122" type="max"/>
       </constraints>
       <rules>
-        <rule id="a7e8-1a2b-2686-7023" name="Bomba de Gas" hidden="false">
-          <description>Las bombas de gas tratan de incapacitar al enemigo mediante una serie de gases tóxicos. Además de las Специальные правила comunes a todos los tipos de bombas, las de gas tienen la regla Gas.</description>
+        <rule id="a7e8-1a2b-2686-7023" name="Газовая бомба" hidden="false">
+          <description>Газовые бомбы пытаются вывести противника из строя, используя ряд токсичных газов. Помимо особых правил, общих для всех типов бомб, для газовых бомб действует правило «Газ».</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="8f85-601b-c8bc-044c" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
-        <infoLink id="a611-431f-fd8a-e09d" name="Bomba de Gas" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
-        <infoLink id="a5f8-1047-332d-8293" name="Gas" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
+        <infoLink id="8f85-601b-c8bc-044c" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="a611-431f-fd8a-e09d" name="Газовая бомба" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
+        <infoLink id="a5f8-1047-332d-8293" name="Газ" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
         <infoLink id="2202-07b9-e4a9-353b" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="1761-6cbe-762d-6c5f" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
-        <infoLink id="005e-43b7-3303-01cc" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="005e-43b7-3303-01cc" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="8e42-104d-0cfa-c71b" name="Bomba de Humo" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8e42-104d-0cfa-c71b" name="Дымовая бомба" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a967-6010-642d-45d2" type="max"/>
       </constraints>
       <rules>
-        <rule id="b197-8d60-cade-e4ef" name="Bomba de Humo" hidden="false">
-          <description>Estas bombas tienen el cometido de crear cortinas de humo que dificulten la visión del enemigo a través de ellas. Además de las Специальные правила comunes a todos los tipos de bombas, las de humo tienen la regla Humo.</description>
+        <rule id="b197-8d60-cade-e4ef" name="Дымовая бомба" hidden="false">
+          <description>При попадании в цель оставляет после себя постоянный дымовой след радиусом 2 дюйма, измеряемым от точки удара.
+              Выстрелы, линия прицеливания которых проходит через этот маркер (при определения этого применяются правила, используемые для укрытий), будут подвергаться совокупному штрафу -2 к броску на точность. Кроме того, любая модель, проходящая через дымовой маркер во время Штурма, потеряет все бонусы к Ближнему бою за Действия, которые она использовала для Штурма.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="a1db-67af-8249-bcec" name="Bomba de Humo" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
-        <infoLink id="64cf-ad4b-bded-c667" name="Humo" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
-        <infoLink id="9cad-75b3-9331-8629" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="a1db-67af-8249-bcec" name="Дымовая бомба" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
+        <infoLink id="64cf-ad4b-bded-c667" name="Дым" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
+        <infoLink id="9cad-75b3-9331-8629" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
         <infoLink id="76e6-0a4f-8a2b-03c2" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="e636-2f04-fe4c-c47e" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
-        <infoLink id="725a-accd-90d2-3a19" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="725a-accd-90d2-3a19" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="0078-a6e6-cd5a-0041" name="Chasqueador" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0078-a6e6-cd5a-0041" name="Электрострекало " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f679-246c-eaff-9126" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a54d-bd1a-6315-42ce" type="max"/>
       </constraints>
       <rules>
-        <rule id="94fc-0624-16ad-e566" name="Chasqueador" hidden="false">
-          <description>Consiste en una vara conductora, que conectada aun traje voltaico (consulta más adelante su descripción, en Броняs) es capaz de realizar una descarga eléctrica mortal.
-</description>
+        <rule id="94fc-0624-16ad-e566" name="Электрострекало " hidden="false">
+          <description>Состоит из токопроводящего стержня, который при подключении к электрическому костюму способен вызвать смертельный удар током.</description>
         </rule>
-        <rule id="8e1b-e02b-bd04-4859" name="Traje voltaico" hidden="false">
-          <description>Es un traje unido a una batería y una serie de fusibles y filamentos . Entre las capas de tejido aislante y el superficial tiene una malla electrificada por la batería que lleva a su espalda. Las capas aislantes bajo la malla protegen al portador, mientras las que cubren la malla transmiten la electricidad a quien toque el traje. Sustituirá cualquier Броня que lleve la miniatura.</description>
+        <rule id="8e1b-e02b-bd04-4859" name="Электро костюм" hidden="false">
+          <description>Это костюм, соединенный с высокопроизводительной батареей  и ряд кабелей и проволок. Между внутренним слоем и наружным проводящим материалом находится  изолирующая прокладка, защищающая своего владельца.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="83df-8dbe-98bb-028f" name="Chasqueador" hidden="false" targetId="aae4-39a2-dd8d-d8ef" type="profile"/>
+        <infoLink id="83df-8dbe-98bb-028f" name="Электрострекало " hidden="false" targetId="aae4-39a2-dd8d-d8ef" type="profile"/>
         <infoLink id="3fe2-5596-e998-ffe2" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="5760-ed3a-860d-5e85" name="Descarga" hidden="false" targetId="2cba-69f0-d606-47a7" type="rule"/>
-        <infoLink id="ff68-fa2a-4f43-f6f3" name="Traje voltaico" hidden="false" targetId="ca3d-b110-3f90-9ed7" type="profile"/>
+        <infoLink id="ff68-fa2a-4f43-f6f3" name="Электро костюм" hidden="false" targetId="ca3d-b110-3f90-9ed7" type="profile"/>
         <infoLink id="acd1-ca6f-277e-6dd1" name="Громоздкое" hidden="false" targetId="f7de-13c0-671c-f4c9" type="rule"/>
-        <infoLink id="fd26-d53d-eb81-ff80" name="Electrificación" hidden="false" targetId="87de-baf3-231c-a9cb" type="rule"/>
-        <infoLink id="80eb-ce1a-e7d5-c01b" name="Ignífugo" hidden="false" targetId="553e-d8db-0834-40db" type="rule"/>
+        <infoLink id="fd26-d53d-eb81-ff80" name="Электрическое" hidden="false" targetId="87de-baf3-231c-a9cb" type="rule"/>
+        <infoLink id="80eb-ce1a-e7d5-c01b" name="Огнеупорное" hidden="false" targetId="553e-d8db-0834-40db" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="f639-8432-b582-df6c" name="Puño balístico" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f639-8432-b582-df6c" name="Баллистический кулак" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5e10-be76-8f0c-12db" type="max"/>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7e64-606c-3c01-5537" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="d8d7-aac4-6062-07e3" name="Puño balístico" hidden="false" targetId="de00-8f5a-2f4e-3743" type="profile"/>
+        <infoLink id="d8d7-aac4-6062-07e3" name="Баллистический кулак" hidden="false" targetId="de00-8f5a-2f4e-3743" type="profile"/>
         <infoLink id="c203-6a96-db55-bf51" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
-        <infoLink id="d8eb-27f0-f16e-41ce" name="Muy Перезарядка(1)" hidden="false" targetId="184c-9445-2e07-d89d" type="rule"/>
+        <infoLink id="d8eb-27f0-f16e-41ce" name="Перезарядка(2)" hidden="false" targetId="184c-9445-2e07-d89d" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="9c05-de0b-b675-3c6a" name="Bombeadora" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9c05-de0b-b675-3c6a" name="Пневматическое ружьё" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5b58-b305-10ff-05ab" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5132-7f43-66ee-06f9" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="dbb7-8208-3f03-562b" name="Bombeadora" hidden="false" targetId="d8f1-2975-9edc-c018" type="profile"/>
+        <infoLink id="dbb7-8208-3f03-562b" name="Пневматическое ружьё" hidden="false" targetId="d8f1-2975-9edc-c018" type="profile"/>
         <infoLink id="1839-decc-a78a-9ee7" name="Двуручное" hidden="false" targetId="8ce0-65c9-8d5c-1020" type="rule"/>
         <infoLink id="caa2-9d38-628a-ad87" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
-        <infoLink id="f843-5df0-865d-05af" name="Bombeo" hidden="false" targetId="abe6-8560-35f8-6bc9" type="rule"/>
+        <infoLink id="f843-5df0-865d-05af" name="Помповый" hidden="false" targetId="abe6-8560-35f8-6bc9" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="667b-00a7-3cc5-6fab" name="Lanzaarpones" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="667b-00a7-3cc5-6fab" name="Гарпун" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eea3-7143-e06e-177c" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2337-bb55-c3a4-be88" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="37ee-99df-42b9-afca" name="Lanzaarpones" hidden="false" targetId="5323-e50e-2302-0141" type="profile"/>
+        <infoLink id="37ee-99df-42b9-afca" name="Гарпун" hidden="false" targetId="5323-e50e-2302-0141" type="profile"/>
         <infoLink id="c17b-e445-0bba-1428" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="3437-0779-a5db-71e4" name="Двуручное" hidden="false" targetId="8ce0-65c9-8d5c-1020" type="rule"/>
         <infoLink id="1dd7-0474-9c3a-6fa4" name="Громоздкое" hidden="false" targetId="f7de-13c0-671c-f4c9" type="rule"/>
-        <infoLink id="6fb2-8e87-0a4b-fd2b" name="Mamotreto" hidden="false" targetId="ce05-a9cc-7084-f1ce" type="rule"/>
-        <infoLink id="a85c-1fb5-805f-366a" name="Muy Перезарядка(1)" hidden="false" targetId="184c-9445-2e07-d89d" type="rule"/>
+        <infoLink id="6fb2-8e87-0a4b-fd2b" name="Большое" hidden="false" targetId="ce05-a9cc-7084-f1ce" type="rule"/>
+        <infoLink id="a85c-1fb5-805f-366a" name="Перезарядка(2)" hidden="false" targetId="184c-9445-2e07-d89d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7c8e-89c5-bd54-9d37" name="Trabuco" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7c8e-89c5-bd54-9d37" name="Мушкетон" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9381-b139-c275-1309" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b4af-52b5-952e-63e0" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="fe1e-e9d9-205f-8348" name="Trabuco" hidden="false" targetId="066d-1214-8701-889f" type="profile"/>
+        <infoLink id="fe1e-e9d9-205f-8348" name="Мушкетон" hidden="false" targetId="066d-1214-8701-889f" type="profile"/>
         <infoLink id="52ae-f34b-f760-96ad" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="316c-e03d-7edd-6292" name="Двуручное" hidden="false" targetId="8ce0-65c9-8d5c-1020" type="rule"/>
         <infoLink id="b99d-5e3f-b68f-0fde" name="Перезарядка(1)" hidden="false" targetId="93e2-9b71-26df-289d" type="rule"/>
         <infoLink id="f0dd-131f-dd7d-8e7e" name="Дробь" hidden="false" targetId="3024-745a-5aa2-9b8b" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="7cd0-20cd-48f7-a156" name="Vaporeta" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7cd0-20cd-48f7-a156" name="Паровая пушка" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0086-52a9-4ad2-57a9" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03b3-9dcc-1c7e-e3b1" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="c2f0-3645-e28e-4aea" name="Vapor" hidden="false" targetId="2d93-a761-e914-9a8b" type="rule"/>
-        <infoLink id="340d-6a05-e7bb-dad8" name="Vaporeta" hidden="false" targetId="8217-233d-63af-fccc" type="profile"/>
+        <infoLink id="c2f0-3645-e28e-4aea" name="Пар" hidden="false" targetId="2d93-a761-e914-9a8b" type="rule"/>
+        <infoLink id="340d-6a05-e7bb-dad8" name="Паровая пушка" hidden="false" targetId="8217-233d-63af-fccc" type="profile"/>
         <infoLink id="b79a-7662-0de7-9023" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="4f12-6cb8-b5ec-6087" name="Двуручное" hidden="false" targetId="8ce0-65c9-8d5c-1020" type="rule"/>
         <infoLink id="d35f-0ca7-f46c-5159" name="Громоздкое" hidden="false" targetId="f7de-13c0-671c-f4c9" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="988f-437c-ad47-7b57" name="Cacharras de oficio" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="988f-437c-ad47-7b57" name="Ремонтный набор" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="7b7d-ed46-c20d-ec6a" name="Cacharras de oficio" hidden="false" targetId="6fd1-9ca5-0a55-5db9" type="profile"/>
+        <infoLink id="7b7d-ed46-c20d-ec6a" name="Ремонтный набор" hidden="false" targetId="6fd1-9ca5-0a55-5db9" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="2ed0-104f-98ae-e4bf" name="Mira telescópica" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2ed0-104f-98ae-e4bf" name="Оптический прицелa" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7d02-366f-ec3f-207c" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="24a3-5001-3c19-1fd8" name="Mira telescópica" hidden="false" targetId="02bf-58f1-ba83-43fc" type="profile"/>
+        <infoLink id="24a3-5001-3c19-1fd8" name="Оптический прицелa" hidden="false" targetId="02bf-58f1-ba83-43fc" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="b364-8b90-b999-0049" name="Mongodrilo Dundee" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b364-8b90-b999-0049" name="Монгодрило Данди" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0690-2772-5181-0004" type="max"/>
       </constraints>
       <profiles>
-        <profile id="21a5-4022-60d5-9cc7" name="Mongodrilo Dundee" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="21a5-4022-60d5-9cc7" name="Монгодрило Данди" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">4</characteristic>
@@ -766,13 +766,13 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
         <rule id="3677-d4c2-a800-5430" name="Trampero" hidden="false">
           <description>Mongodrilo es un experto en crear cepos trampa para capturar a sus presas. En el momento en el que se despliega Mongodrilo, el jugador debe colocar 6 marcadores (de 25 mm) en cualquier lugar de la mesa excepto el área de despliegue del rival y a una Дистанция mínima de 20 cm entre ellos. Sin que el jugador rival lo sepa, tres de estos marcadores contendrán una
 trampa y otros tres no (puedes apuntarlo en una hoja, o que los marcadores se den la vuelta para revelar si tienen trampa).
-Cualquier miniatura excepto Mongolongo (amiga o enemiga) que toque un marcador hará que se descubra. Si este tenía trampa, la miniatura habrá caído en ella, sufrirá un impacto de Fue 2 y Pen 3 y además, si no resulta Abatida, deberá gastar 1 Acción en librarse del cepo.</description>
+Cualquier miniatura excepto Mongolongo (amiga o enemiga) que toque un marcador hará que se descubra. Si este tenía trampa, la miniatura habrá caído en ella, sufrirá un impacto de Fue 2 y Pen 3 y además, si no resulta Abatida, deberá Газtar 1 Acción en librarse del cepo.</description>
         </rule>
         <rule id="fb0c-47cb-6192-a081" name="Ojo loco" hidden="false">
-          <description>El enorme ojo de Mongodrilo es bueno para apuntar, pero a veces le juega malas pasadas cuando se concentra demasiado. Si gastas una Acción en Apuntar con Mongodrilo, debes tirar 1d10. Con un resultado de 1-2 en lugar del bonificador de +3 a la Точность, tendrá un penalizador de -2.</description>
+          <description>El enorme ojo de Mongodrilo es bueno para apuntar, pero a veces le juega malas pasadas cuando se concentra demasiado. Si Газtas una Acción en Apuntar con Mongodrilo, debes tirar 1d10. Con un resultado de 1-2 en lugar del bonificador de +3 a la Точность, tendrá un penalizador de -2.</description>
         </rule>
-        <rule id="2dec-d953-791f-16f2" name="Inmune al veneno y Terreno contaminado" hidden="false">
-          <description>A Mongodrilo le ha picado cualquier bicho venenoso del Páramo e ignora la Regla especial Veneno. Además es un Mutardo, por lo que es inmune a los efectos del Terreno Contaminado.</description>
+        <rule id="2dec-d953-791f-16f2" name="Inmune al Яд y Terreno contaminado" hidden="false">
+          <description>A Mongodrilo le ha picado cualquier bicho Ядso del Páramo e ignora la Regla especial Яд. Además es un Mutardo, por lo que es inmune a los efectos del Terreno Contaminado.</description>
         </rule>
         <rule id="a11f-c6e0-bdec-4b8b" name="Escoria mutarda" hidden="false">
           <description>Debido a su mutardofobia, Mongodrilo no puede unirse a ninguna banda del V Рейх</description>
@@ -797,7 +797,7 @@ Cualquier miniatura excepto Mongolongo (amiga o enemiga) que toque un marcador h
           <rules>
             <rule id="6428-dee7-56cf-d79e" name="Garrapata" hidden="false">
               <description>Se trata de una Арбалет normal y corriente... pero son sus virotes lo que es distinto a lo habitual. Cuando comienza la batalla, y cada vez que recargue la Арбалет, Mongodrilo debe elegir entre los siguientes virotes:
-- Envenenado: la punta del virote se ha untado con una mezcla de semen de mongolongo y glándula de sapofeo.Los virotes tienen la regla Veneno (4).
+- Envenenado: la punta del virote se ha untado con una mezcla de semen de mongolongo y glándula de sapofeo.Los virotes tienen la regla Яд (4).
 
 - Volador: el virote lleva unas plumas de halcón chatarrero que hace que la Дистанция del arma aumente 15 cm en todos sus rangos.
 
@@ -818,7 +818,7 @@ Cualquier miniatura excepto Mongolongo (amiga o enemiga) que toque un marcador h
               <characteristics>
                 <characteristic name="Броня" typeId="843e-5ab3-2b30-b8a2">Disparos: 2
 CaC: 5</characteristic>
-                <characteristic name="Специальные правила" typeId="6999-0e81-3c21-6d97">Mongodrilo lleva una piel de mongolongo, que además de darle su nombre, está especialmente tratada para resistir el ataque de una bestia. Le proporciona Броня 2 contra disparos y 5 contra ataques cuerpo a cuerpo.</characteristic>
+                <characteristic name="Специальные правила" typeId="6999-0e81-3c21-6d97">Mongodrilo lleva una piel de mongolongo, que además de darle su nombre, está especialmente tratada para resistir el ataque de una Зверь. Le proporciona Броня 2 contra disparos y 5 contra ataques cuerpo a cuerpo.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -891,7 +891,7 @@ CaC: 5</characteristic>
       <profiles>
         <profile id="8424-8d3c-9017-6bea" name="Carga brutal" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
           <characteristics>
-            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo es capaz de embestir de manera salvaje a la hora de asaltar. Obtiene un bonificador de +1 a la Пробитие y Сила por cada acción de movimiento en el asalto.</characteristic>
+            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo es capaz de embestir de manera salvaje a la hora de asaltar. Obtiene un bonificador de +1 a la Пробитие y Сила por cada acción de movimiento en el aПрыжок.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -905,8 +905,8 @@ CaC: 5</characteristic>
         <profile id="d576-fdcc-c937-4726" name="Cola afilada" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
           <characteristics>
             <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo posee una cola prensil con la que es capaz de fustigar a su enemigo.
-Si lo desea, el mutardo puede lanzar UN dado adicional por Turno de Acción en una acción de Ближний бой, que será considerado un ataque con las estadísticas de un Малый клинок (sin que esto cuente como un arma para los límites de equipo), con un penalizador de -1 al Atributo de Ближний бой en el ataque realizado con la cola. Deberá elegir el resultado que más le convenga para su tirada enfrentada de Ближний бой.
-Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, una miniatura que realice un ataque con bonificadores por carga o Potenciación, podrá beneficiarse de estos en su ataque normal y el realizado con la cola.</characteristic>
+Si lo desea, el mutardo puede lanzar UN dado adicional por Turno de Acción en una acción de Ближний бой, que será considerado un ataque con las estadísticas de un Малый клинок (sin que esto cuente como un arma para los límites de Оборудование), con un penalizador de -1 al Atributo de Ближний бой en el ataque realizado con la cola. Deberá elegir el resultado que más le convenga para su tirada enfrentada de Ближний бой.
+Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, una miniatura que realice un ataque con bonificadores por carga o Улучшение, podrá beneficiarse de estos en su ataque normal y el realizado con la cola.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -919,12 +919,12 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
       <profiles>
         <profile id="4063-052a-dc91-e8c6" name="Corredor" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
           <characteristics>
-            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo tiene unas piernas que le permiten alcanzar gran velocidad. Obtiene la regla especial Raudo.</characteristic>
+            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo tiene unas piernas que le permiten alcanzar gran velocidad. Obtiene la regla especial Быстрый.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ab3b-061f-cd09-fa29" name="Raudo" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
+        <infoLink id="ab3b-061f-cd09-fa29" name="Быстрый" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry id="5986-d919-269c-d2ea" name="Espinas" hidden="false" collective="false" import="true" type="upgrade">
@@ -948,7 +948,7 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
       <profiles>
         <profile id="39fc-336b-b8e2-a998" name="Esputo ácido" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
           <characteristics>
-            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo es capaz de escupir una saliva altamente corrosiva. Al asaltar o ser asaltada, una miniatura con esta mutación que no se encuentre ya trabada en Ближний бой cuerpo a cuerpo, puede realizar una acción de disparo gratuita con el siguiente Профиль: Пробитие 3 y Сила 1. Este disparo carece de modificadores por Дистанция y/o por cobertura, excepto si esta se debe a algún tipo de equipo del rival (como los Щитs, por ejemplo) y se resolverá antes de efectuar ningún ataque cuerpo a cuerpo.</characteristic>
+            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo es capaz de escupir una saliva altamente corrosiva. Al asaltar o ser asaltada, una miniatura con esta mutación que no se encuentre ya trabada en Ближний бой cuerpo a cuerpo, puede realizar una acción de disparo gratuita con el siguiente Профиль: Пробитие 3 y Сила 1. Este disparo carece de modificadores por Дистанция y/o por cobertura, excepto si esta se debe a algún tipo de Оборудование del rival (como los Щитs, por ejemplo) y se resolverá antes de efectuar ningún ataque cuerpo a cuerpo.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -987,7 +987,7 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
       <profiles>
         <profile id="2fc6-6fdb-4210-1093" name="Garras envenenadas" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
           <characteristics>
-            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo posee un veneno altamente nocivo. Es igual a la mutación Garras, sólo que los ataques que realice con estas tienen además la regla especial Veneno (2).</characteristic>
+            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo posee un Яд altamente nocivo. Es igual a la mutación Garras, sólo que los ataques que realice con estas tienen además la regla especial Яд (2).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1013,12 +1013,12 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
       <profiles>
         <profile id="ac6f-c1de-d6aa-12d2" name="Mimetismo" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
           <characteristics>
-            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo puede camuflarse de manera asombrosa, quizás porque cambie de color como un camaleón, u otro efecto similar. Obtiene la regla especial Camuflaje.</characteristic>
+            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo puede camuflarse de manera asombrosa, quizás porque cambie de color como un camaleón, u otro efecto similar. Obtiene la regla especial Камуфляж.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6157-a10d-4a8e-9699" name="Camuflaje" hidden="false" targetId="90ac-2e29-a275-3472" type="rule"/>
+        <infoLink id="6157-a10d-4a8e-9699" name="Камуфляж" hidden="false" targetId="90ac-2e29-a275-3472" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry id="f997-bc0e-ed94-76d2" name="Pegajoso" hidden="false" collective="false" import="true" type="upgrade">
@@ -1029,18 +1029,18 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
       <profiles>
         <profile id="cfba-c36d-1005-0564" name="Pegajoso" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
           <characteristics>
-            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">Este  mutardo  segrega  una  sustancia  adhesiva  por  todo  su  cuerpo.  Esta  miniatura  tiene  la  regla  especial  Trepador y todo rival en contacto peana con peana con ella que trate de Abandonar el Ближний бой sufrirá un penalizador de -3 a su tirada de Ловкость.</characteristic>
+            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">Este  mutardo  segrega  una  sustancia  adhesiva  por  todo  su  cuerpo.  Esta  miniatura  tiene  la  regla  especial  Альпинист y todo rival en contacto peana con peana con ella que trate de Abandonar el Ближний бой sufrirá un penalizador de -3 a su tirada de Ловкость.</characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry id="67ab-d59f-3ac8-b789" name="Piel dura (1)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="67ab-d59f-3ac8-b789" name="Задержка (1)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4913-48cf-e437-54d2" type="max"/>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6cf0-a281-eac1-11db" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6e84-78c2-84aa-e092" name="Piel dura (X)" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
+        <profile id="6e84-78c2-84aa-e092" name="Задержка (X)" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
           <characteristics>
             <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo tiene una piel correosa que le proporciona Броня 1, 3 o 5. Cada factor de Броня cuenta como una mutación distinta sólo a efectos del límite de Мутации de la banda.</characteristic>
           </characteristics>
@@ -1055,12 +1055,12 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
       <profiles>
         <profile id="0455-cf44-67ee-5dd3" name="Piernas seguras" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
           <characteristics>
-            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El  mutardo  tiene  alguna  pierna  extra,  o  son  anormalmente  anchas,  o  tienen  garras  para  fijarse  al  suelo...  Obtiene la regla especial Todoterreno.</characteristic>
+            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El  mutardo  tiene  alguna  pierna  extra,  o  son  anormalmente  anchas,  o  tienen  garras  para  fijarse  al  suelo...  Obtiene la regla especial Внедорожник.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7c35-0a67-4ecb-e7cb" name="Todoterreno" hidden="false" targetId="a662-52ec-031c-0620" type="rule"/>
+        <infoLink id="7c35-0a67-4ecb-e7cb" name="Внедорожник" hidden="false" targetId="a662-52ec-031c-0620" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry id="9ce5-e812-1758-0e99" name="Proyectil orgánico" hidden="false" collective="false" import="true" type="upgrade">
@@ -1071,12 +1071,12 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
       <profiles>
         <profile id="e07b-9077-2061-e5d6" name="Proyectil orgánico" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
           <characteristics>
-            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutado es capaz de proyectar algo muy dañino por sus fauces (o cualquier otro orificio) a una Дистанция considerable. El único problema es que la anatomía del mutardo no suele tener “Боеприпасы” para Ближний бойs prolongados.Se considera que el mutado posee un Arma a Дистанция sin rango de Дистанция larga (sólo tiene Corta y Media) con Alcance 10/20/-, Пробитие 4 y Сила 3, y las Специальные правила Дробь y ¡¡¡CATAPUM!!!</characteristic>
+            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutado es capaz de proyectar algo muy dañino por sus fauces (o cualquier otro orificio) a una Дистанция considerable. El único problema es que la anatomía del mutardo no suele tener “Боеприпасы” para Ближний бойs prolongados.Se considera que el mutado posee un Arma a Дистанция sin rango de Дистанция larga (sólo tiene Corta y Media) con Alcance 10/20/-, Пробитие 4 y Сила 3, y las Специальные правила Дробь y КАБУМ!!</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d5c3-ba81-02bc-b4db" name="¡¡¡CATAPUM!!!" hidden="false" targetId="cdd8-9848-16bd-ac76" type="rule"/>
+        <infoLink id="d5c3-ba81-02bc-b4db" name="КАБУМ!!" hidden="false" targetId="cdd8-9848-16bd-ac76" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry id="6029-0fa4-cab3-ce89" name="Rana" hidden="false" collective="false" import="true" type="upgrade">
@@ -1087,12 +1087,12 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
       <profiles>
         <profile id="0467-7a56-0aaf-b175" name="Rana" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
           <characteristics>
-            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo posee unas piernas especialmente potentes que le permiten dar unos saltos enormes. Obtiene la regla especial Salto.</characteristic>
+            <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo posee unas piernas especialmente potentes que le permiten dar unos Прыжокs enormes. Obtiene la regla especial Прыжок.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d23d-afd5-c5d9-dbd7" name="Salto" hidden="false" targetId="0a2b-c4f1-882a-d932" type="rule"/>
+        <infoLink id="d23d-afd5-c5d9-dbd7" name="Прыжок" hidden="false" targetId="0a2b-c4f1-882a-d932" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry id="211d-4efe-5d77-0495" name="Resistente" hidden="false" collective="false" import="true" type="upgrade">
@@ -1117,8 +1117,8 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
         <profile id="0517-079b-fd35-83be" name="Resonancia psíquica" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
           <characteristics>
             <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">Este poder mental conlleva una menor merma en el físico de estos Мутарды, aunque su principal utilidad es la de ser utilizados como repetidores psiónicos por las psiques superiores de los cabezones.
-Un  cabezón  podrá  lanzar  cualquiera  de  sus  poderes  psíquicos  (salvo  Barrera  Psíquica)  sobre  un  mutardo  con  Resonancia  psíquica.  El  poder  podrá  ser  redirigido  inmediatamente,  y  sin  ningún  gasto  adicional  de  Действия hacia otro objetivo, siempre que este esté dentro de las limitaciones de alcance y línea de visión del poder desde el mutardo con Resonancia Psíquica.
-De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Resonancia Psíquica siempre que este esté dentro del alcance de 30cm, inmediatamente, el jugador mutardo podrá redirigir el poder hacia cualquier miniatura propia a 30cm del mutardo con Resonancia Psíquica. De la misma manera, un cabezón podrá lanzar Choque Mental sobre un mutardo con Resonancia Psíquica a 15cm y en su línea de visión, y redirigirlo inmediatamente hacia cualquier miniatura rival a 15cm y en línea de visión respecto al mutardo con Resonancia Psíquica</characteristic>
+Un  cabezón  podrá  lanzar  cualquiera  de  sus  poderes  psíquicos  (salvo  Barrera  Psíquica)  sobre  un  mutardo  con  Resonancia  psíquica.  El  poder  podrá  ser  redirigido  inmediatamente,  y  sin  ningún  Газto  adicional  de  Действия hacia otro objetivo, siempre que este esté dentro de las limitaciones de alcance y línea de visión del poder desde el mutardo con Resonancia Psíquica.
+De esta manera, un cabezón podrá usar Улучшение sobre un mutardo con Resonancia Psíquica siempre que este esté dentro del alcance de 30cm, inmediatamente, el jugador mutardo podrá redirigir el poder hacia cualquier miniatura propia a 30cm del mutardo con Resonancia Psíquica. De la misma manera, un cabezón podrá lanzar Ментальная атака sobre un mutardo con Resonancia Psíquica a 15cm y en su línea de visión, y redirigirlo inmediatamente hacia cualquier miniatura rival a 15cm y en línea de visión respecto al mutardo con Resonancia Psíquica</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1149,12 +1149,12 @@ De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Reson
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry id="8f96-02d5-6d76-eba6" name="Lord Homoeroticus" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8f96-02d5-6d76-eba6" name="Лорд Гомоэротикус" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c897-f498-4da6-c84e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5c7c-7064-da0f-b0a7" name="Lord Homoeroticus" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="5c7c-7064-da0f-b0a7" name="Лорд Гомоэротикус" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">3</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">6(5)</characteristic>
@@ -1172,10 +1172,10 @@ De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Reson
           <description>La banda de la Ostra Azul tiene cierta obsesión porel cuero. Los Гангеры (tropa) y CurtАмок de la banda llevan Выделанная кожа por defecto en lugar de Ropas resistentes, sin coste adicional.</description>
         </rule>
         <rule id="512b-e194-061e-e679" name="Jefe" hidden="false">
-          <description>Lord Homoeroticus es un Jefe Pandillero, por lo que no podrás tener otro en tu banda.</description>
+          <description>Лорд Гомоэротикус es un Jefe Pandillero, por lo que no podrás tener otro en tu banda.</description>
         </rule>
         <rule id="5768-738e-d4d9-93cd" name="Discursitos" hidden="false">
-          <description>Lord Homoeroticus tiene una cierta manía a coger un altavoz y soltar discursos bastante insufribles antes de entablar Ближний бой. Posiblemente sea que le guste su propia voz, o crea que así es más molón, pero es un auténtico plasta. Los discursos son variados, desde su decepción por el rival, hasta sus habilidades como tapicero. El caso es que a veces hacen mella en el enemigo, a veces todo lo contrario. Justo antes de comenzar el primer Turno de juego debes hacer una tirada en la siguiente tabla para averiguar el efecto que tienen.
+          <description>Лорд Гомоэротикус tiene una cierta manía a coger un altavoz y soltar discursos bastante insufribles antes de entablar Ближний бой. Posiblemente sea que le guste su propia voz, o crea que así es más molón, pero es un auténtico plasta. Los discursos son variados, desde su decepción por el rival, hasta sus habilidades como tapicero. El caso es que a veces hacen mella en el enemigo, a veces todo lo contrario. Justo antes de comenzar el primer Turno de juego debes hacer una tirada en la siguiente tabla para averiguar el efecto que tienen.
 
 1: El enemigo no piensa aguantar a ese payaso ni un momento más. Todas las miniaturas de la banda rival tienen la regla especial Berserker.
 
@@ -1200,7 +1200,7 @@ De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Reson
           <profiles>
             <profile id="4eaa-a1ef-0b83-c785" name="Alegradías" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
               <characteristics>
-                <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Mira telescópica</characteristic>
+                <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Оптический прицелa</characteristic>
                 <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">15/30/45</characteristic>
                 <characteristic name="Сила" typeId="c02a-4690-9a12-55e4">6</characteristic>
                 <characteristic name="Пробитие" typeId="9563-bb3e-ec5c-02a1">4</characteristic>
@@ -1208,7 +1208,7 @@ De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Reson
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="778a-3da3-c6f8-1e94" name="Mira telescópica" hidden="false" targetId="02bf-58f1-ba83-43fc" type="profile"/>
+            <infoLink id="778a-3da3-c6f8-1e94" name="Оптический прицелa" hidden="false" targetId="02bf-58f1-ba83-43fc" type="profile"/>
           </infoLinks>
           <entryLinks>
             <entryLink id="673e-989e-13b6-be87" name="Пули" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
@@ -1250,9 +1250,9 @@ De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Reson
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4027-f1df-0be5-4659" name="Kim &amp; Bashinger" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4027-f1df-0be5-4659" name="Ким &amp; Бушингер" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="6375-35d0-2390-36a8" name="Kim &amp; Bashinger" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="6375-35d0-2390-36a8" name="Ким &amp; Бушингер" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">3</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">6(5)</characteristic>
@@ -1267,17 +1267,17 @@ De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Reson
       </profiles>
       <rules>
         <rule id="2cd6-dfe5-05c5-a548" name="Mente ocupada" hidden="false">
-          <description>El esfuerzo continuo de Kim controlando a Fostiador, hace que la mente de la bestia del pozo esté demasiado ocupada como para que ningún poder extra le afecte. No podrá lanzarse ningún poder psíquico sobre Kim &amp; Fostiador.</description>
+          <description>El esfuerzo continuo de Kim controlando a Fostiador, hace que la mente de la Зверь del pozo esté demasiado ocupada como para que ningún poder extra le afecte. No podrá lanzarse ningún poder psíquico sobre Kim &amp; Fostiador.</description>
         </rule>
         <rule id="82d0-8c23-5839-a7bd" name="Poderes de Kim" hidden="false">
-          <description>Kim es una cabezona y puede utilizar Психические способности. Tiene acceso a los poderes habituales Desarme, Potenciación y
-Titiritero, pero además tiene estos dos nuevos Психические способности:</description>
+          <description>Kim es una cabezona y puede utilizar Психические способности. Tiene acceso a los poderes habituales Разоружить, Улучшение y
+Кукловод, pero además tiene estos dos nuevos Психические способности:</description>
         </rule>
         <rule id="fdbe-ece0-e90d-284d" name="Odio Puro" hidden="false">
           <description>El tiempo pasado esclavizada, las vejaciones sufridas... todo eso está dentro de Kim siempre a punto de explotar. Si resulta abatida, todo ese odio estallará en una onda de energía con las siguientes consecuencias.
 
 1-3:Todas las minis de la mesa sufren un golpe psíquico tan potente que les hace perder 1 punto de Стойкость.
-4-7:Su gente se hace partícipe de su odio. Se considerará como si todas las miniaturas de su banda obtuvieran el Poder psíquico Potenciación al Ближний бой, siguiendo sus mismas Правила y restricciones.
+4-7:Su gente se hace partícipe de su odio. Se considerará como si todas las miniaturas de su banda obtuvieran el Poder psíquico Улучшение al Ближний бой, siguiendo sus mismas Правила y restricciones.
 8-10: La confusión invade todo. Todas las miniaturas de la mesa tendrán 1 Acción menos en su siguiente Turno de Acción.</description>
         </rule>
       </rules>
@@ -1299,7 +1299,7 @@ Titiritero, pero además tiene estos dos nuevos Психические спос�
             </profile>
             <profile id="5aec-9ce9-5481-da3d" name="Confusión" hidden="false" typeId="bcb2-9ab6-653f-73d4" typeName="Психические способности">
               <characteristics>
-                <characteristic name="Правила" typeId="8765-9ab7-6653-db34">Kim puede entrar en la mente de un enemigo hasta 30 cm. de Дистанция y en Línea de visión, excepto aquellos con la Regla especial Bestia o Монг, y confundirla con pensamientos perturbadores. Esa miniatura actuará en una Ronda de Ловкость 3 veces inferior a la marcada por su Ловкость en el siguiente Turno de juego, hasta un mínimo de 1. Por ejemplo, una miniatura de Ловкость 5, pasaría a actuar ese turno en la Ronda de Ловкость 2.</characteristic>
+                <characteristic name="Правила" typeId="8765-9ab7-6653-db34">Kim puede entrar en la mente de un enemigo hasta 30 cm. de Дистанция y en Línea de visión, excepto aquellos con la Regla especial Зверь o Монг, y confundirla con pensamientos perturbadores. Esa miniatura actuará en una Ronda de Ловкость 3 veces inferior a la marcada por su Ловкость en el siguiente Turno de juego, hasta un mínimo de 1. Por ejemplo, una miniatura de Ловкость 5, pasaría a actuar ese turno en la Ronda de Ловкость 2.</characteristic>
                 <characteristic name="Дистанция" typeId="a4bd-0ebd-213a-45f8">30 cm</characteristic>
               </characteristics>
             </profile>
@@ -1316,7 +1316,7 @@ Titiritero, pero además tiene estos dos nuevos Психические спос�
           <profiles>
             <profile id="53f1-8d7f-918f-9020" name="Zasca" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
               <characteristics>
-                <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Громоздкое, Mamotreto. Se trata de una de las armas defensivas del asentamiento donde Kim &amp; Fostiador estuvieron como esclavos, que la bestia arrancó y se llevó. Fostiador usa como proyectil lo primero que arranca por ahí, pero una vez lanzado, debe encontrar algo que usar como Боеприпасы para recargarlo. Antes de desplegar se colocarán de manera aleatoria 3 marcadores (de la misma manera que se hace con los objetivos). Estos representan algún poste, farola o similar que hay en el suelo. Si está en contacto con uno, Fostiador puede usar 1 Acción en hacerse con él y pasará a tener un nuevo proyectil.</characteristic>
+                <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Громоздкое, Большое. Se trata de una de las Вооружение defensivas del asentamiento donde Kim &amp; Fostiador estuvieron como esclavos, que la Зверь arrancó y se llevó. Fostiador usa como proyectil lo primero que arranca por ahí, pero una vez lanzado, debe encontrar algo que usar como Боеприпасы para recargarlo. Antes de desplegar se colocarán de manera aleatoria 3 marcadores (de la misma manera que se hace con los objetivos). Estos representan algún poste, farola o similar que hay en el suelo. Si está en contacto con uno, Fostiador puede usar 1 Acción en hacerse con él y pasará a tener un nuevo proyectil.</characteristic>
                 <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">25/50/75</characteristic>
                 <characteristic name="Сила" typeId="c02a-4690-9a12-55e4">9</characteristic>
                 <characteristic name="Пробитие" typeId="9563-bb3e-ec5c-02a1">10</characteristic>
@@ -1325,24 +1325,24 @@ Titiritero, pero además tiene estos dos nuevos Психические спос�
           </profiles>
           <rules>
             <rule id="d7cd-94c2-720f-64be" name="Zasca" hidden="false">
-              <description>Se trata de una de las armas defensivas del asentamiento donde Kim &amp; Fostiador estuvieron como esclavos, que la bestia arrancó y se llevó. Fostiador usa como proyectil lo primero que arranca por ahí, pero una vez lanzado, debe encontrar algo que usar como Боеприпасы para recargarlo. Antes de desplegar se colocarán de manera aleatoria 3 marcadores (de la misma manera que se hace con los objetivos). Estos representan algún poste, farola o similar que hay en el suelo. Si está en contacto con uno, Fostiador puede usar 1 Acción en hacerse con él y pasará a tener un nuevo proyectil.</description>
+              <description>Se trata de una de las Вооружение defensivas del asentamiento donde Kim &amp; Fostiador estuvieron como esclavos, que la Зверь arrancó y se llevó. Fostiador usa como proyectil lo primero que arranca por ahí, pero una vez lanzado, debe encontrar algo que usar como Боеприпасы para recargarlo. Antes de desplegar se colocarán de manera aleatoria 3 marcadores (de la misma manera que se hace con los objetivos). Estos representan algún poste, farola o similar que hay en el suelo. Si está en contacto con uno, Fostiador puede usar 1 Acción en hacerse con él y pasará a tener un nuevo proyectil.</description>
             </rule>
           </rules>
           <infoLinks>
             <infoLink id="050d-7090-420a-fcdf" name="Громоздкое" hidden="false" targetId="f7de-13c0-671c-f4c9" type="rule"/>
-            <infoLink id="a368-28df-dd25-20ae" name="Mamotreto" hidden="false" targetId="ce05-a9cc-7084-f1ce" type="rule"/>
+            <infoLink id="a368-28df-dd25-20ae" name="Большое" hidden="false" targetId="ce05-a9cc-7084-f1ce" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="91a3-8213-d1b8-b999" name="Piel Dura (3)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="91a3-8213-d1b8-b999" name="Задержка (3)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cefc-bfdb-c8e4-a7b6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="457e-a3cf-5030-362f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="618c-7b8f-9c18-6318" name="Piel Dura (3)" hidden="false" typeId="4d97-0106-77f5-4351" typeName="Броня">
+            <profile id="618c-7b8f-9c18-6318" name="Задержка (3)" hidden="false" typeId="4d97-0106-77f5-4351" typeName="Броня">
               <characteristics>
                 <characteristic name="Броня" typeId="843e-5ab3-2b30-b8a2">5</characteristic>
                 <characteristic name="Специальные правила" typeId="6999-0e81-3c21-6d97"/>
@@ -1378,12 +1378,12 @@ Titiritero, pero además tiene estos dos nuevos Психические спос�
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bd3e-2900-c778-8569" name="Capitán Hammerica" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bd3e-2900-c778-8569" name="Капитан Хаммерика" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e780-8488-0dea-7684" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4010-274a-b5cc-70ec" name="Capitán Hammerica" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="4010-274a-b5cc-70ec" name="Капитан Хаммерика" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">6</characteristic>
@@ -1398,7 +1398,7 @@ Titiritero, pero además tiene estos dos nuevos Психические спос�
       </profiles>
       <rules>
         <rule id="e703-0296-e3a9-133c" name="Щит reforzado" hidden="false">
-          <description>El Capitán Hammerica tiene un Щит muy fardón, de aspecto corriente pero fabricado según él con una aleación de vibra...noséquépollas. La verdad es que aguanta más de lo normal, por lo que concede una bonificación al Броня de +3 en lugar de +2. Y como el Capi está tan entrenado en su uso, no sufre el penalizador de -1 al Ближний бой por usarlo en cuerpo a cuerpo. También probó a lanzarlo contra los enemigos, pero no es nada aerodinámico y no da una, así que no lo usa así.</description>
+          <description>El Капитан Хаммерика tiene un Щит muy fardón, de aspecto corriente pero fabricado según él con una aleación de vibra...noséquépollas. La verdad es que aguanta más de lo normal, por lo que concede una bonificación al Броня de +3 en lugar de +2. Y como el Capi está tan entrenado en su uso, no sufre el penalizador de -1 al Ближний бой por usarlo en cuerpo a cuerpo. También probó a lanzarlo contra los enemigos, pero no es nada aerodinámico y no da una, así que no lo usa así.</description>
         </rule>
         <rule id="97d6-fab3-5c97-fdba" name="Hammer Time" hidden="false">
           <description>Pocas cosas le gustan tanto a Hammerica como abrir cabezas de villanos con su fiel martillo. Si es abatido en un Ближний бой disfrutará de los beneficios de la regla especial Bersérker, por lo que aunque caiga peleando podrá llevarse por delante a su enemigo.</description>
@@ -1407,7 +1407,7 @@ Titiritero, pero además tiene estos dos nuevos Психические спос�
           <description>El líder de Kraken, Casco Rojo, mató al científico que se había convertido en su amigo delante de él, y fíjate tú que el Capi no se lo ha tomado nada bien. Si el Capi se enfrenta una banda del V Рейх con Casco Rojo y consigue Abatirlo, conseguirá 3 Очки de victoria extra para su banda.</description>
         </rule>
         <rule id="a075-331d-034a-1451" name="Capitán Kraken" hidden="false">
-          <description>Al ser mercenario y de acuerdo a las Правила, el Capitán Hammerica podría jugar con la facción del V Рейх. Si es así, supondremos que se ha revelado realmente como el Capitán Kraken, un traidor a las cosas guays y molonas.</description>
+          <description>Al ser mercenario y de acuerdo a las Правила, el Капитан Хаммерика podría jugar con la facción del V Рейх. Si es así, supondremos que se ha revelado realmente como el Capitán Kraken, un traidor a las cosas guays y molonas.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1450,9 +1450,9 @@ Titiritero, pero además tiene estos dos nuevos Психические спос�
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0a14-7ef7-d9b3-4f7e" name="Crazy Mel" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0a14-7ef7-d9b3-4f7e" name="Безумный Мел" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8789-4039-3de7-c98e" name="Crazy Mel" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="8789-4039-3de7-c98e" name="Безумный Мел" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">6(7)</characteristic>
@@ -1467,11 +1467,11 @@ Titiritero, pero además tiene estos dos nuevos Психические спос�
       </profiles>
       <rules>
         <rule id="17ea-9a72-6a2c-d3da" name="En el momento menos oportuno" hidden="false">
-          <description>La Дробовик de Crazy Mel tiene la terrible manía de fallar en los momentos de más necesidad. No habrá que comprar Пули para esta Дробовик. En su lugar, cuando se efectúe la tirada de
+          <description>La Дробовик de Безумный Мел tiene la terrible manía de fallar en los momentos de más necesidad. No habrá que comprar Пули para esta Дробовик. En su lugar, cuando se efectúe la tirada de
 Точность al efectuar un disparo, deberá comprobarse si el resultado es par o impar. En el caso de ser impar, se  podrá disparar sin ningún problema. Sin embargo, en el caso de ser par, la Дробовик se estropeará de alguna  manera quedando inutilizada, por lo que no disparará en esa Acción de disparo (que habrá perdido) ni en el resto de la partida. Resumiendo, la Дробовик funcionará mientras saque tiradas impares en los disparos.</description>
         </rule>
         <rule id="af07-974d-87ca-ec75" name="Albóndiga" hidden="false">
-          <description>Crazy Mel siempre va acompañado por su fiel perro Albóndiga. Este lo avisa de los enemigos cercanos, por lo que Crazy Mel podrá utilizar todos los bonificadores de haber movido para Asaltar, incluso aunque al principio de algún movimiento no tuviera Línea de visión sobre su enemigo.
+          <description>Безумный Мел siempre va acompañado por su fiel perro Albóndiga. Este lo avisa de los enemigos cercanos, por lo que Безумный Мел podrá utilizar todos los bonificadores de haber movido para Asaltar, incluso aunque al principio de algún movimiento no tuviera Línea de visión sobre su enemigo.
 Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo que cuando esté en Ближний бой podrá eliminar el bonificador de apoyo de UNA miniatura enemiga a su elección.</description>
         </rule>
       </rules>
@@ -1512,12 +1512,12 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5489-a5be-4e7b-0a5a" name="Imperatrix Rabiosa" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5489-a5be-4e7b-0a5a" name="Императрица Рабиоса" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4a0a-25f9-a77f-1479" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7f15-5894-d48f-994d" name="Imperatrix Rabiosa" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="7f15-5894-d48f-994d" name="Императрица Рабиоса" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
@@ -1551,7 +1551,7 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf1d-e787-3a39-687e" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="0a9d-2d4b-3c9b-edd5" name="Mira telescópica" hidden="false" collective="false" import="true" targetId="2ed0-104f-98ae-e4bf" type="selectionEntry">
+            <entryLink id="0a9d-2d4b-3c9b-edd5" name="Оптический прицелa" hidden="false" collective="false" import="true" targetId="2ed0-104f-98ae-e4bf" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="851c-a18a-f011-319f" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6296-40bf-561c-08a4" type="min"/>
@@ -1576,12 +1576,12 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bb1b-9915-08d9-463c" name="Lizzy Deville" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="bb1b-9915-08d9-463c" name="Лиззи Де`Вилль" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="edf5-f20c-5d4a-c7e1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4f6c-450d-cb4a-7ecc" name="Lizzy Deville" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="4f6c-450d-cb4a-7ecc" name="Лиззи Де`Вилль" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">3</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">4(5)</characteristic>
@@ -1635,12 +1635,12 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f7d2-1bd6-01c0-adf8" name="Magnus" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f7d2-1bd6-01c0-adf8" name="Магнус" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ebde-111e-6906-328a" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6ba0-0040-7715-a57a" name="Magnus" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="6ba0-0040-7715-a57a" name="Магнус" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">5</characteristic>
@@ -1655,14 +1655,14 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
       </profiles>
       <rules>
         <rule id="9e0f-0ab6-6d57-8ef9" name="Planes dentro de planes" hidden="false">
-          <description>Magnus anda por ahí siguiendo un plan que sólo él conoce, pero a veces este plan no incluye estar durante toda la escaramuza con la banda que le tiene contratado. Al finalizar cada Turno de Acción de Magnus el jugador debe tirar 1d10. Con un resultado de 10 Magnus se pirará y su miniatura será retirada de la mesa. Hay que tener en cuenta que si ocurre esto, su miniatura no contará como Abatida para ningún aspecto de la partida, simplemente es como si no hubiera participado. </description>
+          <description>Магнус anda por ahí siguiendo un plan que sólo él conoce, pero a veces este plan no incluye estar durante toda la escaramuza con la banda que le tiene contratado. Al finalizar cada Turno de Acción de Магнус el jugador debe tirar 1d10. Con un resultado de 10 Магнус se pirará y su miniatura será retirada de la mesa. Hay que tener en cuenta que si ocurre esto, su miniatura no contará como Abatida para ningún aspecto de la partida, simplemente es como si no hubiera participado. </description>
         </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="3c1f-e622-9e25-d4db" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="e36f-968d-a263-9776" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e36f-968d-a263-9776" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4ea-813e-737c-bc2d" type="max"/>
           </constraints>
@@ -1673,12 +1673,12 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
               </constraints>
               <rules>
                 <rule id="c073-3722-520f-245b" name="Винтовка molón" hidden="false">
-                  <description>Magnus puede llevar un Автоматическая винтовка con mira telescópica. Pero Magnus o hace las cosas bien o no las hace, así que este Автоматическая винтовка sólo posee el modo Автоматическое y no podrá decidirse usarlo de la manera normal.</description>
+                  <description>Магнус puede llevar un Автоматическая винтовка con Оптический прицелa. Pero Магнус o hace las cosas bien o no las hace, así que este Автоматическая винтовка sólo posee el modo Автоматическое y no podrá decidirse usarlo de la manera normal.</description>
                 </rule>
               </rules>
               <infoLinks>
                 <infoLink id="168c-440c-c469-4337" name="Автоматическая винтовка " hidden="false" targetId="33e2-08e6-f9fc-37d8" type="profile"/>
-                <infoLink id="e732-e6e6-ae9a-5c2b" name="Mira telescópica" hidden="false" targetId="02bf-58f1-ba83-43fc" type="profile"/>
+                <infoLink id="e732-e6e6-ae9a-5c2b" name="Оптический прицелa" hidden="false" targetId="02bf-58f1-ba83-43fc" type="profile"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="e359-367c-de1b-d5bc" name="Пули" hidden="false" collective="false" import="true" type="upgrade">
@@ -1697,7 +1697,7 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
               </constraints>
               <rules>
                 <rule id="2af3-228c-08a1-6dc0" name="Hacha brutal" hidden="false">
-                  <description>Magnus  puede  llevar  un  filo  pesado.  Además,  este  puede  usarse  en  una  ocasión  durante  la  partida como si fuera una motosierra</description>
+                  <description>Магнус  puede  llevar  un  filo  pesado.  Además,  este  puede  usarse  en  una  ocasión  durante  la  partida como si fuera una Бензопила</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -1714,12 +1714,12 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="85.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f5f7-4a7b-a541-cf36" name="Ochodedos" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f5f7-4a7b-a541-cf36" name="Восьмипалый" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8640-e68a-17a1-00e0" type="max"/>
       </constraints>
       <profiles>
-        <profile id="bb7d-63f5-2c82-e6bb" name="Ochodedos" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="bb7d-63f5-2c82-e6bb" name="Восьмипалый" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">5(6)</characteristic>
@@ -1734,10 +1734,10 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
       </profiles>
       <rules>
         <rule id="71b5-fde6-ca30-625b" name="El Baile de San Vito" hidden="false">
-          <description>Ochodedos parece no empezar a emplearse a fondo en Ближний бой hasta que recibe una buena cantidad de daño. Entonces mueve todo su cuerpo como si realizara una especie de baile, y con una mirada de locura, se abalanza sobre sus enemigos. En el momento en el que Ochodedos resulte abatido por primera vez, en lugar de ser substituido por un marcador y considerado fuera de la partida, ignorará este resultado y además obtendrá un bonificador de +2 a sus atributos de Ловкость, Сила y Стойкость. Si a lo largo de la partida volviera a resultar Abatido, será sustituido por un marcador y se considerará fuera de la partida de la manera habitual.</description>
+          <description>Восьмипалый parece no empezar a emplearse a fondo en Ближний бой hasta que recibe una buena cantidad de daño. Entonces mueve todo su cuerpo como si realizara una especie de baile, y con una mirada de locura, se abalanza sobre sus enemigos. En el momento en el que Восьмипалый resulte abatido por primera vez, en lugar de ser substituido por un marcador y considerado fuera de la partida, ignorará este resultado y además obtendrá un bonificador de +2 a sus atributos de Ловкость, Сила y Стойкость. Si a lo largo de la partida volviera a resultar Abatido, será sustituido por un marcador y se considerará fuera de la partida de la manera habitual.</description>
         </rule>
         <rule id="4056-046d-0711-2d94" name="Dolor dolor" hidden="false">
-          <description>Ochodedos ha perfeccionado el Ближний бой con dos armas de tal manera que es capaz de coordinar sus ataques con ellas a la vez, aunque a riesgo de perder algo de habilidad. Cuando Ochodedos está en una Acción de Ближний бой puede, o bien atacar normalmente con una de sus armas, o bien utilizar las dos, lo que le da la posibilidad de tirar un dado más, pudiendo elegir el que obtenga un resultado más alto de los dos, pero a costa de que ambos ataques sufran un penalizador de -2 al atributo de Ближний бой.</description>
+          <description>Восьмипалый ha perfeccionado el Ближний бой con dos Вооружение de tal manera que es capaz de coordinar sus ataques con ellas a la vez, aunque a riesgo de perder algo de habilidad. Cuando Восьмипалый está en una Acción de Ближний бой puede, o bien atacar normalmente con una de sus Вооружение, o bien utilizar las dos, lo que le da la posibilidad de tirar un dado más, pudiendo elegir el que obtenga un resultado más alto de los dos, pero a costa de que ambos ataques sufran un penalizador de -2 al atributo de Ближний бой.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1758,9 +1758,9 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="88.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a3d-e4bc-059d-d9df" name="Arma incrustada" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6a3d-e4bc-059d-d9df" name="Прикрепленное оружие" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="2874-a122-97b1-6d1b" name="Arma incrustada" hidden="false" targetId="c6a5-9587-36b7-7fd4" type="profile"/>
+        <infoLink id="2874-a122-97b1-6d1b" name="Прикрепленное оружие" hidden="false" targetId="c6a5-9587-36b7-7fd4" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry id="8748-3312-3e13-6d1a" name="Cuero humano" hidden="false" collective="false" import="true" type="upgrade">
@@ -1779,9 +1779,9 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f7a6-e7c0-7209-757f" name="Hoz" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f7a6-e7c0-7209-757f" name="Серп" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="2e21-9726-409d-b01e" name="Hoz" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
+        <profile id="2e21-9726-409d-b01e" name="Серп" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
           <characteristics>
             <characteristic name="Ближний бой" typeId="3bcb-590f-e624-084f">-</characteristic>
             <characteristic name="Сила" typeId="959a-27b3-5665-eaae">+1</characteristic>
@@ -1791,21 +1791,21 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry id="5654-b4ca-b0f4-09a8" name="Motosierra" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5654-b4ca-b0f4-09a8" name="Бензопила" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="ce04-53e9-be03-c61f" name="Motosierra" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
+        <profile id="ce04-53e9-be03-c61f" name="Бензопила" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
           <characteristics>
             <characteristic name="Ближний бой" typeId="3bcb-590f-e624-084f">-1</characteristic>
             <characteristic name="Сила" typeId="959a-27b3-5665-eaae">+4</characteristic>
             <characteristic name="Пробитие" typeId="af0e-e291-c826-bf01">6</characteristic>
-            <characteristic name="Специальные правила" typeId="55ae-0d53-f265-651a">Двуручное, Громоздкое, Combustible 5-1, Редкое</characteristic>
+            <characteristic name="Специальные правила" typeId="55ae-0d53-f265-651a">Двуручное, Громоздкое, Топливо 5-1, Редкое</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="3469-7132-4958-59b2" name="Combustible (5 -1)" hidden="false">
-          <description>las armas con esta regla necesitan de cargas de combustible para funcionar. Un arma comienza con 5 cargas, pero cada vez que se haga un disparo o ataque, gastará 1 cargas.
-Pero llevar ese combustible encima es peligroso, así que si una miniatura con un arma con esta regla es impactada puede llegar a explosionar. Si después de ser impactada, en la tirada enfrentada de Сила contra Стойкость el atacante saca una tirada de 1, el arma explotará. La miniatura que porte el arma, y cualquier otra miniatura en contacto con ella, sufrirá un impacto de tanta Сила como cargas le queden al arma y Пробитие 3.</description>
+        <rule id="3469-7132-4958-59b2" name="Топливо (5 -1)" hidden="false">
+          <description>las Вооружение con esta regla necesitan de carГаз de Топливо para funcionar. Un arma comienza con 5 carГаз, pero cada vez que se haga un disparo o ataque, Газtará 1 carГаз.
+Pero llevar ese Топливо encima es peligroso, así que si una miniatura con un arma con esta regla es impactada puede llegar a explosionar. Si después de ser impactada, en la tirada enfrentada de Сила contra Стойкость el atacante saca una tirada de 1, el arma explotará. La miniatura que porte el arma, y cualquier otra miniatura en contacto con ella, sufrirá un impacto de tanta Сила como carГаз le queden al arma y Пробитие 3.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1814,26 +1814,26 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
         <infoLink id="f315-5a55-dcdd-46e3" name="Громоздкое" hidden="false" targetId="f7de-13c0-671c-f4c9" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="a0c2-5530-e994-f264" name="Lanzallamas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a0c2-5530-e994-f264" name="Огнемет" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="31df-e074-8395-1087" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4681-066e-abe1-3a74" type="max"/>
       </constraints>
       <profiles>
-        <profile id="db19-070c-2af8-1e52" name="Lanzallamas" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+        <profile id="db19-070c-2af8-1e52" name="Огнемет" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
           <characteristics>
-            <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Двуручное, Громоздкое, Combustible (10- 2/5) Редкое, Plantilla</characteristic>
-            <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">Plantilla de lanzallamas</characteristic>
-            <characteristic name="Сила" typeId="c02a-4690-9a12-55e4">3 (Gastando dos cargas)
-6 (Gastando 5 cargas)</characteristic>
-            <characteristic name="Пробитие" typeId="9563-bb3e-ec5c-02a1">2 (Gastando dos cargas)
-5(Gastando 5 cargas)</characteristic>
+            <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Двуручное, Громоздкое, Топливо (10- 2/5) Редкое, Шаблон</characteristic>
+            <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">Шаблон de Огнемет</characteristic>
+            <characteristic name="Сила" typeId="c02a-4690-9a12-55e4">3 (Газtando dos carГаз)
+6 (Газtando 5 carГаз)</characteristic>
+            <characteristic name="Пробитие" typeId="9563-bb3e-ec5c-02a1">2 (Газtando dos carГаз)
+5(Газtando 5 carГаз)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="dd9e-8ba7-8dd6-f2b1" name="Combustible (10 - 2/5)" hidden="false">
-          <description>Las armas con esta regla necesitan de cargas de combustible para funcionar. Un arma comienza con 10 cargas, pero cada vez que se haga un disparo o ataque, gastará 2/5 cargas. Pero llevar ese combustible encima es peligroso, así que si una miniatura con un arma con esta regla es impactada puede llegar a explosionar. Si después de ser impactada, en la tirada enfrentada de Сила contra Стойкость el atacante saca una tirada de 1, el arma explotará. La miniatura que porte el arma, y cualquier otra miniatura en contacto con ella, sufrirá un impacto de tanta Сила como cargas le queden al arma y Пробитие 3.
+        <rule id="dd9e-8ba7-8dd6-f2b1" name="Топливо (10 - 2/5)" hidden="false">
+          <description>Las Вооружение con esta regla necesitan de carГаз de Топливо para funcionar. Un arma comienza con 10 carГаз, pero cada vez que se haga un disparo o ataque, Газtará 2/5 carГаз. Pero llevar ese Топливо encima es peligroso, así que si una miniatura con un arma con esta regla es impactada puede llegar a explosionar. Si después de ser impactada, en la tirada enfrentada de Сила contra Стойкость el atacante saca una tirada de 1, el arma explotará. La miniatura que porte el arma, y cualquier otra miniatura en contacto con ella, sufrirá un impacto de tanta Сила como carГаз le queden al arma y Пробитие 3.
 
 </description>
         </rule>
@@ -1842,28 +1842,28 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
         <infoLink id="a873-a4b7-83e4-153c" name="Двуручное" hidden="false" targetId="8ce0-65c9-8d5c-1020" type="rule"/>
         <infoLink id="67bf-5980-1e77-2ac4" name="Громоздкое" hidden="false" targetId="f7de-13c0-671c-f4c9" type="rule"/>
         <infoLink id="4379-8f2c-21cb-058c" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
-        <infoLink id="4be2-9550-2439-3f25" name="Plantilla" hidden="false" targetId="c1df-d08b-4d05-bd0d" type="rule"/>
+        <infoLink id="4be2-9550-2439-3f25" name="Шаблон" hidden="false" targetId="c1df-d08b-4d05-bd0d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ca19-705c-88e4-1c04" name="Motocicleta" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ca19-705c-88e4-1c04" name="Мотоцикл" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="697b-d25d-8d25-bfb3" name="Motocicleta" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
+        <profile id="697b-d25d-8d25-bfb3" name="Мотоцикл" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Правила" typeId="f042-739d-9839-c439"> Una  miniatura  en  motocicleta  tendrá  las  Правила  especiales  Montada  y  Raudo.  Puesto  que  es  posible utilizar partes de la moto para cubrirse, la miniatura contará con una cobertura de Bli+3.
+            <characteristic name="Правила" typeId="f042-739d-9839-c439"> Una  miniatura  en  Мотоцикл  tendrá  las  Правила  especiales  Всадник  y  Быстрый.  Puesto  que  es  posible utilizar partes de la moto para cubrirse, la miniatura contará con una cobertura de Bli+3.
 </characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
         <rule id="d92c-960d-3c7b-3adc" name="Darle caña" hidden="false">
-          <description>Además, dos veces por partida, podrá gastar una Acción en utilizar toda la potencia de la moto para realizar una de las siguientes Действия:
+          <description>Además, dos veces por partida, podrá Газtar una Acción en utilizar toda la potencia de la moto para realizar una de las siguientes Действия:
 
 · Dale al turbo: la moto puede mover hasta el doble (30 cm) en una acción de movimiento, pero deberá hacerlo en línea recta tal y como estuviese encarada al principio de la acción.
 
-·  Potencia  bruta:  la  moto  asalta  de  manera  embravecida,  otorgando  un  bonificador  de  +3  al  Ближний бой  durante un Asalto.
+·  Potencia  bruta:  la  moto  asalta  de  manera  embravecida,  otorgando  un  bonificador  de  +3  al  Ближний бой  durante un AПрыжок.
 
 · Nube de polvo: la moto usará las ruedas para levantar una nube de polvo que hace más difícil alcanzarla. Durante el ese turno de juego, todos los disparos contra esta miniatura sufrirán un penalizador de -3 a su Точность.
 
@@ -1874,14 +1874,14 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff22-37f2-de22-04a2" name="Botafumeiro tóxico" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ff22-37f2-de22-04a2" name="Токсичное кадило" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4233-804a-c684-f386" name="Botafumeiro tóxico" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
+        <profile id="4233-804a-c684-f386" name="Токсичное кадило" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
           <characteristics>
             <characteristic name="Ближний бой" typeId="3bcb-590f-e624-084f">-1</characteristic>
             <characteristic name="Сила" typeId="959a-27b3-5665-eaae">+3</characteristic>
             <characteristic name="Пробитие" typeId="af0e-e291-c826-bf01">2</characteristic>
-            <characteristic name="Специальные правила" typeId="55ae-0d53-f265-651a">Двуручное, Громоздкое, Contaminante, Редкое, </characteristic>
+            <characteristic name="Специальные правила" typeId="55ae-0d53-f265-651a">Двуручное, Громоздкое, Заражение, Редкое</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1889,19 +1889,19 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
         <infoLink id="7716-daa6-be0a-39f1" name="Двуручное" hidden="false" targetId="8ce0-65c9-8d5c-1020" type="rule"/>
         <infoLink id="6781-17e8-5bcc-15e0" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="70be-141b-9af2-d36b" name="Громоздкое" hidden="false" targetId="f7de-13c0-671c-f4c9" type="rule"/>
-        <infoLink id="cb0c-c6c6-e691-8efa" name="Contaminante" hidden="false" targetId="5a4b-79c3-a0d4-aeee" type="rule"/>
+        <infoLink id="cb0c-c6c6-e691-8efa" name="Заражение" hidden="false" targetId="5a4b-79c3-a0d4-aeee" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="39a1-b08d-cb37-a254" name="Granada santa" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="39a1-b08d-cb37-a254" name="Святая граната" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b9b-605e-3c11-d82b" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d914-0d61-69e7-3f76" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9480-81b5-bed1-3dc3" name="Granada santa" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+        <profile id="9480-81b5-bed1-3dc3" name="Святая граната" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
           <characteristics>
             <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7"/>
             <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">Fue lanzador x 5 cm</characteristic>
@@ -1911,11 +1911,11 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
         </profile>
       </profiles>
       <rules>
-        <rule id="1631-6d0c-9d57-d3e8" name="Granada santa" hidden="false">
-          <description>Las granadas santas cubren de elementos radiactivos la zona allí donde impactan.
-Las granadas santas explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
-Toda miniatura impactada por una granada santa deberá realizar inmediatamente una tirada de Radiación (siempre que haya una fuente de radiación a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
-Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, UNA de estas armas detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado.</description>
+        <rule id="1631-6d0c-9d57-d3e8" name="Святая граната" hidden="false">
+          <description>Las Святые гранаты cubren de elementos radiactivos la zona allí donde impactan.
+Las Святые гранаты explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
+Toda miniatura impactada por una Святая граната deberá realizar inmediatamente una tirada de Радиация (siempre que haya una fuente de Радиация a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
+Por otra parte, si una miniatura tiene alguna Святая граната y resulta abatida, UNA de estas Вооружение detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1923,7 +1923,7 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         <infoLink id="b2e5-219d-eb96-ff6e" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="2e4d-1b28-f27c-42b4" name="1 Granada Santa" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2e4d-1b28-f27c-42b4" name="1 Святая граната" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a9f-446b-2045-f325" type="max"/>
           </constraints>
@@ -1931,7 +1931,7 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
             <cost name="Очки" typeId="6ba6-290e-2003-241d" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="84ac-a1b9-f5dd-95d4" name="2 Granadas Santas" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="84ac-a1b9-f5dd-95d4" name="2 Святые гранаты" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fed6-26ac-5491-fd8f" type="max"/>
           </constraints>
@@ -1939,7 +1939,7 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
             <cost name="Очки" typeId="6ba6-290e-2003-241d" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4714-f5d5-0e52-5ecd" name="3 Granadas Santas" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4714-f5d5-0e52-5ecd" name="3 Святые гранаты" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d2e-6e5d-ea81-5a29" type="max"/>
           </constraints>
@@ -1952,12 +1952,12 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b790-ba10-700c-08d2" name="Lanzaresiduos" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b790-ba10-700c-08d2" name="Токсичная пушка" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="2dac-432d-38db-586c" name="Lanzaresiduos" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+        <profile id="2dac-432d-38db-586c" name="Токсичная пушка" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
           <characteristics>
             <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7"/>
-            <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">Plantilla lanzallamas</characteristic>
+            <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">Шаблон Огнемет</characteristic>
             <characteristic name="Сила" typeId="c02a-4690-9a12-55e4">3</characteristic>
             <characteristic name="Пробитие" typeId="9563-bb3e-ec5c-02a1">7</characteristic>
           </characteristics>
@@ -1966,18 +1966,18 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
       <infoLinks>
         <infoLink id="9f02-6496-3177-c37a" name="Двуручное" hidden="false" targetId="8ce0-65c9-8d5c-1020" type="rule"/>
         <infoLink id="1ad9-bbe4-96b3-fa2a" name="Громоздкое" hidden="false" targetId="f7de-13c0-671c-f4c9" type="rule"/>
-        <infoLink id="01d7-3bdb-485d-c967" name="Contaminante" hidden="false" targetId="5a4b-79c3-a0d4-aeee" type="rule"/>
+        <infoLink id="01d7-3bdb-485d-c967" name="Заражение" hidden="false" targetId="5a4b-79c3-a0d4-aeee" type="rule"/>
         <infoLink id="e2ed-5b63-8472-638d" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
-        <infoLink id="af23-55a0-7048-6fdf" name="Plantilla" hidden="false" targetId="c1df-d08b-4d05-bd0d" type="rule"/>
-        <infoLink id="1e95-a82d-8ee0-2999" name="Muy Перезарядка(1)" hidden="false" targetId="184c-9445-2e07-d89d" type="rule"/>
+        <infoLink id="af23-55a0-7048-6fdf" name="Шаблон" hidden="false" targetId="c1df-d08b-4d05-bd0d" type="rule"/>
+        <infoLink id="1e95-a82d-8ee0-2999" name="Перезарядка(2)" hidden="false" targetId="184c-9445-2e07-d89d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d9fd-c7e0-6beb-0596" name="Irina (beta)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d9fd-c7e0-6beb-0596" name="Ирина (beta)" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="63fd-6592-8e77-d854" name="Irina" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="63fd-6592-8e77-d854" name="Ирина" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">5</characteristic>
@@ -1992,26 +1992,26 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
       </profiles>
       <rules>
         <rule id="7a95-a4c6-7e09-81ab" name="Halálkarma" hidden="false">
-          <description>Irina va montada en un enorme felino al que llama Halálkarma. Es una criatura impresionante a la que nadie excepto Irina puede acercarse sin correr el riesgo de quedarse sin algún miembro. Halálkarma le confiere a Irina las Специальные правила Montada, Raudo y Todoterreno. Además, su enorme cuerpo lleno de piezas blindadas otorga a Irina una Cobertura de Bli+3. Por supuesto, esa enorme montaña de músculos también es capaz de atacar a sus enemigos, aunque llevar a Irina y un montón de trastos encima hace que le resulte bastan-
-te agotador. En lugar de Combatir con Irina, puedes decidir que lo haga Halálkarma usando estas estadísticas: Ближний бой 7, Сила 8 y Пробитие 5. Sin embargo, deberá descansar para volver a atacar, lo que a efectos prácticos es como si tuviera la Regla especial Muy Перезарядка(1).</description>
+          <description>Ирина va Всадник en un enorme felino al que llama Halálkarma. Es una criatura impresionante a la que nadie excepto Ирина puede acercarse sin correr el riesgo de quedarse sin algún miembro. Halálkarma le confiere a Ирина las Специальные правила Всадник, Быстрый y Внедорожник. Además, su enorme cuerpo lleno de piezas blindadas otorga a Ирина una Cobertura de Bli+3. Por supuesto, esa enorme montaña de músculos también es capaz de atacar a sus enemigos, aunque llevar a Ирина y un montón de trastos encima hace que le resulte bastan-
+te agotador. En lugar de Combatir con Ирина, puedes decidir que lo haga Halálkarma usando estas estadísticas: Ближний бой 7, Сила 8 y Пробитие 5. Sin embargo, deberá descansar para volver a atacar, lo que a efectos prácticos es como si tuviera la Regla especial Перезарядка(2).</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="6b3c-6593-3010-9b89" name="Montada" hidden="false" targetId="2b7b-1ce2-7d18-7832" type="rule"/>
-        <infoLink id="3ff8-6194-ce12-ad94" name="Raudo" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
-        <infoLink id="036d-643e-d549-41a6" name="Todoterreno" hidden="false" targetId="a662-52ec-031c-0620" type="rule"/>
+        <infoLink id="6b3c-6593-3010-9b89" name="Всадник" hidden="false" targetId="2b7b-1ce2-7d18-7832" type="rule"/>
+        <infoLink id="3ff8-6194-ce12-ad94" name="Быстрый" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
+        <infoLink id="036d-643e-d549-41a6" name="Внедорожник" hidden="false" targetId="a662-52ec-031c-0620" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="53bd-be39-86e3-c490" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="28e6-9675-0509-944a" name="Utacël" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="28e6-9675-0509-944a" name="Утакель" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e9b-2d62-e15c-a5e2" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8600-b37b-68ba-aba0" type="min"/>
           </constraints>
           <profiles>
-            <profile id="eeba-0b56-88d9-c906" name="Utacël" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
+            <profile id="eeba-0b56-88d9-c906" name="Утакель" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
               <characteristics>
                 <characteristic name="Ближний бой" typeId="3bcb-590f-e624-084f">-1
 Asaltar: +1</characteristic>
@@ -2024,8 +2024,8 @@ Asaltar: 5</characteristic>
             </profile>
           </profiles>
           <rules>
-            <rule id="ebc1-566e-200f-ee8f" name="Utacël" hidden="false">
-              <description>Irina va equipada con un gran arma de asta acabada en un filo y adornada con cabezas de muñecas al que llama por el extraño nombre de Utacël, que al parecer en su idioma significa Destino. En una Acción de Asaltar, este arma tiene unas estadísticas de Ближний бой +1, Сила +3 y Пробитие 5. Durante el resto de Действия en que Combata tendrá unas estadísticas de Ближний бой -1, Сила +2 y Пробитие 3.</description>
+            <rule id="ebc1-566e-200f-ee8f" name="Утакель" hidden="false">
+              <description>Ирина va equipada con un gran arma de asta acabada en un filo y adornada con cabezas de muñecas al que llama por el extraño nombre de Утакель, que al parecer en su idioma significa Destino. En una Acción de Asaltar, este arma tiene unas estadísticas de Ближний бой +1, Сила +3 y Пробитие 5. Durante el resto de Действия en que Combata tendrá unas estadísticas de Ближний бой -1, Сила +2 y Пробитие 3.</description>
             </rule>
           </rules>
           <costs>
@@ -2045,35 +2045,35 @@ Asaltar: 5</characteristic>
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c2d8-acf5-4753-b4bc" name="Piel dura (3)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c2d8-acf5-4753-b4bc" name="Задержка (3)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4203-f8e7-1953-4b0b" type="max"/>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="459e-6d4a-b224-37d8" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1b72-0d36-6b42-6e8c" name="Piel dura (X)" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
+        <profile id="1b72-0d36-6b42-6e8c" name="Задержка (X)" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
           <characteristics>
             <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo tiene una piel correosa que le proporciona Броня 1, 3 o 5. Cada factor de Броня cuenta como una mutación distinta sólo a efectos del límite de Мутации de la banda.</characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry id="3fe8-f4ee-76c1-3dbd" name="Piel dura (5)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3fe8-f4ee-76c1-3dbd" name="Задержка (5)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ef47-48f8-a576-53c4" type="max"/>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1068-218c-edf3-c2e6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="a715-7dc6-d12f-93e3" name="Piel dura (X)" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
+        <profile id="a715-7dc6-d12f-93e3" name="Задержка (X)" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Мутации">
           <characteristics>
             <characteristic name="Правила" typeId="261f-7dda-29bf-7c00">El mutardo tiene una piel correosa que le proporciona Броня 1, 3 o 5. Cada factor de Броня cuenta como una mutación distinta sólo a efectos del límite de Мутации de la banda.</characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry id="ca1b-298a-6282-8471" name="Боеприпасы contaminada" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ca1b-298a-6282-8471" name="Загрязненные боеприпасы" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="c0a2-aedb-dea8-a5d2" name="Боеприпасы contaminada" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
+        <profile id="c0a2-aedb-dea8-a5d2" name="Загрязненные боеприпасы" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
           <characteristics>
             <characteristic name="Ближний бой" typeId="3bcb-590f-e624-084f"/>
             <characteristic name="Сила" typeId="959a-27b3-5665-eaae"/>
@@ -2083,17 +2083,17 @@ Asaltar: 5</characteristic>
         </profile>
       </profiles>
       <rules>
-        <rule id="297f-e468-c22e-d654" name="Боеприпасы contaminada" hidden="false">
-          <description>La Боеприпасы tiene la regla especial Contaminante, pero al disparar este arma se sufrirá un penalizador de -1 a la Точность.</description>
+        <rule id="297f-e468-c22e-d654" name="Загрязненные боеприпасы" hidden="false">
+          <description>La Боеприпасы tiene la regla especial Заражение, pero al disparar este arma se sufrirá un penalizador de -1 a la Точность.</description>
         </rule>
       </rules>
       <costs>
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5269-55ad-712a-765c" name="Боеприпасы Irradiada" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5269-55ad-712a-765c" name="Облученные боеприпасы" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="6402-f6cf-bd89-e7f1" name="Боеприпасы Irradiada" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
+        <profile id="6402-f6cf-bd89-e7f1" name="Облученные боеприпасы" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
           <characteristics>
             <characteristic name="Ближний бой" typeId="3bcb-590f-e624-084f"/>
             <characteristic name="Сила" typeId="959a-27b3-5665-eaae"/>
@@ -2103,293 +2103,293 @@ Asaltar: 5</characteristic>
         </profile>
       </profiles>
       <rules>
-        <rule id="e792-ee85-471b-cbec" name="Боеприпасы Irradiada" hidden="false">
-          <description>Toda miniatura sufrirá un penalizador de -1 en las tiradas de la regla Radiación por cada vez que haya sido impactada por un arma usando esta Боеприпасы, pero el arma sufrirá un penalizador de -1 a su Сила y Пробитие.</description>
+        <rule id="e792-ee85-471b-cbec" name="Облученные боеприпасы" hidden="false">
+          <description>Toda miniatura sufrirá un penalizador de -1 en las tiradas de la regla Радиация por cada vez que haya sido impactada por un arma usando esta Боеприпасы, pero el arma sufrirá un penalizador de -1 a su Сила y Пробитие.</description>
         </rule>
       </rules>
       <costs>
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3be1-82ad-3078-cbf3" name="1 Bomba de Gas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3be1-82ad-3078-cbf3" name="1 Газовая бомба" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5eb4-0397-de16-6c30" type="max"/>
       </constraints>
       <rules>
-        <rule id="2bd9-56b2-fac1-0e71" name="Bomba de Gas" hidden="false">
-          <description>Las bombas de gas tratan de incapacitar al enemigo mediante una serie de gases tóxicos. Además de las Специальные правила comunes a todos los tipos de bombas, las de gas tienen la regla Gas.</description>
+        <rule id="2bd9-56b2-fac1-0e71" name="Газовая бомба" hidden="false">
+          <description>Las Газовые бомбы tratan de incapacitar al enemigo mediante una serie de Газes tóxicos. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Газ tienen la regla Газ.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="603c-1913-d34a-9a2d" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
-        <infoLink id="483a-f4aa-4e7c-e321" name="Bomba de Gas" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
-        <infoLink id="370b-28b7-4732-9c29" name="Gas" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
+        <infoLink id="603c-1913-d34a-9a2d" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="483a-f4aa-4e7c-e321" name="Газовая бомба" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
+        <infoLink id="370b-28b7-4732-9c29" name="Газ" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
         <infoLink id="2858-3a31-7868-69e8" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="813d-68f5-bb04-60c9" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
-        <infoLink id="9bcc-09c9-7219-6643" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="9bcc-09c9-7219-6643" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="d976-2a85-8378-4738" name="3 Bombas de Gas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d976-2a85-8378-4738" name="3 Газовые бомбы" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3793-f14d-dba1-844c" type="max"/>
       </constraints>
       <rules>
-        <rule id="841a-13d6-7dfe-b43e" name="Bomba de Gas" hidden="false">
-          <description>Las bombas de gas tratan de incapacitar al enemigo mediante una serie de gases tóxicos. Además de las Специальные правила comunes a todos los tipos de bombas, las de gas tienen la regla Gas.</description>
+        <rule id="841a-13d6-7dfe-b43e" name="Газовая бомба" hidden="false">
+          <description>Las Газовые бомбы tratan de incapacitar al enemigo mediante una serie de Газes tóxicos. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Газ tienen la regla Газ.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="3161-fcd7-88ee-3ae4" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
-        <infoLink id="a53b-bdb0-68ab-f4be" name="Bomba de Gas" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
-        <infoLink id="9b98-95d0-0105-5264" name="Gas" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
+        <infoLink id="3161-fcd7-88ee-3ae4" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="a53b-bdb0-68ab-f4be" name="Газовая бомба" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
+        <infoLink id="9b98-95d0-0105-5264" name="Газ" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
         <infoLink id="95a7-9253-ac42-5f8e" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="3e88-cb21-2199-f64c" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
-        <infoLink id="7be6-e1ae-3fe5-3bd5" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="7be6-e1ae-3fe5-3bd5" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="7dcf-44c8-35a7-bfbe" name="2 Bombas de Gas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7dcf-44c8-35a7-bfbe" name="2 Газовые бомбы" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="642b-1689-ee3b-ac4f" type="max"/>
       </constraints>
       <rules>
-        <rule id="f303-7241-320e-55de" name="Bomba de Gas" hidden="false">
-          <description>Las bombas de gas tratan de incapacitar al enemigo mediante una serie de gases tóxicos. Además de las Специальные правила comunes a todos los tipos de bombas, las de gas tienen la regla Gas.</description>
+        <rule id="f303-7241-320e-55de" name="Газовая бомба" hidden="false">
+          <description>Las Газовые бомбы tratan de incapacitar al enemigo mediante una serie de Газes tóxicos. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Газ tienen la regla Газ.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="b071-d9bf-ac22-c327" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
-        <infoLink id="a902-3882-7752-1846" name="Bomba de Gas" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
-        <infoLink id="e049-b9da-e13f-ed59" name="Gas" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
+        <infoLink id="b071-d9bf-ac22-c327" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="a902-3882-7752-1846" name="Газовая бомба" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
+        <infoLink id="e049-b9da-e13f-ed59" name="Газ" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
         <infoLink id="2d95-8185-6bfc-c72d" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="5e20-9eb9-7b00-17af" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
-        <infoLink id="0139-9495-7f4c-440d" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="0139-9495-7f4c-440d" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="473b-0be3-a82c-54ba" name="4 Bombas de Gas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="473b-0be3-a82c-54ba" name="4 Газовые бомбы" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="57ed-a6b3-78d4-ff75" type="max"/>
       </constraints>
       <rules>
-        <rule id="fa85-9107-4097-ca4f" name="Bomba de Gas" hidden="false">
-          <description>Las bombas de gas tratan de incapacitar al enemigo mediante una serie de gases tóxicos. Además de las Специальные правила comunes a todos los tipos de bombas, las de gas tienen la regla Gas.</description>
+        <rule id="fa85-9107-4097-ca4f" name="Газовая бомба" hidden="false">
+          <description>Las Газовые бомбы tratan de incapacitar al enemigo mediante una serie de Газes tóxicos. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Газ tienen la regla Газ.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="4ec2-92a5-83d3-1520" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
-        <infoLink id="55c0-4788-31e9-8c6e" name="Bomba de Gas" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
-        <infoLink id="21aa-1f75-a0f5-2d39" name="Gas" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
+        <infoLink id="4ec2-92a5-83d3-1520" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="55c0-4788-31e9-8c6e" name="Газовая бомба" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
+        <infoLink id="21aa-1f75-a0f5-2d39" name="Газ" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
         <infoLink id="8faa-f180-c2c1-d09d" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="6dea-bfd2-9c14-2233" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
-        <infoLink id="86c0-67f7-fb71-34ca" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="86c0-67f7-fb71-34ca" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="a3bb-f8cd-4354-7a16" name="5 Bombas de Gas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a3bb-f8cd-4354-7a16" name="5 Газовые бомбы" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="79ac-f596-822c-8b48" type="max"/>
       </constraints>
       <rules>
-        <rule id="b801-b75c-3828-fcbd" name="Bomba de Gas" hidden="false">
-          <description>Las bombas de gas tratan de incapacitar al enemigo mediante una serie de gases tóxicos. Además de las Специальные правила comunes a todos los tipos de bombas, las de gas tienen la regla Gas.</description>
+        <rule id="b801-b75c-3828-fcbd" name="Газовая бомба" hidden="false">
+          <description>Las Газовые бомбы tratan de incapacitar al enemigo mediante una serie de Газes tóxicos. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Газ tienen la regla Газ.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="7404-7fbc-045c-e5c3" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
-        <infoLink id="8a77-5bac-f850-0a16" name="Bomba de Gas" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
-        <infoLink id="a948-2f29-bee1-d3fc" name="Gas" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
+        <infoLink id="7404-7fbc-045c-e5c3" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="8a77-5bac-f850-0a16" name="Газовая бомба" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
+        <infoLink id="a948-2f29-bee1-d3fc" name="Газ" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
         <infoLink id="b669-c522-d9a6-e7c2" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="9249-76b4-7b17-da59" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
-        <infoLink id="8233-6b1b-7bd8-00bf" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="8233-6b1b-7bd8-00bf" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="4344-ebd6-62e9-db8b" name="1 Bomba de Humo" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4344-ebd6-62e9-db8b" name="1 Дымовая бомба" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="280e-37d4-c349-fd11" type="max"/>
       </constraints>
       <rules>
-        <rule id="1b6a-61ea-6256-8fdd" name="Bomba de Humo" hidden="false">
-          <description>Estas bombas tienen el cometido de crear cortinas de humo que dificulten la visión del enemigo a través de ellas. Además de las Специальные правила comunes a todos los tipos de bombas, las de humo tienen la regla Humo.</description>
+        <rule id="1b6a-61ea-6256-8fdd" name="Дымовая бомба" hidden="false">
+          <description>Estas Бомба tienen el cometido de crear cortinas de Дым que dificulten la visión del enemigo a través de ellas. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Дым tienen la regla Дым.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="c0e6-6c03-c8c8-aa89" name="Bomba de Humo" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
-        <infoLink id="a0ad-1e7c-6921-2bef" name="Humo" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
-        <infoLink id="b044-4b09-49d4-eb17" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="c0e6-6c03-c8c8-aa89" name="Дымовая бомба" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
+        <infoLink id="a0ad-1e7c-6921-2bef" name="Дым" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
+        <infoLink id="b044-4b09-49d4-eb17" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
         <infoLink id="14ed-ca04-c395-07ee" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="8e7e-b0ce-0d90-4057" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
-        <infoLink id="13f9-f5d8-ed9d-6f86" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="13f9-f5d8-ed9d-6f86" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="526a-ffc4-9c38-39b1" name="2 Bombas de Humo" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="526a-ffc4-9c38-39b1" name="2 Дымовые бомбы" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5963-2bf9-19d0-efbb" type="max"/>
       </constraints>
       <rules>
-        <rule id="df2a-8a39-618e-17d9" name="Bomba de Humo" hidden="false">
-          <description>Estas bombas tienen el cometido de crear cortinas de humo que dificulten la visión del enemigo a través de ellas. Además de las Специальные правила comunes a todos los tipos de bombas, las de humo tienen la regla Humo.</description>
+        <rule id="df2a-8a39-618e-17d9" name="Дымовая бомба" hidden="false">
+          <description>Estas Бомба tienen el cometido de crear cortinas de Дым que dificulten la visión del enemigo a través de ellas. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Дым tienen la regla Дым.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="0b75-d3ba-d534-7e2b" name="Bomba de Humo" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
-        <infoLink id="1d18-cfe4-7f69-a33b" name="Humo" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
-        <infoLink id="0347-5704-431f-7066" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="0b75-d3ba-d534-7e2b" name="Дымовая бомба" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
+        <infoLink id="1d18-cfe4-7f69-a33b" name="Дым" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
+        <infoLink id="0347-5704-431f-7066" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
         <infoLink id="b7a3-ac5f-5594-1b23" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="687b-451c-132d-3034" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
-        <infoLink id="c95b-521f-d587-70c4" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="c95b-521f-d587-70c4" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="e97c-a0e6-f73e-551e" name="3 Bombas de Humo" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e97c-a0e6-f73e-551e" name="3 Дымовые бомбы" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f72-7a62-c456-0eea" type="max"/>
       </constraints>
       <rules>
-        <rule id="d20c-4d7c-249d-385c" name="Bomba de Humo" hidden="false">
-          <description>Estas bombas tienen el cometido de crear cortinas de humo que dificulten la visión del enemigo a través de ellas. Además de las Специальные правила comunes a todos los tipos de bombas, las de humo tienen la regla Humo.</description>
+        <rule id="d20c-4d7c-249d-385c" name="Дымовая бомба" hidden="false">
+          <description>Estas Бомба tienen el cometido de crear cortinas de Дым que dificulten la visión del enemigo a través de ellas. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Дым tienen la regla Дым.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="a927-6a07-28b9-03af" name="Bomba de Humo" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
-        <infoLink id="61bf-c842-187d-328d" name="Humo" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
-        <infoLink id="7992-02d6-a7b8-e925" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="a927-6a07-28b9-03af" name="Дымовая бомба" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
+        <infoLink id="61bf-c842-187d-328d" name="Дым" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
+        <infoLink id="7992-02d6-a7b8-e925" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
         <infoLink id="19d7-0454-1121-4e45" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="3416-3067-0f31-0293" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
-        <infoLink id="debb-858a-a6c2-fedf" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="debb-858a-a6c2-fedf" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="cda0-6f80-f852-ea9a" name="5 Bombas de Humo" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cda0-6f80-f852-ea9a" name="5 Дымовые бомбы" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="686f-19eb-9f46-ee1d" type="max"/>
       </constraints>
       <rules>
-        <rule id="62e9-6e81-da48-146f" name="Bomba de Humo" hidden="false">
-          <description>Estas bombas tienen el cometido de crear cortinas de humo que dificulten la visión del enemigo a través de ellas. Además de las Специальные правила comunes a todos los tipos de bombas, las de humo tienen la regla Humo.</description>
+        <rule id="62e9-6e81-da48-146f" name="Дымовая бомба" hidden="false">
+          <description>Estas Бомба tienen el cometido de crear cortinas de Дым que dificulten la visión del enemigo a través de ellas. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Дым tienen la regla Дым.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="44ac-491e-e1a1-9cb2" name="Bomba de Humo" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
-        <infoLink id="ccfd-1dcc-87ee-f77e" name="Humo" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
-        <infoLink id="0577-781d-e3ab-5f77" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="44ac-491e-e1a1-9cb2" name="Дымовая бомба" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
+        <infoLink id="ccfd-1dcc-87ee-f77e" name="Дым" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
+        <infoLink id="0577-781d-e3ab-5f77" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
         <infoLink id="7b14-97fc-2c59-01db" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="f16b-8c9b-d149-f25a" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
-        <infoLink id="d6fe-ab0f-c250-d121" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="d6fe-ab0f-c250-d121" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="4d06-10e2-d81f-314e" name="4 Bombas de Humo" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4d06-10e2-d81f-314e" name="4 Дымовые бомбы" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1f97-14d5-b2f9-bcb5" type="max"/>
       </constraints>
       <rules>
-        <rule id="1e9e-761b-774a-86cd" name="Bomba de Humo" hidden="false">
-          <description>Estas bombas tienen el cometido de crear cortinas de humo que dificulten la visión del enemigo a través de ellas. Además de las Специальные правила comunes a todos los tipos de bombas, las de humo tienen la regla Humo.</description>
+        <rule id="1e9e-761b-774a-86cd" name="Дымовая бомба" hidden="false">
+          <description>Estas Бомба tienen el cometido de crear cortinas de Дым que dificulten la visión del enemigo a través de ellas. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Дым tienen la regla Дым.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="d320-b63b-c062-6f94" name="Bomba de Humo" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
-        <infoLink id="20ee-1839-6ebe-46ab" name="Humo" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
-        <infoLink id="795c-1a5e-a09f-2b16" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="d320-b63b-c062-6f94" name="Дымовая бомба" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
+        <infoLink id="20ee-1839-6ebe-46ab" name="Дым" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
+        <infoLink id="795c-1a5e-a09f-2b16" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
         <infoLink id="724a-140c-ee52-7b4b" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="dbda-af64-b6a0-4f46" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
-        <infoLink id="70e5-d528-f098-a283" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="70e5-d528-f098-a283" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="80c3-f88e-2610-f0cf" name="1 Bomba Incendiaria" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="80c3-f88e-2610-f0cf" name="1 Зажигательная бомба" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1ed0-7ea0-41fb-76b2" type="max"/>
       </constraints>
       <rules>
-        <rule id="8b1a-d215-17c4-978d" name="Fuego" hidden="false">
-          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las Специальные правила comunes a todos los tipos de bombas, las de fuego tienen la regla Incendiaria.</description>
+        <rule id="8b1a-d215-17c4-978d" name="Огонь" hidden="false">
+          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Огонь tienen la regla Зажигательное.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="5a89-f6d5-90dd-27cf" name="Bomba Incendiaria" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
-        <infoLink id="f94b-989f-6497-bc48" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
-        <infoLink id="3347-6bc8-0792-578f" name="Incendiaria" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
+        <infoLink id="5a89-f6d5-90dd-27cf" name="Зажигательная бомба" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
+        <infoLink id="f94b-989f-6497-bc48" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="3347-6bc8-0792-578f" name="Зажигательное" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
         <infoLink id="9963-a77f-04c0-3f29" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="a258-9ab0-5d87-c2cc" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
-        <infoLink id="f067-2a06-91f7-dbe3" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="f067-2a06-91f7-dbe3" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="fd41-02cc-00e7-c1db" name="2 Bombas Incendiarias" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fd41-02cc-00e7-c1db" name="2 Зажигательные бомбы" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c08f-ad7e-e2f4-93b9" type="max"/>
       </constraints>
       <rules>
-        <rule id="867b-70ac-f68e-b078" name="Fuego" hidden="false">
-          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las Специальные правила comunes a todos los tipos de bombas, las de fuego tienen la regla Incendiaria.</description>
+        <rule id="867b-70ac-f68e-b078" name="Огонь" hidden="false">
+          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Огонь tienen la regla Зажигательное.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="d06c-3ac0-4727-20c4" name="Bomba Incendiaria" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
-        <infoLink id="9cec-fc6d-5222-dd70" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
-        <infoLink id="1331-ff65-31ac-c927" name="Incendiaria" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
+        <infoLink id="d06c-3ac0-4727-20c4" name="Зажигательная бомба" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
+        <infoLink id="9cec-fc6d-5222-dd70" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="1331-ff65-31ac-c927" name="Зажигательное" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
         <infoLink id="2c83-aa97-b49c-d940" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="58ac-b7f2-32d4-541a" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
-        <infoLink id="2c9b-5ca9-139c-da34" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="2c9b-5ca9-139c-da34" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="39a7-1dae-f7dd-75ff" name="3 Bombas Incendiarias" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="39a7-1dae-f7dd-75ff" name="3 Зажигательные бомбы" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2b00-a37c-284a-73e3" type="max"/>
       </constraints>
       <rules>
-        <rule id="0bb6-93d7-a89b-c3d3" name="Fuego" hidden="false">
-          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las Специальные правила comunes a todos los tipos de bombas, las de fuego tienen la regla Incendiaria.</description>
+        <rule id="0bb6-93d7-a89b-c3d3" name="Огонь" hidden="false">
+          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Огонь tienen la regla Зажигательное.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="1cb9-5304-48b5-0ef1" name="Bomba Incendiaria" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
-        <infoLink id="45c0-3175-632f-21c7" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
-        <infoLink id="f002-6c1e-1ad6-6587" name="Incendiaria" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
+        <infoLink id="1cb9-5304-48b5-0ef1" name="Зажигательная бомба" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
+        <infoLink id="45c0-3175-632f-21c7" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="f002-6c1e-1ad6-6587" name="Зажигательное" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
         <infoLink id="e4ad-0e0a-c61a-abc9" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="a511-0e6f-84b9-c7e7" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
-        <infoLink id="0e13-68c7-7141-4a42" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="0e13-68c7-7141-4a42" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="057e-a985-796f-1404" name="4 Bombas Incendiarias" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="057e-a985-796f-1404" name="4 Зажигательные бомбы" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="64d4-db20-26b2-8060" type="max"/>
       </constraints>
       <rules>
-        <rule id="6c8b-91be-c6c4-1a12" name="Fuego" hidden="false">
-          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las Специальные правила comunes a todos los tipos de bombas, las de fuego tienen la regla Incendiaria.</description>
+        <rule id="6c8b-91be-c6c4-1a12" name="Огонь" hidden="false">
+          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Огонь tienen la regla Зажигательное.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="41f6-48ca-bc38-84a6" name="Bomba Incendiaria" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
-        <infoLink id="748f-72a1-d3f0-9f64" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
-        <infoLink id="4a34-a897-5f1a-5f9a" name="Incendiaria" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
+        <infoLink id="41f6-48ca-bc38-84a6" name="Зажигательная бомба" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
+        <infoLink id="748f-72a1-d3f0-9f64" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="4a34-a897-5f1a-5f9a" name="Зажигательное" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
         <infoLink id="c840-d5b6-55a3-5020" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="a711-12b0-c38d-9fcf" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
-        <infoLink id="c8a8-19ff-5832-b791" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="c8a8-19ff-5832-b791" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="8064-ba19-b9b1-2da0" name="5 Bombas Incendiarias" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8064-ba19-b9b1-2da0" name="5 Зажигательные бомбы" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="32fb-c5aa-a4c7-c61f" type="max"/>
       </constraints>
       <rules>
-        <rule id="31a5-988c-4a27-ec5c" name="Fuego" hidden="false">
-          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las Специальные правила comunes a todos los tipos de bombas, las de fuego tienen la regla Incendiaria.</description>
+        <rule id="31a5-988c-4a27-ec5c" name="Огонь" hidden="false">
+          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las Специальные правила comunes a todos los tipos de Бомба, las de Огонь tienen la regla Зажигательное.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="739f-1094-72d5-833f" name="Bomba Incendiaria" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
-        <infoLink id="1c80-9d13-ec95-21b9" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
-        <infoLink id="de17-e3b4-8b30-48dc" name="Incendiaria" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
+        <infoLink id="739f-1094-72d5-833f" name="Зажигательная бомба" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
+        <infoLink id="1c80-9d13-ec95-21b9" name="Бомба" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="de17-e3b4-8b30-48dc" name="Зажигательное" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
         <infoLink id="e868-1eed-a2ad-0fc6" name="Редкое" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="93a1-4e98-7e92-4d06" name="Непрямое оружие" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
-        <infoLink id="7537-2f9f-c27c-c8be" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="7537-2f9f-c27c-c8be" name="Одноразовое" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="0fc4-dc7d-90c7-7719" name="1 Granada santa" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0fc4-dc7d-90c7-7719" name="1 Святая граната" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a84b-04da-5994-5815" type="max"/>
       </constraints>
       <profiles>
-        <profile id="aebe-e637-42d1-8596" name="Granada santa" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+        <profile id="aebe-e637-42d1-8596" name="Святая граната" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
           <characteristics>
             <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7"/>
             <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">Fue lanzador x 5 cm</characteristic>
@@ -2399,11 +2399,11 @@ Asaltar: 5</characteristic>
         </profile>
       </profiles>
       <rules>
-        <rule id="d762-cc5b-0e99-273d" name="Granada santa" hidden="false">
-          <description>Las granadas santas cubren de elementos radiactivos la zona allí donde impactan.
-Las granadas santas explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
-Toda miniatura impactada por una granada santa deberá realizar inmediatamente una tirada de Radiación (siempre que haya una fuente de radiación a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
-Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, UNA de estas armas detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado.</description>
+        <rule id="d762-cc5b-0e99-273d" name="Святая граната" hidden="false">
+          <description>Las Святые гранаты cubren de elementos radiactivos la zona allí donde impactan.
+Las Святые гранаты explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
+Toda miniatura impactada por una Святая граната deberá realizar inmediatamente una tirada de Радиация (siempre que haya una fuente de Радиация a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
+Por otra parte, si una miniatura tiene alguna Святая граната y resulta abatida, UNA de estas Вооружение detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2414,12 +2414,12 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6dd2-294e-e610-b9ac" name="2 Granadas santas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6dd2-294e-e610-b9ac" name="2 Святые гранаты" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9474-78b9-3887-364f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b227-1cde-70b6-c67c" name="Granada santa" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+        <profile id="b227-1cde-70b6-c67c" name="Святая граната" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
           <characteristics>
             <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7"/>
             <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">Fue lanzador x 5 cm</characteristic>
@@ -2429,11 +2429,11 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         </profile>
       </profiles>
       <rules>
-        <rule id="8295-5ce0-0447-09f2" name="Granada santa" hidden="false">
-          <description>Las granadas santas cubren de elementos radiactivos la zona allí donde impactan.
-Las granadas santas explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
-Toda miniatura impactada por una granada santa deberá realizar inmediatamente una tirada de Radiación (siempre que haya una fuente de radiación a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
-Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, UNA de estas armas detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado.</description>
+        <rule id="8295-5ce0-0447-09f2" name="Святая граната" hidden="false">
+          <description>Las Святые гранаты cubren de elementos radiactivos la zona allí donde impactan.
+Las Святые гранаты explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
+Toda miniatura impactada por una Святая граната deberá realizar inmediatamente una tirada de Радиация (siempre que haya una fuente de Радиация a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
+Por otra parte, si una miniatura tiene alguna Святая граната y resulta abatida, UNA de estas Вооружение detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2444,12 +2444,12 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9a0b-d3db-5ca3-3b96" name="5 Granadas santas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9a0b-d3db-5ca3-3b96" name="5 Святые гранаты" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5484-88fb-11fd-87d9" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9c24-c35e-8052-e258" name="Granada santa" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+        <profile id="9c24-c35e-8052-e258" name="Святая граната" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
           <characteristics>
             <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7"/>
             <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">Fue lanzador x 5 cm</characteristic>
@@ -2459,11 +2459,11 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         </profile>
       </profiles>
       <rules>
-        <rule id="cb45-4474-0d58-4d0f" name="Granada santa" hidden="false">
-          <description>Las granadas santas cubren de elementos radiactivos la zona allí donde impactan.
-Las granadas santas explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
-Toda miniatura impactada por una granada santa deberá realizar inmediatamente una tirada de Radiación (siempre que haya una fuente de radiación a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
-Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, UNA de estas armas detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado.</description>
+        <rule id="cb45-4474-0d58-4d0f" name="Святая граната" hidden="false">
+          <description>Las Святые гранаты cubren de elementos radiactivos la zona allí donde impactan.
+Las Святые гранаты explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
+Toda miniatura impactada por una Святая граната deberá realizar inmediatamente una tirada de Радиация (siempre que haya una fuente de Радиация a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
+Por otra parte, si una miniatura tiene alguna Святая граната y resulta abatida, UNA de estas Вооружение detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2474,12 +2474,12 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5c92-29bd-4f2b-17df" name="4 Granadas santas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5c92-29bd-4f2b-17df" name="4 Святые гранаты" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7ff6-6465-979a-cfca" type="max"/>
       </constraints>
       <profiles>
-        <profile id="090c-cbc4-3728-c372" name="Granada santa" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+        <profile id="090c-cbc4-3728-c372" name="Святая граната" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
           <characteristics>
             <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7"/>
             <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">Fue lanzador x 5 cm</characteristic>
@@ -2489,11 +2489,11 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         </profile>
       </profiles>
       <rules>
-        <rule id="ca56-25da-710a-9d47" name="Granada santa" hidden="false">
-          <description>Las granadas santas cubren de elementos radiactivos la zona allí donde impactan.
-Las granadas santas explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
-Toda miniatura impactada por una granada santa deberá realizar inmediatamente una tirada de Radiación (siempre que haya una fuente de radiación a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
-Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, UNA de estas armas detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado.</description>
+        <rule id="ca56-25da-710a-9d47" name="Святая граната" hidden="false">
+          <description>Las Святые гранаты cubren de elementos radiactivos la zona allí donde impactan.
+Las Святые гранаты explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
+Toda miniatura impactada por una Святая граната deberá realizar inmediatamente una tirada de Радиация (siempre que haya una fuente de Радиация a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
+Por otra parte, si una miniatura tiene alguna Святая граната y resulta abatida, UNA de estas Вооружение detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2504,12 +2504,12 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4a24-d6be-c7c4-f334" name="3 Granadas santas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4a24-d6be-c7c4-f334" name="3 Святые гранаты" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f78-1f82-1a4e-77c8" type="max"/>
       </constraints>
       <profiles>
-        <profile id="81c4-0467-fa57-c02d" name="Granada santa" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+        <profile id="81c4-0467-fa57-c02d" name="Святая граната" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
           <characteristics>
             <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7"/>
             <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">Fue lanzador x 5 cm</characteristic>
@@ -2519,11 +2519,11 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         </profile>
       </profiles>
       <rules>
-        <rule id="f261-662a-5378-e47d" name="Granada santa" hidden="false">
-          <description>Las granadas santas cubren de elementos radiactivos la zona allí donde impactan.
-Las granadas santas explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
-Toda miniatura impactada por una granada santa deberá realizar inmediatamente una tirada de Radiación (siempre que haya una fuente de radiación a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
-Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, UNA de estas armas detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado.</description>
+        <rule id="f261-662a-5378-e47d" name="Святая граната" hidden="false">
+          <description>Las Святые гранаты cubren de elementos radiactivos la zona allí donde impactan.
+Las Святые гранаты explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
+Toda miniatura impactada por una Святая граната deberá realizar inmediatamente una tirada de Радиация (siempre que haya una fuente de Радиация a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
+Por otra parte, si una miniatura tiene alguna Святая граната y resulta abatida, UNA de estas Вооружение detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2534,9 +2534,9 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="62c3-cd27-05f8-80bb" name="Aaron Schwartzmann" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="62c3-cd27-05f8-80bb" name="Аарон Шварцманн" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="1e6d-0d03-21d8-77ec" name="Aaron Schwartzmann" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="1e6d-0d03-21d8-77ec" name="Аарон Шварцманн" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">3</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">4(5)</characteristic>
@@ -2554,7 +2554,7 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
           <description>Aaron se considera Mariscal en su banda del V Рейх, por lo que podrá usar la regla especial Cadena de Mando.</description>
         </rule>
         <rule id="ecef-246e-b90b-1cf4" name="Maestro estratega" hidden="false">
-          <description>Aaron no sólo se considera Mariscal en su banda del V Рейх, por lo que podrá usar la regla especial Cadena de Mando. Además, una vez por Turno de juego, una de sus órdenes a través del Walkie-talkie servirá para que la miniatura receptora pueda utilizar dos Действия en lugar de una.
+          <description>Aaron no sólo se considera Mariscal en su banda del V Рейх, por lo que podrá usar la regla especial Cadena de Mando. Además, una vez por Turno de juego, una de sus órdenes a través del Рация servirá para que la miniatura receptora pueda utilizar dos Действия en lugar de una.
 </description>
         </rule>
         <rule id="9308-dd1b-2fe0-674e" name="Amado lider" hidden="false">
@@ -2563,8 +2563,8 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="a720-6451-5d90-adac" name="Montada" hidden="false" targetId="2b7b-1ce2-7d18-7832" type="rule"/>
-        <infoLink id="18bf-6221-3670-8f0c" name="Raudo" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
+        <infoLink id="a720-6451-5d90-adac" name="Всадник" hidden="false" targetId="2b7b-1ce2-7d18-7832" type="rule"/>
+        <infoLink id="18bf-6221-3670-8f0c" name="Быстрый" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4741-a037-f912-e372" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
@@ -2595,7 +2595,7 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9c53-96dc-f1fa-1d15" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="3492-ca92-b95a-a44d" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="05f8-01fe-6c3c-c869" type="selectionEntry">
+        <entryLink id="3492-ca92-b95a-a44d" name="Рация" hidden="false" collective="false" import="true" targetId="05f8-01fe-6c3c-c869" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8d49-4257-9f24-d1b7" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="84b2-7c11-75ec-5dfa" type="min"/>
@@ -2606,7 +2606,7 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="05f8-01fe-6c3c-c869" name="Walkie-talkie" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="05f8-01fe-6c3c-c869" name="Рация" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
@@ -2620,9 +2620,9 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry id="d791-bf9f-07f8-2ac7" name="Ilse, la Loba del V Рейх" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d791-bf9f-07f8-2ac7" name="Илза, волчица V Рейх" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="a0bc-4e5a-b383-5d17" name="Ilse, la Loba del V Рейх" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="a0bc-4e5a-b383-5d17" name="Илза, волчица V Рейх" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
@@ -2637,7 +2637,7 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
       </profiles>
       <rules>
         <rule id="6a68-1eb9-91cb-131b" name="Cazadora de Мутарды" hidden="false">
-          <description>La loba del V Рейх tiene predilección por enfrentarse a los desechos mutados del Páramo, y lo dará todo por acabar con ellos. Cuando se utilice en una partida contra Мутарды, contará con las Специальные правила Bersérker y Sed de sangre.</description>
+          <description>La loba del V Рейх tiene predilección por enfrentarse a los desechos mutados del Páramo, y lo dará todo por acabar con ellos. Cuando se utilice en una partida contra Мутарды, contará con las Специальные правила Bersérker y Жажда крови.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -2706,8 +2706,8 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
       <description>Un arma con esta regla podrá disparar 3 veces por Acción (siempre que tenga Боеприпасы) contra el mismo objetivo. El jugador debe decidir si usa este modo antes de disparar, y deberá realizarse una tirada de Точность independiente por cada disparo.</description>
     </rule>
     <rule id="f055-4432-2138-4482" name="Огнестрельное" hidden="false">
-      <comment>Estas armas no llevan incluida Боеприпасы y las Пули han de ser adquiridas a parte.</comment>
-      <description>Estas armas no llevan incluida Боеприпасы y las Пули han de ser adquiridas a parte.</description>
+      <comment>Estas Вооружение no llevan incluida Боеприпасы y las Пули han de ser adquiridas a parte.</comment>
+      <description>Estas Вооружение no llevan incluida Боеприпасы y las Пули han de ser adquiridas a parte.</description>
     </rule>
     <rule id="f7de-13c0-671c-f4c9" name="Громоздкое" hidden="false">
       <comment>Los objetos con esta regla especial son aparatosos de llevar y no es fácil moverse con ellos. Proporcionan un penalizador de -1 a la Ловкость de la miniatura. No es posible estar equipado con más de un objeto con esta regla.</comment>
@@ -2717,114 +2717,114 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
       <description>Una miniatura con esta regla especial es tan agresiva o fanática que parece no darse cuenta que ha resultado abatida hasta que es demasiado tarde para el bienestar de sus rivales.
 La miniatura puede actuar un turno propio posterior a resultar muerta. Al final de ese Turno de Acción, si acaba el último turno de la partida o si resulta herida de nuevo (lo que antes suceda), se considerará una baja definitiva.</description>
     </rule>
-    <rule id="62df-a648-a2b4-daef" name="Bestia" hidden="false">
+    <rule id="62df-a648-a2b4-daef" name="Зверь" hidden="false">
       <description> Una  miniatura  con  esta  regla  no  puede  disputar  objetivos  en  las  misiones  que  los  contengan,  ni  Retrasar su Turno de Acción, y es incapaz de escalar superficies verticales, ni siquiera por una escalerilla. Además, no podrá Rapiñar un cadáver ni Activar ningún tipo de aparato. </description>
     </rule>
-    <rule id="abe6-8560-35f8-6bc9" name="Bombeo" hidden="false">
-      <description>Una miniatura con un arma con esta regla especial puede gastar Действия “bombeando el arma”. Por cada Acción empleada, el jugador coloca  tres marcadores de +1 a Fue, +1 Pen o +10 cm de Дистанция a todos sus rangos de alcance. Cuando la miniatura dispare, estos modificadores se gastan modificando el Профиль del arma.
-Un arma con esta regla puede acumular un máximo de 5 marcadores en un mismo atributo. Sin embargo bombearla tanto la vuelve inestable: si es disparada utilizando 3 o más marcadores en el mismo Atributo, seguirá la regla especial ¡¡¡CATAPUM!!!.</description>
+    <rule id="abe6-8560-35f8-6bc9" name="Помповый" hidden="false">
+      <description>Una miniatura con un arma con esta regla especial puede Газtar Действия “bombeando el arma”. Por cada Acción empleada, el jugador coloca  tres marcadores de +1 a Fue, +1 Pen o +10 cm de Дистанция a todos sus rangos de alcance. Cuando la miniatura dispare, estos modificadores se Газtan modificando el Профиль del arma.
+Un arma con esta regla puede acumular un máximo de 5 marcadores en un mismo atributo. Sin embargo bombearla tanto la vuelve inestable: si es disparada utilizando 3 o más marcadores en el mismo Atributo, seguirá la regla especial КАБУМ!!.</description>
     </rule>
-    <rule id="90ac-2e29-a275-3472" name="Camuflaje" hidden="false">
+    <rule id="90ac-2e29-a275-3472" name="Камуфляж" hidden="false">
       <description>Algunas miniaturas son difíciles de distinguir del entorno. Las miniaturas que disparen contra una miniatura con esta regla especial, sufrirán un -2 adicional a la Точность en las tiradas para evitar Cobertura (lo que hace un total de -5).</description>
     </rule>
-    <rule id="cdd8-9848-16bd-ac76" name="¡¡¡CATAPUM!!!" hidden="false">
+    <rule id="cdd8-9848-16bd-ac76" name="КАБУМ!!" hidden="false">
       <description>A la hora de disparar un arma o Боеприпасы con esta regla especial, con un resultado de 9 o 10 en la tirada de Точность habrá una explosión interna: el disparo fallará automáticamente y el arma quedará inutilizada durante el resto de la partida. Si por alguna razón el impacto fuese Автоматическое (por tener una tirada de Точность 10 gracias a modificadores, por ejemplo), habrá que realizar igualmente la tirada de d10 para ver si se aplica esta regla. Con el resto de resultados funcionará normalmente, independientemente de que consiga impactar o no.</description>
     </rule>
     <rule id="2cba-69f0-d606-47a7" name="Descarga" hidden="false">
-      <description>Un arma con esta regla especial ignora Броняs. Al necesitar energía eléctrica, sólo se puede usar si la miniatura que usa el arma está equipada con un traje voltaico.</description>
+      <description>Un arma con esta regla especial ignora Броняs. Al necesitar energía eléctrica, sólo se puede usar si la miniatura que usa el arma está equipada con un Электро костюм.</description>
     </rule>
-    <rule id="87de-baf3-231c-a9cb" name="Electrificación" hidden="false">
+    <rule id="87de-baf3-231c-a9cb" name="Электрическое" hidden="false">
       <description>Si una miniatura impacta en cuerpo a cuerpo a alguien con un objeto con esta regla especial, o usa un Acción para activar un objeto con esta regla, deberá realizar una tirada de Стойкость. En caso de fallarla, la descarga eléctrica lo habrá dejado tan mermado que sufrirá un penalizador de -3 en los atributos de Ближний бой, Точность y Ловкость hasta que finalice su siguiente Turno de Acción.</description>
     </rule>
     <rule id="5262-ab17-7ea7-f682" name="Редкое" hidden="false">
-      <description>Cualquiera puede encontrar un palo en el Páramo, pero algunas armas son Редкоеs y es más complicado hacerse con ellas o construirlas. Un arma con esta regla sólo puede repetirse 3 veces en una misma banda.</description>
+      <description>Cualquiera puede encontrar un palo en el Páramo, pero algunas Вооружение son Редкоеs y es más complicado hacerse con ellas o construirlas. Un arma con esta regla sólo puede repetirse 3 veces en una misma banda.</description>
     </rule>
-    <rule id="cbbf-9db9-e05d-6ad8" name="Gas" hidden="false">
-      <description>Estas armas explotan al impactar, alcanzando a toda miniatura tocada por su efecto en un radio de 5 cm. medido desde el punto de impacto.
+    <rule id="cbbf-9db9-e05d-6ad8" name="Газ" hidden="false">
+      <description>Estas Вооружение explotan al impactar, alcanzando a toda miniatura tocada por su efecto en un radio de 5 cm. medido desde el punto de impacto.
 Toda miniatura alcanzada por el efecto de un arma con esta regla deberá realizar una Tirada de Стойкость o perder un punto de Стойкость inmediata y permanentemente. Los Мутарды, debido a su habitual exposición a zonas contaminadas, reciben un bonificador de +2 a su Стойкость en esta tirada. Toda miniatura equipada con Protección contra la contaminación superará automáticamente esta tirada.
 Además, toda miniatura alcanzada contará todas sus Действия en su siguiente turno de acción como si estuviera sobre terreno Chungo.</description>
     </rule>
-    <rule id="8c0f-35c4-4745-cfb6" name="Grupal" hidden="false">
+    <rule id="8c0f-35c4-4745-cfb6" name="Стая" hidden="false">
       <description>Hay criaturas que tienen cierta mentalidad colectiva que les hace ir en grupo siempre que pueden. Las miniaturas con esta regla especial deben ir unidas hasta formar un grupo mínimo de 2 y máximo de 5. Por encima de este número formarán otro grupo, y así sucesivamente. Por ejemplo, si una banda de Мутарды tiene 8 pochos, éstos deben ir en un grupo de 5 y otro de 3, o dos grupos de 4.
-Al terminar un turno, ninguna miniatura de un grupo debe estar separada más de 5 cm de la más cercana ni más de 15 cm de la más lejana cualesquiera. Si por alguna circunstancia esto ocurriera (como que una miniatura del grupo resultara abatida), el subgrupo que haya quedado con menos miniaturas separadas debe gastar sus siguientes Действия únicamente en intentar unirse de nuevo al grupo más numeroso.Las miniaturas se consideran una sola para la mayoría de los efectos de juego, como el máximo de miniaturas, el despliegue o el movimiento. De esta manera cuando llegue su Turno de Acción moverán todas las de un grupo a la vez, por lo que no se podrá empezar el Turno de Acción de otra miniatura hasta que el grupo al completo haya realizado sus Действия. Si una miniatura del grupo está involucrada en un Ближний бой, se considerará que todo el grupo participa en ese Ближний бой como si de una única miniatura se tratara incluyendo los penalizadores al enemigo por estar en superioridad numérica en el Ближний бой. Sin embargo, hay que tener en cuenta que el grupo obtendrá un bonificador de +1 al Ближний бой por cada miniatura por encima de la primera que lo conforme. Por ejemplo, un grupo de 4 pochos enfrentándose en Ближний бой a un enemigo realizará una
+Al terminar un turno, ninguna miniatura de un grupo debe estar separada más de 5 cm de la más cercana ni más de 15 cm de la más lejana cualesquiera. Si por alguna circunstancia esto ocurriera (como que una miniatura del grupo resultara abatida), el subgrupo que haya quedado con menos miniaturas separadas debe Газtar sus siguientes Действия únicamente en intentar unirse de nuevo al grupo más numeroso.Las miniaturas se consideran una sola para la mayoría de los efectos de juego, como el máximo de miniaturas, el despliegue o el movimiento. De esta manera cuando llegue su Turno de Acción moverán todas las de un grupo a la vez, por lo que no se podrá empezar el Turno de Acción de otra miniatura hasta que el grupo al completo haya realizado sus Действия. Si una miniatura del grupo está involucrada en un Ближний бой, se considerará que todo el grupo participa en ese Ближний бой como si de una única miniatura se tratara incluyendo los penalizadores al enemigo por estar en superioridad numérica en el Ближний бой. Sin embargo, hay que tener en cuenta que el grupo obtendrá un bonificador de +1 al Ближний бой por cada miniatura por encima de la primera que lo conforme. Por ejemplo, un grupo de 4 pochos enfrentándose en Ближний бой a un enemigo realizará una
 sola tirada enfrentada con un atributo de Ближний бой de 4 (1 de base + 3 por contar con 3 pochos por encima del primero). </description>
     </rule>
-    <rule id="a11d-eaca-4efa-8fe5" name="Herrumbre" hidden="false">
+    <rule id="a11d-eaca-4efa-8fe5" name="Ржавчина" hidden="false">
       <description>Un arma con esta regla especial estará oxidada y mellada, por lo que sufrirá un penalizador de -1 a su Пробитие.</description>
     </rule>
-    <rule id="360a-2d15-a3ee-e55f" name="Humo" hidden="false">
-      <description>Cuando un arma esta regla impacte, dejará un marcador de humo de 5 cm de radio, medido desde el punto de impacto.
-Los disparos cuya línea de visión pasen sobre este marcador sufrirán un penalizador de -3 a la tirada de Точность. Este marcador será permanente. Toda miniatura que atraviese un marcador de humo durante un Asalto perderá todos los bonificadores al Ближний бой.
-Por ejemplo, un Dinamo lanza una bomba de humo en la ronda de Ловкость 3, por lo que el marcador de la bomba permanecerá sobre la mesa de juego hasta finalizar la Ronda de Ловкость 3 del Turno de juego siguiente.</description>
+    <rule id="360a-2d15-a3ee-e55f" name="Дым" hidden="false">
+      <description>Cuando un arma esta regla impacte, dejará un marcador de Дым de 5 cm de radio, medido desde el punto de impacto.
+Los disparos cuya línea de visión pasen sobre este marcador sufrirán un penalizador de -3 a la tirada de Точность. Este marcador será permanente. Toda miniatura que atraviese un marcador de Дым durante un AПрыжок perderá todos los bonificadores al Ближний бой.
+Por ejemplo, un Динамо lanza una Дымовая бомба en la ronda de Ловкость 3, por lo que el marcador de la bomba permanecerá sobre la mesa de juego hasta finalizar la Ronda de Ловкость 3 del Turno de juego siguiente.</description>
     </rule>
-    <rule id="553e-d8db-0834-40db" name="Ignífugo" hidden="false">
-      <description>Una miniatura equipada con un Броня con esta regla ignorará los efectos de los marcadores de Incendiaria.</description>
+    <rule id="553e-d8db-0834-40db" name="Огнеупорное" hidden="false">
+      <description>Una miniatura equipada con un Броня con esta regla ignorará los efectos de los marcadores de Зажигательное.</description>
     </rule>
-    <rule id="1208-22c9-c2ea-9ffb" name="Incendiaria" hidden="false">
-      <description>Las armas incendiarias cubren de llamas la zona allí donde impactan, obligando a los rivales a salir de cobertura o haciendo muy arriesgado cruzar ciertas zonas.
-Las armas incendiarias explotan al impactar, dejando un marcador permanente de fuego de 5 cm de radio.Toda miniatura impactada con un arma incendiaria recibirá un impacto de de Pen 3 Fue 2, que ignora cualquier tipo de bonificación por cobertura, y deberá desplazarse inmediatamente fuera del rango de Acción del marcador de fuego y nunca hacia el rival que ha efectuado el ataque. 
-Cualquier miniatura que durante el transcurso de una Acción de Movimiento contacte con un marcador de Fuego sufrirá un impacto de Pen 3 Fue 2. Una miniatura sufrirá los efectos del fuego sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador. Por otra parte, si una miniatura tiene algún arma incendiaria y resulta abatida, UNA de estas armas detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado. Además, todo el equipo que lleve habrá resultado destruido y no podrá ser usado por otra miniatura.</description>
+    <rule id="1208-22c9-c2ea-9ffb" name="Зажигательное" hidden="false">
+      <description>Las Вооружение Зажигательноеs cubren de llamas la zona allí donde impactan, obligando a los rivales a salir de cobertura o haciendo muy arriesgado cruzar ciertas zonas.
+Las Вооружение Зажигательноеs explotan al impactar, dejando un marcador permanente de Огонь de 5 cm de radio.Toda miniatura impactada con un arma Зажигательное recibirá un impacto de de Pen 3 Fue 2, que ignora cualquier tipo de bonificación por cobertura, y deberá desplazarse inmediatamente fuera del rango de Acción del marcador de Огонь y nunca hacia el rival que ha efectuado el ataque.
+Cualquier miniatura que durante el transcurso de una Acción de Movimiento contacte con un marcador de Огонь sufrirá un impacto de Pen 3 Fue 2. Una miniatura sufrirá los efectos del Огонь sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador. Por otra parte, si una miniatura tiene algún arma Зажигательное y resulta abatida, UNA de estas Вооружение detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado. Además, todo el Оборудование que lleve habrá resultado destruido y no podrá ser usado por otra miniatura.</description>
     </rule>
-    <rule id="93da-07f7-86e0-5a60" name="Infiltración" hidden="false">
+    <rule id="93da-07f7-86e0-5a60" name="Инфильтрация" hidden="false">
       <description>Una miniatura con esta regla especial no desplegará con el resto de miniaturas. En su lugar se  supone  que  avanza  10  cm  por  turno  desde  su  zona  de  despliegue,  pudiendo  aparecer  al  principio  de  cualquier turno posterior al primero hasta un máximo del cuarto turno. Desplegará en cualquier lugar del tablero, a no menos de 15 cm de cualquier miniatura enemiga, y en un lugar donde ninguna miniatura enemiga pueda trazar línea de visión hacia ella. Esto significa que si por ejemplo apareciera en el cuarto turno, podría situarse en cualquier lugar hasta a 30 cm de su zona de despliegue (10 cm por cada turno anterior).</description>
     </rule>
-    <rule id="93e2-9b71-26df-289d" name="Перезарядка(1)" hidden="false">
-      <description>Un arma con esta regla especial necesita de una Acción para ser recargada después de ser disparada. Estas armas comienzan la partida cargadas. Si el arma fuese de cuerpo a cuerpo, los bonificadores del arma se aplican sólo a la primera Acción de Ближний бой en la que consiga impactar. Acto seguido, este arma contará como descargada.
-En las siguientes Действия de Ближний бой del Turno de Acción se podrán aplicar los modificadores de cualquier otro arma que posea la miniatura (contraviniendo las Правила habituales por poseer dos armas en un Ближний бой) o de Импровизированное оружие si este arma ya descargada fuese la única que pueda o quiera emplear.</description>
+    <rule id="93e2-9b71-26df-289d" name="Перезарядка(Х)" hidden="false">
+      <description>Un arma con esta regla especial necesita de una Acción para ser recargada después de ser disparada. Estas Вооружение comienzan la partida cargadas. Si el arma fuese de cuerpo a cuerpo, los bonificadores del arma se aplican sólo a la primera Acción de Ближний бой en la que consiga impactar. Acto seguido, este arma contará como descargada.
+En las siguientes Действия de Ближний бой del Turno de Acción se podrán aplicar los modificadores de cualquier otro arma que posea la miniatura (contraviniendo las Правила habituales por poseer dos Вооружение en un Ближний бой) o de Импровизированное оружие si este arma ya descargada fuese la única que pueda o quiera emplear.</description>
     </rule>
-    <rule id="ce05-a9cc-7084-f1ce" name="Mamotreto" hidden="false">
-      <description>Un arma con esta regla tiene un tamaño tan descomunal, que no sólo deben utilizarse las dos manos para manejarla, sino que además una miniatura equipada con ella no podrá equiparse con ninguna otra arma. Por otro lado, si el arma es de Дистанция, debido a la envergadura y peso de esta contará como una Тяжёлая булава con con la regla especial Herrumbre al ser utilizada en Ближний бой cuerpo a cuerpo.</description>
+    <rule id="ce05-a9cc-7084-f1ce" name="Большое" hidden="false">
+      <description>Un arma con esta regla tiene un tamaño tan descomunal, que no sólo deben utilizarse las dos manos para manejarla, sino que además una miniatura equipada con ella no podrá equiparse con ninguna otra arma. Por otro lado, si el arma es de Дистанция, debido a la envergadura y peso de esta contará como una Тяжёлая булава con con la regla especial Ржавчина al ser utilizada en Ближний бой cuerpo a cuerpo.</description>
     </rule>
-    <rule id="5320-1a90-b6d7-b184" name="Mónguer" hidden="false">
+    <rule id="5320-1a90-b6d7-b184" name="Монг" hidden="false">
       <description>Hay luchadores especialmente cortos de mente. Una miniatura con esta regla no puede disputar objetivos en las misiones que los contengan ni Retrasar su Turno de Acción. Además, no podrá Rapiñar un cadáver ni Activar ningún tipo de aparato. </description>
     </rule>
-    <rule id="2b7b-1ce2-7d18-7832" name="Montada" hidden="false">
-      <description>Una  miniatura  con  esta  regla  va  montada  sobre  un  animal  o  un  pequeño  vehículo.  No  puede  disputar objetivos en las misiones que los contenga y es incapaz de escalar superficies verticales, ni siquiera por una escalerilla. Además, ya que es difícil disparar mientras se monta, cualquier arma con la que dispare contará con la regla especial Трудно использовать.</description>
+    <rule id="2b7b-1ce2-7d18-7832" name="Всадник" hidden="false">
+      <description>Una  miniatura  con  esta  regla  va  Всадник  sobre  un  animal  o  un  pequeño  vehículo.  No  puede  disputar objetivos en las misiones que los contenga y es incapaz de escalar superficies verticales, ni siquiera por una escalerilla. Además, ya que es difícil disparar mientras se monta, cualquier arma con la que dispare contará con la regla especial Трудно использовать.</description>
     </rule>
-    <rule id="184c-9445-2e07-d89d" name="Muy Перезарядка(1)" hidden="false">
-      <description>Un  arma  con  esta  regla  especial  necesita  dos  Действия  para  ser  recargada  después  de  ser  disparada (no necesariamente consecutivas). Estas armas comienzan la partida cargadas. Si el arma fuese de cuerpo a cuerpo, los bonificadores del arma se aplican sólo a la primera Acción de Ближний бой en la que consiga impactar. Acto seguido, este arma contará como descargada.
-En las siguientes Действия de Ближний бой del Turno de Acción se podrán aplicar los modificadores de cualquier otro arma que posea la miniatura (contraviniendo las Правила habituales por poseer dos armas en un Ближний бой) o de Импровизированное оружие si este arma ya descargada fuese la única que pueda o quiera emplear.</description>
+    <rule id="184c-9445-2e07-d89d" name="Перезарядка(2)" hidden="false">
+      <description>Un  arma  con  esta  regla  especial  necesita  dos  Действия  para  ser  recargada  después  de  ser  disparada (no necesariamente consecutivas). Estas Вооружение comienzan la partida cargadas. Si el arma fuese de cuerpo a cuerpo, los bonificadores del arma se aplican sólo a la primera Acción de Ближний бой en la que consiga impactar. Acto seguido, este arma contará como descargada.
+En las siguientes Действия de Ближний бой del Turno de Acción se podrán aplicar los modificadores de cualquier otro arma que posea la miniatura (contraviniendo las Правила habituales por poseer dos Вооружение en un Ближний бой) o de Импровизированное оружие si este arma ya descargada fuese la única que pueda o quiera emplear.</description>
     </rule>
-    <rule id="c1df-d08b-4d05-bd0d" name="Plantilla" hidden="false">
-      <description>Un arma con esta regla impactará automáticamente a cualquier miniatura tocada por la plantilla correspondiente cuando dispare, sin necesidad de realizar tirada de Точность, y además ignorará cualquier bonificador  por  cobertura.  La  plantilla  deberá  colocarse  en  contacto    con  la  miniatura  que  la  dispara  en  cualquier posición  en los 180° de su Línea de visión.
-No podrá usarse Fuego defensivo con arma  con esta regla y además si se impacta a una miniatura en Ближний бой, serán impactadas todas las miniaturas involucradas en este, aunque no  sean tocadas por la plantilla.</description>
+    <rule id="c1df-d08b-4d05-bd0d" name="Шаблон" hidden="false">
+      <description>Un arma con esta regla impactará automáticamente a cualquier miniatura tocada por la Шаблон correspondiente cuando dispare, sin necesidad de realizar tirada de Точность, y además ignorará cualquier bonificador  por  cobertura.  La  Шаблон  deberá  colocarse  en  contacto    con  la  miniatura  que  la  dispara  en  cualquier posición  en los 180° de su Línea de visión.
+No podrá usarse Огонь defensivo con arma  con esta regla y además si se impacta a una miniatura en Ближний бой, serán impactadas todas las miniaturas involucradas en este, aunque no  sean tocadas por la Шаблон.</description>
     </rule>
     <rule id="3024-745a-5aa2-9b8b" name="Дробь" hidden="false">
       <description>Un arma a Дистанция con esta regla especial concederá un bonificador de +1 a la Точность a los disparos que se realicen con ella. Además, debido a la dispersión de sus disparos, no es posible tratar de evitar una cobertura al disparar. Ni apuntar a una miniatura en particular en un Ближний бой, al que se disparará sin penalizadores, pero siendo impactadas todas las miniaturas involucradas en caso de éxito.</description>
     </rule>
-    <rule id="f4a1-7d89-1648-d18a" name="Raudo" hidden="false">
+    <rule id="f4a1-7d89-1648-d18a" name="Быстрый" hidden="false">
       <description>Hay criaturas más rápidas de lo habitual. Una miniatura con esta regla especial puede mover 15 cm en lugar de 10 cm por Acción de movimiento. </description>
     </rule>
-    <rule id="0a2b-c4f1-882a-d932" name="Salto" hidden="false">
-      <description>Una miniatura con esta regla especial puede utilizar su movimiento de manera tridimensional, moviéndose en cualquier dirección (siempre que la escenografía se lo permita, claro). Eso sí, debe finalizar su movimiento posándose en un lugar donde pueda estar de pie. Pueden combinarse varias Действия seguidas de movimiento en un mismo Turno de Acción, para hacer un “súper salto”, en cuyo caso sólo al final de la última Acción de movimiento tendrá que posarse, pudiendo usarlo también para asaltar.</description>
+    <rule id="0a2b-c4f1-882a-d932" name="Прыжок" hidden="false">
+      <description>Una miniatura con esta regla especial puede utilizar su movimiento de manera tridimensional, moviéndose en cualquier dirección (siempre que la escenografía se lo permita, claro). Eso sí, debe finalizar su movimiento posándose en un lugar donde pueda estar de pie. Pueden combinarse varias Действия seguidas de movimiento en un mismo Turno de Acción, para hacer un “súper Прыжок”, en cuyo caso sólo al final de la última Acción de movimiento tendrá que posarse, pudiendo usarlo también para asaltar.</description>
     </rule>
-    <rule id="afbb-7dad-92c2-554c" name="Sed de sangre" hidden="false">
+    <rule id="afbb-7dad-92c2-554c" name="Жажда крови" hidden="false">
       <description>Siempre que una miniatura con esta regla especial tenga Línea de visión con una miniatura enemiga, deberá dirigirse de la manera más corta posible hacia ella, hasta llegar al Ближний бой. Si hubiera más de una miniatura enemiga, deberá avanzar hacia la más cercana (tirando al azar si estuvieran a la misma Дистанция). No podrá usar nunca una Acción para Separarse del Ближний бой.</description>
     </rule>
     <rule id="ab2e-6119-c6f9-28fe" name="Непрямое оружие" hidden="false">
       <description>Un arma con esta regla especial no seguirá las Правила habituales de disparo. Se tirará para impactar de manera habitual, pero si falla, se desviará del objetivo 2,5 cm por cada diferencia de 2 en la tirada. De esta manera, si fallara por una diferencia de 1 o 2, se desviaría 2,5 cm, pero si fallara por un diferencia de 7 o 8 se desviaría 10 cm. La desviación será hacia adelante si la tirada de Точность fue par, y hacia atrás si la tirada fue impar. Nunca podrá desviarse más atrás que la miniatura que usa el arma, si lo hiciera, se considerará que le ha caído justo encima (quizás se le resbaló de la mano).
 Un arma con esta regla especial puede tomar como objetivo no sólo una miniatura rival, también un punto del terreno de juego o de escenografía dentro de su alcance y en la línea de visión метателя (aunque el posterior desvío del proyectil pueda acabar fuera de ellos).
-Un arma con esta regla especial no tiene modificadores a Точность por Дистанция. No se puede Apuntar con un Непрямое оружие, pero sí preparar Fuego defensivo.</description>
+Un arma con esta regla especial no tiene modificadores a Точность por Дистанция. No se puede Apuntar con un Непрямое оружие, pero sí preparar Огонь defensivo.</description>
     </rule>
-    <rule id="a662-52ec-031c-0620" name="Todoterreno" hidden="false">
+    <rule id="a662-52ec-031c-0620" name="Внедорожник" hidden="false">
       <description>Una  miniatura  con  esta  regla  considera  el  Terreno  pila  chungo  como  Terreno  chungo,  y  el  Terreno chungo como Terreno normal.</description>
     </rule>
-    <rule id="27b8-89f5-8007-e446" name="Trepador" hidden="false">
+    <rule id="27b8-89f5-8007-e446" name="Альпинист" hidden="false">
       <description>Una miniatura con esta regla especial tiene un +3 a las tiradas de Ловкость realizadas en el movimiento de Trepar, o a chequeos de Terreno chungo al subir o bajar una escalerilla.</description>
     </rule>
-    <rule id="de60-3cb9-6ad5-8427" name="Usar y tirar" hidden="false">
+    <rule id="de60-3cb9-6ad5-8427" name="Одноразовое" hidden="false">
       <description>Un  arma  con  esta  regla  especial  sólo  podrá  utilizarse  en  una  única  ocasión  durante  toda  la  partida.</description>
     </rule>
-    <rule id="2d93-a761-e914-9a8b" name="Vapor" hidden="false">
+    <rule id="2d93-a761-e914-9a8b" name="Пар" hidden="false">
       <description>Un arma con esta regla especial funciona de manera diferente al resto. Para impactar no será necesaria una tirada de Точность, sino que todo aquél que se encuentre en una línea recta y dentro del alcance del arma será impactado automáticamente (siempre que el arma funcione correctamente).
-Para disparar habrá que realizar una tirada de Техника. Siempre que se supere la tirada, impactará a las miniaturas que toque esa línea recta imaginaria, con una Сила igual a la diferencia por la que haya superado la tirada +1. De esta manera, una miniatura con Техника 6 que use el arma y que por ejemplo saque un 4, impactará con Fue 3, y si sacara un 2, lo haría con Fue 5. Sin embargo, si no se supera la tirada, habrá sufrido una fuga de vapor, y será el propietario del arma quien sufra el impacto. En esta ocasión, la Сила del arma vendrá indicada por la diferencia por la que haya fallado la tirada. De esta manera, la miniatura de antes de Техника 6, si por ejemplo hubiera sacado un 8, sufriría un impacto de Fue 2.
-Un arma con esta regla especial ignora totalmente el Броня y la cobertura. Además no será posible Apuntar con estas armas, pero sí realizar Fuego defensivo con el penalizador de -2 a la tirada de Техника en lugar de Точность.</description>
+Para disparar habrá que realizar una tirada de Техника. Siempre que se supere la tirada, impactará a las miniaturas que toque esa línea recta imaginaria, con una Сила igual a la diferencia por la que haya superado la tirada +1. De esta manera, una miniatura con Техника 6 que use el arma y que por ejemplo saque un 4, impactará con Fue 3, y si sacara un 2, lo haría con Fue 5. Sin embargo, si no se supera la tirada, habrá sufrido una fuga de Пар, y será el propietario del arma quien sufra el impacto. En esta ocasión, la Сила del arma vendrá indicada por la diferencia por la que haya fallado la tirada. De esta manera, la miniatura de antes de Техника 6, si por ejemplo hubiera sacado un 8, sufriría un impacto de Fue 2.
+Un arma con esta regla especial ignora totalmente el Броня y la cobertura. Además no será posible Apuntar con estas Вооружение, pero sí realizar Огонь defensivo con el penalizador de -2 a la tirada de Техника en lugar de Точность.</description>
     </rule>
-    <rule id="97bf-1096-634d-1c46" name="Veneno (X)" hidden="false">
-      <description>Cuando una miniatura es impactada por otra miniatura o arma con esta regla especial podrá sufrir daño incluso tras haber superado su tirada de Стойкость. El Turno de Acción posterior a superar la tirada, justo antes de realizar sus Действия, deberá superar una tirada enfrentada de Стойкость contra la potencia del veneno (el número indicado entre paréntesis) o habrá muerto.</description>
+    <rule id="97bf-1096-634d-1c46" name="Яд (X)" hidden="false">
+      <description>Cuando una miniatura es impactada por otra miniatura o arma con esta regla especial podrá sufrir daño incluso tras haber superado su tirada de Стойкость. El Turno de Acción posterior a superar la tirada, justo antes de realizar sus Действия, deberá superar una tirada enfrentada de Стойкость contra la potencia del Яд (el número indicado entre paréntesis) o habrá muerto.</description>
     </rule>
     <rule id="8f21-22d6-76dd-f412" name="Трудно использовать" hidden="false">
-      <description>Algunas armas no son sencillas de utilizar. Un arma con esta regla especial penalizará con un -1 a la Точность a los disparos que se realicen con ella.</description>
+      <description>Algunas Вооружение no son sencillas de utilizar. Un arma con esta regla especial penalizará con un -1 a la Точность a los disparos que se realicen con ella.</description>
     </rule>
     <rule id="405d-a031-7091-aa3b" name="Единственный и неповторимый" hidden="false">
       <description>Si  ambos  jugadores  se  presentan a jugar con el mismo mercenario en su banda, ¡uno de ellos es un impostor miserable! No hay cosa que dé más asco en el Páramo que un poser de mierda, así que el jugador que venza en la partida habrá demostrado que su mercenario era el auténtico de verdad y podrá patearle las pelotas al perdedor sin piedad.</description>
@@ -2835,14 +2835,14 @@ Un arma con esta regla especial ignora totalmente el Броня y la cobertura. 
     <rule id="7304-4ab1-aaff-dcef" name="New Rule" hidden="false">
       <description>Единственный и неповторимый</description>
     </rule>
-    <rule id="a6ae-1330-5d6b-6e9b" name="Bombas" hidden="false">
-      <description>Ya  sean  realizadas  con  una  mezcla  de  productos  químicos,  o  con  un  trapo  encendido  en  una  botella  con  combustible,  el  cometido  es  aniquilar  o  debilitar  al  enemigo.  Deben  comprarse  individualmente  hasta  un  máximo  de  cinco.  Una  bomba  no  puede  emplearse  en  Ближний бой  como  Arma  improvisada;  una  miniatura  equipada únicamente con Bombas contará como desarmada en Ближний бой cuerpo a cuerpo. Una miniatura puede equiparse con un máximo de 5 bombas, a elegir entre las tres opciones. A la hora de cuantificarse para la Regla especial Редкое, todas las bombas en una miniatura contarán como una sola.</description>
+    <rule id="a6ae-1330-5d6b-6e9b" name="Бомба" hidden="false">
+      <description>Ya  sean  realizadas  con  una  mezcla  de  productos  químicos,  o  con  un  trapo  encendido  en  una  botella  con  Топливо,  el  cometido  es  aniquilar  o  debilitar  al  enemigo.  Deben  comprarse  individualmente  hasta  un  máximo  de  cinco.  Una  bomba  no  puede  emplearse  en  Ближний бой  como  Arma  improvisada;  una  miniatura  equipada únicamente con Бомба contará como desarmada en Ближний бой cuerpo a cuerpo. Una miniatura puede equiparse con un máximo de 5 Бомба, a elegir entre las tres opciones. A la hora de cuantificarse para la Regla especial Редкое, todas las Бомба en una miniatura contarán como una sola.</description>
     </rule>
-    <rule id="5a4b-79c3-a0d4-aeee" name="Contaminante" hidden="false">
-      <description>Toda miniatura Abatida por un arma con esta regla se considerará una fuente de radiación para las Правила de Radiación.</description>
+    <rule id="5a4b-79c3-a0d4-aeee" name="Заражение" hidden="false">
+      <description>Toda miniatura Abatida por un arma con esta regla se considerará una fuente de Радиация para las Правила de Радиация.</description>
     </rule>
-    <rule id="845f-4f10-86a5-22a8" name="Radiación" hidden="false">
-      <description>Toda miniatura que se encuentre a 20 cm o menos de una o más fuentes de radiación al finalizar su Turno de Acción, o en ocasiones indicadas en las Правила, deberá realizar una tirada de 1d10 aplicando los modificadores que se muestran para ver si ve afectada por la radiación.
+    <rule id="845f-4f10-86a5-22a8" name="Радиация" hidden="false">
+      <description>Toda miniatura que se encuentre a 20 cm o menos de una o más fuentes de Радиация al finalizar su Turno de Acción, o en ocasiones indicadas en las Правила, deberá realizar una tirada de 1d10 aplicando los modificadores que se muestran para ver si ve afectada por la Радиация.
 
 Resultado:
 1o menos: La miniatura resultará inmediatamente Abatida.
@@ -2853,17 +2853,17 @@ Resultado:
 Modificadores:
 +2 si la miniatura es un Mutardo o lleva Protección contra la contaminación.
 +valor de Стойкость de la miniatura.
--1 por cada fuente de radiación a 20 cm o menos por encima de la primera.</description>
+-1 por cada fuente de Радиация a 20 cm o menos por encima de la primera.</description>
     </rule>
-    <rule id="6836-83c2-378e-3fa7" name="Radioinmune" hidden="false">
-      <description>Debido a su tolerancia natural a la radiación, una miniatura con esta regla es inmune a los efectos del Terreno contaminado y la Radiación.</description>
+    <rule id="6836-83c2-378e-3fa7" name="Радиоиммунный" hidden="false">
+      <description>Debido a su tolerancia natural a la Радиация, una miniatura con esta regla es inmune a los efectos del Terreno contaminado y la Радиация.</description>
     </rule>
   </sharedRules>
+  <sharedProfiles>
+   <profile id="7f86-c2b2-b354-222e" name="Импровизированное оружие" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
     <comment>Иногда приходится сражаться всем, что попадётся под руку, будь то пистолет без патронов, камень с земли или кирпич. Они не считаются оружием, но всегда лучше, чем кулаки. Любой тип оружия дальнего боя, на которое не распространяется специальное правило «Двуручное оружие», или разряженное оружие ближнего боя, будет считаться импровизированным оружием при использовании в ближнем бою, если явно не сказано иное.</comment>
     <characteristics>
         <characteristic name="Ближний бой" typeId="3bcb-590f-e624-084f">-1</characteristic>
-        <sharedProfiles>
-          <profile id="7f86-c2b2-b354-222e" name="Импровизированное оружие" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
         <characteristic name="Сила" typeId="959a-27b3-5665-eaae">+0</characteristic>
         <characteristic name="Пробитие" typeId="af0e-e291-c826-bf01">0</characteristic>
         <characteristic name="Специальные правила" typeId="55ae-0d53-f265-651a"/>
@@ -3027,7 +3027,7 @@ Modificadores:
     </profile>
     <profile id="ba01-5084-bc3f-d5d2" name="Бронежилет" hidden="false" typeId="4d97-0106-77f5-4351" typeName="Броня">
       <characteristics>
-        <characteristic name="Броня" typeId="843e-5ab3-2b30-b8a2">3 ó 5/6/7 contra armas con la regla especial Огнестрельное</characteristic>
+        <characteristic name="Броня" typeId="843e-5ab3-2b30-b8a2">3 ó 5/6/7 contra Вооружение con la regla especial Огнестрельное</characteristic>
         <characteristic name="Специальные правила" typeId="6999-0e81-3c21-6d97"/>
       </characteristics>
     </profile>
@@ -3064,7 +3064,7 @@ Modificadores:
         <characteristic name="Специальные правила" typeId="55ae-0d53-f265-651a"/>
       </characteristics>
     </profile>
-    <profile id="9297-9832-23dc-aa6b" name="Capitán Hammerica" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+    <profile id="9297-9832-23dc-aa6b" name="Капитан Хаммерика" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
       <characteristics>
         <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
         <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">6</characteristic>
@@ -3076,39 +3076,39 @@ Modificadores:
         <characteristic name="Специальные правила" typeId="16f0-630c-2894-4e0b">Единственный и неповторимый, Щит reforzado, Hammer Time, Odio a Casco Rojo, Capitán Kraken.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6fd1-9ca5-0a55-5db9" name="Cacharras de oficio" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
+    <profile id="6fd1-9ca5-0a55-5db9" name="Ремонтный набор" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
       <characteristics>
         <characteristic name="Правила" typeId="f042-739d-9839-c439">Una miniatura equipada con estos cachivaches podrá intentar reparar un arma que haya quedado inutilizada tras sufrir un resultado de ¡CATAPUM!, superando una tirada de Техника.</characteristic>
       </characteristics>
     </profile>
-    <profile id="6128-28ce-1bdd-3a25" name="Bomba Incendiaria" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+    <profile id="6128-28ce-1bdd-3a25" name="Зажигательная бомба" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
       <characteristics>
-        <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Редкое, Непрямое оружие, Usar y Tirar, Incendiaria
+        <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Редкое, Непрямое оружие, Usar y Tirar, Зажигательное
 </characteristic>
         <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">Fue x 5 cm</characteristic>
         <characteristic name="Сила" typeId="c02a-4690-9a12-55e4"/>
         <characteristic name="Пробитие" typeId="9563-bb3e-ec5c-02a1"/>
       </characteristics>
     </profile>
-    <profile id="0d3c-1bd6-9a77-9648" name="Bomba de Gas" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+    <profile id="0d3c-1bd6-9a77-9648" name="Газовая бомба" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
       <characteristics>
-        <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Редкое, Непрямое оружие, Usar y Tirar, Gas
+        <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Редкое, Непрямое оружие, Usar y Tirar, Газ
 </characteristic>
         <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">Fue x 5 cm</characteristic>
         <characteristic name="Сила" typeId="c02a-4690-9a12-55e4"/>
         <characteristic name="Пробитие" typeId="9563-bb3e-ec5c-02a1"/>
       </characteristics>
     </profile>
-    <profile id="9e7a-e378-357f-b933" name="Bomba de Humo" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+    <profile id="9e7a-e378-357f-b933" name="Дымовая бомба" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
       <characteristics>
-        <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Редкое, Непрямое оружие, Usar y Tirar, Humo.
+        <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Редкое, Непрямое оружие, Usar y Tirar, Дым.
 </characteristic>
         <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">Fue x 5 cm</characteristic>
         <characteristic name="Сила" typeId="c02a-4690-9a12-55e4"/>
         <characteristic name="Пробитие" typeId="9563-bb3e-ec5c-02a1"/>
       </characteristics>
     </profile>
-    <profile id="aae4-39a2-dd8d-d8ef" name="Chasqueador" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
+    <profile id="aae4-39a2-dd8d-d8ef" name="Электрострекало " hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
       <characteristics>
         <characteristic name="Ближний бой" typeId="3bcb-590f-e624-084f">+2</characteristic>
         <characteristic name="Сила" typeId="959a-27b3-5665-eaae">6</characteristic>
@@ -3116,37 +3116,37 @@ Modificadores:
         <characteristic name="Специальные правила" typeId="55ae-0d53-f265-651a">Descarga, Редкое.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ca3d-b110-3f90-9ed7" name="Traje voltaico" hidden="false" typeId="4d97-0106-77f5-4351" typeName="Броня">
+    <profile id="ca3d-b110-3f90-9ed7" name="Электро костюм" hidden="false" typeId="4d97-0106-77f5-4351" typeName="Броня">
       <characteristics>
         <characteristic name="Броня" typeId="843e-5ab3-2b30-b8a2">2</characteristic>
-        <characteristic name="Специальные правила" typeId="6999-0e81-3c21-6d97">Громоздкое, Elecrtificación, Ignífugo.</characteristic>
+        <characteristic name="Специальные правила" typeId="6999-0e81-3c21-6d97">Громоздкое, Elecrtificación, Огнеупорное.</characteristic>
       </characteristics>
     </profile>
-    <profile id="de00-8f5a-2f4e-3743" name="Puño balístico" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
+    <profile id="de00-8f5a-2f4e-3743" name="Баллистический кулак" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
       <characteristics>
         <characteristic name="Ближний бой" typeId="3bcb-590f-e624-084f">+2</characteristic>
         <characteristic name="Сила" typeId="959a-27b3-5665-eaae">+5</characteristic>
         <characteristic name="Пробитие" typeId="af0e-e291-c826-bf01">2</characteristic>
-        <characteristic name="Специальные правила" typeId="55ae-0d53-f265-651a">Редкое, Muy Перезарядка(1).</characteristic>
+        <characteristic name="Специальные правила" typeId="55ae-0d53-f265-651a">Редкое, Перезарядка(2).</characteristic>
       </characteristics>
     </profile>
-    <profile id="d8f1-2975-9edc-c018" name="Bombeadora" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+    <profile id="d8f1-2975-9edc-c018" name="Пневматическое ружьё" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
       <characteristics>
-        <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Двуручное, Bombeo, Редкое</characteristic>
+        <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Двуручное, Помповый, Редкое</characteristic>
         <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">10/20/30</characteristic>
         <characteristic name="Сила" typeId="c02a-4690-9a12-55e4">1</characteristic>
         <characteristic name="Пробитие" typeId="9563-bb3e-ec5c-02a1">1</characteristic>
       </characteristics>
     </profile>
-    <profile id="5323-e50e-2302-0141" name="Lanzaarpones" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+    <profile id="5323-e50e-2302-0141" name="Гарпун" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
       <characteristics>
-        <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Громоздкое, Редкое, Mamotreto, Muy Перезарядка(1).</characteristic>
+        <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Громоздкое, Редкое, Большое, Перезарядка(2).</characteristic>
         <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">20/40/60</characteristic>
         <characteristic name="Сила" typeId="c02a-4690-9a12-55e4">7</characteristic>
         <characteristic name="Пробитие" typeId="9563-bb3e-ec5c-02a1">10</characteristic>
       </characteristics>
     </profile>
-    <profile id="066d-1214-8701-889f" name="Trabuco" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+    <profile id="066d-1214-8701-889f" name="Мушкетон" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
       <characteristics>
         <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Двуручное, Редкое, Перезарядка(1), Дробь</characteristic>
         <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">10/15/20</characteristic>
@@ -3154,54 +3154,54 @@ Modificadores:
         <characteristic name="Пробитие" typeId="9563-bb3e-ec5c-02a1">2</characteristic>
       </characteristics>
     </profile>
-    <profile id="8217-233d-63af-fccc" name="Vaporeta" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
+    <profile id="8217-233d-63af-fccc" name="Паровая пушка" hidden="false" typeId="7089-c608-3647-16e3" typeName="Дистанционное оружие">
       <characteristics>
-        <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Двуручное, Редкое, Громоздкое, Vapor</characteristic>
+        <characteristic name="Специальные правила" typeId="8a87-25fd-fe02-13e7">Двуручное, Редкое, Громоздкое, Пар</characteristic>
         <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">20</characteristic>
         <characteristic name="Сила" typeId="c02a-4690-9a12-55e4"/>
         <characteristic name="Пробитие" typeId="9563-bb3e-ec5c-02a1"/>
       </characteristics>
     </profile>
-    <profile id="02bf-58f1-ba83-43fc" name="Mira telescópica" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
+    <profile id="02bf-58f1-ba83-43fc" name="Оптический прицелa" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
       <characteristics>
-        <characteristic name="Правила" typeId="f042-739d-9839-c439">Puede aplicarse una mira telescópica a un Винтовка o Пистолет. Esta cambia los modificadores de Дистанция del arma, que pasan a ser -1/+2/+1</characteristic>
+        <characteristic name="Правила" typeId="f042-739d-9839-c439">Puede aplicarse una Оптический прицелa a un Винтовка o Пистолет. Esta cambia los modificadores de Дистанция del arma, que pasan a ser -1/+2/+1</characteristic>
       </characteristics>
     </profile>
-    <profile id="612d-6dda-59da-5e53" name="Barrera psíquica" hidden="false" typeId="bcb2-9ab6-653f-73d4" typeName="Психические способности">
+    <profile id="612d-6dda-59da-5e53" name="Психический барьер" hidden="false" typeId="bcb2-9ab6-653f-73d4" typeName="Психические способности">
       <characteristics>
-        <characteristic name="Правила" typeId="8765-9ab7-6653-db34">Este poder le brinda una barrera de pura energía psíquica que le concede Броня 5 al cabezón. Para usarlo tiene que gastar una acción, y a partir de ese momento permanecerá activo, debiendo mantener una acción cada  turno  de  acción  posterior  para  mantenerlo,  de  manera  que  sólo  dispondría  de  2  Действия  libres.  Al
+        <characteristic name="Правила" typeId="8765-9ab7-6653-db34">Este poder le brinda una barrera de pura energía psíquica que le concede Броня 5 al cabezón. Para usarlo tiene que Газtar una acción, y a partir de ese momento permanecerá activo, debiendo mantener una acción cada  turno  de  acción  posterior  para  mantenerlo,  de  manera  que  sólo  dispondría  de  2  Действия  libres.  Al
 principio de los turnos de acción posteriores puede decidir desactivarlo, no pudiendo volver a activarlo hasta el siguiente turno.</characteristic>
         <characteristic name="Дистанция" typeId="a4bd-0ebd-213a-45f8">--</characteristic>
       </characteristics>
     </profile>
-    <profile id="349e-dd87-99e6-abc6" name="Choque mental" hidden="false" typeId="bcb2-9ab6-653f-73d4" typeName="Психические способности">
+    <profile id="349e-dd87-99e6-abc6" name="Ментальная атака" hidden="false" typeId="bcb2-9ab6-653f-73d4" typeName="Психические способности">
       <characteristics>
         <characteristic name="Правила" typeId="8765-9ab7-6653-db34">El cabezón puede lanzar una onda psíquica que intenta freír el cerebro de un enemigo. Puede usarse para intentar acabar con una miniatura enemiga en línea de visión, que no esté combatiendo. Deberá hacer una tirada enfrentada de su Сила contra la Стойкость del objetivo. Si iguala o supera al rival, la miniatura objetivo habrá sido abatida.</characteristic>
         <characteristic name="Дистанция" typeId="a4bd-0ebd-213a-45f8">15 cm</characteristic>
       </characteristics>
     </profile>
-    <profile id="0065-d20d-6c56-7fae" name="Desarme" hidden="false" typeId="bcb2-9ab6-653f-73d4" typeName="Психические способности">
+    <profile id="0065-d20d-6c56-7fae" name="Разоружить" hidden="false" typeId="bcb2-9ab6-653f-73d4" typeName="Психические способности">
       <characteristics>
-        <characteristic name="Правила" typeId="8765-9ab7-6653-db34">Gracias a la telequinesis, el cabezón puede intentar desarmar a una miniatura enemiga en línea de visión, que no esté combatiendo. Para evitar ser desarmada, la miniatura afectada deberá superar una tirada de Сила. Si la falla, una de sus armas (a elección del cabezón) caerá al suelo, y deberá gastar una acción si quiere recogerla.</characteristic>
+        <characteristic name="Правила" typeId="8765-9ab7-6653-db34">Gracias a la telequinesis, el cabezón puede intentar desarmar a una miniatura enemiga en línea de visión, que no esté combatiendo. Para evitar ser desarmada, la miniatura afectada deberá superar una tirada de Сила. Si la falla, una de sus Вооружение (a elección del cabezón) caerá al suelo, y deberá Газtar una acción si quiere recogerla.</characteristic>
         <characteristic name="Дистанция" typeId="a4bd-0ebd-213a-45f8">30 cm</characteristic>
       </characteristics>
     </profile>
-    <profile id="e6bc-ab40-354e-3794" name="Potenciación" hidden="false" typeId="bcb2-9ab6-653f-73d4" typeName="Психические способности">
+    <profile id="e6bc-ab40-354e-3794" name="Улучшение" hidden="false" typeId="bcb2-9ab6-653f-73d4" typeName="Психические способности">
       <characteristics>
-        <characteristic name="Правила" typeId="8765-9ab7-6653-db34">A base de energía psíquica, puede potenciar a otras miniaturas amigas. Este poder otorgará un +3 a Ближний бой, Точность o Техника a una miniatura amiga. Esta miniatura disfrutará de estos bonificadores hasta que sean utilizados por primera vez, momento en el que perderá la Potenciación. Hasta que esto ocurra la miniatura no podrá volver a beneficiarse de este poder una segunda vez, ni siquiera aplicado a un Atributo diferente.Los pochos tienen una mente más débil y más fácilmente influenciable, el uso de este poder psíquico por parte de un cabezón permite que un grupo completo de pochos disfrute de la Potenciación.</characteristic>
+        <characteristic name="Правила" typeId="8765-9ab7-6653-db34">A base de energía psíquica, puede potenciar a otras miniaturas amiГаз. Este poder otorgará un +3 a Ближний бой, Точность o Техника a una miniatura amiga. Esta miniatura disfrutará de estos bonificadores hasta que sean utilizados por primera vez, momento en el que perderá la Улучшение. Hasta que esto ocurra la miniatura no podrá volver a beneficiarse de este poder una segunda vez, ni siquiera aplicado a un Atributo diferente.Los pochos tienen una mente más débil y más fácilmente influenciable, el uso de este poder psíquico por parte de un cabezón permite que un grupo completo de pochos disfrute de la Улучшение.</characteristic>
         <characteristic name="Дистанция" typeId="a4bd-0ebd-213a-45f8">30 cm</characteristic>
       </characteristics>
     </profile>
-    <profile id="4d9e-fa6c-0f72-4451" name="Titiritero" hidden="false" typeId="bcb2-9ab6-653f-73d4" typeName="Психические способности">
+    <profile id="4d9e-fa6c-0f72-4451" name="Кукловод" hidden="false" typeId="bcb2-9ab6-653f-73d4" typeName="Психические способности">
       <characteristics>
         <characteristic name="Правила" typeId="8765-9ab7-6653-db34">El cabezón puede meterse en la mente de otros Мутарды, realizando actos diversos a través de ellos. Usando el poder, puede hacer que otra miniatura de su banda realice una acción gratuita inmediatamente. Los pochos tienen una mente más débil y más fácilmente influenciable, el uso de este poder psíquico por parte de un cabezón permite que un grupo completo de pochos pueda realizar una acción inmediata.</characteristic>
         <characteristic name="Дистанция" typeId="a4bd-0ebd-213a-45f8">30 cm</characteristic>
       </characteristics>
     </profile>
-    <profile id="c6a5-9587-36b7-7fd4" name="Arma incrustada" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
+    <profile id="c6a5-9587-36b7-7fd4" name="Прикрепленное оружие" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
       <characteristics>
-        <characteristic name="Правила" typeId="f042-739d-9839-c439">Algunos Амок deciden que las armas formen parte de su propio cuerpo, formando un único ser, así que se amputan miembros para sustituirlos por armas.
-Специальные правила: un Ido puede incrustarse una hoz, un Малый клинок o un Средний клинок que haya adquirido incrementando su valor en 10 Очки. A cambio, obtendrá un bonificador de +1 a Ближний бой, no podrá rapiñar equipo, no podrá desarmarse de ninguna manera y el arma no podrá ser rapiñada.</characteristic>
+        <characteristic name="Правила" typeId="f042-739d-9839-c439">Algunos Амок deciden que las Вооружение formen parte de su propio cuerpo, formando un único ser, así que se amputan miembros para sustituirlos por Вооружение.
+Специальные правила: un Ido puede incrustarse una Серп, un Малый клинок o un Средний клинок que haya adquirido incrementando su valor en 10 Очки. A cambio, obtendrá un bonificador de +1 a Ближний бой, no podrá rapiñar Оборудование, no podrá desarmarse de ninguna manera y el arma no podrá ser rapiñada.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

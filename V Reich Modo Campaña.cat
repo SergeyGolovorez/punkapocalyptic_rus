@@ -407,7 +407,7 @@ muerta.</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="aeb9-a5fc-74bf-0426" name="Mónguer" hidden="false" targetId="72ec-7c35-9625-8459" type="rule"/>
+        <infoLink id="aeb9-a5fc-74bf-0426" name="Монг" hidden="false" targetId="72ec-7c35-9625-8459" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c2c1-b227-8b10-66d6" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
@@ -848,7 +848,7 @@ muerta.</characteristic>
       </categoryLinks>
     </entryLink>
     <entryLink id="317d-a4fd-2c80-dc25" name="Автоматическая винтовка" hidden="false" collective="false" import="true" targetId="b3f1-807d-a5fd-ad4c" type="selectionEntry"/>
-    <entryLink id="8cb0-bb1d-e66d-092d" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="2fb4-b058-f8fc-329f" type="selectionEntry">
+    <entryLink id="8cb0-bb1d-e66d-092d" name="Рация" hidden="false" collective="false" import="true" targetId="2fb4-b058-f8fc-329f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c81f-3097-35b4-fb2f" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
       </categoryLinks>
