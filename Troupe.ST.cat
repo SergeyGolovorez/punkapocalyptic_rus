@@ -6,7 +6,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5893-2677-950d-2e2d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d235-8a00-2fb8-0a7d" name="Распорядитель манежа" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+        <profile id="d235-8a00-2fb8-0a7d" name="Распорядитель манежа" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
@@ -82,7 +82,7 @@
     </selectionEntry>
     <selectionEntry id="6911-db29-5802-cf7f" name="Силач" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="fdeb-5325-bd3c-b0d4" name="Силач" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+        <profile id="fdeb-5325-bd3c-b0d4" name="Силач" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">4</characteristic>
@@ -149,9 +149,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="75c1-fe7c-2ccf-a894" type="max"/>
               </constraints>
               <profiles>
-                <profile id="51a6-ac66-7cfb-0eef" name="Дудка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="51a6-ac66-7cfb-0eef" name="Дудка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если миниатюра подверглась нападению, она может продудеть на противника, из-за чего тот потеряет все бонусы Штурма из-за испуга.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если миниатюра подверглась нападению, она может продудеть на противника, из-за чего тот потеряет все бонусы Штурма из-за испуга.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -165,9 +165,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="040a-31b3-8f7e-8328" type="max"/>
               </constraints>
               <profiles>
-                <profile id="161e-88e8-bc78-52ea" name="Вонючая бомба" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="161e-88e8-bc78-52ea" name="Вонючая бомба" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Можно бросить бомбу-вонючку себе под ноги, оставив постоянный маркер радиусом 2 дюйма. Любая миниатюра, находящаяся в этом радиусе и совершающая проверку Техники, получит штраф -3.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Можно бросить бомбу-вонючку себе под ноги, оставив постоянный маркер радиусом 2 дюйма. Любая миниатюра, находящаяся в этом радиусе и совершающая проверку Техники, получит штраф -3.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -181,9 +181,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1404-a13a-5fd0-ac25" type="max"/>
               </constraints>
               <profiles>
-                <profile id="81f3-7d48-66e5-ff0c" name="Подушка-пирдушка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="81f3-7d48-66e5-ff0c" name="Подушка-пирдушка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Миниатюра, оснащенная подушкой, сможет пережить выстрел из цирковой пушки установки с результатом проверки точности 1-2 вместо 1.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Миниатюра, оснащенная подушкой, сможет пережить выстрел из цирковой пушки установки с результатом проверки точности 1-2 вместо 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -197,9 +197,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="75b0-ad05-3e22-5d1d" type="max"/>
               </constraints>
               <profiles>
-                <profile id="49c5-98a2-e225-3737" name="Плюющийся водой цветок" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="49c5-98a2-e225-3737" name="Плюющийся водой цветок" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если миниатюра уже участвует в Ближнем бою, она может использовать цветок, чтобы наложить штраф -2 на Ближний бой своего противника во время боя (как в своей фазе активации, так и у противника).</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если миниатюра уже участвует в Ближнем бою, она может использовать цветок, чтобы наложить штраф -2 на Ближний бой своего противника во время боя (как в своей фазе активации, так и у противника).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -213,9 +213,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2488-8525-dec4-7256" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c37e-c46f-da1c-4aff" name="Воздушный шарик" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="c37e-c46f-da1c-4aff" name="Воздушный шарик" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если экипированная шаром миниатюра поражена, воздушный шар громко взорвётся, поразив все миниатюры в радиусе 2 дюйма с Силой 2 и Пробитием 2.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если экипированная шаром миниатюра поражена, воздушный шар громко взорвётся, поразив все миниатюры в радиусе 2 дюйма с Силой 2 и Пробитием 2.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -229,9 +229,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2394-1050-25a2-b8f8" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ba3f-671c-40ac-dfec" name="Электрическая перчатка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="ba3f-671c-40ac-dfec" name="Электрическая перчатка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если миниатюра будет поражена в Ближнем бою, она может применить правило Электрический.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если миниатюра будет поражена в Ближнем бою, она может применить правило Электрический.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -245,9 +245,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a837-7cde-23be-16b6" type="max"/>
               </constraints>
               <profiles>
-                <profile id="269a-80b1-fd06-1b6b" name="Бесконечные платки" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="269a-80b1-fd06-1b6b" name="Бесконечные платки" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если миниатюра станет целью выстрела, она может использовать платки, чтобы ввести в заблуждение нападающего, и он получит штраф -2 к точности.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если миниатюра станет целью выстрела, она может использовать платки, чтобы ввести в заблуждение нападающего, и он получит штраф -2 к точности.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -274,7 +274,7 @@
     </selectionEntry>
     <selectionEntry id="0a84-726c-9a0d-b163" name="Акробат" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8406-347a-2646-091e" name="Акробат" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+        <profile id="8406-347a-2646-091e" name="Акробат" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">4</characteristic>
@@ -356,9 +356,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c9ba-9cf1-7423-b12f" type="max"/>
               </constraints>
               <profiles>
-                <profile id="7d3b-059a-fdc9-2b1a" name="Дудка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="7d3b-059a-fdc9-2b1a" name="Дудка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если миниатюра подверглась нападению, она может продудеть на противника, из-за чего тот потеряет все бонусы Штурма из-за испуга.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если миниатюра подверглась нападению, она может продудеть на противника, из-за чего тот потеряет все бонусы Штурма из-за испуга.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -372,9 +372,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fa7e-6cd2-572c-8030" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1312-936f-515d-dfce" name="Вонючая бомба" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="1312-936f-515d-dfce" name="Вонючая бомба" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Можно бросить бомбу-вонючку себе под ноги, оставив постоянный маркер радиусом 2 дюйма. Любая миниатюра, находящаяся в этом радиусе и совершающая проверку Техники, получит штраф -3.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Можно бросить бомбу-вонючку себе под ноги, оставив постоянный маркер радиусом 2 дюйма. Любая миниатюра, находящаяся в этом радиусе и совершающая проверку Техники, получит штраф -3.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -388,9 +388,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="11e6-5390-aa22-165c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="0ca0-6523-7e1e-0289" name="Подушка-пирдушка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="0ca0-6523-7e1e-0289" name="Подушка-пирдушка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Миниатюра, оснащенная подушкой, сможет пережить выстрел из цирковой пушки установки с результатом проверки точности 1-2 вместо 1.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Миниатюра, оснащенная подушкой, сможет пережить выстрел из цирковой пушки установки с результатом проверки точности 1-2 вместо 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -404,9 +404,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b01-1475-36ac-2693" type="max"/>
               </constraints>
               <profiles>
-                <profile id="36ef-a028-3f73-ea7e" name="Плюющийся водой цветок" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="36ef-a028-3f73-ea7e" name="Плюющийся водой цветок" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если миниатюра уже участвует в Ближнем бою, она может использовать цветок, чтобы наложить штраф -2 на Ближний бой своего противника во время боя (как в своей фазе активации, так и у противника).</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если миниатюра уже участвует в Ближнем бою, она может использовать цветок, чтобы наложить штраф -2 на Ближний бой своего противника во время боя (как в своей фазе активации, так и у противника).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -420,9 +420,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b02e-1d8e-1d84-2ec2" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1a9a-0dff-dbec-506e" name="Воздушный шарик" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="1a9a-0dff-dbec-506e" name="Воздушный шарик" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если экипированная шаром миниатюра поражена, воздушный шар громко взорвётся, поразиввсе миниатюры в радиусе 2 дюйма с Силой 2 и Пробитием 2.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если экипированная шаром миниатюра поражена, воздушный шар громко взорвётся, поразиввсе миниатюры в радиусе 2 дюйма с Силой 2 и Пробитием 2.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -436,9 +436,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9e36-1dd0-5d6b-7a81" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c1e7-6614-67f9-4226" name="Электрическая перчатка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="c1e7-6614-67f9-4226" name="Электрическая перчатка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если миниатюра будет поражена в Ближнем бою, она может применить правило Электрический.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если миниатюра будет поражена в Ближнем бою, она может применить правило Электрический.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -452,9 +452,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c840-ad81-390e-4b97" type="max"/>
               </constraints>
               <profiles>
-                <profile id="78f2-0a1d-62d0-3624" name="Бесконечные платки" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="78f2-0a1d-62d0-3624" name="Бесконечные платки" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если миниатюра станет целью выстрела, она может использовать платки, чтобы ввести в заблуждение нападающего, и он получит штраф -2 к точности</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если миниатюра станет целью выстрела, она может использовать платки, чтобы ввести в заблуждение нападающего, и он получит штраф -2 к точности</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -471,7 +471,7 @@
     </selectionEntry>
     <selectionEntry id="7dc7-4c9f-de07-b418" name="Клоун" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8f94-2446-c48a-2940" name="Клоун" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+        <profile id="8f94-2446-c48a-2940" name="Клоун" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
@@ -508,9 +508,9 @@
                   <characteristics>
                     <characteristic name="Специальные" typeId="8a87-25fd-fe02-13e7">При стрельбе из пушки вы должны сначала потратить Действие на Стрельбу, а затем бросить d10, чтобы узнать Дистанцию (она не имеет модификаторов для диапазонов Дистанции). Если заряд не долетел до противника, то не повезло, действие уже потрачено.
 С другой стороны, блестящих бумажек много, и они действительно раздражают, поэтому любая пораженная миниатюра, которая не была убита, будет получать штраф -1 к Ловкости, пока не потратит Действие, чтобы очистить себя. В любом случае, вы еще целый месяц будете находить на своей одежде конфетти из дерьма.</characteristic>
-                    <characteristic name="Distancia" typeId="e3cc-c79f-36e8-ca84">1d10 x 2"</characteristic>
+                    <characteristic name="Дистанция" typeId="e3cc-c79f-36e8-ca84">1d10 x 2"</characteristic>
                     <characteristic name="Сила" typeId="c02a-4690-9a12-55e4">3</characteristic>
-                    <characteristic name="Penetración" typeId="9563-bb3e-ec5c-02a1">5</characteristic>
+                    <characteristic name="Пробитие" typeId="9563-bb3e-ec5c-02a1">5</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -533,7 +533,7 @@
                   <characteristics>
                     <characteristic name="Ближний бой" typeId="3bcb-590f-e624-084f">+2</characteristic>
                     <characteristic name="Сила" typeId="959a-27b3-5665-eaae">+2</characteristic>
-                    <characteristic name="Penetración" typeId="af0e-e291-c826-bf01">1</characteristic>
+                    <characteristic name="Пробитие" typeId="af0e-e291-c826-bf01">1</characteristic>
                     <characteristic name="Специальные" typeId="55ae-0d53-f265-651a">Используя хитроумный механизм, члены Братства могут заставить боксерскую перчатку выстрелить во врагов. Банально, но эффективно.</characteristic>
                   </characteristics>
                 </profile>
@@ -601,9 +601,9 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="84fa-0e34-ef17-794b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1733-7fd5-f4ac-be51" name="Дудка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="1733-7fd5-f4ac-be51" name="Дудка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если миниатюра подверглась нападению, она может продудеть на противника, из-за чего тот потеряет все бонусы Штурма из-за испуга.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если миниатюра подверглась нападению, она может продудеть на противника, из-за чего тот потеряет все бонусы Штурма из-за испуга.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -617,9 +617,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d2b5-1871-8a11-d1ad" type="max"/>
               </constraints>
               <profiles>
-                <profile id="878e-d7b5-d2d3-afe8" name="Вонючая бомба" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="878e-d7b5-d2d3-afe8" name="Вонючая бомба" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Можно бросить бомбу-вонючку себе под ноги, оставив постоянный маркер радиусом 2 дюйма. Любая миниатюра, находящаяся в этом радиусе и совершающая проверку Техники, получит штраф -3.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Можно бросить бомбу-вонючку себе под ноги, оставив постоянный маркер радиусом 2 дюйма. Любая миниатюра, находящаяся в этом радиусе и совершающая проверку Техники, получит штраф -3.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -633,9 +633,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6079-46fa-831c-f412" type="max"/>
               </constraints>
               <profiles>
-                <profile id="35d2-b21c-cf90-138e" name="Подушка-пирдушка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="35d2-b21c-cf90-138e" name="Подушка-пирдушка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Миниатюра, оснащенная подушкой, сможет пережить выстрел из цирковой пушки установки с результатом проверки точности 1-2 вместо 1.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Миниатюра, оснащенная подушкой, сможет пережить выстрел из цирковой пушки установки с результатом проверки точности 1-2 вместо 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -649,9 +649,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9972-b52e-8e50-e03f" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c496-9cb4-67f3-2ede" name="Плюющийся водой цветок" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="c496-9cb4-67f3-2ede" name="Плюющийся водой цветок" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если миниатюра уже участвует в Ближнем бою, она может использовать цветок, чтобы наложить штраф -2 на Ближний бой своего противника во время боя (как в своей фазе активации, так и у противника).</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если миниатюра уже участвует в Ближнем бою, она может использовать цветок, чтобы наложить штраф -2 на Ближний бой своего противника во время боя (как в своей фазе активации, так и у противника).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -665,9 +665,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7edb-7d3e-57a3-f784" type="max"/>
               </constraints>
               <profiles>
-                <profile id="0c7c-f924-1ceb-16f6" name="Воздушный шарик" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="0c7c-f924-1ceb-16f6" name="Воздушный шарик" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если экипированная шаром миниатюра поражена, воздушный шар громко взорвётся, поразиввсе миниатюры в радиусе 2 дюйма с Силой 2 и Пробитием 2.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если экипированная шаром миниатюра поражена, воздушный шар громко взорвётся, поразиввсе миниатюры в радиусе 2 дюйма с Силой 2 и Пробитием 2.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -681,9 +681,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6353-2172-c814-cd13" type="max"/>
               </constraints>
               <profiles>
-                <profile id="e335-ccfa-445f-361a" name="Электрическая перчатка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="e335-ccfa-445f-361a" name="Электрическая перчатка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если миниатюра будет поражена в Ближнем бою, она может применить правило Электрический.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если миниатюра будет поражена в Ближнем бою, она может применить правило Электрический.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -697,9 +697,9 @@
                 <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6bc5-0d73-1c80-f7fd" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ed59-a5d9-933f-c940" name="Бесконечные платки" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                <profile id="ed59-a5d9-933f-c940" name="Бесконечные платки" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">Если миниатюра станет целью выстрела, она может использовать платки, чтобы ввести в заблуждение нападающего, и он получит штраф -2 к точности</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Если миниатюра станет целью выстрела, она может использовать платки, чтобы ввести в заблуждение нападающего, и он получит штраф -2 к точности</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -717,7 +717,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="09b7-f3e0-318a-65ca" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="06f7-77c9-79c5-0d66" name="Cuero endurecido" hidden="false" collective="false" import="true" targetId="eeea-45d8-03cc-15ca" type="selectionEntry">
+        <entryLink id="06f7-77c9-79c5-0d66" name="Выделанная кожа" hidden="false" collective="false" import="true" targetId="eeea-45d8-03cc-15ca" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6db5-6b2a-f35a-05ac" type="max"/>
           </constraints>
@@ -732,7 +732,7 @@
     </selectionEntry>
     <selectionEntry id="62ef-3892-a32e-97c9" name="Укротитель" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="2ec0-a627-eeb1-7c09" name="Укротитель" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+        <profile id="2ec0-a627-eeb1-7c09" name="Укротитель" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
@@ -777,7 +777,7 @@
               <characteristics>
                 <characteristic name="Ближний бой" typeId="3bcb-590f-e624-084f">+0</characteristic>
                 <characteristic name="Сила" typeId="959a-27b3-5665-eaae">+1</characteristic>
-                <characteristic name="Penetración" typeId="af0e-e291-c826-bf01">3</characteristic>
+                <characteristic name="Пробитие" typeId="af0e-e291-c826-bf01">3</characteristic>
                 <characteristic name="Специальные" typeId="55ae-0d53-f265-651a">Он состоит из рукоятки, от которой отходит кожаный ремень, шнур или веревка, используемые для понукания животных.</characteristic>
               </characteristics>
             </profile>
@@ -791,7 +791,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="392d-48c0-d80f-d822" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0aef-bbcd-1a10-32df" name="Зверь" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+            <profile id="0aef-bbcd-1a10-32df" name="Зверь" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
               <characteristics>
                 <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
                 <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">4</characteristic>
@@ -829,7 +829,7 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2911-9a74-97f0-4aa0" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1bee-aa0a-d344-346c" name="Франсуа мим" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+        <profile id="1bee-aa0a-d344-346c" name="Франсуа мим" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
@@ -860,14 +860,14 @@
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fd7b-8925-6f9c-d0f2" name="Cañon lanzador" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fd7b-8925-6f9c-d0f2" name="Цирковая пушка" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e31-871e-d5c4-16d3" type="max"/>
       </constraints>
       <profiles>
-        <profile id="e8fc-302a-c3d0-4707" name="Цирковая пушка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+        <profile id="e8fc-302a-c3d0-4707" name="Цирковая пушка" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Reglas" typeId="f042-739d-9839-c439">Пушку необходимо разместить в зоне размещения банды до начала размещения миниатюр.
+            <characteristic name="Правила" typeId="f042-739d-9839-c439">Пушку необходимо разместить в зоне размещения банды до начала размещения миниатюр.
 Любой Клоун или Акробат, находящийся в контакте с пусковой установкой, может потратить Действие, чтобы выстрелить по врагу в пределах прямой видимости на максимальном расстоянии 36 дюймов, используя свой собственный Атрибут Точности (у них нет модификаторов для дальности стрельбы и они не могут быть прицельными). Если попадет, то поразит цель с Силой 7 и Пробитием 10. Если не попадет, вылетевшая миниатюра будет сброшена со стола и будет считаться Поверженной (ее нельзя будет Ограбить). Если миниатюре удастся попасть, она останется в контакте с целевой миниатюрой, но будет мгновенно убита, если только не выбросит 1 на броске 1d10. Если цель-миниатюра не была Поражена, она будет заблокирована в Ближнем бою, без бонусов Штурма.
 Банда может быть оборудована только одной пушкой.</characteristic>
           </characteristics>
@@ -879,9 +879,9 @@
     </selectionEntry>
     <selectionEntry id="dc3e-d93e-657a-baf1" name="Велосипед" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="740d-0226-6131-438e" name="Велосипед" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+        <profile id="740d-0226-6131-438e" name="Велосипед" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Reglas" typeId="f042-739d-9839-c439">Вы можете выбрать, чтобы Клоун ехал на велосипеде. Один раз за фазу активации и всякий раз, когда он проходит через дерьмовую местность, во время действия движения на него будет распространяться специальное правило Быстрый. Клоун, оседлавший велосипед, получит особое правило Всадник и потеряет особое правило Клоунские ботинки.</characteristic>
+            <characteristic name="Правила" typeId="f042-739d-9839-c439">Вы можете выбрать, чтобы Клоун ехал на велосипеде. Один раз за фазу активации и всякий раз, когда он проходит через дерьмовую местность, во время действия движения на него будет распространяться специальное правило Быстрый. Клоун, оседлавший велосипед, получит особое правило Всадник и потеряет особое правило Клоунские ботинки.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -894,9 +894,9 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aae1-ab4c-88c8-1306" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2344-edca-3d2a-8f8b" name="Цирковой автомобиль" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+        <profile id="2344-edca-3d2a-8f8b" name="Цирковой автомобиль" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Reglas" typeId="f042-739d-9839-c439">Перед началом игры и размещением миниатюр вы можете установить машину Циркачей в любом месте стола за пределами зон размещения. Когда придет время расстановки клоунов, вы сможете сделать это из машины. Перед тем как выставить миниатюру, необходимо определить расстояние, на котором находится транспортное средство от вашей зоны высадки, и сделать бросок. Если вы получите результат, указанный в таблице ниже, вы сможете выставить Клоуна в бтб к автомобилю, в противном случае миниаюра выставляется обычным образом. Вы можете продолжать попытки выставлять клоунов до тех пор, пока не провалите бросок, после чего они должны будут выставлены как обычно.
+            <characteristic name="Правила" typeId="f042-739d-9839-c439">Перед началом игры и размещением миниатюр вы можете установить машину Циркачей в любом месте стола за пределами зон размещения. Когда придет время расстановки клоунов, вы сможете сделать это из машины. Перед тем как выставить миниатюру, необходимо определить расстояние, на котором находится транспортное средство от вашей зоны высадки, и сделать бросок. Если вы получите результат, указанный в таблице ниже, вы сможете выставить Клоуна в бтб к автомобилю, в противном случае миниаюра выставляется обычным образом. Вы можете продолжать попытки выставлять клоунов до тех пор, пока не провалите бросок, после чего они должны будут выставлены как обычно.
 
 0..4”	2+
 4..8”	4+
