@@ -20,7 +20,7 @@
         <categoryLink id="4b6e-0cb4-b887-7c23" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="26fa-2c56-25df-ba70" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="26fa-2c56-25df-ba70" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="369e-dfcd-cc23-0b19" name="Защита от заражения" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
               <constraints>
@@ -44,7 +44,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a74c-5896-01b3-62cb" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="9a26-7026-f551-6fcd" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="21ca-d9ed-da29-d138" type="selectionEntry">
+            <entryLink id="9a26-7026-f551-6fcd" name="Рация" hidden="false" collective="false" import="true" targetId="21ca-d9ed-da29-d138" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f8bc-5025-a82a-2b29" type="max"/>
               </constraints>
@@ -62,7 +62,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="090d-93d1-a8ff-71b4" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="090d-93d1-a8ff-71b4" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3c7c-9c12-e2bc-b578" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ed58-79ee-ca49-cbbc" type="min"/>
@@ -128,7 +128,7 @@
         <categoryLink id="12e3-8696-3945-6a2d" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8e31-36a4-50fb-6934" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8e31-36a4-50fb-6934" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="dd3a-c952-599d-b3f0" name="Защита от заражения" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
               <constraints>
@@ -152,7 +152,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92c5-ee06-2faf-400d" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="f40c-7c0c-1ce0-7ae4" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="21ca-d9ed-da29-d138" type="selectionEntry">
+            <entryLink id="f40c-7c0c-1ce0-7ae4" name="Рация" hidden="false" collective="false" import="true" targetId="21ca-d9ed-da29-d138" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fa4a-1791-e0c1-5045" type="max"/>
               </constraints>
@@ -178,7 +178,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="82fa-3505-6092-e07b" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="82fa-3505-6092-e07b" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="101a-b194-2bfd-de28" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bce7-cf0e-ef9d-2153" type="min"/>
@@ -266,7 +266,7 @@
         <categoryLink id="a9d6-b470-ffc0-aed2" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="22f2-8ee7-c8d2-5375" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="22f2-8ee7-c8d2-5375" name="Оборудование" hidden="false" collective="false" import="true">
           <selectionEntries>
             <selectionEntry id="2b0f-19e9-3058-d885" name="Botiquin" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -276,13 +276,13 @@
               <profiles>
                 <profile id="7676-5cb8-6794-d95b" name="Botiquin" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Una miniatura equipada con un botiquín puede intentar parchear a una miniatura Abatida aliada, para que siga luchando un poco más. La miniatura con el botiquín tendrá que ponerse en contacto con la miniatura Abatida, gastar una Acción para curarle las heridas más graves y luego superar una prueba de Техника para ver si todo ha salido bien. En caso afirmativo, la miniatura Abatida podrá volver a entrar en juego a partir de su Turno de acción siguiente, pero aplicando un penalizador -1 a sus atributos físicos (Ловкость, Сила y Стойкость) por el trauma sufrido y la debilidad causada por sus heridas, golpes o pérdida de sangre. Sólo será posible realizar un intento de reanimar a cada miniatura abatida; si falla, los Sanitarios no sabrán atajar las heridas de la miniatura y preferirán no seguir intentándolo para no empeorar la cosa.</characteristic>
+                    <characteristic name="Правила" typeId="f042-739d-9839-c439">Una miniatura equipada con un botiquín puede intentar parchear a una miniatura Abatida aliada, para que siga luchando un poco más. La miniatura con el botiquín tendrá que ponerse en contacto con la miniatura Abatida, Газtar una Acción para curarle las heridas más graves y luego superar una prueba de Техника para ver si todo ha salido bien. En caso afirmativo, la miniatura Abatida podrá volver a entrar en juego a partir de su Turno de acción siguiente, pero aplicando un penalizador -1 a sus atributos físicos (Ловкость, Сила y Стойкость) por el trauma sufrido y la debilidad causada por sus heridas, golpes o pérdida de sangre. Sólo será posible realizar un intento de reanimar a cada miniatura abatida; si falla, los Sanitarios no sabrán atajar las heridas de la miniatura y preferirán no seguir intentándolo para no empeorar la cosa.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <rules>
                 <rule id="0780-f1b7-28af-f7e0" name="Botiquin" hidden="false">
-                  <description>Una miniatura equipada con un botiquín puede intentar parchear a una miniatura Abatida aliada, para que siga luchando un poco más. La miniatura con el botiquín tendrá que ponerse en contacto con la miniatura Abatida, gastar una Acción para curarle las heridas más graves y deberá tirarse un dado en la siguiente tabla:
+                  <description>Una miniatura equipada con un botiquín puede intentar parchear a una miniatura Abatida aliada, para que siga luchando un poco más. La miniatura con el botiquín tendrá que ponerse en contacto con la miniatura Abatida, Газtar una Acción para curarle las heridas más graves y deberá tirarse un dado en la siguiente tabla:
 
 1: La miniatura está más allá de toda recuperacióny no solo no se recupera sino que no podrá volver a utilizarse un botiquin sobre ella en toda la partida
 2-3: La miniatura no consigue reanimarse, pero podrás volver a intentarlo usando más veces el botiquín.
@@ -320,7 +320,7 @@
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="f665-347a-5afa-f171" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="21ca-d9ed-da29-d138" type="selectionEntry">
+            <entryLink id="f665-347a-5afa-f171" name="Рация" hidden="false" collective="false" import="true" targetId="21ca-d9ed-da29-d138" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="01fa-286e-7ded-65df" type="max"/>
               </constraints>
@@ -336,7 +336,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="60ba-d688-07e1-ee16" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="60ba-d688-07e1-ee16" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f66a-aaec-abb2-9497" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="71f0-9e2b-e973-6606" type="min"/>
@@ -398,7 +398,7 @@
       </profiles>
       <rules>
         <rule id="e6c4-6535-9532-4c0a" name="Cadena de mando" hidden="false">
-          <description>El Mariscal puede impartir órdenes con su walkie-talkie a cualquier otra miniatura de su banda que esté equipada también con uno de estos artilugios. Al hacerlo, le cederá una de sus Действия para ese Turno de acción, que deberá realizar de inmediato nada más recibir la orden. La Acción de activar el walkie-talkie es la misma que se cede a la otra miniatura, por lo que el Mariscal podrá utilizar esta Regla especial hasta tres veces en su Turno (en cuyo caso él mismo se quedaría sin hacer nada más que hablar por el walkie). No se pueden dar dos órdenes a la misma miniatura en el mismo Turno de acción (es decir, no se pueden ceder dos Действия adicionales a la misma miniatura en un solo Turno).</description>
+          <description>El Mariscal puede impartir órdenes con su Рация a cualquier otra miniatura de su banda que esté equipada también con uno de estos artilugios. Al hacerlo, le cederá una de sus Действия para ese Turno de acción, que deberá realizar de inmediato nada más recibir la orden. La Acción de activar el Рация es la misma que se cede a la otra miniatura, por lo que el Mariscal podrá utilizar esta Regla especial hasta tres veces en su Turno (en cuyo caso él mismo se quedaría sin hacer nada más que hablar por el walkie). No se pueden dar dos órdenes a la misma miniatura en el mismo Turno de acción (es decir, no se pueden ceder dos Действия adicionales a la misma miniatura en un solo Turno).</description>
         </rule>
         <rule id="78a3-1590-14af-ccaf" name="Ego Chcrut" hidden="false">
           <description>Solo puede haber un mariscal en cada banda del V Рейх</description>
@@ -408,7 +408,7 @@
         <categoryLink id="e626-c2ec-0351-946b" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="10eb-39c2-795b-562f" name="Equipo" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="10eb-39c2-795b-562f" name="Оборудование" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="254a-20cd-993f-ea34" name="Защита от заражения" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
               <constraints>
@@ -432,7 +432,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c32e-a3fd-8622-babd" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="8164-9160-f3f5-050b" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="21ca-d9ed-da29-d138" type="selectionEntry">
+            <entryLink id="8164-9160-f3f5-050b" name="Рация" hidden="false" collective="false" import="true" targetId="21ca-d9ed-da29-d138" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbfd-4c38-d2f3-1178" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b8e-1eb3-9b23-2a59" type="min"/>
@@ -464,7 +464,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6e07-cc03-5b58-48e9" name="Armas" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6e07-cc03-5b58-48e9" name="Вооружение" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6fcb-78cc-6129-1401" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9ef5-e8e7-15d2-9621" type="max"/>
@@ -574,9 +574,9 @@
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="def4-90b3-d0a8-6111" name="Ilse, la Loba del V Рейх" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="def4-90b3-d0a8-6111" name="Илза, волчица V Рейх" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="0718-c809-6a74-2bb4" name="Ilse, la Loba del V Рейх" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="0718-c809-6a74-2bb4" name="Илза, волчица V Рейх" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
@@ -591,7 +591,7 @@
       </profiles>
       <rules>
         <rule id="77df-29e9-8f89-3e50" name="Cazadora de Мутарды" hidden="false">
-          <description>La loba del V Рейх tiene predilección por enfrentarse a los desechos mutados del Páramo, y lo dará todo por acabar con ellos. Cuando se utilice en una partida contra Мутарды, contará con las Специальные правила Bersérker y Sed de sangre.</description>
+          <description>La loba del V Рейх tiene predilección por enfrentarse a los desechos mutados del Páramo, y lo dará todo por acabar con ellos. Cuando se utilice en una partida contra Мутарды, contará con las Специальные правила Bersérker y Жажда крови.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -679,8 +679,8 @@
           <description>Casco Rojo suele estar acompañado en la batalla por los agentes de su organización dentro del V Рейх. Cualquier miniatura de Soldat o Ubersoldat puede convertirse en Agente de Kraken
 por +15 Очки, obteniendo un bonificador de +1 al Ближний бой y la Ловкость.</description>
         </rule>
-        <rule id="85f4-37d9-1206-ee1a" name="Odio al Capitán Hammerica" hidden="false">
-          <description>El Capitán Hammerica es la única prueba válida del suero de los Ubersoldats que robó uno de sus científicos y anda por ahí luciéndolo. Si Casco Rojo se enfrenta una banda con el Capitán Hammerica y consigue Abatirlo, conseguirá 3 Очки de victoria extra para su banda.</description>
+        <rule id="85f4-37d9-1206-ee1a" name="Odio al Капитан Хаммерика" hidden="false">
+          <description>El Капитан Хаммерика es la única prueba válida del suero de los Ubersoldats que robó uno de sus científicos y anda por ahí luciéndolo. Si Casco Rojo se enfrenta una banda con el Капитан Хаммерика y consigue Abatirlo, conseguirá 3 Очки de victoria extra para su banda.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -712,7 +712,7 @@ por +15 Очки, obteniendo un bonificador de +1 al Ближний бой y la 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74f2-6373-5db0-4917" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="60d6-50ab-fddd-455b" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="21ca-d9ed-da29-d138" type="selectionEntry">
+        <entryLink id="60d6-50ab-fddd-455b" name="Рация" hidden="false" collective="false" import="true" targetId="21ca-d9ed-da29-d138" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f2e-cc5d-65ba-56e3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da46-f38c-cb6c-1a58" type="min"/>
@@ -781,7 +781,7 @@ por +15 Очки, obteniendo un bonificador de +1 al Ближний бой y la 
           <description>Edward Berhart tiene una gran memoria sobre los Ближний бойs de la Segunda Guerra Mundial que tanto estudió en su anterior vida. Por ello tiene unos conocimientos de táctica militar por encima de la media, que emplea con sus hombres en el campo de batalla. Para representar eso, una vez terminados los despliegues de los dos jugadores, puede recolocar hasta dos miniaturas de su banda, siempre dentro de su zona de despliegue.</description>
         </rule>
         <rule id="3137-d041-c40d-754f" name="Bombona de butano" hidden="false">
-          <description>Edward lleva a su espalda una bombona de butano para poder respirar, debido a sus lesiones del sistema respiratorio. Si Berhart resulta abatido, la bombona estallará. Pon una plantilla de radio 5 cms. Centrada en la posición de la miniatura abatida. Todas las miniaturas tocadas aunque sea parcialmente por la plantilla, sufren un impacto de Пробитие 3 Сила 3 inmediato sin bonificaciones por cobertura. Dejar la plantilla en el lugar para el resto de la partida, tratando la zona con la regla Gas.</description>
+          <description>Edward lleva a su espalda una bombona de butano para poder respirar, debido a sus lesiones del sistema respiratorio. Si Berhart resulta abatido, la bombona estallará. Pon una Шаблон de radio 5 cms. Centrada en la posición de la miniatura abatida. Todas las miniaturas tocadas aunque sea parcialmente por la Шаблон, sufren un impacto de Пробитие 3 Сила 3 inmediato sin bonificaciones por cobertura. Dejar la Шаблон en el lugar para el resto de la partida, tratando la zona con la regla Газ.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -837,7 +837,7 @@ por +15 Очки, obteniendo un bonificador de +1 al Ближний бой y la 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6fbe-e94d-1603-1e05" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="5e51-75d5-c258-ddb2" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="21ca-d9ed-da29-d138" type="selectionEntry">
+        <entryLink id="5e51-75d5-c258-ddb2" name="Рация" hidden="false" collective="false" import="true" targetId="21ca-d9ed-da29-d138" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6782-31f5-e1d1-7675" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f78d-32cc-0c09-a539" type="min"/>
@@ -848,9 +848,9 @@ por +15 Очки, obteniendo un bonificador de +1 al Ближний бой y la 
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b977-2a45-1313-dd1b" name="Aaron Schwartzmann" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b977-2a45-1313-dd1b" name="Аарон Шварцманн" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="3d7f-05d3-58db-ff0e" name="Aaron Schwartzmann" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="3d7f-05d3-58db-ff0e" name="Аарон Шварцманн" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">3</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">4(5)</characteristic>
@@ -866,18 +866,18 @@ por +15 Очки, obteniendo un bonificador de +1 al Ближний бой y la 
       <rules>
         <rule id="e0ef-9399-0be8-b699" name="Personalidad del V Рейх" hidden="false"/>
         <rule id="480b-6ac7-171f-6f3b" name="Cadena de mando" hidden="false">
-          <description>Aaron Schwartzmann se considera Mariscal en su banda del V Рейх, por lo que podrá usar la regla especial Cadena de mando.</description>
+          <description>Аарон Шварцманн se considera Mariscal en su banda del V Рейх, por lo que podrá usar la regla especial Cadena de mando.</description>
         </rule>
         <rule id="131d-ca39-25b8-0aff" name="Maestro estratega" hidden="false">
-          <description>Aaron no sólo se ocnsidera Marisacal en su banda del V Рейх, por lo que podrá usar la regla especial cadena de mando, si no que además, una vez por Turno de juego, una de sus órdenes a través del Walkie-talkie servirá para que la miniatura receptora pueda utilizar dos Действия en lugar de una.</description>
+          <description>Aaron no sólo se ocnsidera Marisacal en su banda del V Рейх, por lo que podrá usar la regla especial cadena de mando, si no que además, una vez por Turno de juego, una de sus órdenes a través del Рация servirá para que la miniatura receptora pueda utilizar dos Действия en lugar de una.</description>
         </rule>
         <rule id="4d7f-5191-569c-f675" name="Amado lider" hidden="false">
           <description>Aaron es el lider del V Рейх y defraudarlo es algo impensable. Si Aaron es abatido y un sanitario intenta utilizar botiquin sobre él, no deberá de realizar la Tirada de Техника, considerándose superada automáticamente. En caso de utilizar las Правила opcionales de la página 25 del libro de Правила extra y de camaña, la tirada en la rabla tendrá un bonificador de +3</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="4719-b9ed-4891-9e67" name="Montada" hidden="false" targetId="2b7b-1ce2-7d18-7832" type="rule"/>
-        <infoLink id="0516-2b3d-fac2-d9be" name="Raudo" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
+        <infoLink id="4719-b9ed-4891-9e67" name="Всадник" hidden="false" targetId="2b7b-1ce2-7d18-7832" type="rule"/>
+        <infoLink id="0516-2b3d-fac2-d9be" name="Быстрый" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7044-01dc-2610-0765" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
@@ -901,7 +901,7 @@ por +15 Очки, obteniendo un bonificador de +1 al Ближний бой y la 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e960-66a7-f395-d89a" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="1794-14c2-3b76-78af" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="05f8-01fe-6c3c-c869" type="selectionEntry">
+        <entryLink id="1794-14c2-3b76-78af" name="Рация" hidden="false" collective="false" import="true" targetId="05f8-01fe-6c3c-c869" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c54-db85-c6b4-59b9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e14-58a9-fc31-868a" type="min"/>
@@ -914,37 +914,37 @@ por +15 Очки, obteniendo un bonificador de +1 al Ближний бой y la 
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="9c88-f0a3-8268-2c67" name="Viejo Sajarratas" hidden="false" collective="false" import="true" targetId="dc04-86d5-a9a1-2115" type="selectionEntry">
+    <entryLink id="9c88-f0a3-8268-2c67" name="Старый крысолов" hidden="false" collective="false" import="true" targetId="dc04-86d5-a9a1-2115" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="516c-04f4-bea4-ecd5" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e37e-d913-917a-d73f" name="Crazy Mel" hidden="false" collective="false" import="true" targetId="0a14-7ef7-d9b3-4f7e" type="selectionEntry">
+    <entryLink id="e37e-d913-917a-d73f" name="Безумный Мел" hidden="false" collective="false" import="true" targetId="0a14-7ef7-d9b3-4f7e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="c0b1-8cab-e71b-01fb" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="358c-635d-72a7-2956" name="Imperatrix Rabiosa" hidden="false" collective="false" import="true" targetId="5489-a5be-4e7b-0a5a" type="selectionEntry">
+    <entryLink id="358c-635d-72a7-2956" name="Императрица Рабиоса" hidden="false" collective="false" import="true" targetId="5489-a5be-4e7b-0a5a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="462e-5f4b-4e23-113c" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="4e7d-fb83-4845-af40" name="Lizzy Deville" hidden="false" collective="false" import="true" targetId="bb1b-9915-08d9-463c" type="selectionEntry">
+    <entryLink id="4e7d-fb83-4845-af40" name="Лиззи Де`Вилль" hidden="false" collective="false" import="true" targetId="bb1b-9915-08d9-463c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="99c1-b9e4-c039-89df" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7ef0-e200-f33f-cf0b" name="Magnus" hidden="false" collective="false" import="true" targetId="f7d2-1bd6-01c0-adf8" type="selectionEntry">
+    <entryLink id="7ef0-e200-f33f-cf0b" name="Магнус" hidden="false" collective="false" import="true" targetId="f7d2-1bd6-01c0-adf8" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="bed4-b564-f042-36d3" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8e6f-c7fb-8147-29e7" name="Ochodedos" hidden="false" collective="false" import="true" targetId="f5f7-4a7b-a541-cf36" type="selectionEntry">
+    <entryLink id="8e6f-c7fb-8147-29e7" name="Восьмипалый" hidden="false" collective="false" import="true" targetId="f5f7-4a7b-a541-cf36" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4019-277b-7efb-008b" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1e6f-d6e8-11fc-abd0" name="Irina (beta)" hidden="false" collective="false" import="true" targetId="d9fd-c7e0-6beb-0596" type="selectionEntry">
+    <entryLink id="1e6f-d6e8-11fc-abd0" name="Ирина (beta)" hidden="false" collective="false" import="true" targetId="d9fd-c7e0-6beb-0596" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0ed6-b722-fbf4-32e2" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
@@ -955,7 +955,7 @@ por +15 Очки, obteniendo un bonificador de +1 al Ближний бой y la 
       <profiles>
         <profile id="73cf-c316-0899-3134" name="Mastín" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Правила" typeId="f042-739d-9839-c439">El V Рейх adora a los animales mucho más que a los Мутарды, sobre todo a los perros fieros y poderosos que pueda entrenar para labores de vigilancia, rastreo o incluso Ближний бой. Una miniatura puede llevar UN mastín, que irá sujeto por una correa, moviéndose con ella, como un elemento de equipo más.
+            <characteristic name="Правила" typeId="f042-739d-9839-c439">El V Рейх adora a los animales mucho más que a los Мутарды, sobre todo a los perros fieros y poderosos que pueda entrenar para labores de vigilancia, rastreo o incluso Ближний бой. Una miniatura puede llevar UN mastín, que irá sujeto por una correa, moviéndose con ella, como un elemento de Оборудование más.
 Un mastín otorga un bonificador de +1 al Ближний бой. Además si la miniatura resulta Abatida, el mastín vigilará, evitando que cualquier miniatura enemiga saquee su cuerpo.</characteristic>
           </characteristics>
         </profile>
@@ -964,11 +964,11 @@ Un mastín otorga un bonificador de +1 al Ближний бой. Además si la m
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="21ca-d9ed-da29-d138" name="Walkie-talkie" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="21ca-d9ed-da29-d138" name="Рация" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4c3b-891f-ecc1-ab55" name="Walkie-talkie" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
+        <profile id="4c3b-891f-ecc1-ab55" name="Рация" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Правила" typeId="f042-739d-9839-c439">Una  miniatura  con  un  walkie-talkie  podrá  comunicarse  directamente  con  el  Mariscal  de  su  banda  del  V  Reich, obteniendo los beneficios de su Regla especial Cadena de mando. Si la miniatura está trabada en cuerpo a cuerpo no podrá atender al walkie-talkie, por lo que no obtendrá sus beneficios.</characteristic>
+            <characteristic name="Правила" typeId="f042-739d-9839-c439">Una  miniatura  con  un  Рация  podrá  comunicarse  directamente  con  el  Mariscal  de  su  banda  del  V  Reich, obteniendo los beneficios de su Regla especial Cadena de mando. Si la miniatura está trabada en cuerpo a cuerpo no podrá atender al Рация, por lo que no obtendrá sus beneficios.</characteristic>
           </characteristics>
         </profile>
       </profiles>

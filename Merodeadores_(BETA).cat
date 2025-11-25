@@ -37,7 +37,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Правила" characteristicTypeId="8e38-cf6b-571e-b5f4" value="Un Manitas calcula las Действия que le den las mejores posibilidades de victoria. Puede gastarun Turno de Acción completo en planificar, y en el siguiente Turno de juego tendrá un bonificador de +1 a las Действия, Ловкость y Техника."/>
+            <characteristic name="Правила" characteristicTypeId="8e38-cf6b-571e-b5f4" value="Un Manitas calcula las Действия que le den las mejores posibilidades de victoria. Puede Газtarun Turno de Acción completo en planificar, y en el siguiente Turno de juego tendrá un bonificador de +1 a las Действия, Ловкость y Техника."/>
           </characteristics>
         </profile>
       </profiles>
@@ -64,7 +64,7 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="49bb-ca72-5e44-06ce" name="Armas" hidden="false" collective="false">
+        <selectionEntryGroup id="49bb-ca72-5e44-06ce" name="Вооружение" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -94,7 +94,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="f3bb-265f-13db-196e" name="Equipo" hidden="false" collective="false">
+        <selectionEntryGroup id="f3bb-265f-13db-196e" name="Оборудование" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -104,7 +104,7 @@
           <selectionEntries>
             <selectionEntry id="a80e-b391-eb1b-da1c" name="Защита от заражения" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="7ac6-8a47-38a1-f3be" name="Защита от заражения" hidden="false" profileTypeId="fc07-a6a5-53f7-5bf4" profileTypeName="Equipo">
+                <profile id="7ac6-8a47-38a1-f3be" name="Защита от заражения" hidden="false" profileTypeId="fc07-a6a5-53f7-5bf4" profileTypeName="Оборудование">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -199,7 +199,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="1bdb-52e8-2e07-59dc" name="Camuflaje" page="31" hidden="false">
+        <rule id="1bdb-52e8-2e07-59dc" name="Камуфляж" page="31" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -208,7 +208,7 @@
 una miniatura con esta regla especial, sufrirán un -2 adicional a la Точность en las tiradas para evitar Cobertura
 (lo que hace un total de -5).</description>
         </rule>
-        <rule id="3998-93f4-6545-c695" name="Todoterreno" page="35" hidden="false">
+        <rule id="3998-93f4-6545-c695" name="Внедорожник" page="35" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -233,7 +233,7 @@ Terreno chungo como Terreno normal</description>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a11c-5d36-6851-630b" name="Armas" hidden="false" collective="false">
+        <selectionEntryGroup id="a11c-5d36-6851-630b" name="Вооружение" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -304,7 +304,7 @@ Terreno chungo como Terreno normal</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2fc3-9653-ea48-5350" name="Equipo" hidden="false" collective="false">
+        <selectionEntryGroup id="2fc3-9653-ea48-5350" name="Оборудование" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -390,7 +390,7 @@ Terreno chungo como Terreno normal</description>
                       <modifiers/>
                       <characteristics>
                         <characteristic name="Специальные правила" characteristicTypeId="688c-666b-55af-8015"/>
-                        <characteristic name="Броня" characteristicTypeId="1dba-77b1-2665-5d33" value="3 ó 5/6/7 contra armas con la regla especial Огнестрельное"/>
+                        <characteristic name="Броня" characteristicTypeId="1dba-77b1-2665-5d33" value="3 ó 5/6/7 contra Вооружение con la regla especial Огнестрельное"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -493,7 +493,7 @@ Terreno chungo como Terreno normal</description>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6266-8307-3b13-ed6d" name="Armas" hidden="false" collective="false">
+        <selectionEntryGroup id="6266-8307-3b13-ed6d" name="Вооружение" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -614,7 +614,7 @@ Terreno chungo como Terreno normal</description>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b4f5-e2f2-6e72-c83f" name="Equipo" hidden="false" collective="false">
+        <selectionEntryGroup id="b4f5-e2f2-6e72-c83f" name="Оборудование" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -624,7 +624,7 @@ Terreno chungo como Terreno normal</description>
           <selectionEntries>
             <selectionEntry id="7f57-e2aa-38fe-39f5" name="Защита от заражения" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="ed26-a2bb-d453-c5f6" name="Защита от заражения" hidden="false" profileTypeId="fc07-a6a5-53f7-5bf4" profileTypeName="Equipo">
+                <profile id="ed26-a2bb-d453-c5f6" name="Защита от заражения" hidden="false" profileTypeId="fc07-a6a5-53f7-5bf4" profileTypeName="Оборудование">
                   <profiles/>
                   <rules/>
                   <infoLinks/>

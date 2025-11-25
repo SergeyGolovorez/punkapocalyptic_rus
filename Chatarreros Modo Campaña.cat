@@ -2,9 +2,9 @@
 <catalogue id="da08-b8d5-9352-b798" name="Мусорщики Modo Campaña" revision="8" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Para añadir Пули a tu lista selecciona la cantidad de Пули de cada tipo que quieres llevar y añade su coste en Очки con el cálculo de las Правила de campaña.</readme>
   <selectionEntries>
-    <selectionEntry id="229a-6b6c-15a5-7cb2" name="Sonda" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="229a-6b6c-15a5-7cb2" name="Зонд" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b1ad-e3b3-4dc2-b533" name="Sonda" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
+        <profile id="b1ad-e3b3-4dc2-b533" name="Зонд" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
           <characteristics>
             <characteristic name="Действия" typeId="f14c-8c62-3924-24b5">2</characteristic>
             <characteristic name="Ближний бой" typeId="3b03-18c1-aead-aafc">3</characteristic>
@@ -29,7 +29,7 @@
               </constraints>
               <rules>
                 <rule id="4d46-81df-795e-257f" name="Recargador" hidden="false">
-                  <description>Esta miniatura es capaz de recargar las armas con una velocidad inusitada. Ignora la Regla especial Перезарядка(1) del equipo que lleve, y si este tiene Muy Перезарядка(1) pasará a ser Перезарядка(1).</description>
+                  <description>Esta miniatura es capaz de recargar las Вооружение con una velocidad inusitada. Ignora la Regla especial Перезарядка(1) del Оборудование que lleve, y si este tiene Перезарядка(2) pasará a ser Перезарядка(1).</description>
                 </rule>
               </rules>
               <costs>
@@ -43,7 +43,7 @@
               </constraints>
               <rules>
                 <rule id="4540-e1e4-1112-1510" name="Francotirador" hidden="false">
-                  <description>Esta miniatura tiene una vista de lince. Obtiene un +1 a Точность a Дистанцияs largas.</description>
+                  <description>Esta miniatura tiene una vista de lince. Obtiene un +1 a Точность a Дистанцияs larГаз.</description>
                 </rule>
               </rules>
               <costs>
@@ -82,60 +82,60 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="b060-2d51-d7fb-9f96" name="Habilidades de la clase" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="dd9f-f0ff-8bf2-7b6d" name="Camuflaje" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="dd9f-f0ff-8bf2-7b6d" name="Камуфляж" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5d81-5f36-8c1c-5364" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="0336-5021-a184-c3e4" name="Camuflaje" hidden="false" targetId="7350-c8a9-e1f9-ef83" type="rule"/>
+                <infoLink id="0336-5021-a184-c3e4" name="Камуфляж" hidden="false" targetId="7350-c8a9-e1f9-ef83" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4c94-b71d-ba44-c06a" name="Todoterreno" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4c94-b71d-ba44-c06a" name="Внедорожник" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7de1-c2f6-41dd-4170" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="b030-ca16-64a3-67ea" name="Todoterreno" hidden="false" targetId="996e-8e46-8d07-aeae" type="rule"/>
+                <infoLink id="b030-ca16-64a3-67ea" name="Внедорожник" hidden="false" targetId="996e-8e46-8d07-aeae" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d4ab-d065-c85e-8a4b" name="Trepador" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d4ab-d065-c85e-8a4b" name="Альпинист" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e0b9-0ec7-3adc-3b2d" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="b6b0-ff64-e0cd-5b39" name="Trepador" hidden="false" targetId="1903-6024-95ed-25b0" type="rule"/>
+                <infoLink id="b6b0-ff64-e0cd-5b39" name="Альпинист" hidden="false" targetId="1903-6024-95ed-25b0" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="de4e-46d4-0df5-2f0f" name="Infiltración" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="de4e-46d4-0df5-2f0f" name="Инфильтрация" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4173-1ff6-8d3d-ed97" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="45b7-3ab0-a9b5-4043" name="Infiltración" hidden="false" targetId="5233-0e7d-17f2-d0fd" type="rule"/>
+                <infoLink id="45b7-3ab0-a9b5-4043" name="Инфильтрация" hidden="false" targetId="5233-0e7d-17f2-d0fd" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a7a6-d6a2-309d-fa09" name="Raudo" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a7a6-d6a2-309d-fa09" name="Быстрый" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1270-092e-be3f-c185" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="98c5-1de1-d467-b591" name="Raudo" hidden="false" targetId="cbc6-771a-436d-d7ef" type="rule"/>
+                <infoLink id="98c5-1de1-d467-b591" name="Быстрый" hidden="false" targetId="cbc6-771a-436d-d7ef" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
@@ -254,9 +254,9 @@ muerta.</characteristic>
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2e21-80b1-b57f-0ee9" name="Engranaje" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2e21-80b1-b57f-0ee9" name="Шестерня" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="c5da-66df-a444-14bc" name="Engranaje" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
+        <profile id="c5da-66df-a444-14bc" name="Шестерня" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
           <characteristics>
             <characteristic name="Действия" typeId="f14c-8c62-3924-24b5">2</characteristic>
             <characteristic name="Ближний бой" typeId="3b03-18c1-aead-aafc">3</characteristic>
@@ -281,7 +281,7 @@ muerta.</characteristic>
               </constraints>
               <rules>
                 <rule id="feff-dffc-e825-bea5" name="Recargador" hidden="false">
-                  <description>Esta miniatura es capaz de recargar las armas con una velocidad inusitada. Ignora la Regla especial Перезарядка(1) del equipo que lleve, y si este tiene Muy Перезарядка(1) pasará a ser Перезарядка(1).</description>
+                  <description>Esta miniatura es capaz de recargar las Вооружение con una velocidad inusitada. Ignora la Regla especial Перезарядка(1) del Оборудование que lleve, y si este tiene Перезарядка(2) pasará a ser Перезарядка(1).</description>
                 </rule>
               </rules>
               <costs>
@@ -295,7 +295,7 @@ muerta.</characteristic>
               </constraints>
               <rules>
                 <rule id="4ebe-2ccb-8ea8-396d" name="Francotirador" hidden="false">
-                  <description>Esta miniatura tiene una vista de lince. Obtiene un +1 a Точность a Дистанцияs largas.</description>
+                  <description>Esta miniatura tiene una vista de lince. Obtiene un +1 a Точность a Дистанцияs larГаз.</description>
                 </rule>
               </rules>
               <costs>
@@ -442,9 +442,9 @@ muerta.</characteristic>
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4fe6-f9f6-2011-c3e1" name="Dinamo" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4fe6-f9f6-2011-c3e1" name="Динамо" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="a1ea-614b-948b-c7a6" name="Dinamo" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
+        <profile id="a1ea-614b-948b-c7a6" name="Динамо" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
           <characteristics>
             <characteristic name="Действия" typeId="f14c-8c62-3924-24b5">2</characteristic>
             <characteristic name="Ближний бой" typeId="3b03-18c1-aead-aafc">2</characteristic>
@@ -469,7 +469,7 @@ muerta.</characteristic>
               </constraints>
               <rules>
                 <rule id="d2ac-6e2b-16e1-58b8" name="Recargador" hidden="false">
-                  <description>Esta miniatura es capaz de recargar las armas con una velocidad inusitada. Ignora la Regla especial Перезарядка(1) del equipo que lleve, y si este tiene Muy Перезарядка(1) pasará a ser Перезарядка(1).</description>
+                  <description>Esta miniatura es capaz de recargar las Вооружение con una velocidad inusitada. Ignora la Regla especial Перезарядка(1) del Оборудование que lleve, y si este tiene Перезарядка(2) pasará a ser Перезарядка(1).</description>
                 </rule>
               </rules>
               <costs>
@@ -483,7 +483,7 @@ muerta.</characteristic>
               </constraints>
               <rules>
                 <rule id="d19a-ffa1-0d91-3ae1" name="Francotirador" hidden="false">
-                  <description>Esta miniatura tiene una vista de lince. Obtiene un +1 a Точность a Дистанцияs largas.</description>
+                  <description>Esta miniatura tiene una vista de lince. Obtiene un +1 a Точность a Дистанцияs larГаз.</description>
                 </rule>
               </rules>
               <costs>
@@ -724,12 +724,12 @@ muerta.</characteristic>
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="8.0"/>
       </costs>
     </entryLink>
-    <entryLink id="f378-d45f-74cd-70e1" name="Bombas" hidden="false" collective="false" import="true" targetId="6a0d-84f8-184d-fd30" type="selectionEntry">
+    <entryLink id="f378-d45f-74cd-70e1" name="Бомба" hidden="false" collective="false" import="true" targetId="6a0d-84f8-184d-fd30" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="d311-f108-3ec4-f2c5" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a9e1-fe32-a707-3c2b" name="Bombeadora" hidden="false" collective="false" import="true" targetId="ec22-90fb-a1fb-bb4d" type="selectionEntry">
+    <entryLink id="a9e1-fe32-a707-3c2b" name="Пневматическое ружьё" hidden="false" collective="false" import="true" targetId="ec22-90fb-a1fb-bb4d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="459b-4794-aaaa-e887" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
       </categoryLinks>
@@ -737,7 +737,7 @@ muerta.</characteristic>
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="16.0"/>
       </costs>
     </entryLink>
-    <entryLink id="be68-b049-e53c-b330" name="Cacharras de oficio" hidden="false" collective="false" import="true" targetId="74dd-33be-ab64-dfd8" type="selectionEntry">
+    <entryLink id="be68-b049-e53c-b330" name="Ремонтный набор" hidden="false" collective="false" import="true" targetId="74dd-33be-ab64-dfd8" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6f36-bcda-3ab6-f5e9" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
         <categoryLink id="d8a8-b46f-42f3-d516" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="false"/>
@@ -746,7 +746,7 @@ muerta.</characteristic>
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="3.0"/>
       </costs>
     </entryLink>
-    <entryLink id="2596-37ab-ebbc-bbed" name="Chasqueador y traje voltaico" hidden="false" collective="false" import="true" targetId="36ce-4d7a-f7b9-2dab" type="selectionEntry">
+    <entryLink id="2596-37ab-ebbc-bbed" name="Электрострекало  y Электро костюм" hidden="false" collective="false" import="true" targetId="36ce-4d7a-f7b9-2dab" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3bf3-6ea6-5332-7106" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
         <categoryLink id="79c6-b8f7-fb67-7983" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="false"/>
@@ -806,7 +806,7 @@ muerta.</characteristic>
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="24.0"/>
       </costs>
     </entryLink>
-    <entryLink id="968f-c9c3-07ef-f4a3" name="Lanzaarpones" hidden="false" collective="false" import="true" targetId="8fb3-b5b4-f669-a133" type="selectionEntry">
+    <entryLink id="968f-c9c3-07ef-f4a3" name="Гарпун" hidden="false" collective="false" import="true" targetId="8fb3-b5b4-f669-a133" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="840f-60f5-4392-679b" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
       </categoryLinks>
@@ -838,7 +838,7 @@ muerta.</characteristic>
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="3.0"/>
       </costs>
     </entryLink>
-    <entryLink id="d307-15c8-fce2-5d28" name="Mira telescópica" hidden="false" collective="false" import="true" targetId="65ae-57dd-67cc-c4ce" type="selectionEntry">
+    <entryLink id="d307-15c8-fce2-5d28" name="Оптический прицелa" hidden="false" collective="false" import="true" targetId="65ae-57dd-67cc-c4ce" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="28be-dec4-c8cb-54cd" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
       </categoryLinks>
@@ -863,7 +863,7 @@ muerta.</characteristic>
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="5.0"/>
       </costs>
     </entryLink>
-    <entryLink id="52a5-aa34-29d0-328d" name="Puño balístico " hidden="false" collective="false" import="true" targetId="0726-093d-ce50-2992" type="selectionEntry">
+    <entryLink id="52a5-aa34-29d0-328d" name="Баллистический кулак " hidden="false" collective="false" import="true" targetId="0726-093d-ce50-2992" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="bef8-8367-0c3b-01bc" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
       </categoryLinks>
@@ -887,7 +887,7 @@ muerta.</characteristic>
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="5.0"/>
       </costs>
     </entryLink>
-    <entryLink id="5267-5fe1-9806-45e8" name="Trabuco" hidden="false" collective="false" import="true" targetId="93b7-c9a6-4c4e-908a" type="selectionEntry">
+    <entryLink id="5267-5fe1-9806-45e8" name="Мушкетон" hidden="false" collective="false" import="true" targetId="93b7-c9a6-4c4e-908a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5516-5347-a806-3352" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
         <categoryLink id="a653-5dcc-a6f3-d714" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="false"/>
@@ -896,7 +896,7 @@ muerta.</characteristic>
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="10.0"/>
       </costs>
     </entryLink>
-    <entryLink id="4d2e-d751-3bd6-6c27" name="Vaporeta" hidden="false" collective="false" import="true" targetId="ad93-ac51-a17d-3d0f" type="selectionEntry">
+    <entryLink id="4d2e-d751-3bd6-6c27" name="Паровая пушка" hidden="false" collective="false" import="true" targetId="ad93-ac51-a17d-3d0f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="581c-9eea-a608-0480" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
         <categoryLink id="c951-896d-1a98-a8fd" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="false"/>

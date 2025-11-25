@@ -209,72 +209,72 @@ Montaje patrocinado por Libertalia Juegos</readme>
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a0d-84f8-184d-fd30" name="Bombas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6a0d-84f8-184d-fd30" name="Бомба" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="7264-989f-faa5-f300" name="Bombas" hidden="false" typeId="bd8c-345a-5e70-64a6" typeName="Дистанционное оружие">
+        <profile id="7264-989f-faa5-f300" name="Бомба" hidden="false" typeId="bd8c-345a-5e70-64a6" typeName="Дистанционное оружие">
           <characteristics>
             <characteristic name="Дистанция" typeId="dbc6-5149-2318-34d1">Fue x 5cm</characteristic>
             <characteristic name="Fuerza" typeId="9329-98eb-7048-e5d7"/>
             <characteristic name="Пробитие" typeId="1db8-4f02-ca65-414f"/>
-            <characteristic name="Правила especiales" typeId="a5ba-7244-ef2d-1e78">Ya  sean  realizadas  con  una  mezcla  de  productos  químicos,  o  con  un  trapo  encendido  en  una  botella  con  combustible,  el  cometido  es  aniquilar  o  debilitar  al  enemigo.  Deben  comprarse  individualmente  hasta  un  máximo  de  cinco.  Una  bomba  no  puede  emplearse  en  Ближний бой  como  Arma  improvisada;  una  miniatura
-equipada únicamente con Bombas contará como desarmada en Ближний бой cuerpo a cuerpo. Una miniatura puede equiparse con un máximo de 5 bombas, a elegir entre las tres opciones. A la hora de cuantificarse para la Regla especial Редкое, todas las bombas en una miniatura contarán como una sola.</characteristic>
+            <characteristic name="Правила especiales" typeId="a5ba-7244-ef2d-1e78">Ya  sean  realizadas  con  una  mezcla  de  productos  químicos,  o  con  un  trapo  encendido  en  una  botella  con  Топливо,  el  cometido  es  aniquilar  o  debilitar  al  enemigo.  Deben  comprarse  individualmente  hasta  un  máximo  de  cinco.  Una  bomba  no  puede  emplearse  en  Ближний бой  como  Arma  improvisada;  una  miniatura
+equipada únicamente con Бомба contará como desarmada en Ближний бой cuerpo a cuerpo. Una miniatura puede equiparse con un máximo de 5 Бомба, a elegir entre las tres opciones. A la hora de cuantificarse para la Regla especial Редкое, todas las Бомба en una miniatura contarán como una sola.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="c4f3-bc7a-d8d4-4b16" name="Редкое" hidden="false" targetId="eb4c-c95b-cd8c-6493" type="rule"/>
         <infoLink id="5a4b-7d87-a98b-4f1d" name="Непрямое оружие" hidden="false" targetId="6897-db05-d709-f40d" type="rule"/>
-        <infoLink id="6dca-4b73-5538-cf53" name="Usar y tirar" hidden="false" targetId="81cd-d6c1-0f2d-cbc4" type="rule"/>
+        <infoLink id="6dca-4b73-5538-cf53" name="Одноразовое" hidden="false" targetId="81cd-d6c1-0f2d-cbc4" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="04fa-56c4-ac1c-9f74" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a85d-8a0e-3947-d9aa" name="Bomba de Fuego" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a85d-8a0e-3947-d9aa" name="Bomba de Огонь" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="15.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c9d3-24dd-24d8-730f" type="max"/>
           </constraints>
           <rules>
-            <rule id="ef32-2ef9-1816-ce5e" name="Bomba de Fuego" hidden="false">
-              <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las Правила especiales comunes a todos los tipos de bombas, las de fuego tienen la regla Incendiaria.</description>
+            <rule id="ef32-2ef9-1816-ce5e" name="Bomba de Огонь" hidden="false">
+              <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las Правила especiales comunes a todos los tipos de Бомба, las de Огонь tienen la regla Зажигательное.</description>
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="53f1-b87a-0bc7-71ff" name="Incendiaria" hidden="false" targetId="71d6-7a17-0f03-0d46" type="rule"/>
+            <infoLink id="53f1-b87a-0bc7-71ff" name="Зажигательное" hidden="false" targetId="71d6-7a17-0f03-0d46" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="10.0"/>
             <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="c158-59e9-b1b3-ad1e" name="Bomba de Gas" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c158-59e9-b1b3-ad1e" name="Газовая бомба" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="15.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2155-625e-2966-7be1" type="max"/>
           </constraints>
           <rules>
-            <rule id="b498-dc64-b93a-1079" name="Bomba de Gas" hidden="false">
-              <description>Las bombas de gas tratan de incapacitar al enemigo mediante una serie de gases tóxicos. Además de las Правила especiales comunes a todos los tipos de bombas, las de gas tienen la regla Gas.</description>
+            <rule id="b498-dc64-b93a-1079" name="Газовая бомба" hidden="false">
+              <description>Las Газовые бомбы tratan de incapacitar al enemigo mediante una serie de Газes tóxicos. Además de las Правила especiales comunes a todos los tipos de Бомба, las de Газ tienen la regla Газ.</description>
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="e27a-a33f-13e2-acd8" name="Gas" hidden="false" targetId="2020-a66f-0a35-e9f1" type="rule"/>
+            <infoLink id="e27a-a33f-13e2-acd8" name="Газ" hidden="false" targetId="2020-a66f-0a35-e9f1" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="10.0"/>
             <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="57d5-6d7a-75df-cdd2" name="Bomba de Humo" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="57d5-6d7a-75df-cdd2" name="Дымовая бомба" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="roster" value="15.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5269-5b4d-8a3b-feac" type="max"/>
           </constraints>
           <rules>
-            <rule id="7128-75ff-9308-8203" name="Bomba de Humo" hidden="false">
-              <description>Estas bombas tienen el cometido de crear cortinas de humo que dificulten la visión del enemigo a través de ellas. Además de las Правила especiales comunes a todos los tipos de bombas, las de humo tienen la regla Humo.</description>
+            <rule id="7128-75ff-9308-8203" name="Дымовая бомба" hidden="false">
+              <description>Estas Бомба tienen el cometido de crear cortinas de Дым que dificulten la visión del enemigo a través de ellas. Además de las Правила especiales comunes a todos los tipos de Бомба, las de Дым tienen la regla Дым.</description>
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="c3a1-e78c-4770-7f25" name="Humo" hidden="false" targetId="aa5b-8a1e-2169-739d" type="rule"/>
+            <infoLink id="c3a1-e78c-4770-7f25" name="Дым" hidden="false" targetId="aa5b-8a1e-2169-739d" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="10.0"/>
@@ -287,13 +287,13 @@ equipada únicamente con Bombas contará como desarmada en Ближний бой
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec22-90fb-a1fb-bb4d" name="Bombeadora" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ec22-90fb-a1fb-bb4d" name="Пневматическое ружьё" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa4a-af41-bf4f-4472" type="max"/>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ae9d-f369-dff2-8b91" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3154-005e-0ef9-25a4" name="Bombeadora" hidden="false" typeId="bd8c-345a-5e70-64a6" typeName="Дистанционное оружие">
+        <profile id="3154-005e-0ef9-25a4" name="Пневматическое ружьё" hidden="false" typeId="bd8c-345a-5e70-64a6" typeName="Дистанционное оружие">
           <characteristics>
             <characteristic name="Дистанция" typeId="dbc6-5149-2318-34d1">10/20/30 cm</characteristic>
             <characteristic name="Fuerza" typeId="9329-98eb-7048-e5d7">1</characteristic>
@@ -304,7 +304,7 @@ equipada únicamente con Bombas contará como desarmada en Ближний бой
       </profiles>
       <infoLinks>
         <infoLink id="beef-ed2c-baf9-e9f9" name="Двуручное" hidden="false" targetId="b875-3594-b66d-0923" type="rule"/>
-        <infoLink id="74e3-97f3-c429-12c1" name="Bombeo" hidden="false" targetId="cea4-b36f-b0cd-7e37" type="rule"/>
+        <infoLink id="74e3-97f3-c429-12c1" name="Помповый" hidden="false" targetId="cea4-b36f-b0cd-7e37" type="rule"/>
         <infoLink id="96b7-7721-1d3a-cdb1" name="Редкое" hidden="false" targetId="eb4c-c95b-cd8c-6493" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -322,7 +322,7 @@ equipada únicamente con Bombas contará como desarmada en Ближний бой
       <profiles>
         <profile id="1401-ccdf-624f-10de" name="Botiquín" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Una miniatura equipada con un botiquín puede intentar parchear a una miniatura Abatida aliada, para que siga luchando un poco más. La miniatura con el botiquín tendrá que ponerse en contacto con la miniatura Abatida, gastar una Acción para curarle las heridas más graves y deberá tirarse un dado en la siguiente tabla:
+            <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Una miniatura equipada con un botiquín puede intentar parchear a una miniatura Abatida aliada, para que siga luchando un poco más. La miniatura con el botiquín tendrá que ponerse en contacto con la miniatura Abatida, Газtar una Acción para curarle las heridas más graves y deberá tirarse un dado en la siguiente tabla:
 
 1: La miniatura está más allá de toda recuperacióny no solo no se recupera sino que no podrá volver a utilizarse un botiquin sobre ella en toda la partida
 2-3: La miniatura no consigue reanimarse, pero podrás volver a intentarlo usando más veces el botiquín.
@@ -333,7 +333,7 @@ equipada únicamente con Bombas contará como desarmada en Ближний бой
       </profiles>
       <rules>
         <rule id="6451-e557-885b-9a05" name="Botiquín" hidden="false">
-          <description>Una miniatura equipada con un botiquín puede intentar parchear a una miniatura Abatida aliada, para que siga luchando un poco más. La miniatura con el botiquín tendrá que ponerse en contacto con la miniatura Abatida, gastar una Acción para curarle las heridas más graves y deberá tirarse un dado en la siguiente tabla:
+          <description>Una miniatura equipada con un botiquín puede intentar parchear a una miniatura Abatida aliada, para que siga luchando un poco más. La miniatura con el botiquín tendrá que ponerse en contacto con la miniatura Abatida, Газtar una Acción para curarle las heridas más graves y deberá tirarse un dado en la siguiente tabla:
 
 1: La miniatura está más allá de toda recuperacióny no solo no se recupera sino que no podrá volver a utilizarse un botiquin sobre ella en toda la partida
 2-3: La miniatura no consigue reanimarse, pero podrás volver a intentarlo usando más veces el botiquín.
@@ -349,12 +349,12 @@ equipada únicamente con Bombas contará como desarmada en Ближний бой
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74dd-33be-ab64-dfd8" name="Cacharras de oficio" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="74dd-33be-ab64-dfd8" name="Ремонтный набор" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54b2-5c84-773f-1686" type="max"/>
       </constraints>
       <profiles>
-        <profile id="dd54-37a9-1271-a21c" name="Cacharras de oficio" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
+        <profile id="dd54-37a9-1271-a21c" name="Ремонтный набор" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
           <characteristics>
             <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Una miniatura equipada con estos cachivaches podrá intentar repara un arma que haya quedado inutilizada tras sufrir un resultado de ¡CATAPUM!, superando una tirada de técnica</characteristic>
           </characteristics>
@@ -374,7 +374,7 @@ equipada únicamente con Bombas contará como desarmada en Ближний бой
           <characteristics>
             <characteristic name="Броня" typeId="a003-4712-8eb9-8fed">3
 
-5/6/7 contra armas de fuego</characteristic>
+5/6/7 contra Вооружение de Огонь</characteristic>
             <characteristic name="Правила especiales" typeId="7ecb-507e-e6d2-cc30"/>
           </characteristics>
         </profile>
@@ -407,12 +407,12 @@ equipada únicamente con Bombas contará como desarmada en Ближний бой
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="36ce-4d7a-f7b9-2dab" name="Chasqueador y traje voltaico" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="36ce-4d7a-f7b9-2dab" name="Электрострекало  y Электро костюм" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d738-c11d-b6eb-d6a6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="052e-08a7-0ba7-0cda" name="Chasqueador" hidden="false" typeId="050a-68de-8234-0b50" typeName="Оружие ближнего боя">
+        <profile id="052e-08a7-0ba7-0cda" name="Электрострекало " hidden="false" typeId="050a-68de-8234-0b50" typeName="Оружие ближнего боя">
           <characteristics>
             <characteristic name="Ближний бой" typeId="9164-d66a-0674-403b">+2</characteristic>
             <characteristic name="Fuerza" typeId="fc3a-f531-4588-9421">6</characteristic>
@@ -420,7 +420,7 @@ equipada únicamente con Bombas contará como desarmada en Ближний бой
             <characteristic name="Правила especiales" typeId="b696-3ad4-1d86-c8f5"/>
           </characteristics>
         </profile>
-        <profile id="08cb-60b5-93d2-7a6f" name="Traje voltaico" hidden="false" typeId="b0e1-0bc7-cdd4-11b9" typeName="Броня">
+        <profile id="08cb-60b5-93d2-7a6f" name="Электро костюм" hidden="false" typeId="b0e1-0bc7-cdd4-11b9" typeName="Броня">
           <characteristics>
             <characteristic name="Броня" typeId="a003-4712-8eb9-8fed">2</characteristic>
             <characteristic name="Правила especiales" typeId="7ecb-507e-e6d2-cc30"/>
@@ -431,8 +431,8 @@ equipada únicamente con Bombas contará como desarmada en Ближний бой
         <infoLink id="ba91-6e2a-d9de-36f8" name="Descarga" hidden="false" targetId="5b14-164d-85c7-5452" type="rule"/>
         <infoLink id="940c-c0cc-e057-2a89" name="Редкое" hidden="false" targetId="eb4c-c95b-cd8c-6493" type="rule"/>
         <infoLink id="9998-a82e-6139-020f" name="Громоздкое" hidden="false" targetId="c7a1-7da7-3c7f-d7c0" type="rule"/>
-        <infoLink id="6b15-2d13-d5e3-c4b0" name="Electrificación" hidden="false" targetId="27b0-b062-69d6-f8bf" type="rule"/>
-        <infoLink id="4566-1b30-36b1-8690" name="Ignífugo" hidden="false" targetId="eefa-c903-ab63-8aa5" type="rule"/>
+        <infoLink id="6b15-2d13-d5e3-c4b0" name="Электрическое" hidden="false" targetId="27b0-b062-69d6-f8bf" type="rule"/>
+        <infoLink id="4566-1b30-36b1-8690" name="Огнеупорное" hidden="false" targetId="eefa-c903-ab63-8aa5" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d753-94e2-5266-54ac" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
@@ -583,12 +583,12 @@ equipada únicamente con Bombas contará como desarmada en Ближний бой
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8fb3-b5b4-f669-a133" name="Lanzaarpones" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8fb3-b5b4-f669-a133" name="Гарпун" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a78f-02dd-7aae-a8a9" type="max"/>
       </constraints>
       <profiles>
-        <profile id="274e-ea73-5679-e47b" name="Lanzaarpones" hidden="false" typeId="bd8c-345a-5e70-64a6" typeName="Дистанционное оружие">
+        <profile id="274e-ea73-5679-e47b" name="Гарпун" hidden="false" typeId="bd8c-345a-5e70-64a6" typeName="Дистанционное оружие">
           <characteristics>
             <characteristic name="Дистанция" typeId="dbc6-5149-2318-34d1">20/40/60</characteristic>
             <characteristic name="Fuerza" typeId="9329-98eb-7048-e5d7">7</characteristic>
@@ -599,8 +599,8 @@ equipada únicamente con Bombas contará como desarmada en Ближний бой
       </profiles>
       <infoLinks>
         <infoLink id="3b2d-4ff2-886f-972b" name="Двуручное" hidden="false" targetId="b875-3594-b66d-0923" type="rule"/>
-        <infoLink id="05aa-1741-a93f-259b" name="Mamotreto" hidden="false" targetId="da99-3b23-adcf-e0b4" type="rule"/>
-        <infoLink id="3db8-6783-56e9-2985" name="Muy Перезарядка(1)" hidden="false" targetId="1d5f-d311-adcb-2979" type="rule"/>
+        <infoLink id="05aa-1741-a93f-259b" name="Большое" hidden="false" targetId="da99-3b23-adcf-e0b4" type="rule"/>
+        <infoLink id="3db8-6783-56e9-2985" name="Перезарядка(2)" hidden="false" targetId="1d5f-d311-adcb-2979" type="rule"/>
         <infoLink id="6007-52b2-e5cc-2004" name="Редкое" hidden="false" targetId="eb4c-c95b-cd8c-6493" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -611,11 +611,11 @@ equipada únicamente con Bombas contará como desarmada en Ближний бой
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a6f6-7a47-b5ec-cf89" name="Lanzallamas" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a6f6-7a47-b5ec-cf89" name="Огнемет" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9f27-3ba6-2442-c019" name="Lanzallamas" hidden="false" typeId="bd8c-345a-5e70-64a6" typeName="Дистанционное оружие">
+        <profile id="9f27-3ba6-2442-c019" name="Огнемет" hidden="false" typeId="bd8c-345a-5e70-64a6" typeName="Дистанционное оружие">
           <characteristics>
-            <characteristic name="Дистанция" typeId="dbc6-5149-2318-34d1">Plantilla lanzallamas</characteristic>
+            <characteristic name="Дистанция" typeId="dbc6-5149-2318-34d1">Шаблон Огнемет</characteristic>
             <characteristic name="Fuerza" typeId="9329-98eb-7048-e5d7">3/6</characteristic>
             <characteristic name="Пробитие" typeId="1db8-4f02-ca65-414f">2/5</characteristic>
             <characteristic name="Правила especiales" typeId="a5ba-7244-ef2d-1e78"/>
@@ -623,13 +623,13 @@ equipada únicamente con Bombas contará como desarmada en Ближний бой
         </profile>
       </profiles>
       <rules>
-        <rule id="8e44-249b-14c8-9062" name="Combustible (10 - 5/2)" hidden="false"/>
+        <rule id="8e44-249b-14c8-9062" name="Топливо (10 - 5/2)" hidden="false"/>
       </rules>
       <infoLinks>
         <infoLink id="8c37-2021-b3ec-f510" name="Двуручное" hidden="false" targetId="b875-3594-b66d-0923" type="rule"/>
         <infoLink id="10e7-9f22-2d72-d202" name="Громоздкое" hidden="false" targetId="c7a1-7da7-3c7f-d7c0" type="rule"/>
         <infoLink id="8a28-383a-6009-20e9" name="Редкое" hidden="false" targetId="eb4c-c95b-cd8c-6493" type="rule"/>
-        <infoLink id="444a-4fdc-508c-cac7" name="Plantilla" hidden="false" targetId="19c3-af94-7f6a-14b4" type="rule"/>
+        <infoLink id="444a-4fdc-508c-cac7" name="Шаблон" hidden="false" targetId="19c3-af94-7f6a-14b4" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="56ac-2699-2791-d731" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
@@ -645,7 +645,7 @@ equipada únicamente con Bombas contará como desarmada en Ближний бой
           <characteristics>
             <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">El V Рейх adora a los animales mucho más que a los Мутарды, sobre todo a los perros fieros y poderosos que pueda entrenar para labores de vigilancia, rastreo o incluso Ближний бой.
 
-Una miniatura puede llevbar UN mastín, que irá sujeto por una correa, moviéndose con ella, como un elemento de equipo más.
+Una miniatura puede llevbar UN mastín, que irá sujeto por una correa, moviéndose con ella, como un elemento de Оборудование más.
 
 Un mastín otorga un bonificador de +1 al Ближний бой, Además si la miniatura resulta abatida, el mastín vigilará, evitando que cualquier miniatura enemiga saquee su cuerpo.</characteristic>
           </characteristics>
@@ -719,11 +719,11 @@ Un mastín otorga un bonificador de +1 al Ближний бой, Además si la m
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="65ae-57dd-67cc-c4ce" name="Mira telescópica" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="65ae-57dd-67cc-c4ce" name="Оптический прицелa" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b142-016a-f88e-30a8" name="Mira telescópica" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
+        <profile id="b142-016a-f88e-30a8" name="Оптический прицелa" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Puede aplicarse una mira telescópica a un Винтовка o pistrola. Esta cambia los modificadores del arma, que pasan a ser -1/2/+1</characteristic>
+            <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Puede aplicarse una Оптический прицелa a un Винтовка o pistrola. Esta cambia los modificadores del arma, que pasan a ser -1/2/+1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -735,15 +735,15 @@ Un mastín otorga un bonificador de +1 al Ближний бой, Además si la m
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5b4a-de10-de14-ea4f" name="Motocicleta" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5b4a-de10-de14-ea4f" name="Мотоцикл" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
-        <rule id="22b4-0eb4-f35a-26ea" name="Motocicleta" hidden="false">
-          <description>Una  miniatura  en  motocicleta  tendrá  las  Правила  especiales  Montada  y  Raudo.  Puesto  que  es  posible utilizar partes de la moto para cubrirse, la miniatura contará con una cobertura de Bli+3.
-Darle caña: además, dos veces por partida, podrá gastar una Acción en utilizar toda la potencia de la moto para realizar una de las siguientes Действия:
+        <rule id="22b4-0eb4-f35a-26ea" name="Мотоцикл" hidden="false">
+          <description>Una  miniatura  en  Мотоцикл  tendrá  las  Правила  especiales  Всадник  y  Быстрый.  Puesto  que  es  posible utilizar partes de la moto para cubrirse, la miniatura contará con una cobertura de Bli+3.
+Darle caña: además, dos veces por partida, podrá Газtar una Acción en utilizar toda la potencia de la moto para realizar una de las siguientes Действия:
 
 · Dale al turbo: la moto puede mover hasta el doble (30 cm) en una acción de movimiento, pero deberá hacerlo en línea recta tal y como estuviese encarada al principio de la acción.
 
-·  Potencia  bruta:  la  moto  asalta  de  manera  embravecida,  otorgando  un  bonificador  de  +3  al  Ближний бой  durante un Asalto.
+·  Potencia  bruta:  la  moto  asalta  de  manera  embravecida,  otorgando  un  bonificador  de  +3  al  Ближний бой  durante un AПрыжок.
 
 · Nube de polvo: la moto usará las ruedas para levantar una nube de polvo que hace más difícil alcanzarla. Durante el ese turno de juego, todos los disparos contra esta miniatura sufrirán un penalizador de -3 a su Precisión.
 
@@ -800,12 +800,12 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0726-093d-ce50-2992" name="Puño balístico " hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0726-093d-ce50-2992" name="Баллистический кулак " hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bfbe-0a45-89cf-3665" type="max"/>
       </constraints>
       <profiles>
-        <profile id="6c05-9e43-30ad-90ac" name="Puño balístico " hidden="false" typeId="050a-68de-8234-0b50" typeName="Оружие ближнего боя">
+        <profile id="6c05-9e43-30ad-90ac" name="Баллистический кулак " hidden="false" typeId="050a-68de-8234-0b50" typeName="Оружие ближнего боя">
           <characteristics>
             <characteristic name="Ближний бой" typeId="9164-d66a-0674-403b">+2</characteristic>
             <characteristic name="Fuerza" typeId="fc3a-f531-4588-9421">+5</characteristic>
@@ -816,7 +816,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
       </profiles>
       <infoLinks>
         <infoLink id="3a8d-fa9c-f9ea-b006" name="Редкое" hidden="false" targetId="eb4c-c95b-cd8c-6493" type="rule"/>
-        <infoLink id="6658-8dd1-bb58-5250" name="Muy Перезарядка(1)" hidden="false" targetId="1d5f-d311-adcb-2979" type="rule"/>
+        <infoLink id="6658-8dd1-bb58-5250" name="Перезарядка(2)" hidden="false" targetId="1d5f-d311-adcb-2979" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5f11-3519-cf6b-4f2c" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
@@ -898,12 +898,12 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93b7-c9a6-4c4e-908a" name="Trabuco" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="93b7-c9a6-4c4e-908a" name="Мушкетон" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="998d-1ffc-ff12-3449" type="max"/>
       </constraints>
       <profiles>
-        <profile id="82c8-87ca-3e98-43a6" name="Trabuco" hidden="false" typeId="bd8c-345a-5e70-64a6" typeName="Дистанционное оружие">
+        <profile id="82c8-87ca-3e98-43a6" name="Мушкетон" hidden="false" typeId="bd8c-345a-5e70-64a6" typeName="Дистанционное оружие">
           <characteristics>
             <characteristic name="Дистанция" typeId="dbc6-5149-2318-34d1">10/15/20</characteristic>
             <characteristic name="Fuerza" typeId="9329-98eb-7048-e5d7">5/4/3</characteristic>
@@ -926,12 +926,12 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ad93-ac51-a17d-3d0f" name="Vaporeta" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ad93-ac51-a17d-3d0f" name="Паровая пушка" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7543-026f-25bc-0864" type="max"/>
       </constraints>
       <profiles>
-        <profile id="58da-dd09-af88-f12b" name="Vaporeta" hidden="false" typeId="bd8c-345a-5e70-64a6" typeName="Дистанционное оружие">
+        <profile id="58da-dd09-af88-f12b" name="Паровая пушка" hidden="false" typeId="bd8c-345a-5e70-64a6" typeName="Дистанционное оружие">
           <characteristics>
             <characteristic name="Дистанция" typeId="dbc6-5149-2318-34d1">20</characteristic>
             <characteristic name="Fuerza" typeId="9329-98eb-7048-e5d7"/>
@@ -944,7 +944,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
         <infoLink id="d543-62d7-2f96-10dd" name="Двуручное" hidden="false" targetId="b875-3594-b66d-0923" type="rule"/>
         <infoLink id="e3f6-c861-da11-8fec" name="Редкое" hidden="false" targetId="eb4c-c95b-cd8c-6493" type="rule"/>
         <infoLink id="1b78-aa6c-ee2f-fcf8" name="Громоздкое" hidden="false" targetId="c7a1-7da7-3c7f-d7c0" type="rule"/>
-        <infoLink id="fe1d-abe7-8af6-24bb" name="Vapor" hidden="false" targetId="8eef-840f-e1ec-9935" type="rule"/>
+        <infoLink id="fe1d-abe7-8af6-24bb" name="Пар" hidden="false" targetId="8eef-840f-e1ec-9935" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f879-bb73-5255-16b2" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
@@ -954,11 +954,11 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2fb4-b058-f8fc-329f" name="Walkie-talkie" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2fb4-b058-f8fc-329f" name="Рация" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4fc6-9ad8-d727-c001" name="Walkie-talkie" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
+        <profile id="4fc6-9ad8-d727-c001" name="Рация" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Una miniatura con un walkie-talkie podrá comunicarse con el Mariscal de su banda del V Рейх, obteniendo los beneficios de su Regla especial Cadena de mando. Si la miniatura está en Ближний бой no podrá atender al walkie-talkie, por lo que no obtendrá sus beneficios. </characteristic>
+            <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Una miniatura con un Рация podrá comunicarse con el Mariscal de su banda del V Рейх, obteniendo los beneficios de su Regla especial Cadena de mando. Si la miniatura está en Ближний бой no podrá atender al Рация, por lo que no obtendrá sus beneficios. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -976,7 +976,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
       </constraints>
       <rules>
         <rule id="91d4-526b-4aa5-bd6c" name="Acaparador" hidden="false">
-          <description>Esta miniatura puede Rapiñar a una miniatura enemiga Abatida superando una tirada enfrentada de Fuerza contra esta. Solo podrá intentarlo una vez por miniatura. Sólo ella podrá quedarse con este equipo y no podrá venderlo. </description>
+          <description>Esta miniatura puede Rapiñar a una miniatura enemiga Abatida superando una tirada enfrentada de Fuerza contra esta. Solo podrá intentarlo una vez por miniatura. Sólo ella podrá quedarse con este Оборудование y no podrá venderlo. </description>
         </rule>
       </rules>
       <categoryLinks>
@@ -1157,7 +1157,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
       <profiles>
         <profile id="0ec3-ba4f-b46b-6f6c" name="Atleta" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Con su capacidad atlética los Saltos y Caídas son más sencillos para él. Los primeros 5 cm en los Saltos y Caídas serán gratuitos y no se contarán para los chequeos de fuerza. </characteristic>
+            <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Con su capacidad atlética los Прыжокs y Caídas son más sencillos para él. Los primeros 5 cm en los Прыжокs y Caídas serán gratuitos y no se contarán para los chequeos de fuerza. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1176,7 +1176,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
       <profiles>
         <profile id="82ad-f86b-3994-6cbf" name="Churruscado" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Esta miniatura ha estado dentro de las llamas tantas veces que ya ni las siente. Siempre se considerará como si llevara un Броня con la Regla especial Ignífugo.</characteristic>
+            <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Esta miniatura ha estado dentro de las llamas tantas veces que ya ni las siente. Siempre se considerará como si llevara un Броня con la Regla especial Огнеупорное.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1349,7 +1349,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
       <profiles>
         <profile id="63ce-08a1-d582-5445" name="Sádico" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Esta miniatura disfruta torturando a los enemigos. Si gasta una acción en torturar a una miniatura enemiga Abatida, conseguirá 2 PX extra. No puede usarse más de una vez por partida. </characteristic>
+            <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Esta miniatura disfruta torturando a los enemigos. Si Газta una acción en torturar a una miniatura enemiga Abatida, conseguirá 2 PX extra. No puede usarse más de una vez por partida. </characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1455,7 +1455,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
           <profiles>
             <profile id="f864-d132-bdae-c7c9" name="Armeria nivel 1" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
               <characteristics>
-                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado la capacidad para afilar las armas de filo. Todas las armas de este tipo obtendrán un bonificador de +1 a la Пробитие.</characteristic>
+                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado la capacidad para afilar las Вооружение de filo. Todas las Вооружение de este tipo obtendrán un bonificador de +1 a la Пробитие.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1475,7 +1475,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
           <profiles>
             <profile id="e33b-c865-083d-789e" name="Armeria nivel 2" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
               <characteristics>
-                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado la contundencia de las armas golpeadoras. Todas las Булаваs obtendrán un bonificador de +1 a la Fuerza </characteristic>
+                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado la contundencia de las Вооружение golpeadoras. Todas las Булаваs obtendrán un bonificador de +1 a la Fuerza </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1495,7 +1495,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
           <profiles>
             <profile id="6c9a-8232-b11b-c76c" name="Armeria nivel 3" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
               <characteristics>
-                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado el equilibrio de las Дистанционное оружие. Todas las armas de este tipo obtendrán un bonificador de +1 a la Precisión</characteristic>
+                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado el equilibrio de las Дистанционное оружие. Todas las Вооружение de este tipo obtendrán un bonificador de +1 a la Precisión</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1575,7 +1575,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
       <profiles>
         <profile id="9987-7228-42f3-40b9" name="Caravana comercial" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Los Мусорщики pueden vender el equipo usado a su precio total básico.</characteristic>
+            <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Los Мусорщики pueden vender el Оборудование usado a su precio total básico.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1623,7 +1623,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
           <profiles>
             <profile id="c124-9c61-0329-e40b" name="Centro táctico nivel 2" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
               <characteristics>
-                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Entre partidas, puedes gastar 15 chapas en subir 5PX de una miatura. Se puede usar más de una vez, pero no puedes repetir sobre la misma miniatura hasta que vuelvas a jugar otra partida. </characteristic>
+                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Entre partidas, puedes Газtar 15 chapas en subir 5PX de una miatura. Se puede usar más de una vez, pero no puedes repetir sobre la misma miniatura hasta que vuelvas a jugar otra partida. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1871,7 +1871,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
       <profiles>
         <profile id="2d2c-5f23-2524-adf7" name="Museo militar" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
           <characteristics>
-            <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las armas con la regla especial Огнестрельное cuestan la mitad de chapas (redondeando hacia arriba)</characteristic>
+            <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las Вооружение con la regla especial Огнестрельное cuestan la mitad de chapas (redondeando hacia arriba)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2030,7 +2030,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
           <profiles>
             <profile id="b5d6-2482-cc5c-5cca" name="Refinería nivel 1" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
               <characteristics>
-                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las armas con la Regla especial Combustible dispondrán de 2 cargas extras.</characteristic>
+                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las Вооружение con la Regla especial Топливо dispondrán de 2 carГаз extras.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2050,7 +2050,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
           <profiles>
             <profile id="b661-3cb2-6908-759d" name="Refinería nivel 2" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
               <characteristics>
-                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las motocicletas podrán usar Darle caña una vez más por partida.</characteristic>
+                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las Мотоциклs podrán usar Darle caña una vez más por partida.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2070,7 +2070,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
           <profiles>
             <profile id="5586-e824-2d44-542c" name="Refinería nivel 3" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
               <characteristics>
-                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las armas con la Regla especial Combustible dispondrán de 2 cargas extras. </characteristic>
+                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las Вооружение con la Regla especial Топливо dispondrán de 2 carГаз extras. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2128,7 +2128,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
               <profiles>
                 <profile id="e72f-80fa-7a43-7a83" name="Armeria nivel 1" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
                   <characteristics>
-                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado la capacidad para afilar las armas de filo. Todas las armas de este tipo obtendrán un bonificador de +1 a la Пробитие.</characteristic>
+                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado la capacidad para afilar las Вооружение de filo. Todas las Вооружение de este tipo obtendrán un bonificador de +1 a la Пробитие.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2148,7 +2148,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
               <profiles>
                 <profile id="f585-b516-8d26-d1dd" name="Armeria nivel 2" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
                   <characteristics>
-                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado la contundencia de las armas golpeadoras. Todas las Булаваs obtendrán un bonificador de +1 a la Fuerza </characteristic>
+                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado la contundencia de las Вооружение golpeadoras. Todas las Булаваs obtendrán un bonificador de +1 a la Fuerza </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2168,7 +2168,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
               <profiles>
                 <profile id="f3d4-f392-4a79-d294" name="Armeria nivel 3" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
                   <characteristics>
-                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado el equilibrio de las Дистанционное оружие. Todas las armas de este tipo obtendrán un bonificador de +1 a la Precisión</characteristic>
+                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado el equilibrio de las Дистанционное оружие. Todas las Вооружение de este tipo obtendrán un bonificador de +1 a la Precisión</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2248,7 +2248,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
           <profiles>
             <profile id="b341-899a-dca8-ca98" name="Caravana comercial" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
               <characteristics>
-                <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Los Мусорщики pueden vender el equipo usado a su precio total básico.</characteristic>
+                <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Los Мусорщики pueden vender el Оборудование usado a su precio total básico.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2296,7 +2296,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
               <profiles>
                 <profile id="c732-dee0-b68a-efe3" name="Centro táctico nivel 2" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
                   <characteristics>
-                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Entre partidas, puedes gastar 15 chapas en subir 5PX de una miatura. Se puede usar más de una vez, pero no puedes repetir sobre la misma miniatura hasta que vuelvas a jugar otra partida. </characteristic>
+                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Entre partidas, puedes Газtar 15 chapas en subir 5PX de una miatura. Se puede usar más de una vez, pero no puedes repetir sobre la misma miniatura hasta que vuelvas a jugar otra partida. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2544,7 +2544,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
           <profiles>
             <profile id="f4c9-d709-29a4-f1f5" name="Museo militar" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
               <characteristics>
-                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las armas con la regla especial Огнестрельное cuestan la mitad de chapas (redondeando hacia arriba)</characteristic>
+                <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las Вооружение con la regla especial Огнестрельное cuestan la mitad de chapas (redondeando hacia arriba)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2703,7 +2703,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
               <profiles>
                 <profile id="d9ac-9446-60df-8af4" name="Refinería nivel 1" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
                   <characteristics>
-                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las armas con la Regla especial Combustible dispondrán de 2 cargas extras.</characteristic>
+                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las Вооружение con la Regla especial Топливо dispondrán de 2 carГаз extras.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2723,7 +2723,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
               <profiles>
                 <profile id="8227-3d1e-b812-bded" name="Refinería nivel 2" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
                   <characteristics>
-                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las motocicletas podrán usar Darle caña una vez más por partida.</characteristic>
+                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las Мотоциклs podrán usar Darle caña una vez más por partida.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2743,7 +2743,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
               <profiles>
                 <profile id="5c6e-6d77-2bb1-f516" name="Refinería nivel 3" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
                   <characteristics>
-                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las armas con la Regla especial Combustible dispondrán de 2 cargas extras. </characteristic>
+                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las Вооружение con la Regla especial Топливо dispondrán de 2 carГаз extras. </characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2947,33 +2947,33 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
       <description>Un arma con esta regla especial necesita de ambas manos para ser utilizada.</description>
     </rule>
     <rule id="1e79-6ce5-5bdf-7610" name="Трудно использовать" hidden="false">
-      <description>Algunas armas no son sencillas de utilizar. Un arma con esta regla especial penalizará con un -1 a la Precisión a los disparos que se realicen con ella.</description>
+      <description>Algunas Вооружение no son sencillas de utilizar. Un arma con esta regla especial penalizará con un -1 a la Precisión a los disparos que se realicen con ella.</description>
     </rule>
     <rule id="c646-9a6e-c52c-120d" name="Перезарядка(1)" hidden="false">
-      <description>Un arma con esta regla especial necesita de una Acción para ser recargada después de ser disparada. Estas armas comienzan la partida cargadas. Si el arma fuese de cuerpo a cuerpo, los bonificadores del arma se aplican sólo a la primera Acción de Ближний бой en la que consiga impactar. Acto seguido, este arma contará como descargada.
-En las siguientes Действия de Ближний бой del Turno de Acción se podrán aplicar los modificadores de cualquier otro arma que posea la miniatura (contraviniendo las Правила habituales por poseer dos armas en un Ближний бой) o de Импровизированное оружие si este arma ya descargada fuese la única que pueda o quiera emplear.</description>
+      <description>Un arma con esta regla especial necesita de una Acción para ser recargada después de ser disparada. Estas Вооружение comienzan la partida cargadas. Si el arma fuese de cuerpo a cuerpo, los bonificadores del arma se aplican sólo a la primera Acción de Ближний бой en la que consiga impactar. Acto seguido, este arma contará como descargada.
+En las siguientes Действия de Ближний бой del Turno de Acción se podrán aplicar los modificadores de cualquier otro arma que posea la miniatura (contraviniendo las Правила habituales por poseer dos Вооружение en un Ближний бой) o de Импровизированное оружие si este arma ya descargada fuese la única que pueda o quiera emplear.</description>
     </rule>
-    <rule id="cea4-b36f-b0cd-7e37" name="Bombeo" page="" hidden="false">
-      <description>Una miniatura con un arma con esta regla especial puede gastar Действия “bombeando el arma”. Por cada Acción empleada, el jugador coloca  tres marcadores de +1 a Fue, +1 Pen o +10 cm de Дистанция a todos sus rangos de alcance. Cuando la miniatura dispare, estos modificadores se gastan modificando el Профиль del arma.
-Un arma con esta regla puede acumular un máximo de 5 marcadores en un mismo atributo. Sin embargo bombearla tanto la vuelve inestable: si es disparada utilizando 3 o más marcadores en el mismo Atributo, seguirá la regla especial ¡¡¡CATAPUM!!!.</description>
+    <rule id="cea4-b36f-b0cd-7e37" name="Помповый" page="" hidden="false">
+      <description>Una miniatura con un arma con esta regla especial puede Газtar Действия “bombeando el arma”. Por cada Acción empleada, el jugador coloca  tres marcadores de +1 a Fue, +1 Pen o +10 cm de Дистанция a todos sus rangos de alcance. Cuando la miniatura dispare, estos modificadores se Газtan modificando el Профиль del arma.
+Un arma con esta regla puede acumular un máximo de 5 marcadores en un mismo atributo. Sin embargo bombearla tanto la vuelve inestable: si es disparada utilizando 3 o más marcadores en el mismo Atributo, seguirá la regla especial КАБУМ!!.</description>
     </rule>
     <rule id="eb4c-c95b-cd8c-6493" name="Редкое" hidden="false">
-      <description>cualquiera puede encontrar un palo en el Páramo, pero algunas armas son Редкоеs y es más complicado hacerse con ellas o construirlas. Un arma con esta regla sólo puede repetirse 3 veces en una misma banda.</description>
+      <description>cualquiera puede encontrar un palo en el Páramo, pero algunas Вооружение son Редкоеs y es más complicado hacerse con ellas o construirlas. Un arma con esta regla sólo puede repetirse 3 veces en una misma banda.</description>
     </rule>
     <rule id="c7a1-7da7-3c7f-d7c0" name="Громоздкое" hidden="false">
       <description>Los objetos con esta regla especial son aparatosos de llevar y no es fácil moverse con ellos. Proporcionan un penalizador de -1 a la Agilidad de la miniatura. No es posible estar equipado con más de un objeto con esta regla.</description>
     </rule>
-    <rule id="27b0-b062-69d6-f8bf" name="Electrificación" hidden="false">
+    <rule id="27b0-b062-69d6-f8bf" name="Электрическое" hidden="false">
       <description>Si una miniatura impacta en cuerpo a cuerpo a alguien con un objeto con esta regla especial, o usa un Acción para activar un objeto con esta regla, deberá realizar una tirada de Dureza. En caso de fallarla, la descarga eléctrica lo habrá dejado tan mermado que sufrirá un penalizador de -3 en los atributos de Ближний бой, Precisión y Agilidad hasta que finalice su siguiente Turno de Acción.</description>
     </rule>
-    <rule id="eefa-c903-ab63-8aa5" name="Ignífugo" hidden="false">
-      <description>una miniatura equipada con un Броня con esta regla ignorará los efectos de los marcadores de Incendiaria.</description>
+    <rule id="eefa-c903-ab63-8aa5" name="Огнеупорное" hidden="false">
+      <description>una miniatura equipada con un Броня con esta regla ignorará los efectos de los marcadores de Зажигательное.</description>
     </rule>
     <rule id="5b14-164d-85c7-5452" name="Descarga" hidden="false">
-      <description>Un arma con esta regla especial ignora Броняs. Al necesitar energía eléctrica, sólo se puede usar si la miniatura que usa el arma está equipada con un traje voltaico.</description>
+      <description>Un arma con esta regla especial ignora Броняs. Al necesitar energía eléctrica, sólo se puede usar si la miniatura que usa el arma está equipada con un Электро костюм.</description>
     </rule>
     <rule id="62dc-8ff4-92fa-d831" name="Огнестрельное" hidden="false">
-      <description>Estas armas no llevan incluida Боеприпасы y las Пули han de ser adquiridas a parte.</description>
+      <description>Estas Вооружение no llevan incluida Боеприпасы y las Пули han de ser adquiridas a parte.</description>
     </rule>
     <rule id="0bf7-79a7-1c74-26c8" name="Дробь" hidden="false">
       <description>un arma a Дистанция con esta regla especial concederá un bonificador de +1 a la Precisión a los disparos que se realicen con ella. Además, debido a la dispersión de sus disparos, no es posible tratar de evitar una cobertura al disparar. Ni apuntar a una miniatura en particular en un Ближний бой, al que se disparará sin penalizadores, pero siendo impactadas todas las miniaturas involucradas en caso de éxito.</description>
@@ -2981,89 +2981,89 @@ Un arma con esta regla puede acumular un máximo de 5 marcadores en un mismo atr
     <rule id="eee5-95bf-de8e-16e3" name="Automática" hidden="false">
       <description>Un arma con esta regla podrá disparar 3 veces por Acción (siempre que tenga Боеприпасы) contra el mismo objetivo. El jugador debe decidir si usa este modo antes de disparar, y deberá realizarse una tirada de Precisión independiente por cada disparo..</description>
     </rule>
-    <rule id="da99-3b23-adcf-e0b4" name="Mamotreto" hidden="false">
-      <description>un arma con esta regla tiene un tamaño tan descomunal, que no sólo deben utilizarse las dos manos para manejarla, sino que además una miniatura equipada con ella no podrá equiparse con ninguna otra arma. Por otro lado, si el arma es de Дистанция, debido a la envergadura y peso de esta contará como una Тяжёлая булава con con la regla especial Herrumbre al ser utilizada en Ближний бой cuerpo a cuerpo.</description>
+    <rule id="da99-3b23-adcf-e0b4" name="Большое" hidden="false">
+      <description>un arma con esta regla tiene un tamaño tan descomunal, que no sólo deben utilizarse las dos manos para manejarla, sino que además una miniatura equipada con ella no podrá equiparse con ninguna otra arma. Por otro lado, si el arma es de Дистанция, debido a la envergadura y peso de esta contará como una Тяжёлая булава con con la regla especial Ржавчина al ser utilizada en Ближний бой cuerpo a cuerpo.</description>
     </rule>
-    <rule id="1d5f-d311-adcb-2979" name="Muy Перезарядка(1)" hidden="false">
-      <description>un  arma  con  esta  regla  especial  necesita  dos  Действия  para  ser  recargada  después  de  ser  disparada (no necesariamente consecutivas). Estas armas comienzan la partida cargadas. Si el arma fuese de cuerpo a cuerpo, los bonificadores del arma se aplican sólo a la primera Acción de Ближний бой en la que consiga impactar. Acto seguido, este arma contará como descargada.
-En las siguientes Действия de Ближний бой del Turno de Acción se podrán aplicar los modificadores de cualquier otro arma que posea la miniatura (contraviniendo las Правила habituales por poseer dos armas en un Ближний бой) o de Импровизированное оружие si este arma ya descargada fuese la única que pueda o quiera emplear.</description>
+    <rule id="1d5f-d311-adcb-2979" name="Перезарядка(2)" hidden="false">
+      <description>un  arma  con  esta  regla  especial  necesita  dos  Действия  para  ser  recargada  después  de  ser  disparada (no necesariamente consecutivas). Estas Вооружение comienzan la partida cargadas. Si el arma fuese de cuerpo a cuerpo, los bonificadores del arma se aplican sólo a la primera Acción de Ближний бой en la que consiga impactar. Acto seguido, este arma contará como descargada.
+En las siguientes Действия de Ближний бой del Turno de Acción se podrán aplicar los modificadores de cualquier otro arma que posea la miniatura (contraviniendo las Правила habituales por poseer dos Вооружение en un Ближний бой) o de Импровизированное оружие si este arma ya descargada fuese la única que pueda o quiera emplear.</description>
     </rule>
-    <rule id="8eef-840f-e1ec-9935" name="Vapor" hidden="false">
-      <description>Un arma con esta regla especial funciona de manera diferente al resto. Para impactar no será necesaria una tirada de Precisión, sino que todo aquél que se encuentre en una línea recta y dentro del alcance del arma será impactado automáticamente (siempre que el arma funcione correctamente).Para disparar habrá que realizar una tirada de Técnica. Siempre que se supere la tirada, impactará a las miniaturas que toque esa línea recta imaginaria, con una Fuerza igual a la diferencia por la que haya superado la tirada +1. De esta manera, una miniatura con Técnica 6 que use el arma y que por ejemplo saque un 4, impactará con Fue 3, y si sacara un 2, lo haría con Fue 5. Sin embargo, si no se supera la tirada, habrá sufrido una fuga de vapor, y será el propietario del arma quien sufra el impacto. En esta ocasión, la Fuerza del arma vendrá indicada por la diferencia por la que haya fallado la tirada. De esta manera, la miniatura de antes de Técnica 6, si por ejemplo hubiera sacado un 8, sufriría un impacto de Fue 2.
-Un arma con esta regla especial ignora totalmente el Броня y la cobertura. Además no será posible Apuntar con estas armas, pero sí realizar Fuego defensivo con el penalizador de -2 a la tirada de Técnica en lugar de Precisión.</description>
+    <rule id="8eef-840f-e1ec-9935" name="Пар" hidden="false">
+      <description>Un arma con esta regla especial funciona de manera diferente al resto. Para impactar no será necesaria una tirada de Precisión, sino que todo aquél que se encuentre en una línea recta y dentro del alcance del arma será impactado automáticamente (siempre que el arma funcione correctamente).Para disparar habrá que realizar una tirada de Técnica. Siempre que se supere la tirada, impactará a las miniaturas que toque esa línea recta imaginaria, con una Fuerza igual a la diferencia por la que haya superado la tirada +1. De esta manera, una miniatura con Técnica 6 que use el arma y que por ejemplo saque un 4, impactará con Fue 3, y si sacara un 2, lo haría con Fue 5. Sin embargo, si no se supera la tirada, habrá sufrido una fuga de Пар, y será el propietario del arma quien sufra el impacto. En esta ocasión, la Fuerza del arma vendrá indicada por la diferencia por la que haya fallado la tirada. De esta manera, la miniatura de antes de Técnica 6, si por ejemplo hubiera sacado un 8, sufriría un impacto de Fue 2.
+Un arma con esta regla especial ignora totalmente el Броня y la cobertura. Además no será posible Apuntar con estas Вооружение, pero sí realizar Огонь defensivo con el penalizador de -2 a la tirada de Técnica en lugar de Precisión.</description>
     </rule>
-    <rule id="19c3-af94-7f6a-14b4" name="Plantilla" hidden="false">
-      <description>un arma con esta regla impactará automáticamente a cualquier miniatura tocada por la plantilla correspondiente cuando dispare, sin necesidad de realizar tirada de Precisión, y además ignorará cualquier bonificador  por  cobertura.  La  plantilla  deberá  colocarse  en  contacto    con  la  miniatura  que  la  dispara  en  cualquier posición  en los 180° de su Línea de visión.
-No podrá usarse Fuego defensivo con arma  con esta regla y además si se impacta a una miniatura en Ближний бой, serán impactadas todas las miniaturas involucradas en este, aunque no  sean tocadas por la plantilla.</description>
+    <rule id="19c3-af94-7f6a-14b4" name="Шаблон" hidden="false">
+      <description>un arma con esta regla impactará automáticamente a cualquier miniatura tocada por la Шаблон correspondiente cuando dispare, sin necesidad de realizar tirada de Precisión, y además ignorará cualquier bonificador  por  cobertura.  La  Шаблон  deberá  colocarse  en  contacto    con  la  miniatura  que  la  dispara  en  cualquier posición  en los 180° de su Línea de visión.
+No podrá usarse Огонь defensivo con arma  con esta regla y además si se impacta a una miniatura en Ближний бой, serán impactadas todas las miniaturas involucradas en este, aunque no  sean tocadas por la Шаблон.</description>
     </rule>
     <rule id="1928-3f23-7eb2-5654" name="Bersérker" hidden="false">
       <description>Una miniatura con esta regla especial es tan agresiva o fanática que parece no darse cuenta que ha resultado abatida hasta que es demasiado tarde para el bienestar de sus rivales.
 La miniatura puede actuar un turno propio posterior a resultar muerta. Al final de ese Turno de Acción, si acaba el último turno de la partida o si resulta herida de nuevo (lo que antes suceda), se considerará una baja definitiva.</description>
     </rule>
-    <rule id="0762-d2fb-8c9a-e6db" name="Bestia" hidden="false">
+    <rule id="0762-d2fb-8c9a-e6db" name="Зверь" hidden="false">
       <description>Una  miniatura  con  esta  regla  no  puede  disputar  objetivos  en  las  misiones  que  los  contengan,  ni  Retrasar su Turno de Acción, y es incapaz de escalar superficies verticales, ni siquiera por una escalerilla. Además, no podrá Rapiñar un cadáver ni Activar ningún tipo de aparato. </description>
     </rule>
-    <rule id="7350-c8a9-e1f9-ef83" name="Camuflaje" hidden="false">
+    <rule id="7350-c8a9-e1f9-ef83" name="Камуфляж" hidden="false">
       <description>Algunas miniaturas son difíciles de distinguir del entorno. Las miniaturas que disparen contra una miniatura con esta regla especial, sufrirán un -2 adicional a la Precisión en las tiradas para evitar Cobertura (lo que hace un total de -5).</description>
     </rule>
-    <rule id="55d0-5f3e-060e-534a" name="¡¡¡CATAPUM!!!" hidden="false">
+    <rule id="55d0-5f3e-060e-534a" name="КАБУМ!!" hidden="false">
       <description>A la hora de disparar un arma o Боеприпасы con esta regla especial, con un resultado de 9 o 10 en la tirada de Precisión habrá una explosión interna: el disparo fallará automáticamente y el arma quedará inutilizada durante el resto de la partida. Si por alguna razón el impacto fuese Автоматическое (por tener una tirada de Precisión 10 gracias a modificadores, por ejemplo), habrá que realizar igualmente la tirada de d10 para ver si se aplica esta regla. Con el resto de resultados funcionará normalmente, independientemente de que consiga impactar o no.</description>
     </rule>
-    <rule id="2020-a66f-0a35-e9f1" name="Gas" hidden="false">
-      <description>estas armas explotan al impactar, alcanzando a toda miniatura tocada por su efecto en un radio de 5 cms. medido desde el punto de impacto.
+    <rule id="2020-a66f-0a35-e9f1" name="Газ" hidden="false">
+      <description>estas Вооружение explotan al impactar, alcanzando a toda miniatura tocada por su efecto en un radio de 5 cms. medido desde el punto de impacto.
 Toda miniatura alcanzada por el efecto de un arma con esta regla deberá realizar una Tirada de Dureza o perder un punto de Dureza inmediata y permanentemente. Los Мутарды, debido a su habitual exposición a zonas contaminadas, reciben un bonificador de +2 a su Dureza en esta tirada. Toda miniatura equipada con Protección contra la contaminación superará automáticamente esta tirada.
 Además, toda miniatura alcanzada contará todas sus Действия en su siguiente turno de acción como si estuviera sobre terreno Chungo.</description>
     </rule>
-    <rule id="6c7d-2db1-b667-6410" name="Grupal" hidden="false">
-      <description>Hay criaturas que tienen cierta mentalidad colectiva que les hace ir en grupo siempre que pueden. Las miniaturas con esta regla especial deben ir unidas hasta formar un grupo mínimo de 2 y máximo de 5. Por encima de este número formarán otro grupo, y así sucesivamente. Por ejemplo, si una banda de Мутарды tiene 8 pochos, éstos deben ir en un grupo de 5 y otro de 3, o dos grupos de 4.Al terminar un turno, ninguna miniatura de un grupo debe estar separada más de 5 cm de la más cercana ni más de 15 cm de la más lejana cualesquiera. Si por alguna circunstancia esto ocurriera (como que una miniatura del grupo resultara abatida), el subgrupo que haya quedado con menos miniaturas separadas debe gastar sus siguientes Действия únicamente en intentar unirse de nuevo al grupo más numeroso.
+    <rule id="6c7d-2db1-b667-6410" name="Стая" hidden="false">
+      <description>Hay criaturas que tienen cierta mentalidad colectiva que les hace ir en grupo siempre que pueden. Las miniaturas con esta regla especial deben ir unidas hasta formar un grupo mínimo de 2 y máximo de 5. Por encima de este número formarán otro grupo, y así sucesivamente. Por ejemplo, si una banda de Мутарды tiene 8 pochos, éstos deben ir en un grupo de 5 y otro de 3, o dos grupos de 4.Al terminar un turno, ninguna miniatura de un grupo debe estar separada más de 5 cm de la más cercana ni más de 15 cm de la más lejana cualesquiera. Si por alguna circunstancia esto ocurriera (como que una miniatura del grupo resultara abatida), el subgrupo que haya quedado con menos miniaturas separadas debe Газtar sus siguientes Действия únicamente en intentar unirse de nuevo al grupo más numeroso.
 Las miniaturas se consideran una sola para la mayoría de los efectos de juego, como el máximo de miniaturas, el despliegue o el movimiento. De esta manera cuando llegue su Turno de Acción moverán todas las de un grupo a la vez, por lo que no se podrá empezar el Turno de Acción de otra miniatura hasta que el grupo al completo haya realizado sus Действия. Si una miniatura del grupo está involucrada en un Ближний бой, se considerará que todo el grupo participa en ese Ближний бой como si de una única miniatura se tratara incluyendo los penalizadores al enemigo por estar en superioridad numérica en el Ближний бой. Sin embargo, hay que tener en cuenta que el grupo obtendrá un bonificador de +1 al Ближний бой por cada miniatura por encima de la primera que lo conforme. Por ejemplo, un grupo de 4 pochos enfrentándose en Ближний бой a un enemigo realizará una sola tirada enfrentada con un atributo de Ближний бой de 4 (1 de base + 3 por contar con 3 pochos por encima del primero).</description>
     </rule>
-    <rule id="7725-6849-25a0-2dad" name="Herrumbre" hidden="false">
+    <rule id="7725-6849-25a0-2dad" name="Ржавчина" hidden="false">
       <description>Un arma con esta regla especial estará oxidada y mellada, por lo que sufrirá un penalizador de -1 a su Пробитие.</description>
     </rule>
-    <rule id="aa5b-8a1e-2169-739d" name="Humo" hidden="false">
-      <description>cuando un arma esta regla impacte, dejará un marcador permanente de humo de 5 cm de radio, medido desde el punto de impacto.
+    <rule id="aa5b-8a1e-2169-739d" name="Дым" hidden="false">
+      <description>cuando un arma esta regla impacte, dejará un marcador permanente de Дым de 5 cm de radio, medido desde el punto de impacto.
 Los disparos cuya línea de visión pasen sobre este marcador sufrirán un penalizador de -3 a la tirada de Precisión.</description>
     </rule>
-    <rule id="71d6-7a17-0f03-0d46" name="Incendiaria" hidden="false">
-      <description>Las armas incendiarias cubren de llamas la zona allí donde impactan, obligando a los rivales a salir de cobertura o haciendo muy arriesgado cruzar ciertas zonas.
-Las armas incendiarias explotan al impactar, dejando un marcador permanente de fuego de 5 cm de radio.Toda miniatura impactada con un arma incendiaria recibirá un impacto de de Pen 3 Fue 2, que ignora cualquier tipo de bonificación por cobertura, y deberá desplazarse inmediatamente fuera del rango de Acción del marcador de fuego y nunca hacia el rival que ha efectuado el ataque. 
-Cualquier miniatura que durante el transcurso de una Acción de Movimiento contacte con un marcador de Fuego sufrirá un impacto de Pen 3 Fue 2. Una miniatura sufrirá los efectos del fuego sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador. Por otra parte, si una miniatura tiene algún arma incendiaria y resulta abatida, UNA de estas armas detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado. Además, todo el equipo que lleve habrá resultado destruido y no podrá ser usado por otra miniatura.</description>
+    <rule id="71d6-7a17-0f03-0d46" name="Зажигательное" hidden="false">
+      <description>Las Вооружение Зажигательноеs cubren de llamas la zona allí donde impactan, obligando a los rivales a salir de cobertura o haciendo muy arriesgado cruzar ciertas zonas.
+Las Вооружение Зажигательноеs explotan al impactar, dejando un marcador permanente de Огонь de 5 cm de radio.Toda miniatura impactada con un arma Зажигательное recibirá un impacto de de Pen 3 Fue 2, que ignora cualquier tipo de bonificación por cobertura, y deberá desplazarse inmediatamente fuera del rango de Acción del marcador de Огонь y nunca hacia el rival que ha efectuado el ataque.
+Cualquier miniatura que durante el transcurso de una Acción de Movimiento contacte con un marcador de Огонь sufrirá un impacto de Pen 3 Fue 2. Una miniatura sufrirá los efectos del Огонь sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador. Por otra parte, si una miniatura tiene algún arma Зажигательное y resulta abatida, UNA de estas Вооружение detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas Правила que si el arma hubiera impactado. Además, todo el Оборудование que lleve habrá resultado destruido y no podrá ser usado por otra miniatura.</description>
     </rule>
-    <rule id="5233-0e7d-17f2-d0fd" name="Infiltración" hidden="false">
+    <rule id="5233-0e7d-17f2-d0fd" name="Инфильтрация" hidden="false">
       <description>Una miniatura con esta regla especial no desplegará con el resto de miniaturas. En su lugar se  supone  que  avanza  10  cm  por  turno  desde  su  zona  de  despliegue,  pudiendo  aparecer  al  principio  de  cualquier turno posterior al primero hasta un máximo del cuarto turno. Desplegará en cualquier lugar del tablero, a no menos de 15 cm de cualquier miniatura enemiga, y en un lugar donde ninguna miniatura enemiga pueda trazar línea de visión hacia ella. Esto significa que si por ejemplo apareciera en el cuarto turno, podría situarse en cualquier lugar hasta a 30 cm de su zona de despliegue (10 cm por cada turno anterior).</description>
     </rule>
-    <rule id="72ec-7c35-9625-8459" name="Mónguer" hidden="false">
+    <rule id="72ec-7c35-9625-8459" name="Монг" hidden="false">
       <description>Hay luchadores especialmente cortos de mente. Una miniatura con esta regla no puede disputar objetivos en las misiones que los contengan ni Retrasar su Turno de Acción. Además, no podrá Rapiñar un cadáver ni Activar ningún tipo de aparato. </description>
     </rule>
-    <rule id="5211-a32a-eaff-9e72" name="Montada" hidden="false">
-      <description> una  miniatura  con  esta  regla  va  montada  sobre  un  animal  o  un  pequeño  vehículo.  No  puede  disputar objetivos en las misiones que los contenga y es incapaz de escalar superficies verticales, ni siquiera por una escalerilla. Además, ya que es difícil disparar mientras se monta, cualquier arma con la que dispare contará con la regla especial Трудно использовать.</description>
+    <rule id="5211-a32a-eaff-9e72" name="Всадник" hidden="false">
+      <description> una  miniatura  con  esta  regla  va  Всадник  sobre  un  animal  o  un  pequeño  vehículo.  No  puede  disputar objetivos en las misiones que los contenga y es incapaz de escalar superficies verticales, ni siquiera por una escalerilla. Además, ya que es difícil disparar mientras se monta, cualquier arma con la que dispare contará con la regla especial Трудно использовать.</description>
     </rule>
-    <rule id="cbc6-771a-436d-d7ef" name="Raudo" hidden="false">
+    <rule id="cbc6-771a-436d-d7ef" name="Быстрый" hidden="false">
       <description>hay criaturas más rápidas de lo habitual. Una miniatura con esta regla especial puede mover 15 cm en lugar de 10 cm por Acción de movimiento. </description>
     </rule>
-    <rule id="720b-0461-62c6-a67d" name="Salto" hidden="false">
-      <description>una miniatura con esta regla especial puede utilizar su movimiento de manera tridimensional, moviéndose en cualquier dirección (siempre que la escenografía se lo permita, claro). Eso sí, debe finalizar su movimiento posándose en un lugar donde pueda estar de pie. Pueden combinarse varias Действия seguidas de movimiento en un mismo Turno de Acción, para hacer un “súper salto”, en cuyo caso sólo al final de la última Acción de movimiento tendrá que posarse, pudiendo usarlo también para asaltar.</description>
+    <rule id="720b-0461-62c6-a67d" name="Прыжок" hidden="false">
+      <description>una miniatura con esta regla especial puede utilizar su movimiento de manera tridimensional, moviéndose en cualquier dirección (siempre que la escenografía se lo permita, claro). Eso sí, debe finalizar su movimiento posándose en un lugar donde pueda estar de pie. Pueden combinarse varias Действия seguidas de movimiento en un mismo Turno de Acción, para hacer un “súper Прыжок”, en cuyo caso sólo al final de la última Acción de movimiento tendrá que posarse, pudiendo usarlo también para asaltar.</description>
     </rule>
-    <rule id="fdf7-aa8f-26a3-4ec4" name="Sed de sangre" hidden="false">
+    <rule id="fdf7-aa8f-26a3-4ec4" name="Жажда крови" hidden="false">
       <description>siempre que una miniatura con esta regla especial tenga Línea de visión con una miniatura enemiga, deberá dirigirse de la manera más corta posible hacia ella, hasta llegar al Ближний бой. Si hubiera más de una miniatura enemiga, deberá avanzar hacia la más cercana (tirando al azar si estuvieran a la misma Дистанция). No podrá usar nunca una Acción para Separarse del Ближний бой.</description>
     </rule>
     <rule id="6897-db05-d709-f40d" name="Непрямое оружие" hidden="false">
       <description>Un arma con esta regla especial no seguirá las Правила habituales de disparo. Se tirará para impactar de manera habitual, pero si falla, se desviará del objetivo 2,5 cm por cada diferencia de 2 en la tirada. De esta manera, si fallara por una diferencia de 1 o 2, se desviaría 2,5 cm, pero si fallara por un diferencia de 7 o 8 se desviaría 10 cm. La desviación será hacia adelante si la tirada de Precisión fue par, y hacia atrás si la tirada fue impar. Nunca podrá desviarse más atrás que la miniatura que usa el arma, si lo hiciera, se considerará que le ha caído justo encima (quizás se le resbaló de la mano).
 Un arma con esta regla especial puede tomar como objetivo no sólo una miniatura rival, también un punto del terreno de juego o de escenografía dentro de su alcance y en la línea de visión метателя (aunque el posterior desvío del proyectil pueda acabar fuera de ellos).
-Un arma con esta regla especial no tiene modificadores a Precisión por Дистанция. No se puede Apuntar con un Непрямое оружие, pero sí preparar Fuego defensivo.</description>
+Un arma con esta regla especial no tiene modificadores a Precisión por Дистанция. No se puede Apuntar con un Непрямое оружие, pero sí preparar Огонь defensivo.</description>
     </rule>
-    <rule id="996e-8e46-8d07-aeae" name="Todoterreno" hidden="false">
+    <rule id="996e-8e46-8d07-aeae" name="Внедорожник" hidden="false">
       <description>Una  miniatura  con  esta  regla  considera  el  Terreno  pila  chungo  como  Terreno  chungo,  y  el  Terreno chungo como Terreno normal.</description>
     </rule>
-    <rule id="1903-6024-95ed-25b0" name="Trepador" hidden="false">
+    <rule id="1903-6024-95ed-25b0" name="Альпинист" hidden="false">
       <description>Una miniatura con esta regla especial tiene un +3 a las tiradas de Agilidad realizadas en el movimiento de Trepar, o a chequeos de Terreno chungo al subir o bajar una escalerilla.</description>
     </rule>
-    <rule id="81cd-d6c1-0f2d-cbc4" name="Usar y tirar" hidden="false">
+    <rule id="81cd-d6c1-0f2d-cbc4" name="Одноразовое" hidden="false">
       <description>Un  arma  con  esta  regla  especial  sólo  podrá  utilizarse  en  una  única  ocasión  durante  toda  la  partida.</description>
     </rule>
-    <rule id="8ec7-53b2-5eea-c6f5" name="Veneno (x)" hidden="false">
-      <description>Cuando una miniatura es impactada por otra miniatura o arma con esta regla especial podrá sufrir daño incluso tras haber superado su tirada de Dureza. El Turno de Acción posterior a superar la tirada, justo antes de realizar sus Действия, deberá superar una tirada enfrentada de Dureza contra la potencia del veneno (el número indicado entre paréntesis) o habrá muerto.</description>
+    <rule id="8ec7-53b2-5eea-c6f5" name="Яд (x)" hidden="false">
+      <description>Cuando una miniatura es impactada por otra miniatura o arma con esta regla especial podrá sufrir daño incluso tras haber superado su tirada de Dureza. El Turno de Acción posterior a superar la tirada, justo antes de realizar sus Действия, deberá superar una tirada enfrentada de Dureza contra la potencia del Яд (el número indicado entre paréntesis) o habrá muerto.</description>
     </rule>
   </sharedRules>
 </gameSystem>
