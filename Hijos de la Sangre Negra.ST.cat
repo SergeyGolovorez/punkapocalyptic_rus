@@ -99,9 +99,9 @@
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4b63-2acb-a8e1-8248" name="Quemado" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="4b63-2acb-a8e1-8248" name="Горящий" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="a986-b39a-18bf-047d" name="Quemado" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="a986-b39a-18bf-047d" name="Горящий" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">2</characteristic>
@@ -115,14 +115,14 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="bd0f-6521-da1a-ca5c" name="Mártir" hidden="false">
-          <description>Siempre que estén a 5 cm o menos de una miniatura aliada, un Quemado puede usar su cuerpo para salvarlo cuando haya sido impactado. Se colocará en contacto la miniatura aliada impactada justo antes de que este tuviera que realizar la tirada enfrentada de Сила contra Стойкость. Será el Quemado quien usé su Стойкость para esta tirada, y obviamente, será la miniatura que es retirada como baja si resulta abatida.</description>
+        <rule id="bd0f-6521-da1a-ca5c" name="Мученик" hidden="false">
+          <description>Если Горящий находится в 2 дюйма от союзной модели или ближе, он может использовать свое тело, чтобы спасти ее жизнь после удара. Горящий войдёт в бтб с пораженной союзной миниатюрой прямо перед тем, как ему придется сделать противоположный бросок на Силу против Стойкости. Именно Горелый использует свою Стойкость для этого броска, и именно он будет удален с поля, если потерпит неудачу. Если удар нанесен оружием типа «Шаблон» или оружием, для попадания которого не требуется бросок (например, Паровой пушкой), Горелый не сможет применить это правило.</description>
         </rule>
-        <rule id="8ae8-5934-4db1-0923" name="¡Por la Sangre Negra!" hidden="false">
-          <description>Por +15 Очки un Quemado puede equiparse con un bidón gigante de Газofa con el que realizar un ataque a lo bonzo contra sus enemigos. Si un Quemado, por cualquier motivo, queda en contacto peana con peana con un enemigo se prenderá Огонь inmediatamente, resultando abatido al inmolarse y causando un impacto de Сила 5 y Пробитие 5. Si hubiera quedado en contacto con varias figuras, o un Ближний бой múltiple, todas las miniaturas implicadas sufrirán ese impacto.</description>
+        <rule id="8ae8-5934-4db1-0923" name="За чёрную кровь!" hidden="false">
+          <description>За +15 очков Горящий может вооружиться канистрой бензина, с помощью которой он будет совершать банзай атаки против своих врагов. Если Горящий с канистрой войдёт в бтб с врагом, он немедленно загорится, что приведет к Взрыву, и нанесет удар Силой 5 и Пробитием 5. Если он был в контакте с несколькими фигурками или вступил в множественный Ближний бой, все вовлеченные миниатюры пострадают от этого удара.</description>
         </rule>
-        <rule id="9bb2-17cd-2dfb-ec1c" name="Bajo la mirada llameante: Quemado" hidden="false">
-          <description>Siempre que un Quemado esté en la línea de visión de un Guardián de la Llama, la miniatura contará con la regla especial Внедорожник.</description>
+        <rule id="9bb2-17cd-2dfb-ec1c" name="Под пылающим взором: Горящий" hidden="false">
+          <description>Пока Горящий находится в поле зрения своего Хранителя Пламени, миниатюра будет получает специальное правило Внедорожник.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -134,7 +134,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="b70e-affa-f7f8-db48" name="Оборудование" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="6e60-ca75-e34b-084a" name="Bidón gigante de Газofa" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6e60-ca75-e34b-084a" name="Канистра бензина" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="15.0"/>
               </costs>
@@ -186,9 +186,9 @@
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d4e2-27fa-2227-e8f8" name="Ascua" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d4e2-27fa-2227-e8f8" name="Уголь" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="3c7c-4a4a-fb91-f77b" name="Ascua" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="3c7c-4a4a-fb91-f77b" name="Уголь" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">4</characteristic>
@@ -202,8 +202,8 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="99f2-08c1-9920-5027" name="Bajo la mirada llameante: Ascua" hidden="false">
-          <description>Siempre que un Ascua esté en la línea de visión de un Guardián de la Llama, la miniatura contará con un bonificador de +1 a la Стойкость.</description>
+        <rule id="99f2-08c1-9920-5027" name="Под пылающим взором: Уголь" hidden="false">
+          <description>Пока Уголь находится в поле зрения Хранителя Пламени, миниатюра будет получать Бонус +1 к Стойкости.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -338,9 +338,9 @@
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="df17-e6b7-de32-94b9" name="Chispa" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="df17-e6b7-de32-94b9" name="Искра" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="5d2c-6239-3a9b-02be" name="Chispa" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="5d2c-6239-3a9b-02be" name="Искра" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">4</characteristic>
@@ -354,8 +354,8 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="9b75-2d82-c3e7-556a" name="Bajo la mirada llameante: Chispa" hidden="false">
-          <description>Siempre que un Chispa esté en la línea de visión de un Guardián de la Llama, la miniatura podrá realizar una vez por partida una acción extra de Darle caña. Debe decirse claramente que se ha utilizado la acción que proporciona Bajo la mirada llameante.</description>
+        <rule id="9b75-2d82-c3e7-556a" name="Bajo la mirada llameante: Искра" hidden="false">
+          <description>Всякий раз, когда Искра находится в поле зрения Хранителя Пламени, модель может выполнить дополнительное действие «Жми на газ» один раз за игру. Необходимо чётко указать, что действие происходит под влиянием свойства «Под пылающим взором».</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -458,12 +458,12 @@
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8362-5c4e-b756-74e0" name="Guardián de la llama" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8362-5c4e-b756-74e0" name="Хранитель огня" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="568a-cb47-fa25-4221" type="max"/>
       </constraints>
       <profiles>
-        <profile id="449f-f372-bb5f-9a4f" name="Guardián de la llama" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="449f-f372-bb5f-9a4f" name="Хранитель огня" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">2</characteristic>
@@ -477,8 +477,8 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="e777-8624-38bb-91c9" name="Bajo la mirada llameante: Guardián de la llama" hidden="false">
-          <description>El  Guardián  es  capaz  de  motivar  a  sus  cultistas  con  su  mera  mirada.  Algunas  opciones  de  tropa  tienen  una  ventaja  cuando  se  encuentran  bajo  la  línea  de  visión  del  Guardián.  Éstas  se  explican en sus respectivas entradas.</description>
+        <rule id="e777-8624-38bb-91c9" name="Под пылающим взором: Хранитель огня" hidden="false">
+          <description>Хранитель огня способен мотивировать своих последователей одним лишь взглядом. Некоторые виды бойцов получают преимущество, когда находятся в зоне его прямой видимости.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -556,9 +556,9 @@
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b41a-10bd-527a-201e" name="Cunnilingus Igni" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b41a-10bd-527a-201e" name="Куннилингус Игни" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="9231-34b5-f31e-5a0f" name="Cunnilingus Igni" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="9231-34b5-f31e-5a0f" name="Куннилингус Игни" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">3</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">5</characteristic>
@@ -572,11 +572,11 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="78b1-4113-5794-b69f" name="Por el líder" hidden="false">
-          <description>Los Quemados son aún más fanáticos en su defensa de Cunnilingus. Podrán usar su regla Mártir estando hasta 10 cm de él, en lugar de los 5 cm habituales.</description>
+        <rule id="78b1-4113-5794-b69f" name="За нашего лидера" hidden="false">
+          <description>Горящие еще более фанатичны, когда защищают Куннилингуса. Они смогут использовать правило Мученик, когда Кунилингус находится на расстоянии до 4 дюймов от него, вместо обычных 2 дюймов.</description>
         </rule>
-        <rule id="ebad-888f-48ac-ada1" name="Sumo Guardián de la Llama" hidden="false">
-          <description>Cunnilingus actúa como un Guardián de la Llama, por lo que podrá usar la Regla especial Bajo la mirada llameante sobre sus tropas. Además, su presencia es tan imponente que las miniaturas no tendrán que estar en su Línea de visión, y se beneficiarán de la regla hasta que Cunnilingus sea Abatido. Por otra parte, puesto que sólo puede haber un Guardián de la Llama en la banda, si incluyes a Cunnilingus no podrás incluir a otro.</description>
+        <rule id="ebad-888f-48ac-ada1" name="Верховный Хранитель пламени" hidden="false">
+          <description>Кунилингус выступает в роли Хранителя Пламени, поэтому он сможет использовать особое правило «Под пылающим взором» на своих бойцах. Более того, его присутствие настолько внушительно, что моделям не придется находиться в его поле зрения, и они будут пользоваться этим правилом до тех пор, пока «Куннилингус» не будет поражен. С другой стороны, поскольку в рейде может быть только один Хранитель Пламени, если вы включите Кунилингуса, вы не сможете включить еще одного.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -585,14 +585,14 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="e927-3535-345f-e1fb" name="Вооружение" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="eee2-71c5-f1bf-a4c2" name="Lechazo" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="eee2-71c5-f1bf-a4c2" name="Камшот" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df45-e683-0255-a09d" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a2f-249f-12cc-6dfd" type="min"/>
               </constraints>
               <rules>
-                <rule id="b911-2485-58c5-822a" name="Lechazo" hidden="false">
-                  <description>Es  un  pistolón  de  gran  calibre  capaz  de  disparar  Боеприпасы  Зажигательное.  Sus  disparos  se  resuelven de la forma habitual, pero además cada vez que impacten seguirán la regla especial Зажигательное (centrando la Шаблон en la miniatura impactada, tanto si ha sido abatida como si no).</description>
+                <rule id="b911-2485-58c5-822a" name="Камшот" hidden="false">
+                  <description>Это крупнокалиберный пистолет, созданный специально для Куннилингуса и способный стрелять зажигательными боеприпасами. Попадания определяются обычным образом, но, кроме того, каждый раз, когда они попадают, они будут следовать особому правилу зажигательного выстрела (3), центрируя маркер огня на пораженной миниатюре, независимо от того, была ли она поражена или нет.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -605,7 +605,7 @@
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0fcb-0936-c45a-38ca" name="Chorrazo" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0fcb-0936-c45a-38ca" name="Сквирт" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb03-13c4-cea8-59e9" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33d0-6a34-b496-d481" type="min"/>
@@ -621,12 +621,13 @@
                 </profile>
               </profiles>
               <rules>
-                <rule id="1f95-ce2b-f05e-1ab0" name="Chorrazo" hidden="false">
-                  <description>Se trata de una sierra mecánica de tamaño reducido acoplada a su antebrazo. Posee Пробитие 5, Сила +2 y la Regla especial Топливо (5 - 1). Si decide usarla sin utilizar el Топливо (o se ha quedado sin él) el arma pasará a considerarse un Малый клинок.</description>
+                <rule id="1f95-ce2b-f05e-1ab0" name="Сквирт" hidden="false">
+                  <description>Это небольшая бензопила, которая крепится к предплечью. Имеет Силу +2, Пробитие 5 и Специальное правило Бензак (5-1). Если Игни решит использовать, не тратя бензин (или он закончился), оружие будет использоваться как Нож.</description>
                 </rule>
                 <rule id="0200-e285-d6ef-890b" name="Топливо (5-1)" hidden="false">
-                  <description>Las Вооружение con esta regla necesitan de carГаз de Топливо para funcionar. Un arma comienza con5 carГаз, pero cada vez que se haga un disparo o ataque, Газtará 1 carГаз.
-Pero llevar ese Топливо encima es peligroso, así que si una miniatura con un arma con esta regla es impactada puede llegar a explosionar. Si después de ser impactada, en la tirada enfrentada de Сила contra Стойкость el atacante saca una tirada de 1, el arma explotará. La miniatura que porte el arma, y cualquier otra miniatura en contacto con ella, sufrirá un impacto de tanta Сила como carГаз le queden al arma y Пробитие 3.</description>
+                  <description>Оружию с этим правилом требуется заряд «Топливо» для работы. Изначально оружие имеет 5 зарядов, но каждый выстрел или атака уменьшает его на 1 заряд.
+
+                      Однако ношение этого «Топлива» опасно, поэтому при попадании в модель с оружием с этим правилом она может взорваться. Если после попадания атакующий выбросит 1 на встречном броске «Сила против Стойкости», оружие взорвётся. Миниатюра, несущая это оружие, и любая другая миниатюра, соприкасающаяся с ним, получит урон с Силой, равной оставшемуся у оружия количеству Топлива, и Пробитие 3.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -656,9 +657,9 @@ Pero llevar ese Топливо encima es peligroso, así que si una miniatura co
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6150-14aa-30f4-3ed6" name="Momma Nutritora" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6150-14aa-30f4-3ed6" name="Мама Нутритора" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="afd6-1a4d-8c0e-7bff" name="Momma Nutritora" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="afd6-1a4d-8c0e-7bff" name="Мама Нутритора" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
@@ -672,11 +673,11 @@ Pero llevar ese Топливо encima es peligroso, así que si una miniatura co
         </profile>
       </profiles>
       <rules>
-        <rule id="1163-7b8f-4baa-222a" name="Nutritora" hidden="false">
-          <description>Si está en contacto con una miniatura amiga con un arma de Топливо o una Мотоцикл, Momma puede Газtar una Acción en rellenar todos los Очки de Топливо en el caso de las Вооружение, o los Darle caña en el caso de las Мотоциклs.</description>
+        <rule id="1163-7b8f-4baa-222a" name="Нутритора" hidden="false">
+          <description>При контакте с дружественной моделью с топливным оружием или мотоциклом, Мамочка может потратить Действие, чтобы пополнить все очки бензака (кроме тех, которые предоставляет Хранитель Пламени с правилом Под пылающим взором).</description>
         </rule>
-        <rule id="4966-26bc-66df-ad0c" name="Bomba andante" hidden="false">
-          <description>Momma  va  cargando  con  una  enorme  cantidad  de  Топливо.  Si  después  de  ser impactada, en la tirada enfrentada de Сила contra Стойкость el atacante saca una tirada de 1, Momma explotará. No sólo resultará abatida automáticamente, si no que deberá colocarse la Шаблон de Зажигательная бомба sobre ella y toda miniatura que quede cubierta aunque sea parcialmente sufrirá un impacto de Pen 6 y Fue 6. El lugar quedará ardiendo, por lo que la Шаблон permanecerá en el lugar de manera permanente, siguiendo la regla especial Зажигательное.</description>
+        <rule id="4966-26bc-66df-ad0c" name="Ходячая бомба" hidden="false">
+          <description>Мама несет на себе огромное количество топлива. Если после удара нападающий при встречном броске Силы против Стойкости выбросит 1, Мамочка взорвется. Мало того, что она будет автоматически считаться павшей, но и нападавший будет получит удар так, как будто в него попало оружие с со спецальным правилом Зажигательное (6).</description>
         </rule>
       </rules>
       <categoryLinks>

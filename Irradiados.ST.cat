@@ -526,12 +526,12 @@
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="74b2-1e56-9a8d-6d5d" name="Mártir" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="74b2-1e56-9a8d-6d5d" name="Мученик" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="c0fa-9d75-bd21-781b" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2eb9-ef98-29c3-7968" name="Mártir" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="2eb9-ef98-29c3-7968" name="Мученик" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">1</characteristic>
@@ -546,7 +546,7 @@
       </profiles>
       <rules>
         <rule id="63a9-d3d5-af08-bc9e" name="Radiados" hidden="false">
-          <description>Los mártires se consideran una fuente de Радиация para las Правила de Радиация. Incluso ellos mismos se verán afectados por su propia Радиация por lo que todos los Turnos deberán realizar la tirada.</description>
+          <description>Los Мученикes se consideran una fuente de Радиация para las Правила de Радиация. Incluso ellos mismos se verán afectados por su propia Радиация por lo que todos los Turnos deberán realizar la tirada.</description>
         </rule>
       </rules>
       <categoryLinks>

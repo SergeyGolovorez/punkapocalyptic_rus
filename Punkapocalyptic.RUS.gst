@@ -1852,22 +1852,18 @@ Pero llevar ese Топливо encima es peligroso, así que si una miniatura co
       <profiles>
         <profile id="697b-d25d-8d25-bfb3" name="Мотоцикл" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
           <characteristics>
-            <characteristic name="Правила" typeId="f042-739d-9839-c439"> Una  miniatura  en  Мотоцикл  tendrá  las  Правила  especiales  Всадник  y  Быстрый.  Puesto  que  es  posible utilizar partes de la moto para cubrirse, la miniatura contará con una cobertura de Bli+3.
-</characteristic>
+            <characteristic name="Правила" typeId="f042-739d-9839-c439"> Искра ездит на мотоцикле, что дает ему особые правила Топливо (2), Наездник и Быстрый. Поскольку части мотоцикла можно использовать для укрытия от огня, миниатюра будет иметь укрытие Броню +3. </characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
         <rule id="d92c-960d-3c7b-3adc" name="Darle caña" hidden="false">
-          <description>Además, dos veces por partida, podrá Газtar una Acción en utilizar toda la potencia de la moto para realizar una de las siguientes Действия:
-
-· Dale al turbo: la moto puede mover hasta el doble (30 cm) en una acción de movimiento, pero deberá hacerlo en línea recta tal y como estuviese encarada al principio de la acción.
-
-·  Potencia  bruta:  la  moto  asalta  de  manera  embravecida,  otorgando  un  bonificador  de  +3  al  Ближний бой  durante un AПрыжок.
-
-· Nube de polvo: la moto usará las ruedas para levantar una nube de polvo que hace más difícil alcanzarla. Durante el ese turno de juego, todos los disparos contra esta miniatura sufrirán un penalizador de -3 a su Точность.
-
-·  Sal  cagando  leches:  si  está  trabada  en  Ближний бой,  puede  usar  esta  acción  para  Abandonar  el  Ближний бой  automáticamente, como si hubiera vencido en la tirada enfrentada de Ловкость.</description>
+          <description>Кроме того, вы можете использовать мощность мотоцикла, потратив 1 заряд Топлива, со следующими эффектами:
+              •	Газ в пол: Искра может переместиться на расстояние до 12 дюймов за Действие Движения, но она должна делать это по прямой линии, от начала до конца движения.
+              •	Полная мощность: Байк и водитель резко прыгают вперёд, давая дополнительный бонус +2 к Ближнему бою при Штурме.
+              •	Облако пыли: гонщик использует свои колеса, чтобы поднять облако пыли, что затруднит попадание в него. В течение оставшегося игрового хода все выстрелы по этой модели получают штраф -3 к точности.
+              •	Отправляйся в путь, Джек: если байкер участвует в Ближнем бою, миниатюра может использовать это действие, чтобы автоматически выйти из боя, как если бы он использовал правило Скользкий.
+          </description>
         </rule>
       </rules>
       <costs>
