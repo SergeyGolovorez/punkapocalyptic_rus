@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="c6ae-aede-d9ca-db82" name="Дети Чёрной крови Modo Campaña" revision="6" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="5ab5-0a69-5286-3df5" name="Quemado" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5ab5-0a69-5286-3df5" name="Горящий" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="8dff-c6ba-8efe-0579" name="Quemado" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
+        <profile id="8dff-c6ba-8efe-0579" name="Горящий" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
           <characteristics>
             <characteristic name="Действия" typeId="f14c-8c62-3924-24b5">2</characteristic>
             <characteristic name="Ближний бой" typeId="3b03-18c1-aead-aafc">2</characteristic>
@@ -17,14 +17,14 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="1e72-a5d7-ab58-77d9" name="Quemado" hidden="false">
-          <description>Los quemados no suben de experiencia y pueden equiparse solo con Малый клинок, Лёгкая булава y Булава</description>
+        <rule id="1e72-a5d7-ab58-77d9" name="Горящий" hidden="false">
+          <description>Los Горящийs no suben de experiencia y pueden equiparse solo con Малый клинок, Лёгкая булава y Булава</description>
         </rule>
-        <rule id="da36-2e51-2bd2-7109" name="Mártir" hidden="false">
-          <description>siempre que estén a 5 cm o menos de una miniatura aliada, un Quemado puede usar su cuerpo para salvarlo cuando haya sido impactado. Se colocará en contacto la miniatura aliada impactada justo antes de que este tuviera que realizar la tirada enfrentada de Сила contra Стойкость. Será el Quemado quien usé su Стойкость para esta tirada, y obviamente, será la miniatura que es retirada como baja si resulta abatida.</description>
+        <rule id="da36-2e51-2bd2-7109" name="Мученик" hidden="false">
+          <description>siempre que estén a 5 cm o menos de una miniatura aliada, un Горящий puede usar su cuerpo para salvarlo cuando haya sido impactado. Se colocará en contacto la miniatura aliada impactada justo antes de que este tuviera que realizar la tirada enfrentada de Сила contra Стойкость. Será el Горящий quien usé su Стойкость para esta tirada, y obviamente, será la miniatura que es retirada como baja si resulta abatida.</description>
         </rule>
-        <rule id="d0a9-0d1d-1966-64cd" name="Bajo la mirada llameante (Quemado)" hidden="false">
-          <description>Siempre que un Quemado esté en la línea de visión de un Guardián de la Llama, la miniatura contará con la regla especial Внедорожник.</description>
+        <rule id="d0a9-0d1d-1966-64cd" name="Bajo la mirada llameante (Горящий)" hidden="false">
+          <description>Siempre que un Горящий esté en la línea de visión de un Хранитель огня, la miniatura contará con la regla especial Внедорожник.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -37,7 +37,7 @@
         <selectionEntry id="b3d5-f078-15bf-67ef" name="¡Por la Sangre Negra!" hidden="false" collective="false" import="true" type="upgrade">
           <rules>
             <rule id="1d99-10ae-de4c-873a" name="¡Por la Sangre Negra!" hidden="false">
-              <description>Por +15 chapas un Quemado puede equiparse con un bidón gigante de Газofa con el que realizar un ataque a lo bonzo contra sus enemigos. Si un Quemado, por cualquier motivo, queda en contacto peana con peana con un enemigo se prenderá Огонь inmediatamente, resultando abatido al inmolarse y causando un impacto de Сила 5 y Пробитие 5. Si hubiera quedado en contacto con varias figuras, o un Ближний бой múltiple, todas las miniaturas implicadas sufrirán ese impacto.</description>
+              <description>Por +15 chapas un Горящий puede equiparse con un bidón gigante de Газofa con el que realizar un ataque a lo bonzo contra sus enemigos. Si un Горящий, por cualquier motivo, queda en contacto peana con peana con un enemigo se prenderá Огонь inmediatamente, resultando abatido al inmolarse y causando un impacto de Сила 5 y Пробитие 5. Si hubiera quedado en contacto con varias figuras, o un Ближний бой múltiple, todas las miniaturas implicadas sufrirán ese impacto.</description>
             </rule>
           </rules>
           <costs>
@@ -51,9 +51,9 @@
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2d34-fd7f-b483-fa58" name="Ascua" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2d34-fd7f-b483-fa58" name="Уголь" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9438-fa99-8052-b2ed" name="Ascua" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
+        <profile id="9438-fa99-8052-b2ed" name="Уголь" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
           <characteristics>
             <characteristic name="Действия" typeId="f14c-8c62-3924-24b5">2</characteristic>
             <characteristic name="Ближний бой" typeId="3b03-18c1-aead-aafc">3</characteristic>
@@ -67,8 +67,8 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="66f1-6b1f-2500-476c" name="Bajo la mirada llameante (Ascua)" hidden="false">
-          <description>Siempre que un Ascua esté en la línea de visión de un Guardián de la Llama, la miniatura contará con un bonificador de +1 a la Стойкость.</description>
+        <rule id="66f1-6b1f-2500-476c" name="Bajo la mirada llameante (Уголь)" hidden="false">
+          <description>Siempre que un Уголь esté en la línea de visión de un Хранитель огня, la miniatura contará con un bonificador de +1 a la Стойкость.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -83,7 +83,7 @@
               </constraints>
               <rules>
                 <rule id="bfe8-232c-ce99-a36c" name="Fanático" hidden="false">
-                  <description>Esta miniatura no necesita ser observada para lucirse. Obtiene las ventajas de Bajo la miarada llameante aunque no esté en Línea de visión del Guardian de la Llama. En caso de ser el Guardián de la Llama quien consiga la mejora, todas las miniaturas de la banda podrán beneficiarse de Bajo la mirada llameante sin necesitar Línea de visión mientras este no sea Abatido. </description>
+                  <description>Esta miniatura no necesita ser observada para lucirse. Obtiene las ventajas de Bajo la miarada llameante aunque no esté en Línea de visión del Guardian de la Llama. En caso de ser el Хранитель огня quien consiga la mejora, todas las miniaturas de la banda podrán beneficiarse de Bajo la mirada llameante sin necesitar Línea de visión mientras este no sea Abatido. </description>
                 </rule>
               </rules>
               <costs>
@@ -147,9 +147,9 @@
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ab1b-9752-aba9-768e" name="Guardián de la Llama" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ab1b-9752-aba9-768e" name="Хранитель огня" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="0800-c146-7d69-cb2c" name="Guardián de la Llama" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
+        <profile id="0800-c146-7d69-cb2c" name="Хранитель огня" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
           <characteristics>
             <characteristic name="Действия" typeId="f14c-8c62-3924-24b5">2</characteristic>
             <characteristic name="Ближний бой" typeId="3b03-18c1-aead-aafc">2</characteristic>
@@ -163,7 +163,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="e94e-617c-83aa-85f6" name="Bajo la mirada llameante Guardián de la Llama" hidden="false">
+        <rule id="e94e-617c-83aa-85f6" name="Bajo la mirada llameante Хранитель огня" hidden="false">
           <description>el  Guardián  es  capaz  de  motivar  a  sus  cultistas  con  su  mera  mirada.  Algunas  opciones  de  tropa  tienen  una  ventaja  cuando  se  encuentran  bajo  la  línea  de  visión  del  Guardián.  Éstas  se  explican en sus respectivas entradas.</description>
         </rule>
       </rules>
@@ -179,7 +179,7 @@
               </constraints>
               <rules>
                 <rule id="e406-6d6e-d2a5-9403" name="Fanático" hidden="false">
-                  <description>Esta miniatura no necesita ser observada para lucirse. Obtiene las ventajas de Bajo la miarada llameante aunque no esté en Línea de visión del Guardian de la Llama. En caso de ser el Guardián de la Llama quien consiga la mejora, todas las miniaturas de la banda podrán beneficiarse de Bajo la mirada llameante sin necesitar Línea de visión mientras este no sea Abatido. </description>
+                  <description>Esta miniatura no necesita ser observada para lucirse. Obtiene las ventajas de Bajo la miarada llameante aunque no esté en Línea de visión del Guardian de la Llama. En caso de ser el Хранитель огня quien consiga la mejora, todas las miniaturas de la banda podrán beneficiarse de Bajo la mirada llameante sin necesitar Línea de visión mientras este no sea Abatido. </description>
                 </rule>
               </rules>
               <costs>
