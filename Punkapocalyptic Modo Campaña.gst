@@ -2944,7 +2944,7 @@ Darle caña: además, dos veces por partida, podrá Газtar una Acción en uti
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="b875-3594-b66d-0923" name="Двуручное" hidden="false">
-      <description>Un arma con esta regla especial necesita de ambas manos para ser utilizada.</description>
+      <description>Оружие с этим особым правилом требует использования обеих рук.</description>
     </rule>
     <rule id="1e79-6ce5-5bdf-7610" name="Трудно использовать" hidden="false">
       <description>Algunas Вооружение no son sencillas de utilizar. Un arma con esta regla especial penalizará con un -1 a la Precisión a los disparos que se realicen con ella.</description>

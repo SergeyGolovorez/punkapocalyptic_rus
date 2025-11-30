@@ -93,7 +93,7 @@
             <characteristic name="Сила" typeId="26a4-4364-5085-5f30">3</characteristic>
             <characteristic name="Стойкость" typeId="ee78-dafb-2dc2-a52a">3</characteristic>
             <characteristic name="Техника" typeId="8422-cbe6-6791-4a35">6</characteristic>
-            <characteristic name="Специальные правила" typeId="16f0-630c-2894-4e0b"/>
+            <characteristic name="Специальные правила" typeId="16f0-630c-2894-4e0b">Бэд Трип.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -104,7 +104,7 @@
         <rule id="2447-de86-6068-1c80" name="Бэд Трип Сборщик" hidden="false">
           <description>Сборщик теряет хватку и не может собирать амброзию в течение следующего хода.</description>
         </rule>
-        <rule id="2620-ff40-0a8c-87fa" name="Cosecha" hidden="false">
+        <rule id="2620-ff40-0a8c-87fa" name="Урожай" hidden="false">
           <description>Сборщик может потратить 1 Действие, чтобы извлечь у одного поверженного врага (ни с одного поверженного врага нельзя собрать амброзию более одного раза), выкачав жидкость из его гипоталамуса. Количество собранной амброзии будет зависеть от уровня ужаса жертвы. Бросьте кубик, чтобы узнать, сколько доз амброзии вы собрали для банды, которые можно использовать сразу же обычным способом:
 
 1: Ничего
@@ -186,7 +186,7 @@
             <characteristic name="Сила" typeId="26a4-4364-5085-5f30">4</characteristic>
             <characteristic name="Стойкость" typeId="ee78-dafb-2dc2-a52a">5</characteristic>
             <characteristic name="Техника" typeId="8422-cbe6-6791-4a35">3</characteristic>
-            <characteristic name="Специальные правила" typeId="16f0-630c-2894-4e0b"/>
+            <characteristic name="Специальные правила" typeId="16f0-630c-2894-4e0b">Пожиратель, Бэд Трип.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -263,7 +263,7 @@
             <characteristic name="Сила" typeId="26a4-4364-5085-5f30">4</characteristic>
             <characteristic name="Стойкость" typeId="ee78-dafb-2dc2-a52a">3</characteristic>
             <characteristic name="Техника" typeId="8422-cbe6-6791-4a35">-</characteristic>
-            <characteristic name="Специальные правила" typeId="16f0-630c-2894-4e0b"/>
+            <characteristic name="Специальные правила" typeId="16f0-630c-2894-4e0b">Бэд Трип.</characteristic>
           </characteristics>
         </profile>
       </profiles>

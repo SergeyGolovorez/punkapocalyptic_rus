@@ -1771,7 +1771,7 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
         <profile id="fc1d-5635-b2d4-ae55" name="Человеческая кожа" hidden="false" typeId="4d97-0106-77f5-4351" typeName="Броня">
           <characteristics>
             <characteristic name="Броня" typeId="843e-5ab3-2b30-b8a2">3</characteristic>
-            <characteristic name="Специальные правила" typeId="6999-0e81-3c21-6d97">Los disparos realizados sobre miniaturas con este Броня, sufren un penalizador de -1 por disparar a Дистанция corta.</characteristic>
+            <characteristic name="Специальные правила" typeId="6999-0e81-3c21-6d97">Выстрелы по миниатюрам с этой броней получают штраф -1 к точности стрельбы на короткой дистанции.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2695,8 +2695,8 @@ Por otra parte, si una miniatura tiene alguna Святая граната y resu
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="8ce0-65c9-8d5c-1020" name="Двуручное" hidden="false">
-      <comment>Un arma con esta regla especial necesita de ambas manos para ser utilizada.</comment>
-      <description>Un arma con esta regla especial necesita de ambas manos para ser utilizada.</description>
+      <comment>Оружие с этим особым правилом требует использования обеих рук.</comment>
+      <description>Оружие с этим особым правилом требует использования обеих рук.</description>
     </rule>
     <rule id="3e8e-9310-9bff-715e" name="Автоматическое" hidden="false">
       <description>Un arma con esta regla podrá disparar 3 veces por Acción (siempre que tenga Боеприпасы) contra el mismo objetivo. El jugador debe decidir si usa este modo antes de disparar, y deberá realizarse una tirada de Точность independiente por cada disparo.</description>
@@ -3196,8 +3196,9 @@ principio de los turnos de acción posteriores puede decidir desactivarlo, no pu
     </profile>
     <profile id="c6a5-9587-36b7-7fd4" name="Прикрепленное оружие" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Специальное оборудование">
       <characteristics>
-        <characteristic name="Правила" typeId="f042-739d-9839-c439">Algunos Амок deciden que las Вооружение formen parte de su propio cuerpo, formando un único ser, así que se amputan miembros para sustituirlos por Вооружение.
-Специальные правила: un Ido puede incrustarse una Серп, un Малый клинок o un Средний клинок que haya adquirido incrementando su valor en 10 Очки. A cambio, obtendrá un bonificador de +1 a Ближний бой, no podrá rapiñar Оборудование, no podrá desarmarse de ninguna manera y el arma no podrá ser rapiñada.</characteristic>
+        <characteristic name="Правила" typeId="f042-739d-9839-c439">Некоторые Амок решают сделать свое любимое оружие частью своего физического тела, соединив оба вместе, поэтому они отрезают свои конечности, прикрепляя на их место оружие.
+            Правила: Амок может прикрепить приобретенный им Серп, Нож или Меч, увеличив его стоимость на 10 очков. Взамен миниатюра получает бонус +1 к Ближнему бою, она не может переключиться на другое оружие, её нельзя разграбить и обезоружить
+            .</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
