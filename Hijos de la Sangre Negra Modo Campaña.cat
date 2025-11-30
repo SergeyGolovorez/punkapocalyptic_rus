@@ -23,7 +23,7 @@
         <rule id="da36-2e51-2bd2-7109" name="Мученик" hidden="false">
           <description>siempre que estén a 5 cm o menos de una miniatura aliada, un Горящий puede usar su cuerpo para salvarlo cuando haya sido impactado. Se colocará en contacto la miniatura aliada impactada justo antes de que este tuviera que realizar la tirada enfrentada de Сила contra Стойкость. Será el Горящий quien usé su Стойкость para esta tirada, y obviamente, será la miniatura que es retirada como baja si resulta abatida.</description>
         </rule>
-        <rule id="d0a9-0d1d-1966-64cd" name="Bajo la mirada llameante (Горящий)" hidden="false">
+        <rule id="d0a9-0d1d-1966-64cd" name="Под пылающим взором (Горящий)" hidden="false">
           <description>Siempre que un Горящий esté en la línea de visión de un Хранитель огня, la miniatura contará con la regla especial Внедорожник.</description>
         </rule>
       </rules>
@@ -67,7 +67,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="66f1-6b1f-2500-476c" name="Bajo la mirada llameante (Уголь)" hidden="false">
+        <rule id="66f1-6b1f-2500-476c" name="Под пылающим взором (Уголь)" hidden="false">
           <description>Siempre que un Уголь esté en la línea de visión de un Хранитель огня, la miniatura contará con un bonificador de +1 a la Стойкость.</description>
         </rule>
       </rules>
@@ -83,7 +83,7 @@
               </constraints>
               <rules>
                 <rule id="bfe8-232c-ce99-a36c" name="Fanático" hidden="false">
-                  <description>Esta miniatura no necesita ser observada para lucirse. Obtiene las ventajas de Bajo la miarada llameante aunque no esté en Línea de visión del Guardian de la Llama. En caso de ser el Хранитель огня quien consiga la mejora, todas las miniaturas de la banda podrán beneficiarse de Bajo la mirada llameante sin necesitar Línea de visión mientras este no sea Abatido. </description>
+                  <description>Esta miniatura no necesita ser observada para lucirse. Obtiene las ventajas de Bajo la miarada llameante aunque no esté en Línea de visión del Guardian de la Llama. En caso de ser el Хранитель огня quien consiga la mejora, todas las miniaturas de la banda podrán beneficiarse de Под пылающим взором sin necesitar Línea de visión mientras este no sea Abatido. </description>
                 </rule>
               </rules>
               <costs>
@@ -163,7 +163,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="e94e-617c-83aa-85f6" name="Bajo la mirada llameante Хранитель огня" hidden="false">
+        <rule id="e94e-617c-83aa-85f6" name="Под пылающим взором Хранитель огня" hidden="false">
           <description>el  Guardián  es  capaz  de  motivar  a  sus  cultistas  con  su  mera  mirada.  Algunas  opciones  de  tropa  tienen  una  ventaja  cuando  se  encuentran  bajo  la  línea  de  visión  del  Guardián.  Éstas  se  explican en sus respectivas entradas.</description>
         </rule>
       </rules>
@@ -179,7 +179,7 @@
               </constraints>
               <rules>
                 <rule id="e406-6d6e-d2a5-9403" name="Fanático" hidden="false">
-                  <description>Esta miniatura no necesita ser observada para lucirse. Obtiene las ventajas de Bajo la miarada llameante aunque no esté en Línea de visión del Guardian de la Llama. En caso de ser el Хранитель огня quien consiga la mejora, todas las miniaturas de la banda podrán beneficiarse de Bajo la mirada llameante sin necesitar Línea de visión mientras este no sea Abatido. </description>
+                  <description>Esta miniatura no necesita ser observada para lucirse. Obtiene las ventajas de Bajo la miarada llameante aunque no esté en Línea de visión del Guardian de la Llama. En caso de ser el Хранитель огня quien consiga la mejora, todas las miniaturas de la banda podrán beneficiarse de Под пылающим взором sin necesitar Línea de visión mientras este no sea Abatido. </description>
                 </rule>
               </rules>
               <costs>

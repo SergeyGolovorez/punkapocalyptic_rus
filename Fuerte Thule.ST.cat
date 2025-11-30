@@ -21,7 +21,7 @@
           <description>Los reclutas no son muy fiables. No puede haber mayor número de Reclutas que el número total de Soldats y Ubersoldats de la banda. Además, no pueden equiparse con Рация.</description>
         </rule>
         <rule id="8f49-e1ee-167e-3e04" name="Inexperto" hidden="false">
-          <description>Aunque el Páramo es un lugar chungo, los reclutas suelen ser seleccionados entre la escoria más deprimente, por lo que no han combatido antes en serio y no aguantan mucho la presión. Si un miembro de la banda que no sea un recluta resulta Abatido, cualquier recluta a 30 cm de este y que no esté trabado en Ближний бой realizará un movimiento inmediato y gratuito de 10 cm hacia su zona de despliegue, ignorando las Правила de Terreno chungo y pila chungo y siguiendo el camino por el que pueda avanzar más Дистанция.</description>
+          <description>Aunque el Páramo es un lugar chungo, los reclutas suelen ser seleccionados entre la Отбросы más deprimente, por lo que no han combatido antes en serio y no aguantan mucho la presión. Si un miembro de la banda que no sea un recluta resulta Abatido, cualquier recluta a 30 cm de este y que no esté trabado en Ближний бой realizará un movimiento inmediato y gratuito de 10 cm hacia su zona de despliegue, ignorando las Правила de Terreno chungo y pila chungo y siguiendo el camino por el que pueda avanzar más Дистанция.</description>
         </rule>
       </rules>
       <categoryLinks>

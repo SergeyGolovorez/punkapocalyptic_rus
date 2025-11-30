@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="141c-25bc-8b87-452e" name="Гангеры" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="b2f6-77ef-6334-3f5c" name="Piltrafa" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="b2f6-77ef-6334-3f5c" name="Подсос" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="c963-1086-1192-b4af" type="max"/>
       </constraints>
       <profiles>
-        <profile id="78a5-0276-7962-b73c" name="Piltrafa" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="78a5-0276-7962-b73c" name="Подсос" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">4</characteristic>
@@ -20,8 +20,8 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="c635-f1d2-b1e2-78be" name="Piltrafa" hidden="false">
-          <description>Las bandas no acostumbran a llevar demasiados piltrafas al Ближний бой debido a su baja experiencia. No puede haber mayor número de piltrafas que la suma del resto de integrantes de la banda.</description>
+        <rule id="c635-f1d2-b1e2-78be" name="Подсос" hidden="false">
+          <description>Подсосы — это новички, свежее мясо, которому еще предстоит заслужить свое место в банде или уважение своих товарищей по команде. Большинство из них — молодые люди, жаждущие приключений, хотя всегда найдется какой-нибудь старик, который присоединится к группе, покинув, добровольно или нет, свое поселение. Седые волосы и морщины не мешают этим Подсосам страдать от тех же издевательств, что и все остальные. Они составляют основу пищевой пирамиды и используются в качестве пушечного мяса до тех пор, пока не смогут прожить достаточно долго, чтобы получить повышение по службе. Подсосы обычно экипированы самым худшим образом и имеют мало личных вещей.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -117,9 +117,9 @@
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c727-b24d-f2df-13db" name="Pandillero" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c727-b24d-f2df-13db" name="Головорез" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="5918-2067-e297-a147" name="Pandillero" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="5918-2067-e297-a147" name="Головорез" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">5</characteristic>
@@ -278,9 +278,9 @@
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a8b6-a4a2-6483-6521" name="Curtido" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a8b6-a4a2-6483-6521" name="Плохиш" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="68ab-b252-9b6b-2b43" name="Curtido" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="68ab-b252-9b6b-2b43" name="Плохиш" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">6</characteristic>
@@ -454,9 +454,9 @@
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="177a-36a8-2c65-3f16" name="Bruto" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="177a-36a8-2c65-3f16" name="Амбал" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="5452-ba0b-4fb4-6286" name="Bruto" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="5452-ba0b-4fb4-6286" name="Амбал" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">2</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">5</characteristic>
@@ -587,9 +587,9 @@
         <cost name="Очки" typeId="6ba6-290e-2003-241d" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fd7c-a116-ac7b-5360" name="Jefe" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="fd7c-a116-ac7b-5360" name="Босс" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="5a7d-65b5-9208-bd26" name="Jefe" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="5a7d-65b5-9208-bd26" name="Босс" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">3</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">6</characteristic>
