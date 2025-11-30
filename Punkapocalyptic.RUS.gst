@@ -774,7 +774,7 @@ Cualquier miniatura excepto Mongolongo (amiga o enemiga) que toque un marcador h
         <rule id="2dec-d953-791f-16f2" name="Inmune al Яд y Terreno contaminado" hidden="false">
           <description>A Mongodrilo le ha picado cualquier bicho Ядso del Páramo e ignora la Regla especial Яд. Además es un Mutardo, por lo que es inmune a los efectos del Terreno Contaminado.</description>
         </rule>
-        <rule id="a11f-c6e0-bdec-4b8b" name="Escoria mutarda" hidden="false">
+        <rule id="a11f-c6e0-bdec-4b8b" name="Отбросы mutarda" hidden="false">
           <description>Debido a su mutardofobia, Mongodrilo no puede unirse a ninguna banda del V Рейх</description>
         </rule>
       </rules>
@@ -1163,7 +1163,7 @@ De esta manera, un cabezón podrá usar Улучшение sobre un mutardo con 
             <characteristic name="Сила" typeId="26a4-4364-5085-5f30">5</characteristic>
             <characteristic name="Стойкость" typeId="ee78-dafb-2dc2-a52a">5</characteristic>
             <characteristic name="Техника" typeId="8422-cbe6-6791-4a35">4</characteristic>
-            <characteristic name="Специальные правила" typeId="16f0-630c-2894-4e0b">Personalidad de los Гангеры, Jefe, Discursitos, Nos mola el cuero</characteristic>
+            <characteristic name="Специальные правила" typeId="16f0-630c-2894-4e0b">Personalidad de los Гангеры, Босс, Discursitos, Nos mola el cuero</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1171,8 +1171,8 @@ De esta manera, un cabezón podrá usar Улучшение sobre un mutardo con 
         <rule id="ed4a-b468-2715-1a6b" name="Nos mola el cuero" hidden="false">
           <description>La banda de la Ostra Azul tiene cierta obsesión porel cuero. Los Гангеры (tropa) y CurtАмок de la banda llevan Выделанная кожа por defecto en lugar de Ropas resistentes, sin coste adicional.</description>
         </rule>
-        <rule id="512b-e194-061e-e679" name="Jefe" hidden="false">
-          <description>Лорд Гомоэротикус es un Jefe Pandillero, por lo que no podrás tener otro en tu banda.</description>
+        <rule id="512b-e194-061e-e679" name="Босс" hidden="false">
+          <description>Лорд Гомоэротикус es un Босс Головорез, por lo que no podrás tener otro en tu banda.</description>
         </rule>
         <rule id="5768-738e-d4d9-93cd" name="Discursitos" hidden="false">
           <description>Лорд Гомоэротикус tiene una cierta manía a coger un altavoz y soltar discursos bastante insufribles antes de entablar Ближний бой. Posiblemente sea que le guste su propia voz, o crea que así es más molón, pero es un auténtico plasta. Los discursos son variados, desde su decepción por el rival, hasta sus habilidades como tapicero. El caso es que a veces hacen mella en el enemigo, a veces todo lo contrario. Justo antes de comenzar el primer Turno de juego debes hacer una tirada en la siguiente tabla para averiguar el efecto que tienen.
@@ -1763,12 +1763,12 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
         <infoLink id="2874-a122-97b1-6d1b" name="Прикрепленное оружие" hidden="false" targetId="c6a5-9587-36b7-7fd4" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry id="8748-3312-3e13-6d1a" name="Cuero humano" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8748-3312-3e13-6d1a" name="Человеческая кожа" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="16a2-9a1e-12a4-0db7" type="max"/>
       </constraints>
       <profiles>
-        <profile id="fc1d-5635-b2d4-ae55" name="Cuero humano" hidden="false" typeId="4d97-0106-77f5-4351" typeName="Броня">
+        <profile id="fc1d-5635-b2d4-ae55" name="Человеческая кожа" hidden="false" typeId="4d97-0106-77f5-4351" typeName="Броня">
           <characteristics>
             <characteristic name="Броня" typeId="843e-5ab3-2b30-b8a2">3</characteristic>
             <characteristic name="Специальные правила" typeId="6999-0e81-3c21-6d97">Los disparos realizados sobre miniaturas con este Броня, sufren un penalizador de -1 por disparar a Дистанция corta.</characteristic>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="70b1-036f-1d43-5d5f" name="Гангеры Modo Campaña" revision="6" battleScribeVersion="2.03" authorName="SergioTemp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry id="cc0b-e116-5ea9-a518" name="Pandillero" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="cc0b-e116-5ea9-a518" name="Головорез" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="0640-2cc7-b5e7-29fd" name="Pandillero" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
+        <profile id="0640-2cc7-b5e7-29fd" name="Головорез" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Члены банды">
           <characteristics>
             <characteristic name="Действия" typeId="f14c-8c62-3924-24b5">2</characteristic>
             <characteristic name="Ближний бой" typeId="3b03-18c1-aead-aafc">4</characteristic>
@@ -29,7 +29,7 @@
               <profiles>
                 <profile id="189b-5c73-b38a-0c69" name="Armario" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Este pandillero es insultantemente fuerte. Ignora la regla especial Громоздкое del Оборудование que lleve.</characteristic>
+                    <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Este Головорез es insultantemente fuerte. Ignora la regla especial Громоздкое del Оборудование que lleve.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -45,7 +45,7 @@
               <profiles>
                 <profile id="a046-b1f7-f945-0e0b" name="Arquero" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Специальное оборудование">
                   <characteristics>
-                    <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Este pandillero ha nacido lanzando flechas. Ignora la regla especial Трудно использовать del Лук.</characteristic>
+                    <characteristic name="Правила" typeId="e973-ed7e-2604-1f91">Este Головорез ha nacido lanzando flechas. Ignora la regla especial Трудно использовать del Лук.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

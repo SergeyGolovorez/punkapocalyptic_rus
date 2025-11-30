@@ -48,7 +48,7 @@
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="a9b6-1139-6a5b-5b89" name="Arma incristada" hidden="false" collective="false" import="true" targetId="6a3d-e4bc-059d-d9df" type="selectionEntry">
+            <entryLink id="a9b6-1139-6a5b-5b89" name="Прикрепленное оружие" hidden="false" collective="false" import="true" targetId="6a3d-e4bc-059d-d9df" type="selectionEntry">
               <costs>
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
@@ -65,7 +65,7 @@
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="52f9-38b5-e09b-a90d" name="Cuero humano" hidden="false" collective="false" import="true" targetId="8748-3312-3e13-6d1a" type="selectionEntry">
+            <entryLink id="52f9-38b5-e09b-a90d" name="Человеческая кожа" hidden="false" collective="false" import="true" targetId="8748-3312-3e13-6d1a" type="selectionEntry">
               <costs>
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
@@ -98,16 +98,16 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="e3d8-5a8c-5e32-cebd" name="Especialistas" hidden="false">
-          <description>Los Сборщикes no son demasiado comunes. Sólo podrá haber un Сборщик por cada fracción de 200 Очки de la banda.</description>
+        <rule id="e3d8-5a8c-5e32-cebd" name="Специалисты" hidden="false">
+          <description>Сборщики встречаются нечасто. На каждые 200 Очков группы может быть только один сборщик..</description>
         </rule>
         <rule id="2447-de86-6068-1c80" name="Бэд Трип Сборщик" hidden="false">
-          <description>El Сборщик tiene la mente demasiado dispersa y no podrá cosechar.</description>
+          <description>Сборщик теряет хватку и не может собирать амброзию в течение следующего хода.</description>
         </rule>
         <rule id="2620-ff40-0a8c-87fa" name="Cosecha" hidden="false">
-          <description>un Сборщик puede Газtar 1 Acción en cosechar a un enemigo Abatido (ningún Abatido puede ser cosechado más de una vez), extrayendo el líquido de su hipotálamo. La cantidad de Ambrosía cosechada dependerá del grado de terror de la víctima. Deberás tirar en la siguiente tabla para comprobar cuantas dosis de Ambrosía ha cosechado para la banda, que podrá utilizar de manera habitual:
+          <description>Сборщик может потратить 1 Действие, чтобы извлечь у одного поверженного врага (ни с одного поверженного врага нельзя собрать амброзию более одного раза), выкачав жидкость из его гипоталамуса. Количество собранной амброзии будет зависеть от уровня ужаса жертвы. Бросьте кубик, чтобы узнать, сколько доз амброзии вы собрали для банды, которые можно использовать сразу же обычным способом:
 
-1: Ninguna
+1: Ничего
 2-5: 1
 6-9: 2
 10: 3</description>
@@ -143,7 +143,7 @@
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="ec77-3e5a-a7f3-9782" name="Arma incristada" hidden="false" collective="false" import="true" targetId="6a3d-e4bc-059d-d9df" type="selectionEntry">
+            <entryLink id="ec77-3e5a-a7f3-9782" name="Прикрепленное оружие" hidden="false" collective="false" import="true" targetId="6a3d-e4bc-059d-d9df" type="selectionEntry">
               <costs>
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
@@ -158,7 +158,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e95-06c0-a174-91ea" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="f264-df71-7f29-459b" name="Cuero humano" hidden="false" collective="false" import="true" targetId="8748-3312-3e13-6d1a" type="selectionEntry">
+            <entryLink id="f264-df71-7f29-459b" name="Человеческая кожа" hidden="false" collective="false" import="true" targetId="8748-3312-3e13-6d1a" type="selectionEntry">
               <costs>
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -191,11 +191,11 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="2bd2-a30b-cbad-c713" name="Devoradores" hidden="false">
-          <description>Los glotones pueden devorar partes de los los cuerpos de los abatАмок para conseguir volverse  más  poderosos.  Un  Глютон  puede  Газtar  una  Acción  en  devorar  a  una  miniatura  abatida  (amiga  o  enemiga)  en  contacto  para  conseguir  un  bonificador  de  +1  al  Ближний бой,  Сила  y  Стойкость.  Máximo  una  Acción de devorar por miniatura abatida, tras lo que está quedará destrozada (no podrá ser saqueada, cosechada, curada por un Sanitario, etc...). </description>
+        <rule id="2bd2-a30b-cbad-c713" name="Пожиратели мертвецов" hidden="false">
+          <description>Глютон может потратить Действие, чтобы поглотить поверженную модель, находящуюся в контакте (дружественную или вражескую), чтобы получить бонус +1 к Ближнему бою, Силе и Стойкости. На каждую поверженную миниатюру можно применить максимум одно действие «Пожирание», после чего она будет считаться пропавшей навсегда, и, следовательно, его нельзя будет ограбить, собрать, вылечить медиком и т. д. </description>
         </rule>
         <rule id="c4ff-2455-9e2a-6d78" name="Бэд Трип Глютон" hidden="false">
-          <description>El Глютон se deja llevar por su glotonería y avanzará hacia la miniatura abatida, y no devorada ya, más cercana (en caso de haber alguna), devorándola si llega a ella. Si estaba ya en contacto con una miniatura devorada, no se moverá de ella degustando hasta el último pedazo.</description>
+          <description>Глютон, увлекшись своим обжорством, двинется к ближайшей поверженной и еще не съеденной миниатюре (если таковая имеется), и сожрет ее, если доберется. Если он соприкасается с поверженной миниатюрой, он не двинется с места, пожирая её остатки.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -228,7 +228,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24bb-66f5-8267-37c7" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="5b0a-9c26-4489-3283" name="Cuero humano" hidden="false" collective="false" import="true" targetId="8748-3312-3e13-6d1a" type="selectionEntry">
+            <entryLink id="5b0a-9c26-4489-3283" name="Человеческая кожа" hidden="false" collective="false" import="true" targetId="8748-3312-3e13-6d1a" type="selectionEntry">
               <costs>
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -268,14 +268,14 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="7f92-0d5a-0090-52d6" name="Locura" hidden="false">
-          <description>Mirar a la cara de las aberraciones es mirar a una locura más allá de la humanidad, que difícilmente no te puede afectar. Las miniaturas que las Asalten perderán todos sus bonificadores por el AПрыжок.</description>
+        <rule id="7f92-0d5a-0090-52d6" name="Безумие" hidden="false">
+          <description>Заглянуть в лицо Аберрации — значит заглянуть в безумие, выходящее за рамки человечества, и это никого не оставит невредимым. Миниатюры, которые нападают на них, теряют все свои бонусы за Штурм.</description>
         </rule>
-        <rule id="9e35-8748-6d32-7db5" name="Sobredosis" hidden="false">
-          <description>Las aberraciones tienen más problemas para tolerar la Ambrosía y parten con un -2 en la tirada para ver si la droga hace efecto.</description>
+        <rule id="9e35-8748-6d32-7db5" name="Передозировка" hidden="false">
+          <description>У Аберрации почти не осталось сопротивляемости к наркотику, поэтому она имеет начальный штраф -2 ко всем броскам для проверки эффекта Амброзии.</description>
         </rule>
         <rule id="2405-c3b0-4f35-308b" name="Бэд Трип Аберрация" hidden="false">
-          <description>La Аберрация  moverá  de  manera  aleatoria  siguiendo  la  dirección  de  1d10.  Si  hay  algún  obstáculo se parará.</description>
+          <description>Аберрация будет перемещаться случайным образом в направлении, указанном броском 1d10. Если есть какое-либо препятствие, миниатюра остановитс.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -326,8 +326,8 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="a235-c1d4-f6e2-e5f1" name="Escoria" hidden="false">
-          <description>Los Негодяйs no pueden utilizar dosis de Ambrosía ni utilizar Вооружение incrustadas. Además, no puede haber mayor número de Негодяйs que la suma del resto de integrantes de la banda.</description>
+        <rule id="a235-c1d4-f6e2-e5f1" name="Отбросы" hidden="false">
+          <description>Негодяи не могут использовать Амброзию или прикрепленное оружие.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -368,7 +368,7 @@
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="5492-15f0-a25b-3bc4" name="Cuero humano" hidden="false" collective="false" import="true" targetId="8748-3312-3e13-6d1a" type="selectionEntry">
+            <entryLink id="5492-15f0-a25b-3bc4" name="Человеческая кожа" hidden="false" collective="false" import="true" targetId="8748-3312-3e13-6d1a" type="selectionEntry">
               <costs>
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
@@ -399,7 +399,7 @@
             <characteristic name="Специальные правила" typeId="16f0-630c-2894-4e0b"/>
           </characteristics>
         </profile>
-        <profile id="018a-507c-e7b9-ad66" name="Mascota" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
+        <profile id="018a-507c-e7b9-ad66" name="Питомец" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Профиль">
           <characteristics>
             <characteristic name="Действия" typeId="35d2-a478-8824-fda4">-</characteristic>
             <characteristic name="Ближний бой" typeId="a021-1c6d-e7d6-39ea">4</characteristic>
@@ -413,30 +413,30 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="445d-eb01-6237-9357" name="Presencia perturbadora" hidden="false">
-          <description>Es difícil explicar la sensación de ver a Мать. Es como contemplar a una diosa oscura caminando entre nosotros. Cualquier miniatura (excepto aquellas con la regla Зверь o Монг) que comience una Acción teniendo Línea de visión sobre Мать deberá superar una tirada de Стойкость o perderá totalmente esa Acción.</description>
+        <rule id="445d-eb01-6237-9357" name="Беспокоящее присутствие" hidden="false">
+          <description>Трудно описать переживание встречи с Матерью. Это как увидеть темную богиню далекой эпохи, гуляющую среди нас. Любая вражеская миниатюра, которая хочет Выстрелить или Напасть на Мать или любую из ее союзных миниатюр в пределах 6 дюймов от нее, должна сделать Бросок Стойкости, и если она провалит его, то действие будет потеряно.</description>
         </rule>
-        <rule id="9f86-1946-64af-a3ce" name="Lucidez" hidden="false">
-          <description>Cualquier Ido de su banda que consuma Ambrosía a 20 cm o menos de Мать no deberá tirar en la tabla de efecto, consiguiendo siempre que funcione perfectamente. Sin embargo la propia Мать no podrá utilizar nunca la Ambrosía.</description>
+        <rule id="9f86-1946-64af-a3ce" name="Проницательность" hidden="false">
+          <description>Любой Амок в вашей банде, потребляющий Амброзию в радиусе 8 дюймов от Матери, не должен делать бросок по Таблице Эффектов, Амброзия всегда будет работать идеально. Однако сама Мать никогда не может использовать Амброзию.</description>
         </rule>
-        <rule id="0742-86d8-f5be-8817" name="Mascota" hidden="false">
-          <description>Мать siempre lleva a alguna de sus mascotas a la batalla. Antiguos enemigos a los que ha torturado física y mentalmente hasta convertirlos en perturbadas criaturas sumisas. La Mascota no actua de manera individual, sino que se mueve siempre con Мать. Hasta que la Mascota sea abatida, será esta la que combata y reciba los impactos de disparos, utilizando sus atributos.</description>
+        <rule id="0742-86d8-f5be-8817" name="Питомец" hidden="false">
+          <description>Мать всегда берет с собой в бой одного из своих питомцев. Бывшие враги, которых она подвергла физическим и моральным пыткам, превратив в неуравновешенных, покорных существ. Питомец не действует самостоятельно, а всегда движется вместе с Матерью. Пока питомец не будет поражен, он будет сражаться и являться целью для дальних атак, используя свои Атрибуты. Он вооружен Когтями и зубами.</description>
         </rule>
-        <rule id="4cb6-41dd-362b-620e" name="Сборщикa" hidden="false">
-          <description>Мать puede cosechar al igual que un Сборщик. Hay que tener en cuenta que Мать contará como un Сборщик más para su Regla especial Especialistas.</description>
+        <rule id="4cb6-41dd-362b-620e" name="Сборщик" hidden="false">
+          <description>Мать может собирать урожай так же, как Сборщик. Мать будет считаться еще одним Сборщиком при подсчете их общего возможного количества.</description>
         </rule>
       </rules>
       <categoryLinks>
         <categoryLink id="fea6-228e-c890-1786" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9cf5-1e25-35ae-c202" name="Когти и зубы (Mascota)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9cf5-1e25-35ae-c202" name="Когти и зубы (Питомец)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e078-6977-ba3f-3eaa" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad97-9e16-f4b3-c3b4" type="min"/>
           </constraints>
           <profiles>
-            <profile id="290e-ead8-6123-e2f2" name="Когти и зубы (Mascota)" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
+            <profile id="290e-ead8-6123-e2f2" name="Когти и зубы (Питомец)" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
               <characteristics>
                 <characteristic name="Ближний бой" typeId="3bcb-590f-e624-084f">+0</characteristic>
                 <characteristic name="Сила" typeId="959a-27b3-5665-eaae">+0</characteristic>
@@ -477,11 +477,11 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="4209-e698-372c-15bb" name="Torbellino" hidden="false">
-          <description>Дядя tiene dos enormes Булаваs incrustadas en lugar de sus brazos, sujetas por unas cadenas (su bonificador por incrustada se contrarresta al de usar Тяжёлая булава). A la hora de atacar, puede hacerlo normalmente, o Газtar un Turno de Acción completo (usar sus 2 Действия) en hacer un ataque Torbellino. Puede realizarlo incluso estando trabado en Cuerpo a Cuerpo. Si hace esto, toda miniatura en un radio de 5 cm de Дистанция (amiga o enemiga) deberá superar una tirada de Ловкость o resultará impactada automáticamente (como si lo hubiera sido en Ближний бой).</description>
+        <rule id="4209-e698-372c-15bb" name="Вихрь" hidden="false">
+          <description>У Дяди есть две большие булавы, вшитые в плечи и прикрепленные к ним огромными цепями (бонус за прикрепленное оружие обнуляется штрафом за то, что оно является тяжелой булавой). Когда он атакует, он может сделать это как обычно или провести полную активацию (используя 2 действия), чтобы провести атаку «Вихрь». Вы можете сделать это, даже участвуя в Ближнем бою. Если Дядя это сделает, любая миниатюра в радиусе 2 дюйма от вас (друг или враг) должна успешно пройти бросок на ловкость, иначе она будет автоматически поражена как в любом обычном бою.</description>
         </rule>
         <rule id="5a53-6668-a61f-8eba" name="Бэд Трип Дядя" hidden="false">
-          <description>Дядя pierde el impulso para utilizar Torbellino y no podrá utilizarlo durante este Turno de Acción.</description>
+          <description>Дядя теряет инерцию, он не может использовать Вихрь до следующего хода.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -491,13 +491,13 @@
         <categoryLink id="cf6e-110c-29de-616b" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d62d-e219-5270-c13d" name="Torbellino (Тяжёлая булава)" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d62d-e219-5270-c13d" name="Вихрь (Тяжёлая булава)" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0ac-4d0e-1774-6cab" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f91-77eb-2e88-f238" type="min"/>
           </constraints>
           <profiles>
-            <profile id="cdc1-c34e-1189-3d36" name="Torbellino (Тяжёлая булава)" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
+            <profile id="cdc1-c34e-1189-3d36" name="Вихрь (Тяжёлая булава)" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Оружие ближнего боя">
               <characteristics>
                 <characteristic name="Ближний бой" typeId="3bcb-590f-e624-084f">-1</characteristic>
                 <characteristic name="Сила" typeId="959a-27b3-5665-eaae">+4</characteristic>

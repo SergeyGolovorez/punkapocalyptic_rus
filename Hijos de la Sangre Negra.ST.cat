@@ -149,14 +149,6 @@
                 <cost name="Очки" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="36ff-c982-89f9-377a" name="Штык" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="81e2-ec85-590d-5dfe" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="Очки" typeId="6ba6-290e-2003-241d" value="4.0"/>
-              </costs>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="0c02-e4dd-c53e-81f8" name="Вооружение" hidden="false" collective="false" import="true">
@@ -354,7 +346,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="9b75-2d82-c3e7-556a" name="Bajo la mirada llameante: Искра" hidden="false">
+        <rule id="9b75-2d82-c3e7-556a" name="Под пылающим взором: Искра" hidden="false">
           <description>Всякий раз, когда Искра находится в поле зрения Хранителя Пламени, модель может выполнить дополнительное действие «Жми на газ» один раз за игру. Необходимо чётко указать, что действие происходит под влиянием свойства «Под пылающим взором».</description>
         </rule>
       </rules>
@@ -537,7 +529,7 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="3881-49b6-5826-b49f" name="Вооружение" hidden="false" collective="false" import="true">
           <selectionEntries>
-            <selectionEntry id="9183-57bf-8dfe-0cb5" name="Булава (Vara o bastón de mando)" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9183-57bf-8dfe-0cb5" name="Булава (Посох или командный жезл)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="858a-c835-86c6-dc92" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71d9-e9d3-bfca-66ad" type="min"/>
