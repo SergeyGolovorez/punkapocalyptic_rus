@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataIndex battleScribeVersion="2.03" name="Punkapocalyptic Rus (By Serg Golovorez)" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
-    <dataIndexEntry filePath="Punkapocalyptic.by.SergioTemp.gstz" dataType="gamesystem" dataId="fab7-8d9f-25c5-73bc" dataName="Punkapocalyptic Rus (By Serg Golovorez)" dataBattleScribeVersion="2.03" dataRevision="20"/>
+    <dataIndexEntry filePath="Punkapocalyptic.RUS.gstz" dataType="gamesystem" dataId="fab7-8d9f-25c5-73bc" dataName="Punkapocalyptic (Russian Version)" dataBattleScribeVersion="2.03" dataRevision="20"/>
     <dataIndexEntry filePath="Облучённые.ST.catz" dataType="catalogue" dataId="64e8-f331-6b0f-d5bf" dataName="Облучённые" dataBattleScribeVersion="2.03" dataRevision="6"/>
     <dataIndexEntry filePath="Амок.ST.catz" dataType="catalogue" dataId="bd07-6ba7-3edf-4ca0" dataName="Амок" dataBattleScribeVersion="2.03" dataRevision="5"/>
     <dataIndexEntry filePath="V.Reich.ST.catz" dataType="catalogue" dataId="1830-0e8f-8c44-e0b3" dataName="V Рейх" dataBattleScribeVersion="2.03" dataRevision="7"/>
