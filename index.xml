@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataIndex battleScribeVersion="2.03" name="Punkapocalyptic Rus (By Serg Golovorez)" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+  <dataIndexEntries>
+    <dataIndexEntry filePath="Punkapocalyptic.by.SergioTemp.gstz" dataType="gamesystem" dataId="fab7-8d9f-25c5-73bc" dataName="Punkapocalyptic Rus (By Serg Golovorez)" dataBattleScribeVersion="2.03" dataRevision="20"/>
+    <dataIndexEntry filePath="Облучённые.ST.catz" dataType="catalogue" dataId="64e8-f331-6b0f-d5bf" dataName="Облучённые" dataBattleScribeVersion="2.03" dataRevision="6"/>
+    <dataIndexEntry filePath="Амок.ST.catz" dataType="catalogue" dataId="bd07-6ba7-3edf-4ca0" dataName="Амок" dataBattleScribeVersion="2.03" dataRevision="5"/>
+    <dataIndexEntry filePath="V.Reich.ST.catz" dataType="catalogue" dataId="1830-0e8f-8c44-e0b3" dataName="V Рейх" dataBattleScribeVersion="2.03" dataRevision="7"/>
+    <dataIndexEntry filePath="Hijos.de.la.Sangre.Negra.ST.catz" dataType="catalogue" dataId="0b4d-07e4-2e55-ecf7" dataName="Дети Чёрной крови" dataBattleScribeVersion="2.03" dataRevision="7"/>
+    <dataIndexEntry filePath="Мутарды ST.catz" dataType="catalogue" dataId="8d35-5bbf-09f3-40dd" dataName="Мутарды" dataBattleScribeVersion="2.03" dataRevision="9"/>
+    <dataIndexEntry filePath="Гангеры.ST.catz" dataType="catalogue" dataId="141c-25bc-8b87-452e" dataName="Гангеры" dataBattleScribeVersion="2.03" dataRevision="13"/>
+    <dataIndexEntry filePath="Мусорщики.ST.catz" dataType="catalogue" dataId="c703-ae2f-fd22-36ec" dataName="Мусорщики" dataBattleScribeVersion="2.03" dataRevision="7"/>
+  </dataIndexEntries>
+</dataIndex>
